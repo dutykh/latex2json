@@ -56,6 +56,10 @@ python3 latex_to_json.py collab_excerpts.tex --skip-geocoding
 - `LICENSE`: The license file for the project.
 - `README.md`: This documentation file.
 
+## Author
+
+- **Dr. Denys Dutykh** - *Initial work* - [Khalifa University of Science and Technology, Abu Dhabi, UAE]
+
 ## License
 
 This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for more details.
