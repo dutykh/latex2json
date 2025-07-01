@@ -1,0 +1,646 @@
+{
+  "book_chapters": [
+    {
+      "authors": [
+        {
+          "firstName": "M.",
+          "lastName": "Zafar"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "P.",
+          "lastName": "Sabatier"
+        },
+        {
+          "firstName": "M.",
+          "lastName": "Banjan"
+        },
+        {
+          "firstName": "J.",
+          "lastName": "Kim"
+        }
+      ],
+      "title": "Uncovering a Paleotsunami Triggered by Mass-Movement in an Alpine Lake",
+      "editors": [
+        {
+          "firstName": "P.",
+          "lastName": "Gourbesville"
+        },
+        {
+          "firstName": "G.",
+          "lastName": "Caignaert"
+        }
+      ],
+      "book_title": "Advances in Hydroinformatics --- SimHydro 2023 Volume 2",
+      "series": "Springer Water",
+      "volume": null,
+      "pages": {
+        "start": 47,
+        "end": 64
+      },
+      "publisher": {
+        "name": "Springer",
+        "location": "Singapore"
+      },
+      "year": 2024,
+      "url": "https://hal.science/hal-04261487/",
+      "doi": "10.1007/978-981-97-4076-5_3",
+      "chapter_number": null,
+      "abstract": "Mass movements and delta collapses are significant sources of tsunamis in lacustrine environments, impacting human societies enormously. Palaeotsunamis play an essential role in understanding historical events and their consequences along with their return periods.",
+      "keywords": [
+        "Sublacustrine landslides",
+        "Alpine lake",
+        "Lacustrine tsunami",
+        "Palaeotsunami modelling",
+        "Nonlinear shallow water equations"
+      ],
+      "publisher_url": "https://link.springer.com/chapter/10.1007/978-981-97-4076-5_3",
+      "isbn": {
+        "print": "978-981-97-4075-8",
+        "electronic": "978-981-97-4076-5"
+      },
+      "keyword_source": "publisher"
+    },
+    {
+      "authors": [
+        {
+          "firstName": "T.S.B.",
+          "lastName": "Abd Manan"
+        },
+        {
+          "firstName": "T.",
+          "lastName": "Khan"
+        },
+        {
+          "firstName": "W.H.M.",
+          "lastName": "Wan Mohtar"
+        },
+        {
+          "firstName": "A.",
+          "lastName": "Machmudah"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "S.",
+          "lastName": "Qazi"
+        },
+        {
+          "firstName": "A.",
+          "lastName": "Ahmad"
+        },
+        {
+          "firstName": "N.",
+          "lastName": "Wan Rasdi"
+        }
+      ],
+      "title": "Bioremediation of wastewater using algae for potential renewable bioenergy cogeneration",
+      "editors": [
+        {
+          "firstName": "A.",
+          "lastName": "Ahmad"
+        },
+        {
+          "firstName": "F.",
+          "lastName": "Banat"
+        },
+        {
+          "firstName": "H.",
+          "lastName": "Taher"
+        }
+      ],
+      "book_title": "Algal Biotechnology: Integrated Algal Engineering for Bioenergy, Bioremediation, and Biomedical Applications",
+      "publisher": {
+        "name": "Elsevier",
+        "location": "Amsterdam"
+      },
+      "pages": {
+        "start": 47,
+        "end": 62
+      },
+      "year": 2022,
+      "url": null,
+      "doi": "10.1016/b978-0-323-90476-6.00019-4",
+      "chapter_number": null,
+      "abstract": "",
+      "keywords": [
+        "bioremediation",
+        "wastewater treatment",
+        "algae",
+        "renewable energy",
+        "bioenergy",
+        "cogeneration",
+        "environmental biotechnology",
+        "sustainability"
+      ],
+      "series": null,
+      "volume": null,
+      "publisher_url": "https://www.sciencedirect.com/science/article/pii/b978-0-323-90476-6.00019-4",
+      "isbn": "",
+      "keyword_source": "generated"
+    },
+    {
+      "authors": [
+        {
+          "firstName": "V.",
+          "lastName": "Roubtsov"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Poisson and Symplectic structures, Hamiltonian action, momentum and reduction",
+      "editors": [
+        {
+          "firstName": "M.",
+          "lastName": "Ulan"
+        },
+        {
+          "firstName": "E.",
+          "lastName": "Schneider"
+        }
+      ],
+      "book_title": "Differential Geometry, Differential Equations, and Mathematical Physics",
+      "series": "Birkh??user",
+      "volume": null,
+      "pages": {
+        "start": 1,
+        "end": 29
+      },
+      "publisher": {
+        "name": "Birkh??user",
+        "location": "Cham"
+      },
+      "year": 2021,
+      "url": "https://hal.archives-ouvertes.fr/hal-02522156/",
+      "doi": "10.1007/978-3-030-63253-3_1",
+      "chapter_number": null,
+      "abstract": "This manuscript is essentially a collection of lecture notes which were given by the first author at the Summer School Wis&#322;a&#8211;2019, Poland and written down by the second author. As the title suggests, the material covered here includes the Poisson and symplectic structures, Hamiltonian action, momentum and reduction.",
+      "keywords": [
+        "Poisson and symplectic structures",
+        "Hamiltonian action",
+        "Momentum",
+        "Reduction"
+      ],
+      "publisher_url": "https://link.springer.com/chapter/10.1007/978-3-030-63253-3_1",
+      "isbn": {
+        "print": "978-3-030-63252-6",
+        "electronic": "978-3-030-63253-3"
+      },
+      "keyword_source": "publisher"
+    },
+    {
+      "authors": [
+        {
+          "firstName": "T.",
+          "lastName": "Torsvik"
+        },
+        {
+          "firstName": "A.",
+          "lastName": "Abdalazeez"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "P.",
+          "lastName": "Denissenko"
+        },
+        {
+          "firstName": "I.",
+          "lastName": "Didenkulova"
+        }
+      ],
+      "title": "Dispersive and non-dispersive nonlinear long wave transformations: numerical and experimental results",
+      "editors": [
+        {
+          "firstName": "A.",
+          "lastName": "Berezovski"
+        },
+        {
+          "firstName": "T.",
+          "lastName": "Soomere"
+        }
+      ],
+      "book_title": "Applied Wave Mathematics II",
+      "series": "Mathematics of Planet Earth",
+      "volume": 6,
+      "pages": {
+        "start": 41,
+        "end": 66
+      },
+      "publisher": {
+        "name": "Springer",
+        "location": "Cham"
+      },
+      "year": 2019,
+      "url": "https://hal.archives-ouvertes.fr/hal-02289778/",
+      "doi": "10.1007/978-3-030-29951-4_3",
+      "chapter_number": null,
+      "abstract": "The description of gravity waves Surface gravity waves propagating on the water surface is considered from a historical point of view, with specific emphasis on the development of a theoretical framework and equations of motion for...",
+      "keywords": [
+        "Mathematics",
+        "Partial Differential Equations",
+        "Applications of Mathematics",
+        "Acoustics",
+        "Numerical Analysis",
+        "Classical Electrodynamics",
+        "Mathematical Methods in Physics"
+      ],
+      "publisher_url": "https://link.springer.com/chapter/10.1007/978-3-030-29951-4_3",
+      "isbn": {
+        "print": "978-3-030-29950-7",
+        "electronic": "978-3-030-29951-4"
+      },
+      "keyword_source": "publisher"
+    },
+    {
+      "authors": [
+        {
+          "firstName": "A.",
+          "lastName": "Durán"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Mitsotakis"
+        }
+      ],
+      "title": "Peregrine's system revisited",
+      "editors": [
+        {
+          "firstName": "N.",
+          "lastName": "Abcha"
+        },
+        {
+          "firstName": "E.",
+          "lastName": "Pelinovsky"
+        },
+        {
+          "firstName": "I.",
+          "lastName": "Mutabazi"
+        }
+      ],
+      "book_title": "Nonlinear Waves and Pattern Dynamics",
+      "series": "Springer Cham",
+      "volume": null,
+      "pages": {
+        "start": 3,
+        "end": 43
+      },
+      "publisher": {
+        "name": "Springer",
+        "location": "Cham"
+      },
+      "year": 2018,
+      "url": "https://hal.archives-ouvertes.fr/hal-01703491/",
+      "doi": "10.1007/978-3-319-78193-8_1",
+      "chapter_number": null,
+      "abstract": "In 1967, D. H. Peregrine proposed a Boussinesq-type model for long waves in shallow waters of varying depth Peregrine (J Fluid Mech 27:815–827, 1967, [70]). This prominent paper turned a new leaf in coastal hydrodynamics along with contributions by Serre...",
+      "keywords": [
+        "Physics and Astronomy",
+        "Physics and Astronomy (R0)"
+      ],
+      "publisher_url": "https://link.springer.com/chapter/10.1007/978-3-319-78193-8_1",
+      "isbn": {
+        "print": "978-3-319-78192-1",
+        "electronic": "978-3-319-78193-8"
+      },
+      "keyword_source": "publisher"
+    },
+    {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Clamond"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Modeling water waves beyond perturbations",
+      "editors": [
+        {
+          "firstName": "E.",
+          "lastName": "Tobisch"
+        }
+      ],
+      "book_title": "New Approaches to Nonlinear Waves",
+      "series": "Lecture Notes in Physics",
+      "volume": 908,
+      "pages": {
+        "start": 197,
+        "end": 210
+      },
+      "publisher": {
+        "name": "Springer",
+        "location": null
+      },
+      "year": 2016,
+      "url": "https://hal.archives-ouvertes.fr/hal-01102120/",
+      "doi": "10.1007/978-3-319-20690-5_7",
+      "chapter_number": null,
+      "abstract": "In this chapter, we illustrate the advantage of variational principles for modeling water waves from an elementary practical viewpoint. The method is based on a 'relaxed' variational principle, i.e., on a Lagrangian involving as many variables as possible. This approach allows us to derive a new set of equations for water waves, which are more general than the classical ones. The resulting system of equations is shown to be equivalent to the Gordon equation, which is a generalization of the classical Euler equations. The proposed method is illustrated with several examples, including the derivation of the Korteweg-de Vries equation and the Camassa-Holm equation.",
+      "keywords": [
+        "Velocity Field",
+        "Variational Principle",
+        "Water Wave",
+        "Lagrangian Density",
+        "Gordon Equation"
+      ],
+      "publisher_url": "https://link.springer.com/chapter/10.1007/978-3-319-20690-5_7",
+      "isbn": {
+        "print": "978-3-319-20689-9",
+        "electronic": "978-3-319-20690-5"
+      },
+      "keyword_source": "publisher"
+    },
+    {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Clamond"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "A Non-Hydrostatic Non-Dispersive Shallow Water Model",
+      "editors": [
+        {
+          "firstName": "Ph.",
+          "lastName": "Goubersville"
+        },
+        {
+          "firstName": "J.",
+          "lastName": "Cunge"
+        },
+        {
+          "firstName": "G.",
+          "lastName": "Caignaert"
+        }
+      ],
+      "book_title": "Advances in Hydroinformatics: SIMHYDRO 2012 --- New Frontiers of Simulation",
+      "series": "Springer Hydrogeology",
+      "volume": null,
+      "pages": {
+        "start": 197,
+        "end": 206
+      },
+      "publisher": {
+        "name": "Springer",
+        "location": "Singapore"
+      },
+      "year": 2014,
+      "url": "https://hal.archives-ouvertes.fr/hal-00907110/",
+      "doi": "10.1007/978-981-4451-42-0_16",
+      "chapter_number": null,
+      "abstract": "An improvement of the nonlinear shallow water (or Saint-Venant) equations is proposed. The new model is designed to take into account the effects resulting from the large spatial and/or temporal variations of the seabed. The model is derived from a variational principle and is shown to be non-hydrostatic and non-dispersive. The new model is compared with the classical Saint-Venant equations and some numerical simulations are presented.",
+      "keywords": [
+        "Varying bathymetry",
+        "Steep bottom",
+        "Modified Saint-Venant equations."
+      ],
+      "publisher_url": "https://link.springer.com/chapter/10.1007/978-981-4451-42-0_16",
+      "isbn": {
+        "print": "978-981-4451-41-3",
+        "electronic": "978-981-4451-42-0"
+      },
+      "keyword_source": "publisher"
+    },
+    {
+      "authors": [
+        {
+          "firstName": "V.",
+          "lastName": "Guinot"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Clamond"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Finite Volume Implementation of Non-Dispersive, Non-Hydrostatic Shallow Water Equations",
+      "editors": [
+        {
+          "firstName": "Ph.",
+          "lastName": "Goubersville"
+        },
+        {
+          "firstName": "J.",
+          "lastName": "Cunge"
+        },
+        {
+          "firstName": "G.",
+          "lastName": "Caignaert"
+        }
+      ],
+      "book_title": "Advances in Hydroinformatics: SIMHYDRO 2012 --- New Frontiers of Simulation",
+      "series": "Springer Hydrogeology",
+      "volume": null,
+      "pages": {
+        "start": 189,
+        "end": 196
+      },
+      "publisher": {
+        "name": "Springer",
+        "location": "Singapore"
+      },
+      "year": 2014,
+      "url": "https://hal.archives-ouvertes.fr/hal-00907108/",
+      "doi": "10.1007/978-981-4451-42-0_17",
+      "chapter_number": null,
+      "abstract": "A shock-capturing, finite volume implementation of recently proposed non-hydrostatic two-dimensional shallow water equations, is proposed. The discretization of the equations in conservation form implies the modification of the time derivative of the conserved variables. The resulting scheme is shown to be well-balanced, positivity-preserving and to satisfy a discrete entropy inequality. The scheme is validated on a series of test cases, including the simulation of the propagation of a solitary wave over a submerged obstacle.",
+      "keywords": [
+        "Shallow water model",
+        "Non-hydrostatic pressure distribution",
+        "Bottom acceleration"
+      ],
+      "publisher_url": "https://link.springer.com/chapter/10.1007/978-981-4451-42-0_17",
+      "isbn": {
+        "print": "978-981-4451-42-0",
+        "electronic": "978-981-4451-42-0"
+      },
+      "keyword_source": "publisher"
+    },
+    {
+      "authors": [
+        {
+          "firstName": "Y.",
+          "lastName": "Meyapin"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "M.",
+          "lastName": "Gisclon"
+        }
+      ],
+      "title": "Two-fluid barotropic models for powder-snow avalanche flows",
+      "editors": [
+        {
+          "firstName": "E.",
+          "lastName": "Krause"
+        }
+      ],
+      "book_title": "Computational Sci. & High Performance Computing IV",
+      "series": "NNFM",
+      "volume": 115,
+      "pages": {
+        "start": 219,
+        "end": 232
+      },
+      "publisher": {
+        "name": "Springer-Verlag",
+        "location": "Berlin Heidelberg"
+      },
+      "year": 2011,
+      "url": "http://hal.archives-ouvertes.fr/hal-00394437/",
+      "doi": "10.1007/978-3-642-17770-5_17",
+      "chapter_number": null,
+      "abstract": "In the present study we discuss several modelling issues of powder-snow avalanche flows. We take a two-fluid modelling paradigm. For the sake of simplicity, we will restrict our attention to barotropic equations. We begin the exposition by a compressible model with...",
+      "keywords": [
+        "Mach Number",
+        "Strouhal Number",
+        "Snow Avalanche",
+        "Momentum Conservation Equation",
+        "Viscous Stress Tensor"
+      ],
+      "publisher_url": "https://link.springer.com/chapter/10.1007/978-3-642-17770-5_17",
+      "isbn": {
+        "print": "978-3-642-17770-5",
+        "electronic": "978-3-642-17770-5"
+      },
+      "keyword_source": "publisher"
+    },
+    {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "F.",
+          "lastName": "Dias"
+        }
+      ],
+      "title": "Water waves generated by a moving bottom",
+      "editors": [
+        {
+          "firstName": "A.",
+          "lastName": "Kundu"
+        }
+      ],
+      "book_title": "Tsunami and Nonlinear Waves",
+      "series": null,
+      "volume": null,
+      "pages": {
+        "start": 65,
+        "end": 95
+      },
+      "publisher": {
+        "name": "Springer Verlag",
+        "location": null
+      },
+      "year": 2007,
+      "url": "http://hal.archives-ouvertes.fr/hal-00115875/",
+      "doi": "10.1007/978-3-540-71256-5_4",
+      "chapter_number": null,
+      "abstract": "Waves at the surface of a liquid can be generated by various mechanisms: wind blowing on the free surface, wavemaker, moving disturbance on the bottom or the surface, or even inside the liquid, fall of an object into the liquid, liquid inside a moving container, etc.",
+      "keywords": [
+        "Free Surface",
+        "Water Wave",
+        "Tsunami Source",
+        "Tsunami Generation",
+        "Bottom Pressure"
+      ],
+      "publisher_url": "https://link.springer.com/chapter/10.1007/978-3-540-71256-5_4",
+      "isbn": {
+        "print": "978-3-540-71256-5",
+        "electronic": "978-3-540-71256-5"
+      },
+      "keyword_source": "publisher"
+    },
+    {
+      "authors": [
+        {
+          "firstName": "F.",
+          "lastName": "Dias"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Dynamics of tsunami waves",
+      "editors": [
+        {
+          "firstName": "A.",
+          "lastName": "Ibrahimbegovic"
+        },
+        {
+          "firstName": "I.",
+          "lastName": "Kozar"
+        }
+      ],
+      "book_title": "Extreme Man-Made and Natural Hazards in Dynamics of Structures",
+      "series": "NATO Advanced Research Workshop",
+      "volume": null,
+      "pages": {
+        "start": 35,
+        "end": 60
+      },
+      "publisher": {
+        "name": "Springer Dordrecht",
+        "location": null
+      },
+      "year": 2006,
+      "url": "http://hal.archives-ouvertes.fr/hal-00113612/",
+      "doi": "10.1007/978-1-4020-5656-7_8",
+      "chapter_number": null,
+      "abstract": "The life of a tsunami is usually divided into three phases: the generation (tsunami source), the propagation and the inundation. Each phase is complex and often described separately. A brief description of each phase is given. Model problems are identified. Their mathematical formulation and numerical solution are discussed.",
+      "keywords": [
+        "Solitary Wave",
+        "Water Wave",
+        "Tsunami Wave",
+        "Boussinesq Equation",
+        "Smooth Particle Hydrodynamic"
+      ],
+      "publisher_url": "https://link.springer.com/chapter/10.1007/978-1-4020-5656-7_8",
+      "isbn": {
+        "print": "978-1-4020-5654-3",
+        "electronic": "978-1-4020-5656-7"
+      },
+      "keyword_source": "publisher"
+    }
+  ],
+  "metadata": {
+    "total_chapters": 11,
+    "enriched_count": 11,
+    "keyword_stats": {
+      "with_keywords": 11,
+      "from_publisher": 10,
+      "generated": 1
+    },
+    "generation_date": "2025-07-01T15:47:29.053527",
+    "script_version": "1.0.0",
+    "dry_run": false
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "api_keys": {
+    "anthropic": "sk-ant-api03-YOUR-API-KEY-HERE",
+    "crossref_email": "your.email@example.com",
+    "springer": "",
+    "elsevier": "",
+    "wiley": ""
+  },
+  "preferences": {
+    "enable_keyword_generation": true,
+    "use_llm_parser": true,
+    "llm_parser_cache_days": 30,
+    "use_llm_enricher": true,
+    "llm_enricher_cache_days": 30,
+    "max_retries": 3,
+    "timeout": 30,
+    "cache_responses": true,
+    "cache_expiry_days": 7,
+    "delay_between_requests": 1.0
+  },
+  "scraping": {
+    "user_agent": "Academic Metadata Extractor/1.0 (https://github.com/yourusername/latex2json)",
+    "use_selenium": false,
+    "selenium_headless": true
+  },
+  "output": {
+    "pretty_print": true,
+    "include_metadata": true,
+    "sort_by": "year",
+    "include_errors": true
+  }
+}

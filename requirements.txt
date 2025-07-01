@@ -1,0 +1,19 @@
+# Core dependencies
+requests>=2.31.0
+beautifulsoup4>=4.12.2
+pylatexenc>=2.10
+aiohttp>=3.9.0
+
+# Academic metadata APIs
+scholarly>=1.7.11
+crossref-commons>=0.0.7
+
+# Claude API
+anthropic>=0.18.1
+
+# Development tools
+ruff>=0.1.9
+safety>=3.0.1
+
+# Type hints support
+typing-extensions>=4.9.0

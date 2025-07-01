@@ -12,7 +12,7 @@ import time
 import argparse
 import requests
 from pathlib import Path
-from typing import List, Dict, Optional
+from typing import Dict, Optional
 
 # --- Configuration ---
 
@@ -191,7 +191,7 @@ def parse_latex(tex_content: str, geocode_cache: Dict, skip_geocoding: bool):
                 parts.pop(-1)
 
         # Special case for Košice, which might be part of the university name
-        if not city and "košice" in full_details.lower():
+        if not city and "košice" in rest.lower():
             city = "Košice"
 
         # 3. Extract University and Affiliation from remaining parts
@@ -317,7 +317,7 @@ def main():
     tex_content = tex_file_path.read_text(encoding="utf-8")
     collaborators, failed_geocode = parse_latex(tex_content, geocode_cache, args.skip_geocoding)
 
-    print(f"\n--- Writing Output ---")
+    print("\n--- Writing Output ---")
     print(f"Writing {len(collaborators)} collaborators to {output_json_path}")
     with open(output_json_path, "w", encoding="utf-8") as f:
         json.dump(collaborators, f, ensure_ascii=False, indent=2)
