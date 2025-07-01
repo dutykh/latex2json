@@ -52,7 +52,7 @@ When analyzing results:
 
 Extract the following if available:
 - DOI (Digital Object Identifier) - both chapter DOI and book DOI if present
-- Abstract (full text, clean up formatting)
+- Abstract (COMPLETE full text - NEVER truncate, summarize, or shorten. Extract the ENTIRE abstract exactly as it appears, only cleaning up HTML formatting)
 - Keywords (as array of strings) - look for all keyword sections
 - Publisher URL (the canonical URL for this publication)
 - ISBN (both print and electronic if available)
@@ -69,6 +69,15 @@ Extract the following if available:
 - Related content URLs
 - Download statistics if shown
 - Any subject classifications (MSC, PACS, etc.)
+
+CRITICAL INSTRUCTIONS FOR ABSTRACT EXTRACTION:
+1. ALWAYS return the COMPLETE abstract - every sentence, every word
+2. NEVER summarize, excerpt, or shorten the abstract
+3. NEVER add text like "This chapter discusses..." if not in original
+4. NEVER truncate with "..." or similar
+5. If abstract is long (500+ words), still return ALL of it
+6. Only clean up HTML tags and formatting, preserve all actual text
+7. If abstract spans multiple paragraphs, include ALL paragraphs
 
 Important:
 1. Look EVERYWHERE: meta tags, JSON-LD, visible text, script tags, data attributes
@@ -323,7 +332,7 @@ Focus on academic metadata. Return valid JSON only."""
             
             response = self.client.messages.create(
                 model=self.MODEL,
-                max_tokens=1500,
+                max_tokens=4000,  # Increased to accommodate full abstracts
                 temperature=0,
                 system=self.EXTRACT_PROMPT,
                 messages=[{"role": "user", "content": prompt}]
