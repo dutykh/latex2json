@@ -1,9 +1,5 @@
-# Ignore cache files
-.geocode_cache.json
-.api_cache.json
-.keyword_cache.json
-.llm_parse_cache.json
-.llm_enricher_cache.json
+# Ignore cache directory and all cache files
+cache/
 
 # Ignore user configuration (but not the example)
 config.json

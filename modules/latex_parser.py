@@ -11,7 +11,6 @@ Date: 2025-07-01
 
 import re
 from typing import List, Dict, Optional
-from pathlib import Path
 from pylatexenc.latex2text import LatexNodes2Text
 
 try:

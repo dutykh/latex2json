@@ -29,6 +29,9 @@ from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Any
 
+# Add parent directory to path for module imports
+sys.path.append(str(Path(__file__).parent.parent))
+
 # Import our modules
 from modules.latex_parser import LatexBibliographyParser
 from modules.cache_manager import CacheManager
@@ -46,14 +49,16 @@ class ChapterProcessor:
         self.verbose = args.verbose
         
         # Set up paths
-        self.base_dir = Path(__file__).parent.resolve()
+        self.base_dir = Path(__file__).parent.parent.resolve()  # Parent of src/
         self.input_file = Path(args.input).resolve()
         self.output_file = Path(args.output).resolve()
         self.config_file = Path(args.config).resolve() if args.config else None
         
         # Cache files
-        self.api_cache_file = self.base_dir / ".api_cache.json"
-        self.keyword_cache_file = self.base_dir / ".keyword_cache.json"
+        cache_dir = self.base_dir / "cache"
+        cache_dir.mkdir(exist_ok=True)
+        self.api_cache_file = cache_dir / ".api_cache.json"
+        self.keyword_cache_file = cache_dir / ".keyword_cache.json"
         
         # Initialize components
         self._initialize_components()
@@ -167,7 +172,7 @@ class ChapterProcessor:
                 authors = entry.get('authors', [])
                 if authors:
                     first_author = f"{authors[0].get('firstName', '')} {authors[0].get('lastName', '')}".strip()
-                    author_info = f"{first_author}" + (f" et al." if len(authors) > 1 else "")
+                    author_info = f"{first_author}" + (" et al." if len(authors) > 1 else "")
                 else:
                     author_info = "Unknown authors"
                 year = entry.get('year', 'Unknown year')

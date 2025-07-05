@@ -49,7 +49,7 @@
       "url": "https://hal.science/hal-04261487/",
       "doi": "10.1007/978-981-97-4076-5_3",
       "chapter_number": null,
-      "abstract": "Mass movements and delta collapses are significant sources of tsunamis in lacustrine environments, impacting human societies enormously. Palaeotsunamis play an essential role in understanding historical events and their consequences along with their return periods.",
+      "abstract": "Mass movements and delta collapses are significant sources of tsunamis in lacustrine environments, impacting human societies enormously. Palaeotsunamis play an essential role in understanding historical events and their consequences along with their return periods. Here, we focus on a palaeo event that occurred during the Younger Dryas to Early Holocene climatic transition, ca., 12,000 years ago in the Lake Aiguebelette (NW Alps, France). Based on high-resolution seismic and bathymetric surveys and sedimentological, geochemical, and magnetic analyses, a seismically induced large mass transport deposit with an initial volume of 767,000 m3 was identified, dated and mapped. To investigate whether this underwater mass transport produced a palaeotsunami in the Lake Aiguebelette, this research combines sedimentary records and numerical models. Numerical simulations of tsunamis are performed using a visco-plastic landslide model for tsunami source generation and two-dimensional depth-averaged nonlinear shallow water equations for tsunami wave propagation and inundation modelling. Our simulations conclude that this sublacustrine landslide produced a tsunami wave with a maximum amplitude of approximately 2 m and run-up heights of up to 3.6 m. The modelled sediment thickness resulting from this mass transport corroborates well with the event deposits mapped in the lake. Based on our results, we suggest that this sublacustrine mass transport generated a significant tsunami wave that has not been reported previously to the best of our knowledge.",
       "keywords": [
         "Sublacustrine landslides",
         "Alpine lake",
@@ -127,7 +127,7 @@
       "url": null,
       "doi": "10.1016/b978-0-323-90476-6.00019-4",
       "chapter_number": null,
-      "abstract": "",
+      "abstract": "Wastewater contains both nutrients and hazardous chemical compounds depending on its source (i.e., refinery, domestic, urban, hospital, agriculture, and industry). Algae can convert wastewater contaminants and simultaneously generate oxygen via photosynthesis into less dangerous compounds. The integration of this biotechnology will be a complementary approach to the existing wastewater treatment plant, which uses either conventional or advanced oxidation processes to treat the wastewater. This book chapter discusses the application of this aquatic organism in live-cell forms for the bioremediation of wastewater. The subtopics discussed in this book chapter are algae classification, bioremediation of wastewater using algae, bioenergy cogeneration using algal biomass, and algal practicality and limitations. The practicality and advantages of algae in terms of carbon footprint reduction, as well as their limitations, are critically explored.",
       "keywords": [
         "bioremediation",
         "wastewater treatment",
@@ -167,21 +167,21 @@
         }
       ],
       "book_title": "Differential Geometry, Differential Equations, and Mathematical Physics",
-      "series": "Birkh??user",
+      "series": "Birkhäuser",
       "volume": null,
       "pages": {
         "start": 1,
         "end": 29
       },
       "publisher": {
-        "name": "Birkh??user",
+        "name": "Birkhäuser",
         "location": "Cham"
       },
       "year": 2021,
       "url": "https://hal.archives-ouvertes.fr/hal-02522156/",
       "doi": "10.1007/978-3-030-63253-3_1",
       "chapter_number": null,
-      "abstract": "This manuscript is essentially a collection of lecture notes which were given by the first author at the Summer School Wis&#322;a&#8211;2019, Poland and written down by the second author. As the title suggests, the material covered here includes the Poisson and symplectic structures, Hamiltonian action, momentum and reduction.",
+      "abstract": "This manuscript is essentially a collection of lecture notes which were given by the first author at the Summer School Wisła–2019, Poland and written down by the second author. As the title suggests, the material covered here includes the Poisson and symplectic structures (Poisson manifolds, Poisson bi-vectors, and Poisson brackets), group actions and orbits (infinitesimal action, stabilizers, and adjoint representations), moment maps, Poisson and Hamiltonian actions. Finally, the phase space reduction is also discussed. The very last section introduces the Poisson–Lie structures along with some related notions. This text represents a brief review of a well-known material citing standard references for more details. The exposition is concise, but pedagogical. The authors believe that it will be useful as an introductory exposition for students interested in this specific topic.",
       "keywords": [
         "Poisson and symplectic structures",
         "Hamiltonian action",
@@ -244,7 +244,7 @@
       "url": "https://hal.archives-ouvertes.fr/hal-02289778/",
       "doi": "10.1007/978-3-030-29951-4_3",
       "chapter_number": null,
-      "abstract": "The description of gravity waves Surface gravity waves propagating on the water surface is considered from a historical point of view, with specific emphasis on the development of a theoretical framework and equations of motion for...",
+      "abstract": "The description of gravity waves propagating on the water surface is considered from a historical point of view, with specific emphasis on the development of a theoretical framework and equations of motion for long waves in shallow water . This provides the foundation for a subsequent discussion about tsunami wave propagation and runup on a sloping beach, and in particular the role of wave dispersion for this problem. Wave tank experiments show that wave dispersion can play a significant role for the propagation and wave transformation of wave signals that include some higher frequency components. However, the maximum runup height is less sensitive to dispersive effects, suggesting that runup height can be adequately calculated by use of nondispersive model equations.",
       "keywords": [
         "Mathematics",
         "Partial Differential Equations",
@@ -306,7 +306,7 @@
       "url": "https://hal.archives-ouvertes.fr/hal-01703491/",
       "doi": "10.1007/978-3-319-78193-8_1",
       "chapter_number": null,
-      "abstract": "In 1967, D. H. Peregrine proposed a Boussinesq-type model for long waves in shallow waters of varying depth Peregrine (J Fluid Mech 27:815–827, 1967, [70]). This prominent paper turned a new leaf in coastal hydrodynamics along with contributions by Serre...",
+      "abstract": "In 1967, D. H. Peregrine proposed a Boussinesq-type model for long waves in shallow waters of varying depth Peregrine (J Fluid Mech 27:815–827, 1967, [70]). This prominent paper turned a new leaf in coastal hydrodynamics along with contributions by Serre (La Houille Blanche 8:374–388, 1953, [72]) and Green and Naghdi (J Fluid Mech 78:237–246, 1976, [47]) and many others since then. Several modern Boussinesq-type systems stem from these pioneering works. In the present work, we revise the long wave model traditionally referred to as the Peregrine system. Namely, we propose a modification of the governing equations, which is asymptotically similar to the initial model for weakly nonlinear waves, while preserving an additional symmetry of the complete water wave problem. This modification procedure is called the invariantization. We show that the improved system has well-conditioned dispersive terms in the swash zone, hence allowing for efficient and stable run-up computations.",
       "keywords": [
         "Physics and Astronomy",
         "Physics and Astronomy (R0)"
@@ -351,7 +351,7 @@
       "url": "https://hal.archives-ouvertes.fr/hal-01102120/",
       "doi": "10.1007/978-3-319-20690-5_7",
       "chapter_number": null,
-      "abstract": "In this chapter, we illustrate the advantage of variational principles for modeling water waves from an elementary practical viewpoint. The method is based on a 'relaxed' variational principle, i.e., on a Lagrangian involving as many variables as possible. This approach allows us to derive a new set of equations for water waves, which are more general than the classical ones. The resulting system of equations is shown to be equivalent to the Gordon equation, which is a generalization of the classical Euler equations. The proposed method is illustrated with several examples, including the derivation of the Korteweg-de Vries equation and the Camassa-Holm equation.",
+      "abstract": "In this chapter, we illustrate the advantage of variational principles for modeling water waves from an elementary practical viewpoint. The method is based on a ‘relaxed’ variational principle, i.e., on a Lagrangian involving as many variables as possible, and imposing some suitable subordinate constraints. This approach allows the construction of approximations without necessarily relying on a small parameter. This is illustrated via simple examples, namely the Serre equations in shallow water, a generalization of the Klein–Gordon equation in deep water and how to unify these equations in arbitrary depth. The chapter ends with a discussion and caution on how this approach should be used in practice.",
       "keywords": [
         "Velocity Field",
         "Variational Principle",
@@ -407,7 +407,7 @@
       "url": "https://hal.archives-ouvertes.fr/hal-00907110/",
       "doi": "10.1007/978-981-4451-42-0_16",
       "chapter_number": null,
-      "abstract": "An improvement of the nonlinear shallow water (or Saint-Venant) equations is proposed. The new model is designed to take into account the effects resulting from the large spatial and/or temporal variations of the seabed. The model is derived from a variational principle and is shown to be non-hydrostatic and non-dispersive. The new model is compared with the classical Saint-Venant equations and some numerical simulations are presented.",
+      "abstract": "An improvement of the nonlinear shallow water (or Saint-Venant) equations is proposed. The new model is designed to take into account the effects resulting from the large spatial and/or temporal variations of the seabed. The model is derived from a variational principle by choosing the appropriate shallow water ansatz and imposing suitable constraints. Thus, the derivation procedure does not explicitly involve any small parameter.",
       "keywords": [
         "Varying bathymetry",
         "Steep bottom",
@@ -465,7 +465,7 @@
       "url": "https://hal.archives-ouvertes.fr/hal-00907108/",
       "doi": "10.1007/978-981-4451-42-0_17",
       "chapter_number": null,
-      "abstract": "A shock-capturing, finite volume implementation of recently proposed non-hydrostatic two-dimensional shallow water equations, is proposed. The discretization of the equations in conservation form implies the modification of the time derivative of the conserved variables. The resulting scheme is shown to be well-balanced, positivity-preserving and to satisfy a discrete entropy inequality. The scheme is validated on a series of test cases, including the simulation of the propagation of a solitary wave over a submerged obstacle.",
+      "abstract": "A shock-capturing, finite volume implementation of recently proposed non-hydrostatic two-dimensional shallow water equations, is proposed. The discretization of the equations in conservation form implies the modification of the time derivative of the conserved variable, in the form of a mass/inertia matrix, and extra terms in the flux functions. The effect of this matrix is to slow down wave propagation in the presence of significant bottom slopes. The proposed model is first derived in conservation form using mass and momentum balance principles. Its finite volume implementation is then presented. The additional terms to the shallow water equations can be discretized very easily via a simple time-stepping procedure. Two application examples are presented. These examples seem to indicate that the proposed model does not exhibit strong differences with the classical hydrostatic shallow water model under steady-state conditions, but that its behavior is significantly different when transients are involved.",
       "keywords": [
         "Shallow water model",
         "Non-hydrostatic pressure distribution",
@@ -515,7 +515,7 @@
       "url": "http://hal.archives-ouvertes.fr/hal-00394437/",
       "doi": "10.1007/978-3-642-17770-5_17",
       "chapter_number": null,
-      "abstract": "In the present study we discuss several modelling issues of powder-snow avalanche flows. We take a two-fluid modelling paradigm. For the sake of simplicity, we will restrict our attention to barotropic equations. We begin the exposition by a compressible model with...",
+      "abstract": "In the present study we discuss several modelling issues of powder-snow avalanche flows. We take a two-fluid modelling paradigm. For the sake of simplicity, we will restrict our attention to barotropic equations. We begin the exposition by a compressible model with two velocities for each fluid. However, this model may become non-hyperbolic and thus, represents serious challenges for numerical methods. To overcome these issues, we derive a single velocity model as a result of a relaxation process. This model can be easily shown to be hyperbolic for any reasonable equation of state. Finally, an incompressible limit of this model is derived.",
       "keywords": [
         "Mach Number",
         "Strouhal Number",
@@ -563,7 +563,7 @@
       "url": "http://hal.archives-ouvertes.fr/hal-00115875/",
       "doi": "10.1007/978-3-540-71256-5_4",
       "chapter_number": null,
-      "abstract": "Waves at the surface of a liquid can be generated by various mechanisms: wind blowing on the free surface, wavemaker, moving disturbance on the bottom or the surface, or even inside the liquid, fall of an object into the liquid, liquid inside a moving container, etc.",
+      "abstract": "Waves at the surface of a liquid can be generated by various mechanisms: wind blowing on the free surface, wavemaker, moving disturbance on the bottom or the surface, or even inside the liquid, fall of an object into the liquid, liquid inside a moving container, etc. In this paper, we concentrate on the case where the waves are created by a given motion of the bottom. One example is the generation of tsunamis by a sudden seafloor deformation.",
       "keywords": [
         "Free Surface",
         "Water Wave",
@@ -615,7 +615,7 @@
       "url": "http://hal.archives-ouvertes.fr/hal-00113612/",
       "doi": "10.1007/978-1-4020-5656-7_8",
       "chapter_number": null,
-      "abstract": "The life of a tsunami is usually divided into three phases: the generation (tsunami source), the propagation and the inundation. Each phase is complex and often described separately. A brief description of each phase is given. Model problems are identified. Their mathematical formulation and numerical solution are discussed.",
+      "abstract": "The life of a tsunami is usually divided into three phases: the generation (tsunami source), the propagation and the inundation. Each phase is complex and often described separately. A brief description of each phase is given. Model problems are identified. Their formulation is given. While some of these problems can be solved analytically, most require numerical techniques. The inundation phase is less documented than the other phases. It is shown that methods based on Smoothed Particle Hydrodynamics (SPH) are particularly well-suited for the inundation phase. Directions for future research are outlined.",
       "keywords": [
         "Solitary Wave",
         "Water Wave",

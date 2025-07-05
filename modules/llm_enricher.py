@@ -12,11 +12,9 @@ Date: 2025-01-01
 import json
 import hashlib
 import re
-import asyncio
-from typing import List, Dict, Optional, Any, Tuple
+from typing import List, Dict, Optional, Any
 from datetime import datetime, timedelta
 from pathlib import Path
-from urllib.parse import quote_plus
 
 try:
     from anthropic import Anthropic
@@ -524,7 +522,29 @@ Generate appropriate academic keywords."""
             if json_text.endswith("```"):
                 json_text = json_text[:-3]
             
-            keywords = json.loads(json_text.strip())
+            # Clean up any remaining markdown or code blocks
+            json_text = json_text.strip()
+            
+            # Try to parse JSON
+            try:
+                keywords = json.loads(json_text)
+            except json.JSONDecodeError:
+                # If JSON parsing fails, try to extract array from the text
+                if self.verbose >= 2:
+                    print("[LLM_ENRICHER] JSON parsing failed, attempting regex extraction")
+                # Look for array pattern like ["keyword1", "keyword2", ...]
+                array_match = re.search(r'\[([^\]]+)\]', json_text)
+                if array_match:
+                    # Try to parse just the array part
+                    try:
+                        keywords = json.loads(array_match.group(0))
+                    except (json.JSONDecodeError, ValueError):
+                        # Last resort: split by comma and clean
+                        keywords = [k.strip().strip('"').strip("'") 
+                                  for k in array_match.group(1).split(',')
+                                  if k.strip()]
+                else:
+                    keywords = []
             
             # Ensure it's a list of strings
             if isinstance(keywords, list):

@@ -21,10 +21,18 @@ class ConfigManager:
     DEFAULT_CONFIG = {
         "api_keys": {
             "anthropic": "",
+            "google": "",
+            "google_cx": "",  # Custom Search Engine ID (optional)
             "crossref_email": "",
             "springer": "",
             "elsevier": "",
             "wiley": ""
+        },
+        "llm_config": {
+            "primary_llm": "anthropic",
+            "primary_model": "claude-3-5-sonnet-20241022", 
+            "fallback_llm": "google",
+            "fallback_model": "claude-3-5-sonnet-20241022"
         },
         "preferences": {
             "enable_keyword_generation": True,
@@ -39,7 +47,7 @@ class ConfigManager:
             "delay_between_requests": 1.0
         },
         "scraping": {
-            "user_agent": "Academic Metadata Extractor/1.0 (https://github.com/user/repo)",
+            "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
             "use_selenium": False,
             "selenium_headless": True
         },
@@ -69,6 +77,9 @@ class ConfigManager:
             if self.verbose >= 1:
                 print(f"[CONFIG] Config file not found: {config_file}")
                 print("[CONFIG] Using default configuration")
+        
+        # Override with environment variables if available
+        # self._load_env_overrides()  # Not needed for now
     
     def _load_config(self) -> None:
         """Load configuration from file and merge with defaults."""
@@ -215,10 +226,23 @@ class ConfigManager:
     
     def get_headers(self) -> Dict[str, str]:
         """Get HTTP headers for web requests."""
+        # Use more browser-like headers to avoid 403 errors
+        user_agent = self.get('scraping.user_agent', 
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36')
+        
         return {
-            'User-Agent': self.get('scraping.user_agent', 'Academic Metadata Extractor/1.0'),
-            'Accept': 'application/json, text/html',
-            'Accept-Language': 'en-US,en;q=0.9'
+            'User-Agent': user_agent,
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,application/json,image/webp,image/apng,*/*;q=0.8',
+            'Accept-Language': 'en-US,en;q=0.9',
+            'Accept-Encoding': 'gzip, deflate, br',
+            'DNT': '1',
+            'Connection': 'keep-alive',
+            'Upgrade-Insecure-Requests': '1',
+            'Sec-Fetch-Dest': 'document',
+            'Sec-Fetch-Mode': 'navigate',
+            'Sec-Fetch-Site': 'none',
+            'Sec-Fetch-User': '?1',
+            'Cache-Control': 'max-age=0'
         }
     
     def __str__(self) -> str:

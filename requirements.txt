@@ -11,6 +11,15 @@ crossref-commons>=0.0.7
 # Claude API
 anthropic>=0.18.1
 
+# Google APIs
+google-generativeai>=0.8.0
+google-api-python-client>=2.100.0
+google-auth>=2.23.0
+google-auth-httplib2>=0.1.1
+
+# Optional: Selenium for advanced web scraping
+# selenium>=4.15.0
+
 # Development tools
 ruff>=0.1.9
 safety>=3.0.1

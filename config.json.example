@@ -1,10 +1,19 @@
 {
   "api_keys": {
     "anthropic": "sk-ant-api03-YOUR-API-KEY-HERE",
+    "google": "YOUR-GOOGLE-API-KEY-HERE",
+    "google_cx": "YOUR-CUSTOM-SEARCH-ENGINE-ID-HERE",
     "crossref_email": "your.email@example.com",
     "springer": "",
     "elsevier": "",
     "wiley": ""
+  },
+  "llm_config": {
+    "primary_llm": "anthropic",
+    "primary_model": "claude-3-5-sonnet-20241022",
+    "fallback_llm": "google",
+    "fallback_model": "gemini-2.5-flash",
+    "comment": "Supported LLMs: 'anthropic' (Claude) or 'google' (Gemini)"
   },
   "preferences": {
     "enable_keyword_generation": true,
@@ -18,10 +27,26 @@
     "cache_expiry_days": 7,
     "delay_between_requests": 1.0
   },
+  "search_settings": {
+    "quality_mode": true,
+    "max_queries_per_researcher": 20,
+    "delay_between_queries": 1.5,
+    "platforms_priority": [
+      "google_scholar",
+      "researchgate",
+      "orcid",
+      "linkedin",
+      "email",
+      "homepage"
+    ],
+    "comment": "quality_mode enables comprehensive targeted searches for better results"
+  },
   "scraping": {
-    "user_agent": "Academic Metadata Extractor/1.0 (https://github.com/yourusername/latex2json)",
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
     "use_selenium": false,
-    "selenium_headless": true
+    "selenium_headless": true,
+    "respect_robots_txt": true,
+    "comment": "Use a browser-like user agent to avoid 403 errors from publishers"
   },
   "output": {
     "pretty_print": true,

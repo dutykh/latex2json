@@ -11,7 +11,6 @@ Date: 2025-01-01
 
 import json
 import hashlib
-import re
 from typing import List, Dict, Optional, Any
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -29,8 +28,8 @@ class LLMBibliographyParser:
     # Claude model to use
     MODEL = "claude-3-haiku-20240307"  # Fast and cost-effective for parsing tasks
     
-    # System prompt for bibliography parsing
-    SYSTEM_PROMPT = """You are an expert at parsing LaTeX bibliography entries. Extract structured information from LaTeX entries and return it as JSON.
+    # System prompts for different entry types
+    BOOK_CHAPTER_PROMPT = """You are an expert at parsing LaTeX bibliography entries. Extract structured information from LaTeX entries and return it as JSON.
 
 For each entry, extract:
 - authors: Array of {firstName, lastName} objects
@@ -58,8 +57,35 @@ Important parsing rules:
 7. Convert LaTeX special characters (---, --, ~) appropriately
 
 Return ONLY valid JSON, no explanations."""
+
+    JOURNAL_PROMPT = """You are an expert at parsing LaTeX journal bibliography entries. Extract structured information from LaTeX entries and return it as JSON.
+
+For each journal paper entry, extract:
+- authors: Array of {firstName, lastName} objects
+- title: The paper title (without LaTeX formatting)
+- journal: The journal name (e.g., "Phys. Rev. D", "J. Fluid Mech.")
+- volume: The volume number (string, may include bold formatting)
+- issue: The issue number (string only, without parentheses)
+- pages: Object with either {start, end} for page range or {article_number} for article ID
+- year: Publication year (integer)
+- doi: DOI if present
+- url: Primary URL in the entry (not ArXiv or HAL)
+- abstract: Empty string (to be filled later)
+- keywords: Empty array (to be filled later)
+
+Important parsing rules:
+1. For names like "D.~Dutykh" or "M.~Asjad", extract firstName and lastName correctly
+2. Remove LaTeX formatting like \\textbf{}, \\textit{}, \\textsc{}
+3. Journal info typically follows pattern: "Journal Name, volume(issue), pages, year"
+4. Volume may be in \\textbf{} - extract the number
+5. Pages can be "123--456" or just an article number like "106518"
+6. Handle journal abbreviations properly (keep dots in abbreviations)
+7. Convert LaTeX special characters (---, --, ~) appropriately
+8. Ignore URLs that contain arxiv.org or hal. (these are preprints, not primary URLs)
+
+Return ONLY valid JSON, no explanations."""
     
-    def __init__(self, config, cache_file: Path = None, verbose: int = 2):
+    def __init__(self, config, cache_file: Path = None, verbose: int = 2, entry_type: str = 'chapter'):
         """
         Initialize the LLM parser.
         
@@ -67,11 +93,19 @@ Return ONLY valid JSON, no explanations."""
             config: Configuration manager instance
             cache_file: Path to cache file (optional)
             verbose: Verbosity level (0-3)
+            entry_type: Type of entries to parse ('chapter' or 'journal')
         """
         self.config = config
         self.verbose = verbose
+        self.entry_type = entry_type
         self.cache_file = cache_file or Path(".llm_parse_cache.json")
         self.cache = self._load_cache()
+        
+        # Select appropriate system prompt
+        if entry_type == 'journal':
+            self.system_prompt = self.JOURNAL_PROMPT
+        else:
+            self.system_prompt = self.BOOK_CHAPTER_PROMPT
         
         # Initialize Claude client if available
         self.client = None
@@ -159,7 +193,7 @@ Return ONLY valid JSON, no explanations."""
                     authors = cached_result.get('authors', [])
                     if authors:
                         first_author = f"{authors[0].get('firstName', '')} {authors[0].get('lastName', '')}".strip()
-                        author_info = f"{first_author}" + (f" et al." if len(authors) > 1 else "")
+                        author_info = f"{first_author}" + (" et al." if len(authors) > 1 else "")
                     else:
                         author_info = "Unknown authors"
                     
@@ -171,14 +205,14 @@ Return ONLY valid JSON, no explanations."""
         
         try:
             if self.verbose >= 3:
-                print(f"[LLM_PARSER] Sending entry to Claude for parsing")
+                print("[LLM_PARSER] Sending entry to Claude for parsing")
             
             # Call Claude API
             response = self.client.messages.create(
                 model=self.MODEL,
                 max_tokens=1000,
                 temperature=0,
-                system=self.SYSTEM_PROMPT,
+                system=self.system_prompt,
                 messages=[
                     {"role": "user", "content": prompt}
                 ]
@@ -212,7 +246,7 @@ Return ONLY valid JSON, no explanations."""
                 authors = result.get('authors', [])
                 if authors:
                     first_author = f"{authors[0].get('firstName', '')} {authors[0].get('lastName', '')}".strip()
-                    author_info = f"{first_author}" + (f" et al." if len(authors) > 1 else "")
+                    author_info = f"{first_author}" + (" et al." if len(authors) > 1 else "")
                 else:
                     author_info = "Unknown authors"
                 
