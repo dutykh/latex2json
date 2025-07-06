@@ -53,16 +53,30 @@ class KeywordGenerator:
         if not self.enabled:
             return
         
-        # Only generate keywords for entries that don't have them from publishers
+        # Only generate keywords for entries that:
+        # 1. Don't have keywords from publishers
+        # 2. Have an abstract (required for accurate keyword generation)
         entries_needing_keywords = [
             entry for entry in entries 
             if (not entry.get('keywords') or entry.get('keyword_source') == 'none') 
             and entry.get('keyword_source') != 'publisher'
+            and entry.get('abstract')  # Must have abstract for keyword generation
+        ]
+        
+        # Count entries skipped due to missing abstract
+        entries_without_abstract = [
+            entry for entry in entries 
+            if (not entry.get('keywords') or entry.get('keyword_source') == 'none') 
+            and entry.get('keyword_source') != 'publisher'
+            and not entry.get('abstract')
         ]
         
         if not entries_needing_keywords:
             if self.verbose >= 2:
-                print("[KEYWORDS] All entries already have keywords")
+                if entries_without_abstract:
+                    print(f"[KEYWORDS] Skipped {len(entries_without_abstract)} entries without abstracts")
+                else:
+                    print("[KEYWORDS] All entries already have keywords")
             return
         
         if self.verbose >= 1:

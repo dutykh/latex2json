@@ -108,7 +108,12 @@ Return keywords as a JSON array of strings."""
         """
         self.config = config
         self.verbose = verbose
-        self.cache_file = cache_file or Path(".llm_enricher_cache.json")
+        if cache_file is None:
+            cache_dir = Path(__file__).parent.parent / "cache"
+            cache_dir.mkdir(exist_ok=True)
+            self.cache_file = cache_dir / ".llm_enricher_cache.json"
+        else:
+            self.cache_file = cache_file
         self.cache = self._load_cache()
         
         # Initialize Claude client if available
@@ -707,11 +712,13 @@ Generate appropriate academic keywords."""
                             print("[LLM_ENRICHER] Have DOI and keywords, continuing to search for abstract...")
                         continue
             
-            # Generate keywords if not found
-            if not metadata['keywords'] and (entry.get('title') or metadata.get('abstract')):
+            # Generate keywords if not found AND abstract is available
+            # We need abstract for accurate keyword generation
+            abstract = metadata.get('abstract', entry.get('abstract', ''))
+            if not metadata['keywords'] and abstract:
                 generated_keywords = await self.generate_keywords(
                     entry.get('title', ''),
-                    metadata.get('abstract', entry.get('abstract', ''))
+                    abstract
                 )
                 
                 if generated_keywords:

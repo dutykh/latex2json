@@ -69,7 +69,9 @@ For each journal paper entry, extract:
 - pages: Object with either {start, end} for page range or {article_number} for article ID
 - year: Publication year (integer)
 - doi: DOI if present
-- url: Primary URL in the entry (not ArXiv or HAL)
+- url: Primary publisher URL in the entry (if any)
+- arxiv_url: ArXiv preprint URL if present (e.g., https://arxiv.org/abs/1234.5678)
+- hal_url: HAL preprint URL if present (e.g., https://hal.science/hal-12345 or https://hal.archives-ouvertes.fr/hal-12345)
 - abstract: Empty string (to be filled later)
 - keywords: Empty array (to be filled later)
 
@@ -81,7 +83,11 @@ Important parsing rules:
 5. Pages can be "123--456" or just an article number like "106518"
 6. Handle journal abbreviations properly (keep dots in abbreviations)
 7. Convert LaTeX special characters (---, --, ~) appropriately
-8. Ignore URLs that contain arxiv.org or hal. (these are preprints, not primary URLs)
+8. Extract ALL URLs found in the entry:
+   - Set 'url' to the primary publisher URL (if found)
+   - Set 'arxiv_url' to any ArXiv URL (e.g., https://arxiv.org/abs/...)
+   - Set 'hal_url' to any HAL URL (e.g., https://hal.science/... or https://hal.archives-ouvertes.fr/...)
+9. If no URLs are found, set these fields to empty strings
 
 Return ONLY valid JSON, no explanations."""
     
@@ -98,7 +104,12 @@ Return ONLY valid JSON, no explanations."""
         self.config = config
         self.verbose = verbose
         self.entry_type = entry_type
-        self.cache_file = cache_file or Path(".llm_parse_cache.json")
+        if cache_file is None:
+            cache_dir = Path(__file__).parent.parent / "cache"
+            cache_dir.mkdir(exist_ok=True)
+            self.cache_file = cache_dir / ".llm_parse_cache.json"
+        else:
+            self.cache_file = cache_file
         self.cache = self._load_cache()
         
         # Select appropriate system prompt

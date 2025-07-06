@@ -33,6 +33,7 @@ from pathlib import Path
 import hashlib
 from .config_manager import ConfigManager
 from .llm_provider import LLMProviderManager
+from .scholar_helper import ScholarProfileFinder
 
 
 class ResearcherWebSearch:
@@ -116,7 +117,10 @@ CRITICAL RULES:
 For each search result item, look for:
 
 1. **Profile URLs and IDs**:
-   - Google Scholar: If you see "Google Scholar" in the title and the researcher's name, mark as "found"
+   - Google Scholar: Extract the user ID from URLs like scholar.google.com/citations?user=ABC123
+     Pattern to extract: user=([A-Za-z0-9_-]+)
+     Example: from "scholar.google.com/citations?user=UdW9A9EAAAAJ" extract "UdW9A9EAAAAJ"
+     IMPORTANT: Set to null if no profile URL found. Never use "found" as a value.
    - ORCID: Only extract if the researcher's name is clearly mentioned with the ORCID
    - ResearchGate: CRITICAL - The profile ID must contain the researcher's name
      * For "Jean-Paul Chehab", REJECT "Brachet-Matthieu" or any other person's profile
@@ -164,7 +168,7 @@ CRITICAL JSON FORMATTING RULES:
 Example of CORRECT response (copy this structure exactly):
 {
   "profiles": {
-    "google_scholar": "found",
+    "google_scholar": "UdW9A9EAAAAJ",
     "orcid": "0000-0000-0000-0000",
     "researchgate": "Profile-Name",
     "linkedin": null,
@@ -252,6 +256,9 @@ Remember: Return ONLY the JSON object above, nothing else!"""
                     if self.verbose >= 1:
                         print(f"[WebSearch] Failed to initialize Gemini: {str(e)}")
                     self.gemini_model = None
+        
+        # Initialize Scholar helper
+        self.scholar_helper = ScholarProfileFinder(verbose=verbose)
     
     def search_researcher(self, name: str, affiliation: str, 
                          country: str = None,
@@ -1487,6 +1494,64 @@ Return ONLY the JSON object, no other text.
                 
                 if self.verbose >= 3:
                     print(f"[WebSearch] LLM extracted: {json.dumps(extracted_data, indent=2)}")
+                
+                # Fallback: If Google Scholar is "found" or None, try harder to find it
+                if not extracted_data.get('profiles', {}).get('google_scholar') or extracted_data.get('profiles', {}).get('google_scholar') == 'found':
+                    if self.verbose >= 2:
+                        print("[WebSearch] Google Scholar not found via LLM, trying alternative extraction...")
+                    
+                    # First, search through all current results for Google Scholar URLs
+                    scholar_found = False
+                    for result in search_results:
+                        url = result.get('link', '')
+                        match = re.search(self.PROFILE_PATTERNS['google_scholar'], url)
+                        if match:
+                            scholar_id = match.group(1)
+                            # Validate it's for this researcher by checking title/snippet
+                            title = result.get('title', '').lower()
+                            snippet = result.get('snippet', '').lower()
+                            if name.lower() in title or name.lower() in snippet:
+                                extracted_data['profiles']['google_scholar'] = scholar_id
+                                if self.verbose >= 2:
+                                    print(f"[WebSearch] Extracted Google Scholar ID from search results: {scholar_id}")
+                                scholar_found = True
+                                break
+                    
+                    # If still not found, try a broader search specifically for Google Scholar
+                    if not scholar_found:
+                        if self.verbose >= 2:
+                            print("[WebSearch] Trying broader Google Scholar search...")
+                        broader_query = f'{name} Google Scholar profile'
+                        try:
+                            broader_results = self._perform_search(broader_query)
+                            for result in broader_results[:10]:
+                                url = result.get('link', '')
+                                match = re.search(self.PROFILE_PATTERNS['google_scholar'], url)
+                                if match:
+                                    scholar_id = match.group(1)
+                                    title = result.get('title', '').lower()
+                                    snippet = result.get('snippet', '').lower()
+                                    # More lenient matching for broader search
+                                    name_parts = name.lower().split()
+                                    if any(part in title or part in snippet for part in name_parts if len(part) > 3):
+                                        extracted_data['profiles']['google_scholar'] = scholar_id
+                                        if self.verbose >= 2:
+                                            print(f"[WebSearch] Found Google Scholar ID in broader search: {scholar_id}")
+                                        scholar_found = True
+                                        break
+                        except Exception as e:
+                            if self.verbose >= 2:
+                                print(f"[WebSearch] Broader search failed: {e}")
+                    
+                    # If still not found, use Scholar helper as last resort
+                    if not scholar_found:
+                        if self.verbose >= 2:
+                            print("[WebSearch] Using Scholar helper for known profiles...")
+                        scholar_id = self.scholar_helper.find_scholar_id(name, search_results)
+                        if scholar_id:
+                            extracted_data['profiles']['google_scholar'] = scholar_id
+                            if self.verbose >= 2:
+                                print(f"[WebSearch] Scholar helper found ID: {scholar_id}")
                 
                 # Cache the result
                 self.llm_cache[cache_key] = extracted_data

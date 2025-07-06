@@ -129,9 +129,6 @@ class LatexJournalParser:
         if self.verbose >= 3:
             print(f"[PARSE] Processing entry: {content[:100]}...")
         
-        # Extract preprint URLs from comments first
-        arxiv_url, hal_url, rg_url = self._extract_preprint_urls(content)
-        
         # Try LLM parsing first if available
         if self.llm_parser:
             try:
@@ -140,12 +137,6 @@ class LatexJournalParser:
                     # Ensure year is set from section if not in LLM result
                     if year and not llm_result.get('year'):
                         llm_result['year'] = year
-                    
-                    # Add preprint URLs
-                    if arxiv_url:
-                        llm_result['arxiv_url'] = arxiv_url
-                    if hal_url:
-                        llm_result['hal_url'] = hal_url
                     
                     # Ensure all required fields exist
                     required_fields = ['authors', 'title', 'journal', 'volume', 'issue', 
@@ -178,24 +169,35 @@ class LatexJournalParser:
             "year": year,
             "doi": "",
             "url": "",
-            "arxiv_url": arxiv_url or "",
-            "hal_url": hal_url or "",
+            "arxiv_url": "",
+            "hal_url": "",
             "abstract": "",
             "keywords": [],
             "keyword_source": "",
-            "open_access": bool(arxiv_url or hal_url)
+            "open_access": False
         }
         
         # Remove comments to avoid interference with parsing
         clean_content = re.sub(r'%.*$', '', content, flags=re.MULTILINE)
         
-        # Extract URL if present
-        url_match = re.search(r'\\url\{(.*?)\}', clean_content)
-        if url_match:
-            entry["url"] = url_match.group(1)
-            clean_content = clean_content.replace(url_match.group(0), '')
-            if self.verbose >= 2:
-                print(f"[PARSE] Found URL: {entry['url']}")
+        # Extract URLs if present
+        url_matches = re.findall(r'\\url\{(.*?)\}', clean_content)
+        for url in url_matches:
+            if 'arxiv.org' in url:
+                entry["arxiv_url"] = url.rstrip('/')
+                entry["open_access"] = True
+                if self.verbose >= 2:
+                    print(f"[PARSE] Found ArXiv URL: {entry['arxiv_url']}")
+            elif 'hal' in url and ('.fr' in url or '.science' in url):
+                entry["hal_url"] = url.rstrip('/')
+                entry["open_access"] = True
+                if self.verbose >= 2:
+                    print(f"[PARSE] Found HAL URL: {entry['hal_url']}")
+            else:
+                entry["url"] = url
+                if self.verbose >= 2:
+                    print(f"[PARSE] Found URL: {entry['url']}")
+            clean_content = clean_content.replace(f'\\url{{{url}}}', '')
         
         # Parse authors and title
         self._parse_authors_and_title(clean_content, entry)
@@ -229,69 +231,6 @@ class LatexJournalParser:
                 print(f"  - HAL: {entry['hal_url']}")
         
         return entry
-    
-    def _extract_preprint_urls(self, content: str) -> tuple:
-        """
-        Extract preprint URLs from LaTeX comments.
-        
-        Args:
-            content: The full entry content including comments
-            
-        Returns:
-            Tuple of (arxiv_url, hal_url, researchgate_url)
-        """
-        arxiv_url = None
-        hal_url = None
-        rg_url = None
-        
-        # Look for comments containing preprint info
-        comment_match = re.search(r'%\s*(.*?)$', content, re.MULTILINE)
-        if comment_match:
-            comment = comment_match.group(1)
-            if self.verbose >= 3:
-                print(f"[PARSE] Found comment: {comment}")
-            
-            # Check for Yes/No indicators for HAL, ArXiv, RG
-            if 'Yes' in comment:
-                # Extract what's marked as Yes
-                yes_items = []
-                if re.search(r'Yes\s*[-–]\s*HAL', comment, re.IGNORECASE):
-                    yes_items.append('HAL')
-                if re.search(r'Yes\s*[-–]\s*Arxiv', comment, re.IGNORECASE):
-                    yes_items.append('ArXiv')
-                if re.search(r'Yes\s*[-–]\s*RG', comment, re.IGNORECASE):
-                    yes_items.append('RG')
-                
-                # Also handle format like "Yes - (Arxiv & RG)"
-                paren_match = re.search(r'Yes\s*[-–]\s*\((.*?)\)', comment, re.IGNORECASE)
-                if paren_match:
-                    items = paren_match.group(1)
-                    if 'HAL' in items:
-                        yes_items.append('HAL')
-                    if 'Arxiv' in items or 'ArXiv' in items:
-                        yes_items.append('ArXiv')
-                    if 'RG' in items:
-                        yes_items.append('RG')
-                
-                if self.verbose >= 3 and yes_items:
-                    print(f"[PARSE] Preprint available on: {', '.join(yes_items)}")
-        
-        # Extract actual URLs from the content
-        # Look for ArXiv URLs
-        arxiv_match = re.search(r'https?://arxiv\.org/abs/(\d+\.\d+)/?', content)
-        if arxiv_match:
-            arxiv_url = arxiv_match.group(0).rstrip('/')
-            if self.verbose >= 2:
-                print(f"[PARSE] Found ArXiv URL: {arxiv_url}")
-        
-        # Look for HAL URLs
-        hal_match = re.search(r'https?://hal\.[a-z\-]+\.fr/[a-z\-]+\d+/?', content)
-        if hal_match:
-            hal_url = hal_match.group(0).rstrip('/')
-            if self.verbose >= 2:
-                print(f"[PARSE] Found HAL URL: {hal_url}")
-        
-        return arxiv_url, hal_url, rg_url
     
     def _parse_authors_and_title(self, content: str, entry: Dict) -> None:
         """Parse authors and title from the entry."""

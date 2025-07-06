@@ -2,23 +2,30 @@
 # Author: Dr. Denys Dutykh
 # Date: 2025-01-04
 
-.PHONY: help install clean clean-cache clean-search-cache clean-all test test-api run lint format check
+.PHONY: help install clean clean-cache clean-search-cache clean-publisher-cache clean-llm-cache clean-all test test-api test-papers run run-papers run-papers-full lint format check cache-info
 
 # Default target
 help:
-	@echo "latex2json - LaTeX to JSON converter for collaborator data"
+	@echo "latex2json - LaTeX to JSON converter for academic data"
+	@echo "Supports: collaborators, papers, book chapters"
 	@echo ""
 	@echo "Available targets:"
-	@echo "  make install           - Install Python dependencies"
-	@echo "  make clean             - Clean cache files only (preserves outputs)"
-	@echo "  make clean-cache       - Clean only cache files"
-	@echo "  make clean-search-cache - Clean only the search cache file"
-	@echo "  make test              - Run test with sample data"
-	@echo "  make test-api          - Test Google API configuration"
-	@echo "  make run FILE=...      - Run on specific file (e.g., make run FILE=collab_excerpts.tex)"
-	@echo "  make lint              - Run code linting with ruff"
-	@echo "  make format            - Format code with ruff"
-	@echo "  make check             - Run security checks with safety"
+	@echo "  make install              - Install Python dependencies"
+	@echo "  make clean                - Clean all cache files (preserves outputs)"
+	@echo "  make clean-cache          - Clean all cache files"
+	@echo "  make clean-search-cache   - Clean only search cache"
+	@echo "  make clean-publisher-cache - Clean publisher & paper search caches"
+	@echo "  make clean-llm-cache      - Clean all LLM-related caches"
+	@echo "  make test                 - Run test with sample collaborator data"
+	@echo "  make test-papers          - Test paper conversion with sample data"
+	@echo "  make test-api             - Test Google API configuration"
+	@echo "  make run FILE=...         - Run collaborator extraction"
+	@echo "  make run-papers           - Run paper conversion (full)"
+	@echo "  make run-papers-full      - Run paper conversion with all features"
+	@echo "  make cache-info           - Show cache file information"
+	@echo "  make lint                 - Run code linting with ruff"
+	@echo "  make format               - Format code with ruff"
+	@echo "  make check                - Run security checks with safety"
 
 # Install dependencies
 install:
@@ -41,6 +48,24 @@ clean-search-cache:
 	@echo "Cleaning search cache file..."
 	@rm -f cache/.search_cache.json
 	@echo "✓ Search cache cleaned"
+
+# Clean only publisher-related cache files
+clean-publisher-cache:
+	@echo "Cleaning publisher cache files..."
+	@rm -f cache/.publisher_cache.json
+	@rm -f cache/.paper_search_cache.json
+	@rm -f cache/.content_extraction_cache.json
+	@echo "✓ Publisher cache files cleaned"
+
+# Clean only LLM cache files
+clean-llm-cache:
+	@echo "Cleaning LLM cache files..."
+	@rm -f cache/.llm_cache.json
+	@rm -f cache/.llm_unified_*.json
+	@rm -f cache/.llm_websearch_cache.json
+	@rm -f cache/.llm_parse_cache.json
+	@rm -f cache/.llm_enricher_cache.json
+	@echo "✓ LLM cache files cleaned"
 
 # Clean everything including Python cache
 clean-all: clean
@@ -77,6 +102,14 @@ run-full:
 run-nocache: clean-cache
 	python3 src/collab2json.py collab_excerpts.tex --output collaborators.json -v 2
 
+# Run papers with cache disabled
+run-papers-nocache: clean-publisher-cache clean-llm-cache
+	python3 src/pub2json.py -v 2
+
+# Run papers in dry-run mode (no API calls)
+run-papers-dry:
+	python3 src/pub2json.py --dry-run -v 2
+
 # Run chapter conversion
 run-chapters:
 	python3 src/chpts2json.py -v 2
@@ -84,6 +117,15 @@ run-chapters:
 # Run publication conversion
 run-papers:
 	python3 src/pub2json.py -v 2
+
+# Run publication conversion with all features enabled
+run-papers-full:
+	python3 src/pub2json.py -v 2 -i input_data/list_of_papers.tex -o output_data/papers.json
+
+# Test paper conversion with test file
+test-papers:
+	@echo "Running test with sample papers..."
+	python3 src/pub2json.py -i input_data/papers-test.tex -o output_data/papers-test.json -v 2
 
 # Code quality checks
 lint:
@@ -115,11 +157,19 @@ cache-info:
 	@ls -lh cache/.*.json 2>/dev/null || echo "No cache files found"
 	@echo ""
 	@echo "Cache entries:"
-	@for f in cache/.*.json; do \
-		if [ -f "$$f" ]; then \
-			echo "$$f: $$(cat $$f | jq 'keys | length' 2>/dev/null || echo "invalid JSON")"; \
-		fi \
-	done
+	@echo "  API cache:         $$(cat cache/.api_cache.json 2>/dev/null | jq 'keys | length' 2>/dev/null || echo '0') entries"
+	@echo "  Keyword cache:     $$(cat cache/.keyword_cache.json 2>/dev/null | jq 'keys | length' 2>/dev/null || echo '0') entries"
+	@echo "  Geocode cache:     $$(cat cache/.geocode_cache.json 2>/dev/null | jq 'keys | length' 2>/dev/null || echo '0') entries"
+	@echo "  Search cache:      $$(cat cache/.search_cache.json 2>/dev/null | jq 'keys | length' 2>/dev/null || echo '0') entries"
+	@echo "  Publisher cache:   $$(cat cache/.publisher_cache.json 2>/dev/null | jq 'keys | length' 2>/dev/null || echo '0') entries"
+	@echo "  Paper search:      $$(cat cache/.paper_search_cache.json 2>/dev/null | jq 'keys | length' 2>/dev/null || echo '0') entries"
+	@echo "  Content extract:   $$(cat cache/.content_extraction_cache.json 2>/dev/null | jq 'keys | length' 2>/dev/null || echo '0') entries"
+	@echo "  LLM cache:         $$(cat cache/.llm_cache.json 2>/dev/null | jq 'keys | length' 2>/dev/null || echo '0') entries"
+	@echo "  LLM parse:         $$(cat cache/.llm_parse_cache.json 2>/dev/null | jq 'keys | length' 2>/dev/null || echo '0') entries"
+	@echo "  LLM enricher:      $$(cat cache/.llm_enricher_cache.json 2>/dev/null | jq 'keys | length' 2>/dev/null || echo '0') entries"
+	@echo "  LLM websearch:     $$(cat cache/.llm_websearch_cache.json 2>/dev/null | jq 'keys | length' 2>/dev/null || echo '0') entries"
+	@echo ""
+	@echo "Total cache size: $$(du -sh cache/ 2>/dev/null | cut -f1 || echo '0')"
 
 # Create sample config from example
 config:

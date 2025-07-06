@@ -1217,6 +1217,119 @@ Return ONLY a JSON object with these fields:
         
         return collaborator
 
+    async def fix_found_values(self, existing_data: List[Dict]) -> List[Dict]:
+        """
+        Fix entries where Google Scholar is marked as 'found' by re-searching.
+        
+        Args:
+            existing_data: List of existing collaborator data
+            
+        Returns:
+            Updated list with actual Google Scholar IDs where possible
+        """
+        self.display.section("Fixing 'found' Google Scholar Values", Icons.SEARCH)
+        
+        # Find entries that need fixing
+        entries_to_fix = []
+        for collaborator in existing_data:
+            profiles = collaborator.get('profiles', {})
+            academic_metrics = collaborator.get('academicMetrics', {})
+            
+            # Check if Google Scholar needs fixing
+            needs_fix = (
+                profiles.get('google_scholar') == 'found' or
+                academic_metrics.get('scholar_id') == 'found'
+            )
+            
+            if needs_fix:
+                entries_to_fix.append(collaborator)
+        
+        if not entries_to_fix:
+            self.display.info("No 'found' values to fix", "", Icons.CHECK)
+            return existing_data
+        
+        self.display.info("Entries needing fixes", len(entries_to_fix), Icons.INFO)
+        
+        # Process each entry
+        fixed_count = 0
+        null_count = 0
+        for idx, collaborator in enumerate(entries_to_fix, 1):
+            name = f"{collaborator.get('firstName', '')} {collaborator.get('lastName', '')}"
+            affiliation = collaborator.get('affiliation', '')
+            country = collaborator.get('country', '')
+            
+            if self.verbose >= 2:
+                print(f"\n[Fix] Processing #{idx}/{len(entries_to_fix)}: {name}")
+                print(f"      Current Google Scholar: {collaborator.get('profiles', {}).get('google_scholar', 'N/A')}")
+            
+            # Clear search cache for this person to force fresh search
+            cache_key = f"{name}|{affiliation}|{country}"
+            if cache_key in self.search_cache:
+                del self.search_cache[cache_key]
+            
+            # Re-search for this researcher
+            try:
+                search_result = await self.search_researcher_info(name, affiliation, country)
+                
+                # Check if we got a real Google Scholar ID
+                new_scholar_id = search_result.get('profiles', {}).get('google_scholar')
+                if new_scholar_id and new_scholar_id != 'found':
+                    # Update the collaborator data
+                    collaborator['profiles']['google_scholar'] = new_scholar_id
+                    
+                    # Update academic metrics
+                    if 'academicMetrics' in collaborator:
+                        collaborator['academicMetrics']['scholar_id'] = new_scholar_id
+                        # Try to get actual metrics
+                        if search_result.get('academic_metrics'):
+                            collaborator['academicMetrics'].update(search_result['academic_metrics'])
+                    
+                    fixed_count += 1
+                    if self.verbose >= 2:
+                        print(f"      ✓ Fixed! New Google Scholar ID: {new_scholar_id}")
+                else:
+                    # No Google Scholar profile found - set to None instead of "found"
+                    collaborator['profiles']['google_scholar'] = None
+                    if 'academicMetrics' in collaborator:
+                        collaborator['academicMetrics']['scholar_id'] = None
+                        collaborator['academicMetrics']['source'] = None
+                    
+                    null_count += 1
+                    if self.verbose >= 2:
+                        print(f"      ℹ️  No Google Scholar profile exists for this researcher")
+                
+                # Also update other profiles if we found new ones
+                for profile_type, profile_id in search_result.get('profiles', {}).items():
+                    if profile_id and profile_id != 'found' and not collaborator['profiles'].get(profile_type):
+                        collaborator['profiles'][profile_type] = profile_id
+                        if self.verbose >= 3:
+                            print(f"      + Also found {profile_type}: {profile_id}")
+                
+                # Progress display
+                if self.verbose >= 1 and self.verbose < 2:
+                    self.display.progress(idx, len(entries_to_fix), "Fixing")
+                
+                # Rate limiting
+                time.sleep(1.5)
+                
+            except Exception as e:
+                if self.verbose >= 2:
+                    print(f"      ⚠️  Error during re-search: {str(e)}")
+        
+        # Summary
+        self.display.section("Fix Summary", Icons.CHECK)
+        self.display.info("Total entries processed", len(entries_to_fix), Icons.PERSON)
+        self.display.info("Successfully fixed with real IDs", fixed_count, Icons.CHECK)
+        self.display.info("Set to null (no profile exists)", null_count, Icons.INFO)
+        unfixed = len(entries_to_fix) - fixed_count - null_count
+        if unfixed > 0:
+            self.display.warning(f"Could not process: {unfixed}")
+        
+        # Save updated caches
+        self._save_caches()
+        
+        return existing_data
+    
     async def process_collaborators(self, tex_content: str, 
                                   skip_geocoding: bool = False,
                                   skip_search: bool = False,
@@ -1678,6 +1791,11 @@ async def main():
         action="store_true",
         help="Re-verify existing researcher profiles (email, homepage, ResearchGate, etc.) using strict validation rules"
     )
+    parser.add_argument(
+        "--fix-found-values",
+        action="store_true",
+        help="Fix entries where Google Scholar is marked as 'found' by re-searching and extracting actual IDs"
+    )
     
     args = parser.parse_args()
     
@@ -1791,6 +1909,23 @@ async def main():
             verify_only=True,
             existing_data=existing_data
         )
+    elif args.fix_found_values:
+        # Handle fix-found-values mode
+        # Check if output file exists
+        if not output_json_path.exists():
+            display.error(f"Output file not found for fixing: {output_json_path}")
+            display.info("Run without --fix-found-values flag first to generate the data", "", Icons.INFO)
+            return
+        
+        # Load existing data
+        display.timed_info("Loading existing data for fixing 'found' values...", Icons.BOOK)
+        with open(output_json_path, 'r', encoding='utf-8') as f:
+            existing_data = json.load(f)
+        display.success(f"Loaded {len(existing_data)} collaborators")
+        
+        # Fix found values
+        collaborators = await extractor.fix_found_values(existing_data)
+        failed_geocode = []  # Not relevant for fix mode
     else:
         # Normal processing
         collaborators, failed_geocode = await extractor.process_collaborators(
@@ -1834,6 +1969,14 @@ async def main():
         stats["Items removed in verification"] = total_removed
         stats["Profiles with removals"] = sum(1 for c in collaborators if c.get('verification_removed'))
     
+    # Add fix stats if in fix-found-values mode
+    if args.fix_found_values:
+        stats["Fixed Google Scholar IDs"] = sum(1 for c in collaborators 
+                                               if c.get('profiles', {}).get('google_scholar') 
+                                               and c.get('profiles', {}).get('google_scholar') != 'found')
+        stats["Remaining 'found' values"] = sum(1 for c in collaborators 
+                                               if c.get('profiles', {}).get('google_scholar') == 'found')
+    
     display.summary_table(stats)
     
     # Show failures if any
@@ -1847,6 +1990,8 @@ async def main():
     # Final message
     if args.verify:
         display.header(f"Verification Complete! {Icons.CHECK}", Icons.SPARKLES)
+    elif args.fix_found_values:
+        display.header(f"Fix Complete! {Icons.CHECK}", Icons.SPARKLES)
     else:
         display.header(f"Extraction Complete! {Icons.CHECK}", Icons.SPARKLES)
     display.timed_info(f"Total execution time: {elapsed_time:.2f} seconds", Icons.STOPWATCH)

@@ -413,11 +413,8 @@ class MetadataEnricher:
                 if "doi.org" not in publisher_url:
                     return True
 
-        # Skip if URL is just a repository link (HAL, arXiv)
-        if "arxiv.org" in url or "hal.archives" in url or "hal.science" in url:
-            if self.verbose >= 3:
-                print("[ENRICH] Skipping repository URL")
-            return False
+        # For preprint URLs, we'll now try to extract metadata
+        # The paper_content_extractor will handle these specifically
 
         try:
             await self._rate_limit("url")
