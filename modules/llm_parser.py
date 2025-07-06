@@ -80,7 +80,11 @@ Important parsing rules:
 2. Remove LaTeX formatting like \\textbf{}, \\textit{}, \\textsc{}
 3. Journal info typically follows pattern: "Journal Name, volume(issue), pages, year"
 4. Volume may be in \\textbf{} - extract the number
-5. Pages can be "123--456" or just an article number like "106518"
+5. Pages can be:
+   - Page range: "123--456" or "123-456" 
+   - Numeric article ID: "106518", "132" (any number of digits)
+   - Alphanumeric article ID: "e0305534" (common in PLOS journals)
+   - Extract as {article_number: "value"} for article IDs
 6. Handle journal abbreviations properly (keep dots in abbreviations)
 7. Convert LaTeX special characters (---, --, ~) appropriately
 8. Extract ALL URLs found in the entry:

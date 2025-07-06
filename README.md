@@ -24,9 +24,14 @@ A comprehensive Python toolkit for parsing LaTeX files containing academic data 
 
 - **Journal Paper Parser** (`src/pub2json.py`):
   - Parses LaTeX journal entries from `etaremune` environments with year sections
-  - Extracts preprint URLs from LaTeX comments (ArXiv, HAL, ResearchGate)
-  - LLM-powered parsing for complex entries
-  - Comprehensive metadata enrichment from multiple sources
+  - LLM-powered parsing with automatic fallback (Gemini → Claude)
+  - Publisher identification using LLM for targeted searches
+  - Optimized web search with single-query strategy
+  - Content extraction from publisher URLs and preprint servers
+  - Double-layer abstract extraction (publisher → preprint fallback)
+  - AI-powered keyword generation (only when abstract is available)
+  - Comprehensive article number extraction (numeric, alphanumeric, PLOS format)
+  - Blocked publisher detection and caching
   - Detailed verbose output for debugging and monitoring
 
 ### Advanced Features
@@ -35,6 +40,8 @@ A comprehensive Python toolkit for parsing LaTeX files containing academic data 
   - Intelligent parsing for complex LaTeX entries
   - AI-powered keyword generation
   - LLM-based location extraction from search results
+  - Publisher identification from journal names
+  - Content extraction from web pages
 - **Profile Verification**:
   - ORCID API integration for name verification
   - ResearchGate profile validation
@@ -170,12 +177,15 @@ python3 src/pub2json.py [options]
 
 Options:
 - `-i, --input`: Input LaTeX file (default: `input_data/list_of_papers.tex`)
-- `-o, --output`: Output JSON file (default: `output_data/pubs.json`)
+- `-o, --output`: Output JSON file (default: `output_data/papers.json`)
 - `-c, --config`: Configuration file (default: `config.json`)
 - `-v, --verbose`: Verbosity level 0-3 (default: 2)
 - `--dry-run`: Parse only, no API calls
 - `--no-keywords`: Disable keyword generation
 - `--force`: Overwrite existing output file
+- `--no-web-search`: Disable web search for papers
+- `--no-content-extraction`: Disable content extraction from URLs
+- `--no-publisher-id`: Disable publisher identification
 
 Examples:
 ```bash
@@ -257,6 +267,9 @@ latex2json/
 │   ├── llm_provider.py      # Unified LLM provider interface
 │   ├── llm_search_engines.py # Academic search engines
 │   ├── metadata_enricher.py # Metadata fetching from APIs
+│   ├── paper_content_extractor.py # Extract content from URLs
+│   ├── paper_web_search.py # Paper-specific web search
+│   ├── publisher_identifier.py # Identify publishers from journals
 │   ├── simple_search.py     # Simple web search implementation
 │   └── web_search.py        # Advanced web search with LLM
 ├── input_data/           # Input LaTeX files
@@ -274,17 +287,23 @@ latex2json/
 ```
 
 ### Cache Files (auto-generated, git-ignored)
+
+#### Root Directory Caches
 - `.geocode_cache.json`: Geocoding results cache
 - `.search_cache.json`: Web search results and ORCID verification cache
 - `.api_cache.json`: API response cache (CrossRef, publishers)
 - `.keyword_cache.json`: Generated keywords cache
-- `.llm_cache.json`: Basic LLM parsing cache
+
+#### Cache Directory (`cache/`)
 - `.llm_unified_parse_cache.json`: Unified parser cache (Gemini/Claude)
 - `.llm_unified_location_cache.json`: LLM location extraction cache
 - `.llm_unified_profile_cache.json`: LLM profile analysis cache
 - `.llm_websearch_cache.json`: LLM web search extraction cache
 - `.llm_enricher_cache.json`: LLM enrichment response cache
 - `.llm_parse_cache.json`: LLM parsing results cache
+- `.paper_search_cache.json`: Paper web search results
+- `.content_extraction_cache.json`: Content extraction from URLs
+- `.publisher_cache.json`: Publisher identification cache
 
 ## Development
 
@@ -328,6 +347,50 @@ The project integrates with multiple APIs for enriched metadata:
 - **Publisher APIs**: Direct metadata from Springer, Elsevier, etc.
 - **ArXiv API**: Preprint metadata and abstracts
 - **HAL API**: French research archive metadata
+
+## Recent Improvements (2025-07-06)
+
+### Journal Paper Parser Enhancements (`pub2json.py`)
+
+#### LLM-Powered Features
+- **Publisher Identification**: Uses LLM to identify which publisher publishes each journal
+- **Smart Web Search**: Single-query strategy reduces API calls by 67%
+- **Content Extraction**: LLM-based extraction from publisher web pages
+- **Preprint URL Extraction**: LLM identifies ArXiv and HAL URLs from LaTeX entries
+
+#### Article Number Extraction
+- **Comprehensive Support**: Now extracts all article number formats:
+  - Short numeric (e.g., "132")
+  - Long numeric (e.g., "106518")
+  - Alphanumeric (e.g., "e0305534" for PLOS journals)
+- **Fixed Parsing Issues**: Resolved undefined variable errors in fallback parser
+- **Enhanced Display**: Shows article IDs clearly in verbose output
+
+#### Search Optimization
+- **Blocked Publisher Handling**: Automatically detects and caches blocked publishers (e.g., Elsevier)
+- **Domain-Based Ranking**: Prioritizes results by domain authority
+- **Reduced LLM Validation**: Trusts known domains to minimize API calls
+- **Extraction Failure Caching**: Remembers failed attempts to avoid repetition
+
+#### Quality Control
+- **Abstract-Keyword Rule**: Keywords only generated when abstract is available
+- **Double-Layer Extraction**: Publisher first, then preprint fallback
+- **Per-Paper Summary**: Detailed output showing what was extracted vs. found online
+
+#### Cache Management
+- **Multiple Cache Types**:
+  - `.llm_parse_cache.json`: LLM parsing results
+  - `.paper_search_cache.json`: Web search results  
+  - `.content_extraction_cache.json`: Content extraction results
+  - `.publisher_cache.json`: Publisher identification cache
+- **Cache Clearing**: Remove specific caches to reprocess:
+  ```bash
+  # Clear parsing cache to re-extract article numbers
+  rm cache/.llm_parse_cache.json
+  
+  # Clear all paper-related caches
+  rm -f cache/.paper_search_cache.json cache/.content_extraction_cache.json
+  ```
 
 ## Recent Improvements (2025-07-05)
 
@@ -440,13 +503,22 @@ The `config.json` file supports extensive customization:
   },
   "llm_config": {
     "primary_model": "gemini-2.5-flash",
-    "fallback_model": "claude-3-haiku-20240307",
+    "fallback_model": "claude-3-5-sonnet-20241022",
     "auto_fallback": true
   },
   "search_settings": {
     "quality_mode": true,
     "use_llm_extraction": true,
     "verify_profiles": true
+  },
+  "paper_search_settings": {
+    "use_smart_single_search": true,
+    "blocked_publishers": ["Elsevier", "ScienceDirect"],
+    "domain_priority": {
+      "publisher": 1.0,
+      "preprint": 0.9,
+      "repository": 0.8
+    }
   },
   "caching": {
     "api_cache_expiry_days": 30,

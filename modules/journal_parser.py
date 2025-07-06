@@ -149,7 +149,7 @@ class LatexJournalParser:
                             elif field == 'pages':
                                 llm_result[field] = {}
                             elif field == 'open_access':
-                                llm_result[field] = bool(arxiv_url or hal_url)
+                                llm_result[field] = bool(llm_result.get('arxiv_url') or llm_result.get('hal_url'))
                             else:
                                 llm_result[field] = ''
                     
@@ -222,7 +222,10 @@ class LatexJournalParser:
                     vol_info += f"({entry['issue']})"
                 print(f"  - Volume/Issue: {vol_info}")
             if entry['pages']:
-                print(f"  - Pages: {entry['pages'].get('start', '?')}-{entry['pages'].get('end', '?')}")
+                if 'article_number' in entry['pages']:
+                    print(f"  - Article ID: {entry['pages']['article_number']}")
+                else:
+                    print(f"  - Pages: {entry['pages'].get('start', '?')}-{entry['pages'].get('end', '?')}")
             if entry['year']:
                 print(f"  - Year: {entry['year']}")
             if entry['arxiv_url']:
@@ -371,9 +374,13 @@ class LatexJournalParser:
                 "end": int(pages_match.group(2))
             }
         else:
-            # Format 2: Article number (e.g., "106518")
-            # Look for pattern: ", number, year"
-            article_match = re.search(r',\s*(\d{4,}),\s*\d{4}', content)
+            # Format 2: Article numbers - try multiple patterns
+            # Pattern 2a: Alphanumeric (e.g., "e0305534" for PLOS)
+            article_match = re.search(r',\s*([a-zA-Z]\d+),\s*\d{4}', content)
+            if not article_match:
+                # Pattern 2b: Any length numeric (e.g., "132", "106518")
+                article_match = re.search(r',\s*(\d+),\s*\d{4}', content)
+            
             if article_match:
                 article_num = article_match.group(1)
                 entry["pages"] = {
@@ -381,6 +388,16 @@ class LatexJournalParser:
                 }
                 if self.verbose >= 3:
                     print(f"[PARSE] Found article number: {article_num}")
+            else:
+                # Format 3: Article ID after issue number (e.g., "19(8), e0305534, 2024")
+                issue_article_match = re.search(r'\)\s*,\s*([a-zA-Z]?\d+)\s*,\s*\d{4}', content)
+                if issue_article_match:
+                    article_num = issue_article_match.group(1)
+                    entry["pages"] = {
+                        "article_number": article_num
+                    }
+                    if self.verbose >= 3:
+                        print(f"[PARSE] Found article number: {article_num}")
         
         # Parse year if not already set (format: ", 2024")
         if not entry["year"]:

@@ -1,6 +1,3 @@
-# Ignore cache directory and all cache files
-cache/
-
 # Ignore user configuration (but not the example)
 config.json
 

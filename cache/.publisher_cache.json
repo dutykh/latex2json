@@ -1,0 +1,740 @@
+{
+  "case stud. therm. eng|": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.85,
+    "timestamp": 1751781172.0198228
+  },
+  "earth planet. sci. lett|": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.85,
+    "timestamp": 1751781174.3295176
+  },
+  "class. quantum gravity|": {
+    "publisher": "IOP Publishing",
+    "platform": "IOPscience",
+    "confidence": 0.9,
+    "timestamp": 1751781174.331583
+  },
+  "eur. phys. j. plus|": {
+    "publisher": "Springer",
+    "platform": "SpringerLink",
+    "confidence": 0.9,
+    "timestamp": 1751781174.3324842
+  },
+  "math. comput. simul|": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.85,
+    "timestamp": 1751781176.0206025
+  },
+  "case stud. therm. eng.|": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.9,
+    "timestamp": 1751792084.478348
+  },
+  "earth planet. sci. lett.|": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.9,
+    "timestamp": 1751792084.4796057
+  },
+  "math. comput. simul.|": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.9,
+    "timestamp": 1751792084.4806
+  },
+  "eur. phys. j. c|": {
+    "publisher": "Springer",
+    "platform": "SpringerLink",
+    "confidence": 0.9,
+    "timestamp": 1751792084.4813051
+  },
+  "rend. mat. appl. (7)|": {
+    "publisher": "Sapienza Università di Roma",
+    "platform": "Rendiconti di Matematica",
+    "confidence": 0.8,
+    "timestamp": 1751792091.6423724
+  },
+  "math. methods appl. sci.|": {
+    "publisher": "Wiley",
+    "platform": "Wiley Online Library",
+    "confidence": 0.85,
+    "timestamp": 1751792093.7961385
+  },
+  "phys. rev. d|": {
+    "publisher": "American Physical Society",
+    "platform": "APS Journals",
+    "confidence": 0.85,
+    "timestamp": 1751792093.7976165
+  },
+  "phys. rev. res.|": {
+    "publisher": "American Physical Society",
+    "platform": "APS Journals",
+    "confidence": 0.85,
+    "timestamp": 1751792093.798542
+  },
+  "plos one|": {
+    "publisher": "Public Library of Science (PLoS)",
+    "platform": "PLoS Journals",
+    "confidence": 0.85,
+    "timestamp": 1751792096.6374702
+  },
+  "stud. appl. math.|": {
+    "publisher": "Wiley",
+    "platform": "Wiley Online Library",
+    "confidence": 0.85,
+    "timestamp": 1751792098.5654986
+  },
+  "solar energy|": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.85,
+    "timestamp": 1751792100.1611595
+  },
+  "j. geophys. res. solid earth|": {
+    "publisher": "American Geophysical Union (AGU)",
+    "platform": "Wiley Online Library",
+    "confidence": 0.85,
+    "timestamp": 1751792102.874686
+  },
+  "annalen der physik|": {
+    "publisher": "Wiley-VCH (John Wiley & Sons)",
+    "platform": "Wiley Online Library",
+    "confidence": 0.85,
+    "timestamp": 1751792105.6874893
+  },
+  "journal of theoretical biology|10.1016/j.jtbi.2023.111696": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.95,
+    "timestamp": 1751792105.6901371
+  },
+  "natural hazards|10.1007/s11069-023-06071-1": {
+    "publisher": "Springer",
+    "platform": "SpringerLink",
+    "confidence": 0.95,
+    "timestamp": 1751792105.691429
+  },
+  "natural hazards|10.1007/s11069-023-06004-y": {
+    "publisher": "Springer",
+    "platform": "SpringerLink",
+    "confidence": 0.95,
+    "timestamp": 1751792105.69254
+  },
+  "partial differ. equations appl. math.|10.1016/j.padiff.2023.100519": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.95,
+    "timestamp": 1751792105.695762
+  },
+  "softwarex|10.1016/j.softx.2023.101394": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.95,
+    "timestamp": 1751792105.697355
+  },
+  "j. build. perform. simul.|10.1080/19401493.2022.2080864": {
+    "publisher": "Taylor & Francis",
+    "platform": "Taylor & Francis Online",
+    "confidence": 0.95,
+    "timestamp": 1751792105.6980128
+  },
+  "j. build. perform. simul.|10.1080/19401493.2022.2126527": {
+    "publisher": "Taylor & Francis",
+    "platform": "Taylor & Francis Online",
+    "confidence": 0.95,
+    "timestamp": 1751792105.6993442
+  },
+  "geosciences|": {
+    "publisher": "American Association for the Advancement of Science",
+    "platform": "Science.org",
+    "confidence": 0.85,
+    "timestamp": 1751792105.7004292
+  },
+  "bioengineering|": {
+    "publisher": "MDPI",
+    "platform": "MDPI.com",
+    "confidence": 0.85,
+    "timestamp": 1751792107.261182
+  },
+  "information visualization|": {
+    "publisher": "SAGE Publishing",
+    "platform": "SAGE Journals",
+    "confidence": 0.85,
+    "timestamp": 1751792114.7358987
+  },
+  "analysis and mathematical physics|": {
+    "publisher": "Springer",
+    "platform": "SpringerLink",
+    "confidence": 0.85,
+    "timestamp": 1751792116.4575317
+  },
+  "uniform distribution theory|": {
+    "publisher": "Austrian Academy of Sciences Press",
+    "platform": "Austrian Academy of Sciences (ÖAW) Journal Website",
+    "confidence": 0.85,
+    "timestamp": 1751792119.5833917
+  },
+  "drones|": {
+    "publisher": "MDPI",
+    "platform": "MDPI.com",
+    "confidence": 0.85,
+    "timestamp": 1751792121.0254486
+  },
+  "softwarex|": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.85,
+    "timestamp": 1751792122.8873892
+  },
+  "ocean engineering|": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.85,
+    "timestamp": 1751792124.3263707
+  },
+  "journal of applied mechanics and technical physics|": {
+    "publisher": "Springer",
+    "platform": "SpringerLink",
+    "confidence": 0.85,
+    "timestamp": 1751792127.0083408
+  },
+  "res. number theory|": {
+    "publisher": "Springer",
+    "platform": "SpringerLink",
+    "confidence": 0.85,
+    "timestamp": 1751792129.4905467
+  },
+  "sustainability|": {
+    "publisher": "MDPI",
+    "platform": "MDPI",
+    "confidence": 0.85,
+    "timestamp": 1751792130.963257
+  },
+  "water waves|": {
+    "publisher": "Springer",
+    "platform": "SpringerLink",
+    "confidence": 0.85,
+    "timestamp": 1751792138.502009
+  },
+  "symmetry|": {
+    "publisher": "MDPI",
+    "platform": "MDPI",
+    "confidence": 0.85,
+    "timestamp": 1751792140.24268
+  },
+  "fluids|": {
+    "publisher": "MDPI",
+    "platform": "MDPI (www.mdpi.com)",
+    "confidence": 0.85,
+    "timestamp": 1751792142.4959176
+  },
+  "gem --- int. j. geomath.|": {
+    "publisher": "Springer",
+    "platform": "SpringerLink",
+    "confidence": 0.85,
+    "timestamp": 1751792148.5374355
+  },
+  "j. ocean eng. mar. energy|": {
+    "publisher": "Springer",
+    "platform": "SpringerLink",
+    "confidence": 0.85,
+    "timestamp": 1751792150.7823033
+  },
+  "computational technologies|": {
+    "publisher": "Scientific Technical Union of Mechanical Engineering",
+    "platform": "stumejournals.com",
+    "confidence": 0.85,
+    "timestamp": 1751792154.0695295
+  },
+  "applied ocean research|": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.85,
+    "timestamp": 1751792155.8585436
+  },
+  "water|": {
+    "publisher": "MDPI",
+    "platform": "MDPI",
+    "confidence": 0.85,
+    "timestamp": 1751792157.5400383
+  },
+  "izvestiya, atmospheric and oceanic physics|": {
+    "publisher": "Springer",
+    "platform": "SpringerLink",
+    "confidence": 0.85,
+    "timestamp": 1751792162.8748035
+  },
+  "izv. atmos. ocean. phys.|": {
+    "publisher": "Springer",
+    "platform": "SpringerLink",
+    "confidence": 0.85,
+    "timestamp": 1751792169.4080124
+  },
+  "mathematics|": {
+    "publisher": "MDPI",
+    "platform": "MDPI website",
+    "confidence": 0.85,
+    "timestamp": 1751792172.397053
+  },
+  "engineering reports|": {
+    "publisher": "Wiley",
+    "platform": "Wiley Online Library",
+    "confidence": 0.85,
+    "timestamp": 1751792174.4446793
+  },
+  "int. j. therm. sci.|": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.85,
+    "timestamp": 1751792175.9806173
+  },
+  "natural hazards|": {
+    "publisher": "Springer",
+    "platform": "SpringerLink",
+    "confidence": 0.85,
+    "timestamp": 1751792177.8298185
+  },
+  "phys. lett. a|": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.85,
+    "timestamp": 1751792180.2122428
+  },
+  "building simulation|": {
+    "publisher": "Springer",
+    "platform": "SpringerLink",
+    "confidence": 0.85,
+    "timestamp": 1751792182.2282794
+  },
+  "comput. phys. commun.|": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.9,
+    "timestamp": 1751792185.501532
+  },
+  "nat. hazards earth syst. sci.|": {
+    "publisher": "Copernicus Publications",
+    "platform": "Copernicus.org",
+    "confidence": 0.85,
+    "timestamp": 1751792187.8591943
+  },
+  "j. phys. a: math. theor.|": {
+    "publisher": "IOP Publishing",
+    "platform": "IOPscience",
+    "confidence": 0.85,
+    "timestamp": 1751792187.861769
+  },
+  "wave motion|": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.85,
+    "timestamp": 1751792197.1776721
+  },
+  "phys. d|": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.85,
+    "timestamp": 1751792198.7124674
+  },
+  "discrete & continuous dynamical systems --- a|": {
+    "publisher": "American Institute of Mathematical Sciences (AIMS)",
+    "platform": "AIMS Journals (aimsciences.org)",
+    "confidence": 0.85,
+    "timestamp": 1751792201.5804186
+  },
+  "appl. numer. math.|": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.85,
+    "timestamp": 1751792203.8253903
+  },
+  "inv. prob. sci. and eng.|": {
+    "publisher": "Taylor & Francis",
+    "platform": "Taylor & Francis Online",
+    "confidence": 0.85,
+    "timestamp": 1751792207.0825408
+  },
+  "numerical heat transfer, part a: applications|": {
+    "publisher": "Taylor & Francis",
+    "platform": "Taylor & Francis Online",
+    "confidence": 0.85,
+    "timestamp": 1751792209.661497
+  },
+  "aims mathematics|": {
+    "publisher": "American Institute of Mathematical Sciences (AIMS)",
+    "platform": "aimsciences.org",
+    "confidence": 0.85,
+    "timestamp": 1751792212.108508
+  },
+  "fluid dyn. res.|": {
+    "publisher": "IOP Publishing",
+    "platform": "IOPscience",
+    "confidence": 0.85,
+    "timestamp": 1751792214.2304697
+  },
+  "journal of the brazilian society of mechanical sciences and engineering|": {
+    "publisher": "American Association for the Advancement of Science",
+    "platform": "Science.org",
+    "confidence": 0.85,
+    "timestamp": 1751792214.232664
+  },
+  "int. j. numer. meth. eng.|": {
+    "publisher": "Wiley",
+    "platform": "Wiley Online Library",
+    "confidence": 0.85,
+    "timestamp": 1751792216.499734
+  },
+  "int. j. heat mass transf.|": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.85,
+    "timestamp": 1751792218.476879
+  },
+  "j. of build. perf. sim.|": {
+    "publisher": "Taylor & Francis",
+    "platform": "Taylor & Francis Online",
+    "confidence": 0.85,
+    "timestamp": 1751792221.8142896
+  },
+  "arnold mathematical journal|": {
+    "publisher": "Springer",
+    "platform": "SpringerLink",
+    "confidence": 0.85,
+    "timestamp": 1751792223.619388
+  },
+  "transport in porous media|": {
+    "publisher": "Springer",
+    "platform": "SpringerLink",
+    "confidence": 0.85,
+    "timestamp": 1751792228.7912207
+  },
+  "ocean eng.|": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.85,
+    "timestamp": 1751792230.4630373
+  },
+  "theor. comp. fluid dyn.|": {
+    "publisher": "Springer",
+    "platform": "SpringerLink",
+    "confidence": 0.85,
+    "timestamp": 1751792232.8654225
+  },
+  "building and environment|": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.85,
+    "timestamp": 1751792235.377613
+  },
+  "j. fluid mech.|": {
+    "publisher": "Cambridge University Press",
+    "platform": "Cambridge Core",
+    "confidence": 0.85,
+    "timestamp": 1751792240.0928109
+  },
+  "adv. water resour.|": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.85,
+    "timestamp": 1751792241.984833
+  },
+  "commun. comput. phys.|": {
+    "publisher": "Global Science Press",
+    "platform": "Global Science Press",
+    "confidence": 0.85,
+    "timestamp": 1751792244.1366832
+  },
+  "experimental thermal and fluid science|": {
+    "publisher": "American Association for the Advancement of Science",
+    "platform": "Science.org",
+    "confidence": 0.85,
+    "timestamp": 1751792244.1381304
+  },
+  "comm. nonlinear sci. numer. simulat.|": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.85,
+    "timestamp": 1751792246.949807
+  },
+  "commun. nonlinear sci. numer. simulat.|": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.85,
+    "timestamp": 1751792249.6072185
+  },
+  "j. comp. appl. math.|": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.85,
+    "timestamp": 1751792252.0155175
+  },
+  "appl. math. model.|": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.85,
+    "timestamp": 1751792254.3173602
+  },
+  "nonlinear dynamics|": {
+    "publisher": "Springer",
+    "platform": "SpringerLink",
+    "confidence": 0.85,
+    "timestamp": 1751792255.9087465
+  },
+  "math. model. nat. phenom.|": {
+    "publisher": "EDP Sciences",
+    "platform": "EDP Sciences",
+    "confidence": 0.85,
+    "timestamp": 1751792258.191086
+  },
+  "comm. nonlinear sci. numer. simul.|": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.85,
+    "timestamp": 1751792260.9726362
+  },
+  "appl. math. modelling|": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.85,
+    "timestamp": 1751792262.600422
+  },
+  "proc. r. soc. a.|": {
+    "publisher": "The Royal Society",
+    "platform": "Royal Society Publishing",
+    "confidence": 0.85,
+    "timestamp": 1751792264.9578242
+  },
+  "j. diff. equations|": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.85,
+    "timestamp": 1751792267.2435372
+  },
+  "epl|": {
+    "publisher": "IOP Publishing",
+    "platform": "IOPscience",
+    "confidence": 0.85,
+    "timestamp": 1751792269.4728348
+  },
+  "procedia iutam|": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.85,
+    "timestamp": 1751792271.7649524
+  },
+  "j. fluid mech.|10.1017/jfm.2015.616": {
+    "publisher": "Cambridge University Press",
+    "platform": "Cambridge Core",
+    "confidence": 0.95,
+    "timestamp": 1751792271.7674582
+  },
+  "rims kôkyûroku|": {
+    "publisher": "Research Institute for Mathematical Sciences, Kyoto University",
+    "platform": "RIMS Digital Library",
+    "confidence": 0.85,
+    "timestamp": 1751792281.1654341
+  },
+  "quart. appl. math.|": {
+    "publisher": "American Mathematical Society",
+    "platform": "AMS Journals",
+    "confidence": 0.85,
+    "timestamp": 1751792283.7057872
+  },
+  "ukr. j. phys.|": {
+    "publisher": "IOP Publishing",
+    "platform": "IOPscience",
+    "confidence": 0.85,
+    "timestamp": 1751792283.7080095
+  },
+  "phys. rev. e|": {
+    "publisher": "American Physical Society",
+    "platform": "APS Journals",
+    "confidence": 0.85,
+    "timestamp": 1751792283.7100103
+  },
+  "j. sci. comp.|": {
+    "publisher": "Springer",
+    "platform": "SpringerLink",
+    "confidence": 0.85,
+    "timestamp": 1751792285.9588284
+  },
+  "eur. phys. lett.|": {
+    "publisher": "IOP Publishing",
+    "platform": "IOPscience",
+    "confidence": 0.85,
+    "timestamp": 1751792292.6380043
+  },
+  "russian journal of numerical analysis and mathematical modelling|": {
+    "publisher": "De Gruyter",
+    "platform": "De Gruyter Online",
+    "confidence": 0.85,
+    "timestamp": 1751792299.3127425
+  },
+  "wave motion|10.1016/j.wavemoti.2013.06.007": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.95,
+    "timestamp": 1751792299.3153825
+  },
+  "geophys. res. lett.|": {
+    "publisher": "American Geophysical Union (AGU)",
+    "platform": "Wiley Online Library",
+    "confidence": 0.85,
+    "timestamp": 1751792301.2988906
+  },
+  "computers & fluids|10.1016/j.compfluid.2013.05.010": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.95,
+    "timestamp": 1751792304.6975305
+  },
+  "nonlin. processes geophys.|": {
+    "publisher": "Copernicus Publications",
+    "platform": "Copernicus.org",
+    "confidence": 0.85,
+    "timestamp": 1751792307.5940735
+  },
+  "computational mathematics and mathematical physics|": {
+    "publisher": "Springer",
+    "platform": "SpringerLink",
+    "confidence": 0.85,
+    "timestamp": 1751792313.5887434
+  },
+  "theor. comput. fluid dyn.|": {
+    "publisher": "Springer",
+    "platform": "SpringerLink",
+    "confidence": 0.85,
+    "timestamp": 1751792315.9616442
+  },
+  "int. j. num. meth. fluids|": {
+    "publisher": "Wiley",
+    "platform": "Wiley Online Library",
+    "confidence": 0.85,
+    "timestamp": 1751792317.702878
+  },
+  "ocean modelling|": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.85,
+    "timestamp": 1751792319.9479272
+  },
+  "jetp letters|": {
+    "publisher": "Springer",
+    "platform": "SpringerLink",
+    "confidence": 0.85,
+    "timestamp": 1751792327.7926457
+  },
+  "russ. j. numer. anal. math. modelling|": {
+    "publisher": "De Gruyter",
+    "platform": "De Gruyter Online",
+    "confidence": 0.85,
+    "timestamp": 1751792330.2873945
+  },
+  "phys. rev. lett.|": {
+    "publisher": "American Physical Society",
+    "platform": "APS Journals",
+    "confidence": 0.85,
+    "timestamp": 1751792333.137065
+  },
+  "studies in applied mathematics|": {
+    "publisher": "Wiley",
+    "platform": "Wiley Online Library",
+    "confidence": 0.85,
+    "timestamp": 1751792335.3423595
+  },
+  "european journal of mechanics b/fluids|": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.85,
+    "timestamp": 1751792338.0527837
+  },
+  "j. comp. phys.|": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.85,
+    "timestamp": 1751792339.4464672
+  },
+  "discrete and continuous dynamical systems|": {
+    "publisher": "American Institute of Mathematical Sciences (AIMS)",
+    "platform": "AIMS website (aimsciences.org)",
+    "confidence": 0.85,
+    "timestamp": 1751792342.3821447
+  },
+  "computer methods in applied mechanics and engineering|": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.85,
+    "timestamp": 1751792344.9416296
+  },
+  "computers and fluids|": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.85,
+    "timestamp": 1751792347.3121755
+  },
+  "proc. r. soc. a|": {
+    "publisher": "The Royal Society",
+    "platform": "Royal Society Publishing",
+    "confidence": 0.85,
+    "timestamp": 1751792349.7485301
+  },
+  "math. comp. sim.|": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.85,
+    "timestamp": 1751792351.9049985
+  },
+  "c. r. acad. sci. paris, ser. i|": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.85,
+    "timestamp": 1751792354.4625967
+  },
+  "c. r. mcanique|": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.85,
+    "timestamp": 1751792356.8198001
+  },
+  "comm. math. sci.|": {
+    "publisher": "International Press",
+    "platform": "International Press website",
+    "confidence": 0.85,
+    "timestamp": 1751794353.9997842
+  },
+  "computers & mathematics with applications|": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.85,
+    "timestamp": 1751794602.53267
+  },
+  "ima j. appl. math.|": {
+    "publisher": "Oxford University Press",
+    "platform": "Oxford Academic",
+    "confidence": 0.85,
+    "timestamp": 1751795782.3894618
+  },
+  "european journal of applied mathematics|": {
+    "publisher": "Cambridge University Press",
+    "platform": "Cambridge Core",
+    "confidence": 0.85,
+    "timestamp": 1751796375.5372384
+  },
+  "physica d|": {
+    "publisher": "Elsevier",
+    "platform": "ScienceDirect",
+    "confidence": 0.85,
+    "timestamp": 1751799363.8597012
+  },
+  "j. geophys. res. oceans|": {
+    "publisher": "American Geophysical Union (AGU)",
+    "platform": "Wiley Online Library",
+    "confidence": 0.85,
+    "timestamp": 1751815970.2982867
+  }
+}

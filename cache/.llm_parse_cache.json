@@ -1,0 +1,6480 @@
+{
+  "cacc8aeae981b17763a6411b4624bf61": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "S.",
+          "lastName": "Savvopoulos"
+        },
+        {
+          "firstName": "A.",
+          "lastName": "Al-Aghbari"
+        },
+        {
+          "firstName": "K.",
+          "lastName": "El Kadi"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "I.",
+          "lastName": "Janajreh"
+        }
+      ],
+      "title": "Advancing Freeze Desalination through Ultrasound-Enhanced Modelling: Case Studies and Insights for Commercial Applications",
+      "journal": "Case Stud. Therm. Eng.",
+      "volume": "73",
+      "issue": "",
+      "pages": {
+        "article_number": "106518"
+      },
+      "year": 2025,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "",
+      "abstract": "",
+      "keywords": [],
+      "open_access": false
+    },
+    "timestamp": "2025-07-06T12:47:57.508637"
+  },
+  "185c658a42b35b78f888fe976e771ba5": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "M.",
+          "lastName": "Zafar"
+        },
+        {
+          "firstName": "P.",
+          "lastName": "Sabatier"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "H.",
+          "lastName": "Jomard"
+        },
+        {
+          "firstName": "W.",
+          "lastName": "Rapuc"
+        },
+        {
+          "firstName": "P.",
+          "lastName": "Lajeunesse"
+        },
+        {
+          "firstName": "E.",
+          "lastName": "Chapron"
+        }
+      ],
+      "title": "Modelling earthquake-induced seiche process and subsequent homogenite deposits in lacustrine setting",
+      "journal": "Earth Planet. Sci. Lett.",
+      "volume": "660",
+      "issue": "",
+      "pages": {
+        "article_number": "119348"
+      },
+      "year": 2025,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "",
+      "abstract": "",
+      "keywords": [],
+      "open_access": false
+    },
+    "timestamp": "2025-07-06T12:48:01.026542"
+  },
+  "519cdad95462d9ef4e3ed9660b8b978a": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Batic"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "J.",
+          "lastName": "Beek"
+        }
+      ],
+      "title": "A Spectral Approach for Quasinormal Frequencies of Noncommutative Geometry-inspired Wormholes",
+      "journal": "Class. Quantum Gravity",
+      "volume": "42",
+      "issue": "8",
+      "pages": {
+        "start": "085003",
+        "end": "085003"
+      },
+      "year": 2025,
+      "doi": null,
+      "url": null,
+      "arxiv_url": "https://arxiv.org/abs/2504.02370/",
+      "hal_url": null,
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:48:03.279514"
+  },
+  "1ad71f9af56377c9a0d7d92725be633a": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "M.",
+          "lastName": "Amazioug"
+        },
+        {
+          "firstName": "J.-X.",
+          "lastName": "Peng"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "M.",
+          "lastName": "Asjad"
+        }
+      ],
+      "title": "Emergence and enhancement of feedback control induced quantum entanglement",
+      "journal": "Eur. Phys. J. Plus",
+      "volume": "140",
+      "issue": "132",
+      "pages": {
+        "article_number": "132"
+      },
+      "year": 2025,
+      "doi": null,
+      "url": null,
+      "arxiv_url": "https://arxiv.org/abs/2311.06578/",
+      "hal_url": null,
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:48:05.621244"
+  },
+  "b62f1d34e227302d1fa8426c0ceea7ab": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "A.",
+          "lastName": "Deeb"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Numerical integration of Navier--Stokes equations by time series expansion and stabilized FEM",
+      "journal": "Math. Comput. Simul.",
+      "volume": "233",
+      "issue": "",
+      "pages": {
+        "start": "208",
+        "end": "236"
+      },
+      "year": 2025,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.science/hal-04932473/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:48:08.048219"
+  },
+  "a366cf733adc7b316f8163813b9f003c": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Batic"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Instability Analysis of Massive Static Phantom Wormholes via the Spectral Method",
+      "journal": "Eur. Phys. J. C",
+      "volume": "85",
+      "issue": "144",
+      "pages": {
+        "article_number": "144"
+      },
+      "year": 2025,
+      "doi": null,
+      "url": null,
+      "arxiv_url": "https://arxiv.org/abs/2502.05486/",
+      "hal_url": null,
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:48:10.396662"
+  },
+  "39da73a788eab904946c963d419fc0ce": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "E.",
+          "lastName": "Leichtnam"
+        }
+      ],
+      "title": "On complex algebraic singularities of some genuinely nonlinear PDEs",
+      "journal": "Rend. Mat. Appl. (7)",
+      "volume": "46",
+      "issue": "1-2",
+      "pages": {
+        "start": "63",
+        "end": "150"
+      },
+      "year": 2025,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.science/hal-03372673/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:48:12.859882"
+  },
+  "e343cd0bdcc5908bb8a2f3e583dd1567": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "Ya.",
+          "lastName": "Prykarpatsky"
+        }
+      ],
+      "title": "On integrability of a new dynamical system associated with the BBM-type hydrodynamic flow",
+      "journal": "Math. Methods Appl. Sci.",
+      "volume": "48",
+      "issue": "1",
+      "pages": {
+        "start": "107",
+        "end": "121"
+      },
+      "year": 2025,
+      "doi": null,
+      "url": null,
+      "arxiv_url": "https://arxiv.org/abs/2407.07900/",
+      "hal_url": null,
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:48:15.464949"
+  },
+  "82d54307a49af2cccc39ffce8bcb78cd": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Batic"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "B.L.",
+          "lastName": "Giacchini"
+        }
+      ],
+      "title": "A unified spectral approach for quasinormal modes of Lee--Wick black holes",
+      "journal": "Phys. Rev. D",
+      "volume": "110",
+      "issue": "",
+      "pages": {
+        "start": "084032",
+        "end": "084032"
+      },
+      "year": 2024,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "https://arxiv.org/abs/2410.13245/",
+      "hal_url": "",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:48:17.625206"
+  },
+  "8bd2adb4faba7f4254fea80c801e5509": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Batic"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "A Unified Spectral Approach for Quasinormal Modes of Morris--Thorne Wormholes",
+      "journal": "Class. Quantum Gravity",
+      "volume": "41",
+      "issue": "21",
+      "pages": {
+        "article_number": "215003"
+      },
+      "year": 2024,
+      "doi": null,
+      "url": null,
+      "arxiv_url": "https://arxiv.org/abs/2410.05979/",
+      "hal_url": null,
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:48:19.520195"
+  },
+  "0bfbc122e50474ccef59bbc42905db87": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "P.",
+          "lastName": "Djorwé"
+        },
+        {
+          "firstName": "M.",
+          "lastName": "Asjad"
+        },
+        {
+          "firstName": "Y.",
+          "lastName": "Pennec"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "B.",
+          "lastName": "Djafari-Rouhani"
+        }
+      ],
+      "title": "Parametrically enhancing sensor sensitivity at an exceptional point",
+      "journal": "Phys. Rev. Res.",
+      "volume": "6",
+      "issue": "",
+      "pages": {
+        "start": "033284",
+        "end": null
+      },
+      "year": 2024,
+      "doi": null,
+      "url": null,
+      "arxiv_url": "https://arxiv.org/abs/2312.05057/",
+      "hal_url": null,
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:48:22.483168"
+  },
+  "aea11a3ae6927e84541b8260eb027130": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "F.",
+          "lastName": "Carbone"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Route to chaos and resonant triads interaction in a truncated Rotating Nonlinear shallow-water model",
+      "journal": "PLoS One",
+      "volume": "19",
+      "issue": "8",
+      "pages": {
+        "article_number": "e0305534"
+      },
+      "year": 2024,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.science/hal-04670019/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:48:24.425188"
+  },
+  "e9a240b7634e2768286a086d89efef05": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "C.",
+          "lastName": "Edet"
+        },
+        {
+          "firstName": "M.",
+          "lastName": "Asjad"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "N.",
+          "lastName": "Ali"
+        },
+        {
+          "firstName": "O.",
+          "lastName": "Abah"
+        }
+      ],
+      "title": "Entropy production rate and correlations of cavity magnomechanical system",
+      "journal": "Phys. Rev. Res.",
+      "volume": "6",
+      "issue": "",
+      "pages": {
+        "start": "033037",
+        "end": null
+      },
+      "year": 2024,
+      "doi": null,
+      "url": null,
+      "arxiv_url": "https://arxiv.org/abs/2401.16857/",
+      "hal_url": null,
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:48:26.913451"
+  },
+  "8067ec5df794c25043af6f636e3c7662": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "A.",
+          "lastName": "Deeb"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Stabilized Time Series Expansions for High-Order Finite Element Solutions of Partial Differential Equations",
+      "journal": "Stud. Appl. Math.",
+      "volume": "153",
+      "issue": "2",
+      "pages": {
+        "article_number": "e12708"
+      },
+      "year": 2024,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.science/hal-04582473/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:48:28.855369"
+  },
+  "c25888de25045d4d2910f52a6d2ea375": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "C.",
+          "lastName": "Cárdenas-Bravo"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "S.",
+          "lastName": "Lespinats"
+        }
+      ],
+      "title": "On the parameters domain of the single-diode model",
+      "journal": "Solar Energy",
+      "volume": "277",
+      "issue": "",
+      "pages": {
+        "article_number": "112718"
+      },
+      "year": 2024,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.science/hal-04622649/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:48:30.828457"
+  },
+  "99fdb20ebf958b177bec68cb17708300": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Batic"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Quasinormal Modes in Noncommutative Schwarzschild Black Holes: A Spectral Analysis",
+      "journal": "Eur. Phys. J. C",
+      "volume": "84",
+      "issue": "622",
+      "pages": {
+        "start": "622",
+        "end": "622"
+      },
+      "year": 2024,
+      "doi": null,
+      "url": null,
+      "arxiv_url": "https://arxiv.org/abs/2406.03353/",
+      "hal_url": null,
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:48:32.829473"
+  },
+  "23d605f164dc9124e6745a0baf1147d9": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "M.",
+          "lastName": "Zafar"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "P.",
+          "lastName": "Sabatier"
+        },
+        {
+          "firstName": "M.",
+          "lastName": "Banjan"
+        },
+        {
+          "firstName": "J.",
+          "lastName": "Kim"
+        }
+      ],
+      "title": "Simulating Sublacustrine Landslide-Induced Paleotsunami in NW Alpine Lake at the Younger Dryas --- Early Holocene climatic transition",
+      "journal": "J. Geophys. Res. Solid Earth",
+      "volume": "129",
+      "issue": "5",
+      "pages": {
+        "article_number": "e2023JB028629"
+      },
+      "year": 2024,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.science/hal-04592536/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:48:35.962468"
+  },
+  "e9878feddbf7068ce3859d3d905078a4": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "M.",
+          "lastName": "Amazioug"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "B.",
+          "lastName": "Teklu"
+        },
+        {
+          "firstName": "M.",
+          "lastName": "Asjad"
+        }
+      ],
+      "title": "Achieving Strong Magnon Blockade through Magnon Squeezing in a Cavity Magnetomechanical System",
+      "journal": "Annalen der Physik",
+      "volume": "536",
+      "issue": "4",
+      "pages": {
+        "article_number": "2300357"
+      },
+      "year": 2024,
+      "doi": null,
+      "url": null,
+      "arxiv_url": "https://arxiv.org/abs/2308.06367/",
+      "hal_url": null,
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:48:38.445109"
+  },
+  "6d3783d98cb430330b123afca3408c69": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "M.",
+          "lastName": "Bowen"
+        },
+        {
+          "firstName": "P.",
+          "lastName": "Samozino"
+        },
+        {
+          "firstName": "M.",
+          "lastName": "Vonderscher"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "B.",
+          "lastName": "Morel"
+        }
+      ],
+      "title": "Mathematical modeling of exercise fatigability in the severe domain: A unifying integrative framework in isokinetic condition",
+      "journal": "Journal of Theoretical Biology",
+      "volume": "578",
+      "issue": "",
+      "pages": {
+        "article_number": "111696"
+      },
+      "year": 2024,
+      "doi": "10.1016/j.jtbi.2023.111696",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.science/hal-04330250/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:48:41.158017"
+  },
+  "60c08468c3a11d241c1411bd9948e0fb": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "A.",
+          "lastName": "Rashidi"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "Ch.",
+          "lastName": "Beck"
+        }
+      ],
+      "title": "Correction to: Modeling the potential genesis of tsunamis from below an accretionary prism and their potential impact: a case study along the eastern boundary of the Caribbean Plate",
+      "journal": "Natural Hazards",
+      "volume": "118",
+      "issue": "1765",
+      "pages": {
+        "start": "1765",
+        "end": "1765"
+      },
+      "year": 2023,
+      "doi": "10.1007/s11069-023-06071-1",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "",
+      "abstract": "",
+      "keywords": [],
+      "open_access": false
+    },
+    "timestamp": "2025-07-06T12:48:43.270008"
+  },
+  "4a4fa91a5856ed0acc05899847f21319": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "A.",
+          "lastName": "Rashidi"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "Ch.",
+          "lastName": "Beck"
+        }
+      ],
+      "title": "Modeling the potential genesis of tsunamis from below an accretionary prism, and their potential impact: a case study along the eastern boundary of the Caribbean Plate",
+      "journal": "Natural Hazards",
+      "volume": "118",
+      "issue": "",
+      "pages": {
+        "start": "307",
+        "end": "329"
+      },
+      "year": 2023,
+      "doi": "10.1007/s11069-023-06004-y",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "",
+      "abstract": "",
+      "keywords": [],
+      "open_access": false
+    },
+    "timestamp": "2025-07-06T12:48:45.452582"
+  },
+  "3d1591689b2bdf43516816fcba5180b1": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "A.",
+          "lastName": "Cheviakov"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Galilei-invariant and energy-preserving extensions of the Benjamin--Bona--Mahony-type equations",
+      "journal": "Partial Differ. Equations Appl. Math.",
+      "volume": "7",
+      "issue": "",
+      "pages": {
+        "article_number": "100519"
+      },
+      "year": 2023,
+      "doi": "10.1016/j.padiff.2023.100519",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "",
+      "abstract": "",
+      "keywords": [],
+      "open_access": false
+    },
+    "timestamp": "2025-07-06T12:48:47.437715"
+  },
+  "762f7f5c217bedfb18be6758a212aebf": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "M.",
+          "lastName": "Cugnet"
+        },
+        {
+          "firstName": "F.",
+          "lastName": "Gallois"
+        },
+        {
+          "firstName": "A.",
+          "lastName": "Kirchev"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "NEOLAB: A Scilab tool to simulate the Negative Electrode of Lead-Acid Batteries",
+      "journal": "SoftwareX",
+      "volume": "22",
+      "issue": "",
+      "pages": {
+        "article_number": "101394"
+      },
+      "year": 2023,
+      "doi": "10.1016/j.softx.2023.101394",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "",
+      "abstract": "",
+      "keywords": [],
+      "open_access": false
+    },
+    "timestamp": "2025-07-06T12:48:49.655774"
+  },
+  "5167e6ef2dd244f86762d2dabb2030e1": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "H.",
+          "lastName": "Geoffroy"
+        },
+        {
+          "firstName": "J.",
+          "lastName": "Berger"
+        },
+        {
+          "firstName": "B.",
+          "lastName": "Colange"
+        },
+        {
+          "firstName": "S.",
+          "lastName": "Lespinats"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "The use of dimensionality reduction techniques for fault detection and diagnosis in a AHU unit: critical assessment of its reliability",
+      "journal": "J. Build. Perform. Simul.",
+      "volume": "16",
+      "issue": "3",
+      "pages": {
+        "start": "249",
+        "end": "267"
+      },
+      "year": 2023,
+      "doi": "10.1080/19401493.2022.2080864",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "",
+      "abstract": "",
+      "keywords": [],
+      "open_access": false
+    },
+    "timestamp": "2025-07-06T12:48:52.139483"
+  },
+  "6a1dfc7c7f928aa3da1381bbbffed9d8": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "S.",
+          "lastName": "Gasparin"
+        },
+        {
+          "firstName": "J.",
+          "lastName": "Berger"
+        },
+        {
+          "firstName": "R.",
+          "lastName": "Belarbi"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "N.",
+          "lastName": "Mendes"
+        }
+      ],
+      "title": "Solving parametric problems in building renovation with a spectral reduced-order method",
+      "journal": "J. Build. Perform. Simul.",
+      "volume": "16",
+      "issue": "2",
+      "pages": {
+        "start": "211",
+        "end": "230"
+      },
+      "year": 2023,
+      "doi": "10.1080/19401493.2022.2126527",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "",
+      "abstract": "",
+      "keywords": [],
+      "open_access": false
+    },
+    "timestamp": "2025-07-06T12:48:54.522276"
+  },
+  "56d864698b591d063bfb898d922acc93": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "M.",
+          "lastName": "Loukili"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "S.",
+          "lastName": "Pincemin"
+        },
+        {
+          "firstName": "K.",
+          "lastName": "Kotrasova"
+        },
+        {
+          "firstName": "N.",
+          "lastName": "Abcha"
+        }
+      ],
+      "title": "Theoretical investigation applied to scattering water wave by rectangular submerged obstacle/and submarine trench",
+      "journal": "Geosciences",
+      "volume": "12",
+      "issue": "10",
+      "pages": {
+        "article_number": "379"
+      },
+      "year": 2022,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.science/hal-03855065/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:48:57.078155"
+  },
+  "96926c05fba1d460928918fe224ee417": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "A.",
+          "lastName": "Machmudah"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "S.",
+          "lastName": "Parman"
+        }
+      ],
+      "title": "Coupled and synchronization models of rhythmic arm movement in planar plane",
+      "journal": "Bioengineering",
+      "volume": "9",
+      "issue": "2",
+      "pages": {
+        "article_number": "385"
+      },
+      "year": 2022,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "",
+      "abstract": "",
+      "keywords": [],
+      "open_access": false
+    },
+    "timestamp": "2025-07-06T12:48:59.025900"
+  },
+  "1335ad86f0afa865d43b6fd028f7d164": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "G.",
+          "lastName": "Khakimzyanov"
+        },
+        {
+          "firstName": "Z.",
+          "lastName": "Fedotova"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Two-dimensional models of wave hydrodynamics with high accuracy dispersion relation. III. Linear analysis for an uneven bottom",
+      "journal": "Computational Technologies",
+      "volume": "27",
+      "issue": "2",
+      "pages": {
+        "start": "37",
+        "end": "53"
+      },
+      "year": 2022,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "",
+      "abstract": "",
+      "keywords": [],
+      "open_access": false
+    },
+    "timestamp": "2025-07-06T12:49:01.391757"
+  },
+  "09ce3120893a5347f3ccbdec0f84ed37": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "B.",
+          "lastName": "Colange"
+        },
+        {
+          "firstName": "L.",
+          "lastName": "Vuillon"
+        },
+        {
+          "firstName": "S.",
+          "lastName": "Lespinats"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "MING: an interpretative support method for visual exploration of multidimensional data",
+      "journal": "Information Visualization",
+      "volume": "21",
+      "issue": "3",
+      "pages": {
+        "start": "246",
+        "end": "269"
+      },
+      "year": 2022,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "",
+      "abstract": "",
+      "keywords": [],
+      "open_access": false
+    },
+    "timestamp": "2025-07-06T12:49:03.519973"
+  },
+  "3d4a23e6918b1c6e040d136dd97a8162": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Blackmore"
+        },
+        {
+          "firstName": "Ya.",
+          "lastName": "Prykarpatsky"
+        },
+        {
+          "firstName": "M.",
+          "lastName": "Prytula"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "A.",
+          "lastName": "Prykarpatsky"
+        }
+      ],
+      "title": "On the integrability of a new generalized Gurevich--Zybin dynamical system, its Hunter--Saxton type reduction and related mysterious symmetries",
+      "journal": "Analysis and Mathematical Physics",
+      "volume": "12",
+      "issue": "66",
+      "pages": {
+        "start": "66",
+        "end": "66"
+      },
+      "year": 2022,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "",
+      "abstract": "",
+      "keywords": [],
+      "open_access": false
+    },
+    "timestamp": "2025-07-06T12:49:06.174029"
+  },
+  "bea29b40ff9677f890593c524d933af0": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "J.-L.",
+          "lastName": "Verger-Gaugry"
+        }
+      ],
+      "title": "On a class of lacunary almost Newman polynomials modulo p and density theorems",
+      "journal": "Uniform Distribution Theory",
+      "volume": "17",
+      "issue": "1",
+      "pages": {
+        "start": "29",
+        "end": "54"
+      },
+      "year": 2022,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-03517173/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:49:08.137272"
+  },
+  "f62b114cdf8449a263d5482a65f0f5cb": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "A.",
+          "lastName": "Machmudah"
+        },
+        {
+          "firstName": "M.",
+          "lastName": "Shanmugavel"
+        },
+        {
+          "firstName": "S.",
+          "lastName": "Parman"
+        },
+        {
+          "firstName": "T.S.B.",
+          "lastName": "Abd Manan"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "S.",
+          "lastName": "Beddu"
+        },
+        {
+          "firstName": "A.",
+          "lastName": "Rajabi"
+        }
+      ],
+      "title": "Flight Trajectories Optimization of fixed-wing UAV by Bank-Turn Mechanism",
+      "journal": "Drones",
+      "volume": "6",
+      "issue": "3",
+      "pages": {
+        "article_number": "69"
+      },
+      "year": 2022,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "",
+      "abstract": "",
+      "keywords": [],
+      "open_access": false
+    },
+    "timestamp": "2025-07-06T12:49:10.937870"
+  },
+  "bd696b314966976f89e29bd0eaf125cd": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "T.",
+          "lastName": "Bueler-Faudree"
+        },
+        {
+          "firstName": "S.",
+          "lastName": "Delamere"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "A.",
+          "lastName": "Rybkin"
+        },
+        {
+          "firstName": "A.",
+          "lastName": "Suleimani"
+        }
+      ],
+      "title": "Fast shallow water-wave solver for plane inclined beaches",
+      "journal": "SoftwareX",
+      "volume": "17",
+      "issue": "",
+      "pages": {
+        "article_number": "100983"
+      },
+      "year": 2022,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "",
+      "abstract": "",
+      "keywords": [],
+      "open_access": false
+    },
+    "timestamp": "2025-07-06T12:49:13.322207"
+  },
+  "4dd1e115a1bd88e0e23093e6e0aed657": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "A.",
+          "lastName": "Rashidi"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "N.K.",
+          "lastName": "Farajkhah"
+        },
+        {
+          "firstName": "L.",
+          "lastName": "Audin"
+        }
+      ],
+      "title": "Regional tsunami hazard from splay faults in the Gulf of Oman",
+      "journal": "Ocean Engineering",
+      "volume": "243",
+      "issue": "",
+      "pages": {
+        "article_number": "110169"
+      },
+      "year": 2022,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "",
+      "abstract": "",
+      "keywords": [],
+      "open_access": false
+    },
+    "timestamp": "2025-07-06T12:49:15.433839"
+  },
+  "b19837c7cf73f986576b6a5afa72f034": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "O.",
+          "lastName": "Gusev"
+        },
+        {
+          "firstName": "G.",
+          "lastName": "Khakimzyanov"
+        },
+        {
+          "firstName": "L.",
+          "lastName": "Chubarov"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Assessing the frequency dispersion influence on the solitary-wave interaction with a constant sloping beach",
+      "journal": "Journal of Applied Mechanics and Technical Physics",
+      "volume": "62",
+      "issue": "",
+      "pages": {
+        "start": "624",
+        "end": "632"
+      },
+      "year": 2021,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "",
+      "abstract": "",
+      "keywords": [],
+      "open_access": false
+    },
+    "timestamp": "2025-07-06T12:49:17.955095"
+  },
+  "3a7db9c4781c6a746236c38ab5479e58": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "M.",
+          "lastName": "Loukili"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "C.",
+          "lastName": "Nadjib"
+        },
+        {
+          "firstName": "K.",
+          "lastName": "Kotrasova"
+        }
+      ],
+      "title": "Analytical and numerical investigations applied to study the reflection and transmission coefficients of wave-rectangular breakwater cited at the bottom of tank",
+      "journal": "Geosciences",
+      "volume": "11",
+      "issue": "10",
+      "pages": {
+        "article_number": "430"
+      },
+      "year": 2021,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "",
+      "abstract": "",
+      "keywords": [],
+      "open_access": false
+    },
+    "timestamp": "2025-07-06T12:49:20.237726"
+  },
+  "99ac824848bfb657ced531744be1efd0": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "J.-L.",
+          "lastName": "Verger-Gaugry"
+        }
+      ],
+      "title": "Alphabets, rewriting trails and periodic representations in algebraic bases",
+      "journal": "Res. number theory",
+      "volume": "7",
+      "issue": "64",
+      "pages": {
+        "article_number": "64"
+      },
+      "year": 2021,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-03090468/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:49:22.449679"
+  },
+  "efb303d8e88e49ee28a3d87ed8146c2b": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "T.S.B.",
+          "lastName": "Abd Manan"
+        },
+        {
+          "firstName": "S.",
+          "lastName": "Beddu"
+        },
+        {
+          "firstName": "N.L.",
+          "lastName": "Mohd Kamal"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Mohamad"
+        },
+        {
+          "firstName": "Z.",
+          "lastName": "Itam"
+        },
+        {
+          "firstName": "T.",
+          "lastName": "Khan"
+        },
+        {
+          "firstName": "A.",
+          "lastName": "Machmudah"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "W.H.M.",
+          "lastName": "Wan Mohtar"
+        },
+        {
+          "firstName": "H.",
+          "lastName": "Jusoh"
+        },
+        {
+          "firstName": "F.",
+          "lastName": "Mohamed Nazri"
+        },
+        {
+          "firstName": "M.F.K.",
+          "lastName": "Mohd Yapandi"
+        },
+        {
+          "firstName": "S.",
+          "lastName": "Pati"
+        },
+        {
+          "firstName": "A.",
+          "lastName": "Ahmad"
+        },
+        {
+          "firstName": "N.",
+          "lastName": "Wan Rasdi"
+        }
+      ],
+      "title": "Ecological risk indicators for leached heavy metals from coal ash generated at a Malaysian power plant",
+      "journal": "Sustainability",
+      "volume": "13",
+      "issue": "18",
+      "pages": {
+        "article_number": "10222"
+      },
+      "year": 2021,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": null,
+      "abstract": "",
+      "keywords": [],
+      "open_access": false
+    },
+    "timestamp": "2025-07-06T12:49:26.582458"
+  },
+  "6a5ad0fda8267885f1360604da476481": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "G.",
+          "lastName": "Khakimzyanov"
+        },
+        {
+          "firstName": "Z.",
+          "lastName": "Fedotova"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Two-dimensional model of wave hydrodynamics with high accuracy dispersion relation. II. Fourth, sixth and eighth orders",
+      "journal": "Computational Technologies",
+      "volume": "26",
+      "issue": "3",
+      "pages": {
+        "start": "4",
+        "end": "25"
+      },
+      "year": 2021,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "",
+      "abstract": "",
+      "keywords": [],
+      "open_access": false
+    },
+    "timestamp": "2025-07-06T12:49:28.643351"
+  },
+  "e7b48e26e10796a4fa68423a032dc64f": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "M.",
+          "lastName": "Hunt"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Free surface flows in electrohydrodynamics with a constant vorticity distribution",
+      "journal": "Water Waves",
+      "volume": "3",
+      "issue": "",
+      "pages": {
+        "start": "297",
+        "end": "317"
+      },
+      "year": 2021,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-02344438/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:49:30.411048"
+  },
+  "65a7b0444ae2785fd18b531bf9c05635": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "M.",
+          "lastName": "Loukili"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "K.",
+          "lastName": "Kotrasova"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Ning"
+        }
+      ],
+      "title": "Numerical Stability Investigations of the Method of Fundamental Solutions Applied to Wave-Current Interactions Using Generating-Absorbing Boundary Conditions",
+      "journal": "Symmetry",
+      "volume": "13",
+      "issue": "7",
+      "pages": {
+        "article_number": "1153"
+      },
+      "year": 2021,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "",
+      "abstract": "",
+      "keywords": [],
+      "open_access": false
+    },
+    "timestamp": "2025-07-06T12:49:32.558997"
+  },
+  "87422bb194f793fb632d9f3fe2e89dfd": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "A.",
+          "lastName": "Cheviakov"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "A.",
+          "lastName": "Assylbekuly"
+        }
+      ],
+      "title": "On Galilean invariant and energy preserving BBM-type equations",
+      "journal": "Symmetry",
+      "volume": "13",
+      "issue": "5",
+      "pages": {
+        "article_number": "878"
+      },
+      "year": 2021,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "",
+      "abstract": "",
+      "keywords": [],
+      "open_access": false
+    },
+    "timestamp": "2025-07-06T12:49:34.543660"
+  },
+  "333cb1d9d5e8289e56dbb177c6a360f7": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "H.",
+          "lastName": "Le Meur"
+        }
+      ],
+      "title": "Derivation of a viscous Serre--Green--Naghdi equation: an impasse?",
+      "journal": "Fluids",
+      "volume": "6",
+      "issue": "4",
+      "pages": {
+        "article_number": "135"
+      },
+      "year": 2021,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-02414312/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:49:36.723069"
+  },
+  "7fd14b037cc35544501941e0c2a1f24b": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "M.",
+          "lastName": "Loukili"
+        },
+        {
+          "firstName": "K.",
+          "lastName": "Kotrasova"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Numerical modeling of jet at the bottom of tank at moderate Reynolds number using compact Hermitian finite differences method",
+      "journal": "Fluids",
+      "volume": "6",
+      "issue": "2",
+      "pages": {
+        "article_number": "63"
+      },
+      "year": 2021,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "",
+      "abstract": "",
+      "keywords": [],
+      "open_access": false
+    },
+    "timestamp": "2025-07-06T12:49:38.576227"
+  },
+  "278655068c8633b873410722c6061dff": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "P.",
+          "lastName": "Kundu"
+        },
+        {
+          "firstName": "S.M.",
+          "lastName": "Sarkar"
+        },
+        {
+          "firstName": "A.",
+          "lastName": "Rashidi"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Comparison of ground deformation by two infinite faults in different medium",
+      "journal": "GEM --- Int. J. Geomath.",
+      "volume": "12",
+      "issue": "3",
+      "pages": {
+        "start": null,
+        "end": null
+      },
+      "year": 2021,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": null,
+      "abstract": "",
+      "keywords": [],
+      "open_access": false
+    },
+    "timestamp": "2025-07-06T12:49:40.809132"
+  },
+  "3f11d7c94c014943e9ccf8c70e80a268": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "A.",
+          "lastName": "Rashidi"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "Z.H.",
+          "lastName": "Shomali"
+        }
+      ],
+      "title": "Horizontal displacements effect in tsunami wave generation in the Western Makran region",
+      "journal": "J. Ocean Eng. Mar. Energy",
+      "volume": "6",
+      "issue": "",
+      "pages": {
+        "start": "427",
+        "end": "439"
+      },
+      "year": 2020,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "",
+      "abstract": "",
+      "keywords": [],
+      "open_access": false
+    },
+    "timestamp": "2025-07-06T12:49:42.864489"
+  },
+  "fbb8613b750f2364271669ede72b1e8d": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "G.S.",
+          "lastName": "Khakimzyanov"
+        },
+        {
+          "firstName": "Z.I.",
+          "lastName": "Fedotova"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Two-dimensional model of wave hydrodynamics with high accuracy dispersion relation",
+      "journal": "Computational Technologies",
+      "volume": "25",
+      "issue": "5",
+      "pages": {
+        "start": "17",
+        "end": "41"
+      },
+      "year": 2020,
+      "doi": "",
+      "url": "http://www.ict.nsc.ru/jct/annotation/1993?l=eng",
+      "arxiv_url": "",
+      "hal_url": "",
+      "abstract": "",
+      "keywords": [],
+      "open_access": false
+    },
+    "timestamp": "2025-07-06T12:49:44.863519"
+  },
+  "7dc4753ae5350758231072f124f26b15": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Mj (Sarkar)"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Learning extreme wave run-up conditions",
+      "journal": "Applied Ocean Research",
+      "volume": "105",
+      "issue": "",
+      "pages": {
+        "article_number": "102400"
+      },
+      "year": 2020,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "",
+      "abstract": "",
+      "keywords": [],
+      "open_access": false
+    },
+    "timestamp": "2025-07-06T12:49:46.585073"
+  },
+  "589270d853874ee42bc4a47212a0dc45": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "S.H.",
+          "lastName": "Shamsnia"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "An analytical study on wave-current-mud interaction",
+      "journal": "Water",
+      "volume": "12",
+      "issue": "10",
+      "pages": {
+        "article_number": "2899"
+      },
+      "year": 2020,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "",
+      "abstract": "",
+      "keywords": [],
+      "open_access": false
+    },
+    "timestamp": "2025-07-06T12:49:48.787146"
+  },
+  "797f179731538d34aae6a5d9408a5e80": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "A.",
+          "lastName": "Rashidi"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "Z.H.",
+          "lastName": "Shomali"
+        },
+        {
+          "firstName": "N.K.",
+          "lastName": "Farajkhah"
+        },
+        {
+          "firstName": "M.",
+          "lastName": "Nouri"
+        }
+      ],
+      "title": "A review of tsunami hazard in the Makran subduction zone",
+      "journal": "Geosciences",
+      "volume": "10",
+      "issue": "9",
+      "pages": {
+        "article_number": "372"
+      },
+      "year": 2020,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "",
+      "abstract": "",
+      "keywords": [],
+      "open_access": false
+    },
+    "timestamp": "2025-07-06T12:49:51.238554"
+  },
+  "53ff662b142392a11ef2a9a703d104ed": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "A.",
+          "lastName": "Abdalazeez"
+        },
+        {
+          "firstName": "I.",
+          "lastName": "Didenkulova"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "P.",
+          "lastName": "Denissenko"
+        }
+      ],
+      "title": "Comparison of dispersive and nondispersive models for modelling long wave run-up on a beach",
+      "journal": "Izvestiya, Atmospheric and Oceanic Physics",
+      "volume": "56",
+      "issue": "5",
+      "pages": {
+        "start": "494",
+        "end": "501"
+      },
+      "year": 2020,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "",
+      "abstract": "",
+      "keywords": [],
+      "open_access": false
+    },
+    "timestamp": "2025-07-06T12:49:53.610755"
+  },
+  "dcc4cfa1addbef1b0454b63b59301075": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "G.",
+          "lastName": "Sadaka"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Adaptive numerical modelling of tsunami wave generation and propagation with FreeFem++",
+      "journal": "Geosciences",
+      "volume": "10",
+      "issue": "9",
+      "pages": {
+        "article_number": "351"
+      },
+      "year": 2020,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-02912526/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:49:55.664170"
+  },
+  "b58f1576c6c58358a0070ff35736d31a": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "A.",
+          "lastName": "Abdalazeez"
+        },
+        {
+          "firstName": "I.I.",
+          "lastName": "Didenkulov"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "P.",
+          "lastName": "Denissenko"
+        }
+      ],
+      "title": "Comparison of Dispersive and Nondispersive Models for Wave Run-Up on a Beach",
+      "journal": "Izv. Atmos. Ocean. Phys.",
+      "volume": "56",
+      "issue": "",
+      "pages": {
+        "start": "494",
+        "end": "501"
+      },
+      "year": 2020,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "",
+      "abstract": "",
+      "keywords": [],
+      "open_access": false
+    },
+    "timestamp": "2025-07-06T12:49:58.224999"
+  },
+  "aca2bc97edbeeb0f49b13e2c5bf3a1af": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "E.",
+          "lastName": "Tobisch"
+        }
+      ],
+      "title": "Formation of the dynamic energy cascades in quartic and quintic generalized KdV equations",
+      "journal": "Symmetry",
+      "volume": "12",
+      "issue": "8",
+      "pages": {
+        "article_number": "1254"
+      },
+      "year": 2020,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "http://hal.archives-ouvertes.fr/hal-01070799/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:50:00.161833"
+  },
+  "275ca6f5ed8e84f47e678336533a04bd": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "A.",
+          "lastName": "Abdalazeez"
+        },
+        {
+          "firstName": "I.",
+          "lastName": "Didenkulova"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "C.",
+          "lastName": "Labart"
+        }
+      ],
+      "title": "Extreme inundation statistics on a composite beach",
+      "journal": "Water",
+      "volume": "12",
+      "issue": "6",
+      "pages": {
+        "article_number": "1573"
+      },
+      "year": 2020,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-02657270/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:50:03.811445"
+  },
+  "98514433fc544de9f812b004d125606d": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "E.",
+          "lastName": "Tobisch"
+        }
+      ],
+      "title": "Resonance enhancement by suitably chosen frequency detuning",
+      "journal": "Mathematics",
+      "volume": "8",
+      "issue": "3",
+      "pages": {
+        "article_number": "450"
+      },
+      "year": 2020,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "http://hal.archives-ouvertes.fr/hal-01084796/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:50:05.656769"
+  },
+  "5d9947167784dfe5c86fe79c9a2fae19": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "J.",
+          "lastName": "Berger"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "N.",
+          "lastName": "Mendes"
+        },
+        {
+          "firstName": "L.",
+          "lastName": "Gosse"
+        }
+      ],
+      "title": "An efficient numerical model for the simulation of coupled heat, air and moisture transfer in porous media",
+      "journal": "Engineering Reports",
+      "volume": "2",
+      "issue": "2",
+      "pages": {
+        "article_number": "e12099"
+      },
+      "year": 2020,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-02413029/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:50:08.567502"
+  },
+  "46072b31fed28bc7b024cddca627e594": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "J.",
+          "lastName": "Berger"
+        },
+        {
+          "firstName": "T.",
+          "lastName": "Busser"
+        },
+        {
+          "firstName": "T.",
+          "lastName": "Colinart"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Critical assessment of a new mathematical model for hysteresis effects on heat and mass transfer in porous building material",
+      "journal": "Int. J. Therm. Sci.",
+      "volume": "151",
+      "issue": "",
+      "pages": {
+        "article_number": "106275"
+      },
+      "year": 2020,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-02485497/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:50:10.719352"
+  },
+  "3425c39910c34c89acba9dabb491da69": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "A.",
+          "lastName": "Rashidi"
+        },
+        {
+          "firstName": "Z.H.",
+          "lastName": "Shomali"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "N.K.",
+          "lastName": "Farajkhah"
+        }
+      ],
+      "title": "Tsunami hazard assessment in the Makran subduction zone",
+      "journal": "Natural Hazards",
+      "volume": "100",
+      "issue": "",
+      "pages": {
+        "start": "861",
+        "end": "875"
+      },
+      "year": 2020,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01737767/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:50:12.841013"
+  },
+  "a3ba6f9d8cf1cbb06702c751661c895e": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "I.",
+          "lastName": "Abroug"
+        },
+        {
+          "firstName": "N.",
+          "lastName": "Abcha"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "A.",
+          "lastName": "Jarno"
+        },
+        {
+          "firstName": "F.",
+          "lastName": "Marin"
+        }
+      ],
+      "title": "Experimental and numerical study of the propagation of focused wave groups in the nearshore zone",
+      "journal": "Phys. Lett. A",
+      "volume": "384",
+      "issue": "6",
+      "pages": {
+        "article_number": "126144"
+      },
+      "year": 2020,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-02362472/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:50:15.507312"
+  },
+  "e77b7f98b1de70bdf0a017f3b6ff137d": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "J.",
+          "lastName": "Berger"
+        },
+        {
+          "firstName": "S.",
+          "lastName": "Gasparin"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "N.",
+          "lastName": "Mendes"
+        }
+      ],
+      "title": "On the comparison of three numerical methods applied to building simulation: finite-differences, RC circuit approximation and a spectral method",
+      "journal": "Building Simulation",
+      "volume": "13",
+      "issue": "1",
+      "pages": {
+        "start": "1",
+        "end": "18"
+      },
+      "year": 2020,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-02140325/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:50:17.824909"
+  },
+  "3a6cfb74c90526b6474d3eb7ed6dd98a": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "G.",
+          "lastName": "Khakimzyanov"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Long wave interaction with a partially immersed body. Part I: Mathematical models",
+      "journal": "Commun. Comput. Phys.",
+      "volume": "27",
+      "issue": "2",
+      "pages": {
+        "start": "321",
+        "end": "378"
+      },
+      "year": 2020,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-02070055/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:50:19.887163"
+  },
+  "5e06b8ba263c07157db476756bd090e2": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "S.",
+          "lastName": "Rusconi"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "A.",
+          "lastName": "Zarnescu"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Sokolovski"
+        },
+        {
+          "firstName": "E.",
+          "lastName": "Akhmatskaya"
+        }
+      ],
+      "title": "An optimal scaling to computationally tractable dimensionless models: Study of latex particles morphology formation",
+      "journal": "Comput. Phys. Commun.",
+      "volume": "247",
+      "issue": "",
+      "pages": {
+        "article_number": "106944"
+      },
+      "year": 2020,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-02301950/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:50:22.369888"
+  },
+  "278c2b732fef99ea1e28ca54f7f3e807": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "A.",
+          "lastName": "Abdalazeez"
+        },
+        {
+          "firstName": "I.",
+          "lastName": "Didenkulova"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Nonlinear deformation and run-up of single tsunami waves of positive polarity: numerical simulations and analytical predictions",
+      "journal": "Nat. Hazards Earth Syst. Sci.",
+      "volume": "19",
+      "issue": "",
+      "pages": {
+        "start": "2905",
+        "end": "2913"
+      },
+      "year": 2019,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-02422302/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:50:24.593397"
+  },
+  "862c9502c68e15bf3a9e367e8538d760": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Numerical simulation of Feller's diffusion equation",
+      "journal": "Mathematics",
+      "volume": "7",
+      "issue": "11",
+      "pages": {
+        "article_number": "1067"
+      },
+      "year": 2019,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-02290284/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:50:26.589046"
+  },
+  "2c1120dea47071b48e013800727a2fdb": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Clamond"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Mitsotakis"
+        }
+      ],
+      "title": "Hamiltonian regularisation of shallow water equations with uneven bottom",
+      "journal": "J. Phys. A: Math. Theor.",
+      "volume": "52",
+      "issue": "42",
+      "pages": {
+        "article_number": "42LT01"
+      },
+      "year": 2019,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-02140161/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:50:28.740177"
+  },
+  "fa46aee9049dffc7b146ac0f2c6b3c16": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "J.",
+          "lastName": "Berger"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Evaluation of the reliability of building energy performance models for parameter estimation",
+      "journal": "Comput. Technologies",
+      "volume": "24",
+      "issue": "3",
+      "pages": {
+        "start": "4",
+        "end": "32"
+      },
+      "year": 2019,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-02140452/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:50:30.641859"
+  },
+  "c2cc68f8529da6a1052dc3fd5118d450": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "M.",
+          "lastName": "Abdykarim"
+        },
+        {
+          "firstName": "J.",
+          "lastName": "Berger"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "L.",
+          "lastName": "Soudani"
+        },
+        {
+          "firstName": "A.",
+          "lastName": "Agbossou"
+        }
+      ],
+      "title": "Critical assessment of efficient numerical methods for a long-term simulation of heat and moisture transfer in porous materials",
+      "journal": "Int. J. Therm. Sci.",
+      "volume": "145",
+      "issue": "",
+      "pages": {
+        "article_number": "105982"
+      },
+      "year": 2019,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-02162803/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:50:33.891117"
+  },
+  "29e68cb88263e534e56210c7ea847bb6": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Mitsotakis"
+        },
+        {
+          "firstName": "Q.",
+          "lastName": "Li"
+        },
+        {
+          "firstName": "E.",
+          "lastName": "Peach"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "On some model equations for pulsatile flow in viscoelastic vessels",
+      "journal": "Wave Motion",
+      "volume": "90",
+      "issue": "",
+      "pages": {
+        "start": "139",
+        "end": "151"
+      },
+      "year": 2019,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-02135521/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:50:36.354808"
+  },
+  "aa5b2c139316d847484c941c6deff381": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "A.",
+          "lastName": "Durán"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Mitsotakis"
+        }
+      ],
+      "title": "On the multi-symplectic structure of Boussinesq-type systems. II: Geometric discretization",
+      "journal": "Phys. D",
+      "volume": "397",
+      "issue": "",
+      "pages": {
+        "start": "1",
+        "end": "16"
+      },
+      "year": 2019,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-02123559/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:50:38.347048"
+  },
+  "ade7c05c0a4628480509c066f2e882e9": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Ionescu-Kruse"
+        }
+      ],
+      "title": "Effects of vorticity on the travelling waves of some shallow water two-component systems",
+      "journal": "Discrete & Continuous Dynamical Systems --- A",
+      "volume": "39",
+      "issue": "9",
+      "pages": {
+        "start": "5521",
+        "end": "5541"
+      },
+      "year": 2019,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-02094922/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:50:40.712612"
+  },
+  "cb2ed898bf6466f74303c0beeeffc5b7": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "G.",
+          "lastName": "Khakimzyanov"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Mitsotakis"
+        },
+        {
+          "firstName": "N.",
+          "lastName": "Shokina"
+        }
+      ],
+      "title": "Numerical simulation of conservation laws with moving grid nodes: Application to tsunami wave modelling",
+      "journal": "Geosciences",
+      "volume": "9",
+      "issue": "5",
+      "pages": {
+        "article_number": "197"
+      },
+      "year": 2019,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01223510/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:50:43.689651"
+  },
+  "c3d000a23f4bfbe59dbacad910326ebf": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "E.",
+          "lastName": "Dinvay"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "H.",
+          "lastName": "Kalisch"
+        }
+      ],
+      "title": "A comparative study of bi-directional Whitham systems",
+      "journal": "Appl. Numer. Math.",
+      "volume": "141",
+      "issue": "",
+      "pages": {
+        "start": "248",
+        "end": "262"
+      },
+      "year": 2019,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-02020212/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:50:45.674016"
+  },
+  "c25967a41f9fc95716575ea520b8bd70": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "J.-G.",
+          "lastName": "Caputo"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "B.",
+          "lastName": "Gleyse"
+        }
+      ],
+      "title": "Coupling conditions for water waves at forks",
+      "journal": "Symmetry",
+      "volume": "11",
+      "issue": "3",
+      "pages": {
+        "article_number": "434"
+      },
+      "year": 2019,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01206504/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:50:47.888933"
+  },
+  "5bc853c9c2d68231d26365c48693829a": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "J.",
+          "lastName": "Berger"
+        },
+        {
+          "firstName": "T.",
+          "lastName": "Busser"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "N.",
+          "lastName": "Mendes"
+        }
+      ],
+      "title": "An efficient method to estimate sorption isotherm curve coefficients",
+      "journal": "Inv. Prob. Sci. and Eng.",
+      "volume": "27",
+      "issue": "6",
+      "pages": {
+        "start": "735",
+        "end": "772"
+      },
+      "year": 2019,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01509113/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:50:50.241847"
+  },
+  "3a958b53ac3cc86ee706565077d088cd": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "A.",
+          "lastName": "Jumabekova"
+        },
+        {
+          "firstName": "J.",
+          "lastName": "Berger"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "H.",
+          "lastName": "Le Meur"
+        },
+        {
+          "firstName": "A.",
+          "lastName": "Foucquier"
+        },
+        {
+          "firstName": "M.",
+          "lastName": "Pailha"
+        },
+        {
+          "firstName": "Ch.",
+          "lastName": "Ménézo"
+        }
+      ],
+      "title": "An efficient numerical model for liquid water uptake in porous material and its parameter estimation",
+      "journal": "Numerical Heat Transfer, Part A: Applications",
+      "volume": "75",
+      "issue": "2",
+      "pages": {
+        "start": "110",
+        "end": "136"
+      },
+      "year": 2019,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-02047087/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:50:53.520912"
+  },
+  "544f1d8b22c4afb8c537b43e10b14e34": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "J.-P.",
+          "lastName": "Chehab"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "On time relaxed schemes and formulations for dispersive wave equations",
+      "journal": "AIMS Mathematics",
+      "volume": "4",
+      "issue": "2",
+      "pages": {
+        "start": "254",
+        "end": "278"
+      },
+      "year": 2019,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-02057433/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:50:55.423109"
+  },
+  "b478b8027a2ae63c65071d66983a3573": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "V.",
+          "lastName": "Liapidevskii"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "On the velocity of turbidity currents over moderate slopes",
+      "journal": "Fluid Dyn. Res.",
+      "volume": "51",
+      "issue": "",
+      "pages": {
+        "article_number": "035501"
+      },
+      "year": 2019,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01719313/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:50:58.297431"
+  },
+  "5e8de997f564681b48a7129bf02abfa7": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "S.",
+          "lastName": "Gasparin"
+        },
+        {
+          "firstName": "J.",
+          "lastName": "Berger"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "N.",
+          "lastName": "Mendes"
+        }
+      ],
+      "title": "An innovative method to determine optimum insulation thickness based on non-uniform adaptive moving grid",
+      "journal": "Journal of the Brazilian Society of Mechanical Sciences and Engineering",
+      "volume": "41",
+      "issue": "173",
+      "pages": {
+        "article_number": "173"
+      },
+      "year": 2019,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-02045015/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:51:00.538185"
+  },
+  "f4d2f60920be3e158983309c0e8088c3": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "S.",
+          "lastName": "Gasparin"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "N.",
+          "lastName": "Mendes"
+        }
+      ],
+      "title": "A spectral method for solving heat and moisture transfer through consolidated porous media",
+      "journal": "Int. J. Numer. Meth. Eng.",
+      "volume": "117",
+      "issue": "11",
+      "pages": {
+        "start": "1143",
+        "end": "1170"
+      },
+      "year": 2019,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-02023462/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:51:02.861225"
+  },
+  "cf0ccac00f68f2f3c3e1e3aca175e364": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "J.",
+          "lastName": "Berger"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "N.",
+          "lastName": "Mendes"
+        },
+        {
+          "firstName": "B.",
+          "lastName": "Rysbaiuly"
+        }
+      ],
+      "title": "A new model for simulating heat, air and moisture transport in porous building materials",
+      "journal": "Int. J. Heat Mass Transf.",
+      "volume": "134",
+      "issue": "",
+      "pages": {
+        "start": "1041",
+        "end": "1060"
+      },
+      "year": 2019,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-02052022/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:51:05.262996"
+  },
+  "ec5754af0d1f84f595dea8f1fefaebca": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "S.",
+          "lastName": "Gasparin"
+        },
+        {
+          "firstName": "J.",
+          "lastName": "Berger"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "N.",
+          "lastName": "Mendes"
+        }
+      ],
+      "title": "Solving nonlinear diffusive problems in buildings by means of a reduced spectral method",
+      "journal": "J. of Build. Perf. Sim.",
+      "volume": "12",
+      "issue": "1",
+      "pages": {
+        "start": "17",
+        "end": "36"
+      },
+      "year": 2019,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01513304/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:51:07.754550"
+  },
+  "852b42072188c805dea0f4be086316b0": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "A.",
+          "lastName": "Durán"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Mitsotakis"
+        }
+      ],
+      "title": "On the multi-symplectic structure of Boussinesq-type systems. I: Derivation and mathematical properties",
+      "journal": "Phys. D",
+      "volume": "388",
+      "issue": "",
+      "pages": {
+        "start": "10",
+        "end": "21"
+      },
+      "year": 2019,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01930748/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:51:09.905329"
+  },
+  "f4d4a7c80e4bc3b86d3eb8017380d053": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "J.-L.",
+          "lastName": "Verger-Gaugry"
+        }
+      ],
+      "title": "On the reducibility and the lenticular sets of zeroes of almost Newman lacunary polynomials",
+      "journal": "Arnold Mathematical Journal",
+      "volume": "4",
+      "issue": "3-4",
+      "pages": {
+        "start": "315",
+        "end": "344"
+      },
+      "year": 2018,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-02045588/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:51:13.105175"
+  },
+  "c70601a9b05e110b8f3f923aa3ec5eb5": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "Y.",
+          "lastName": "Pu"
+        },
+        {
+          "firstName": "R.L.",
+          "lastName": "Pego"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Clamond"
+        }
+      ],
+      "title": "Weakly singular shock profiles for a non-dispersive regularization of shallow-water equations",
+      "journal": "Comm. Math. Sci.",
+      "volume": "16",
+      "issue": "5",
+      "pages": {
+        "start": "1361",
+        "end": "1378"
+      },
+      "year": 2018,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01794005/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:51:15.605396"
+  },
+  "181b78fcbe0465e288fa7b93d2b15519": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "S.",
+          "lastName": "Gasparin"
+        },
+        {
+          "firstName": "J.",
+          "lastName": "Berger"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "N.",
+          "lastName": "Mendes"
+        }
+      ],
+      "title": "An adaptive simulation of nonlinear heat and moisture transfer as a boundary value problem",
+      "journal": "Int. J. Therm. Sci.",
+      "volume": "133",
+      "issue": "",
+      "pages": {
+        "start": "120",
+        "end": "139"
+      },
+      "year": 2018,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-02021293/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:51:17.896586"
+  },
+  "690a75195b0877262b73d7a832e6c969": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "S.",
+          "lastName": "Gasparin"
+        },
+        {
+          "firstName": "J.",
+          "lastName": "Berger"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "N.",
+          "lastName": "Mendes"
+        }
+      ],
+      "title": "Advanced reduced-order models for moisture diffusion in porous media",
+      "journal": "Transport in Porous Media",
+      "volume": "124",
+      "issue": "3",
+      "pages": {
+        "start": "965",
+        "end": "994"
+      },
+      "year": 2018,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01522319/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:51:20.048715"
+  },
+  "1a74e3981e6c3412d91d7d5465fd9271": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "A.",
+          "lastName": "Rashidi"
+        },
+        {
+          "firstName": "Z.H.",
+          "lastName": "Shomali"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "N.K.",
+          "lastName": "Farajkhah"
+        }
+      ],
+      "title": "Evaluation of tsunami wave energy generated by earthquakes in the Makran subduction zone",
+      "journal": "Ocean Eng.",
+      "volume": "165",
+      "issue": "1",
+      "pages": {
+        "start": "131",
+        "end": "139"
+      },
+      "year": 2018,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01719939/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:51:22.374305"
+  },
+  "35f4db80cf67029d8d86e021525d4195": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "M.",
+          "lastName": "Hoefer"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Mitsotakis"
+        }
+      ],
+      "title": "Solitary wave solutions and their interactions for fully nonlinear water waves with surface tension in the generalized Serre equations",
+      "journal": "Theor. Comp. Fluid Dyn.",
+      "volume": "32",
+      "issue": "3",
+      "pages": {
+        "start": "371",
+        "end": "397"
+      },
+      "year": 2018,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01465356/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:51:24.527053"
+  },
+  "9202b66230f639ad297cf27f9900e5b7": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "J.",
+          "lastName": "Berger"
+        },
+        {
+          "firstName": "H.",
+          "lastName": "Le Meur"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "D. M.",
+          "lastName": "Nguyen"
+        },
+        {
+          "firstName": "A.-C.",
+          "lastName": "Grillet"
+        }
+      ],
+      "title": "Analysis and improvement of the VTT mold growth model: application to bamboo fiberboard",
+      "journal": "Building and Environment",
+      "volume": "138",
+      "issue": "",
+      "pages": {
+        "start": "262",
+        "end": "274"
+      },
+      "year": 2018,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01759837/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:51:26.976095"
+  },
+  "d4b84857d6c56d425a180bd0ce1b1f21": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "J.-G.",
+          "lastName": "Caputo"
+        }
+      ],
+      "title": "Wave dynamics on networks: method and application to the sine--Gordon equation",
+      "journal": "Appl. Numer. Math.",
+      "volume": "131",
+      "issue": "",
+      "pages": {
+        "start": "54",
+        "end": "71"
+      },
+      "year": 2018,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01160840/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:51:28.911078"
+  },
+  "db958265264bc9778ca347e424bbe89e": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Mitsotakis"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "Q.",
+          "lastName": "Li"
+        }
+      ],
+      "title": "Asymptotic nonlinear and dispersive pulsatile flow in elastic vessels with cylindrical symmetry",
+      "journal": "Computers & Mathematics with Applications",
+      "volume": "75",
+      "issue": "",
+      "pages": {
+        "start": "4022",
+        "end": "4047"
+      },
+      "year": 2018,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01756720/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:51:31.013920"
+  },
+  "8b1074975709f0200ad832cbb07c53b6": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Clamond"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Accurate fast computation of steady two-dimensional surface gravity waves in arbitrary depth",
+      "journal": "J. Fluid Mech.",
+      "volume": "844",
+      "issue": "",
+      "pages": {
+        "start": "491",
+        "end": "518"
+      },
+      "year": 2018,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01465813/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:51:32.971285"
+  },
+  "8ef00e7765a37820feccfd70d80a94da": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "J.",
+          "lastName": "Berger"
+        },
+        {
+          "firstName": "S.",
+          "lastName": "Gasparin"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "N.",
+          "lastName": "Mendes"
+        }
+      ],
+      "title": "On the solution of coupled heat and moisture transport in porous material",
+      "journal": "Transport in Porous Media",
+      "volume": "121",
+      "issue": "3",
+      "pages": {
+        "start": "665",
+        "end": "702"
+      },
+      "year": 2018,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01770386/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:51:35.301114"
+  },
+  "c832e33c78da3f21a7c46915ffe59399": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "S.",
+          "lastName": "Gasparin"
+        },
+        {
+          "firstName": "J.",
+          "lastName": "Berger"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "N.",
+          "lastName": "Mendes"
+        }
+      ],
+      "title": "An improved explicit scheme for whole-building hygrothermal simulation",
+      "journal": "Building Simulation",
+      "volume": "11",
+      "issue": "3",
+      "pages": {
+        "start": "465",
+        "end": "481"
+      },
+      "year": 2018,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01495737/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:51:37.616565"
+  },
+  "42b01a9257d5975040c001771a294624": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "V.",
+          "lastName": "Liapidevskii"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "M.",
+          "lastName": "Gisclon"
+        }
+      ],
+      "title": "On the modelling of shallow turbidity flows",
+      "journal": "Adv. Water Resour.",
+      "volume": "113",
+      "issue": "",
+      "pages": {
+        "start": "310",
+        "end": "327"
+      },
+      "year": 2018,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01514095/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:51:39.891832"
+  },
+  "cb52c29fe27d65ff9bf6a8030d925cc3": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "G.",
+          "lastName": "Khakimzyanov"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Numerical modelling of surface water wave interaction with a moving wall",
+      "journal": "Commun. Comput. Phys.",
+      "volume": "23",
+      "issue": "5",
+      "pages": {
+        "start": "1289",
+        "end": "1354"
+      },
+      "year": 2018,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01546833/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:51:42.080526"
+  },
+  "e2107d5f3817f3e836222af05946395a": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "S.",
+          "lastName": "Gasparin"
+        },
+        {
+          "firstName": "J.",
+          "lastName": "Berger"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "N.",
+          "lastName": "Mendes"
+        }
+      ],
+      "title": "Stable explicit schemes for simulation of nonlinear moisture transfer in porous materials",
+      "journal": "J. of Build. Perf. Sim.",
+      "volume": "11",
+      "issue": "2",
+      "pages": {
+        "start": "129",
+        "end": "144"
+      },
+      "year": 2018,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01404578/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:51:44.474306"
+  },
+  "d43d7ad7d08f89d94c1a2daed6f90e64": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "J.",
+          "lastName": "Berger"
+        },
+        {
+          "firstName": "T.",
+          "lastName": "Busser"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "N.",
+          "lastName": "Mendes"
+        }
+      ],
+      "title": "On the estimation of moisture permeability and advection coefficients of a wood fibre material using the optimal experiment design approach",
+      "journal": "Experimental Thermal and Fluid Science",
+      "volume": "90",
+      "issue": "",
+      "pages": {
+        "start": "246",
+        "end": "259"
+      },
+      "year": 2018,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01498638/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:51:47.075687"
+  },
+  "1f7e9497473553967788b961023d83a0": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "L.",
+          "lastName": "Vuillon"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "F.",
+          "lastName": "Fedele"
+        }
+      ],
+      "title": "Some special solutions to the Hyperbolic NLS equation",
+      "journal": "Comm. Nonlinear Sci. Numer. Simulat.",
+      "volume": "57",
+      "issue": "",
+      "pages": {
+        "start": "202",
+        "end": "220"
+      },
+      "year": 2018,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "http://hal.archives-ouvertes.fr/hal-00846801/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:51:49.180194"
+  },
+  "a718cc8a884a609d83e47dbbb18db2a8": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "G.",
+          "lastName": "Khakimzyanov"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "O.",
+          "lastName": "Gusev"
+        }
+      ],
+      "title": "Dispersive shallow water wave modelling. Part IV: Numerical simulation on a globally spherical geometry",
+      "journal": "Commun. Comput. Phys.",
+      "volume": "23",
+      "issue": "2",
+      "pages": {
+        "start": "361",
+        "end": "407"
+      },
+      "year": 2018,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01558680/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:51:51.780313"
+  },
+  "675967500ce3d065f7daa11f60ce9d76": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "G.",
+          "lastName": "Khakimzyanov"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "Z.",
+          "lastName": "Fedotova"
+        }
+      ],
+      "title": "Dispersive shallow water wave modelling. Part III: Model derivation on a globally spherical geometry",
+      "journal": "Commun. Comput. Phys.",
+      "volume": "23",
+      "issue": "2",
+      "pages": {
+        "start": "315",
+        "end": "360"
+      },
+      "year": 2018,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01552229/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:51:54.123106"
+  },
+  "83558a353418429520511d08f567379f": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "G.",
+          "lastName": "Khakimzyanov"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "O.",
+          "lastName": "Gusev"
+        },
+        {
+          "firstName": "N.",
+          "lastName": "Shokina"
+        }
+      ],
+      "title": "Dispersive shallow water wave modelling. Part II: Numerical simulation on a globally flat space",
+      "journal": "Commun. Comput. Phys.",
+      "volume": "23",
+      "issue": "1",
+      "pages": {
+        "start": "30",
+        "end": "92"
+      },
+      "year": 2018,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01551075/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:51:56.435345"
+  },
+  "641bbf7ee74e1901a1e16358897c37e9": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "G.",
+          "lastName": "Khakimzyanov"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "Z.",
+          "lastName": "Fedotova"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Mitsotakis"
+        }
+      ],
+      "title": "Dispersive shallow water wave modelling. Part I: Model derivation on a globally flat space",
+      "journal": "Commun. Comput. Phys.",
+      "volume": "23",
+      "issue": "1",
+      "pages": {
+        "start": "1",
+        "end": "29"
+      },
+      "year": 2018,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01547833/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:51:58.968170"
+  },
+  "ccda7762d60d67351c8b069d0c8a6e6a": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Clamond"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Non-dispersive conservative regularisation of nonlinear shallow water and isothermal Euler equations",
+      "journal": "Commun. Nonlinear Sci. Numer. Simulat.",
+      "volume": "55",
+      "issue": "",
+      "pages": {
+        "start": "237",
+        "end": "247"
+      },
+      "year": 2018,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01509445/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:52:01.169387"
+  },
+  "ceb181dc0da9e02e2b554cf8a3cd8db0": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "G.",
+          "lastName": "Khakimzyanov"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "On supraconvergence phenomenon for second order centered finite differences on non-uniform grids",
+      "journal": "J. Comp. Appl. Math.",
+      "volume": "326",
+      "issue": "",
+      "pages": {
+        "start": "1",
+        "end": "14"
+      },
+      "year": 2017,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01223522/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:52:03.372567"
+  },
+  "04c8ba3246fb2e24bfdd166bed69e792": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "M.",
+          "lastName": "Chhay"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "M.",
+          "lastName": "Gisclon"
+        },
+        {
+          "firstName": "Ch.",
+          "lastName": "Ruyer-Quil"
+        }
+      ],
+      "title": "New asymptotic heat transfer model in thin liquid films",
+      "journal": "Appl. Math. Model.",
+      "volume": "48",
+      "issue": "",
+      "pages": {
+        "start": "844",
+        "end": "859"
+      },
+      "year": 2017,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01224182/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:52:05.985601"
+  },
+  "f2ce4a41382068e73deed792df20cf04": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Mitsotakis"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "A.",
+          "lastName": "Assylbekuly"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Zhakebayev"
+        }
+      ],
+      "title": "On weakly singular and fully nonlinear travelling shallow capillary-gravity waves in the critical regime",
+      "journal": "Phys. Lett. A",
+      "volume": "381",
+      "issue": "20",
+      "pages": {
+        "start": "1719",
+        "end": "1726"
+      },
+      "year": 2017,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01388481/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:52:08.347683"
+  },
+  "756cca6f14e3f34dd2fc06bfeaff023e": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "J.",
+          "lastName": "Berger"
+        },
+        {
+          "firstName": "S.",
+          "lastName": "Gasparin"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "N.",
+          "lastName": "Mendes"
+        }
+      ],
+      "title": "Accurate numerical simulation of moisture front in porous material",
+      "journal": "Building and Environment",
+      "volume": "118",
+      "issue": "",
+      "pages": {
+        "start": "211",
+        "end": "224"
+      },
+      "year": 2017,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01419018/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:52:10.788029"
+  },
+  "7eeb3e637aaf1abf5fbd764e2b96fdb3": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "E.",
+          "lastName": "Dinvay"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Moldabayev"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "H.",
+          "lastName": "Kalisch"
+        }
+      ],
+      "title": "The Whitham equation with surface tension",
+      "journal": "Nonlinear Dynamics",
+      "volume": "88",
+      "issue": "2",
+      "pages": {
+        "start": "1125",
+        "end": "1138"
+      },
+      "year": 2017,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01504047/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:52:13.131911"
+  },
+  "de54fd80d97632714a0e4dd2942dbe5c": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Mitsotakis"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "J.",
+          "lastName": "Carter"
+        }
+      ],
+      "title": "On the nonlinear dynamics of the traveling-wave solutions of the Serre equations",
+      "journal": "Wave Motion",
+      "volume": "70",
+      "issue": "",
+      "pages": {
+        "start": "166",
+        "end": "182"
+      },
+      "year": 2017,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "http://hal.archives-ouvertes.fr/hal-00984035/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:52:15.185188"
+  },
+  "9c6bc589166a2f8de119b627a924242a": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Clamond"
+        },
+        {
+          "firstName": "M.",
+          "lastName": "Chhay"
+        }
+      ],
+      "title": "Serre-type equations in deep water",
+      "journal": "Math. Model. Nat. Phenom.",
+      "volume": "12",
+      "issue": "1",
+      "pages": {
+        "start": "23",
+        "end": "40"
+      },
+      "year": 2017,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01340379/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:52:17.327680"
+  },
+  "8afb02b00254d3d7717108648f48f559": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Clamond"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Mitsotakis"
+        }
+      ],
+      "title": "Conservative modified Serre--Green--Naghdi equations with improved dispersion characteristics",
+      "journal": "Comm. Nonlinear Sci. Numer. Simul.",
+      "volume": "45",
+      "issue": "",
+      "pages": {
+        "start": "245",
+        "end": "257"
+      },
+      "year": 2017,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01232370/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:52:19.448216"
+  },
+  "359422a00fec6e1904ea153cdc5b1c7e": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "J.",
+          "lastName": "Berger"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "N.",
+          "lastName": "Mendes"
+        }
+      ],
+      "title": "On the optimal experimental design for heat and moisture parameter estimation",
+      "journal": "Experimental Thermal and Fluid Science",
+      "volume": "81",
+      "issue": "",
+      "pages": {
+        "start": "109",
+        "end": "122"
+      },
+      "year": 2017,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01334414/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:52:21.520267"
+  },
+  "489dd76b1d4d38c278962f756f27b2a3": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Clamond"
+        }
+      ],
+      "title": "Modified Shallow Water Equations for significantly varying seabeds",
+      "journal": "Appl. Math. Modelling",
+      "volume": "40",
+      "issue": "23-24",
+      "pages": {
+        "start": "9767",
+        "end": "9787"
+      },
+      "year": 2016,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00675209/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:52:23.696804"
+  },
+  "b3cd9530cde39355b6702332046d8fc5": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Clamond"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "A.",
+          "lastName": "Galligo"
+        }
+      ],
+      "title": "Algebraic method for constructing singular steady solitary waves: A case study",
+      "journal": "Proc. R. Soc. A.",
+      "volume": "472",
+      "issue": "2191",
+      "pages": {
+        "article_number": "20160194"
+      },
+      "year": 2016,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01290471/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:52:26.075529"
+  },
+  "fd748554c668178c2cb3877189ed7daa": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Clamond"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Multi-symplectic structure of fully-nonlinear weakly-dispersive internal gravity waves",
+      "journal": "J. Phys. A: Math. Theor.",
+      "volume": "49",
+      "issue": "31LT01",
+      "pages": {
+        "article_number": "31LT01"
+      },
+      "year": 2016,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01296552/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:52:27.967913"
+  },
+  "4a264bb2508bea876d3191eb06f2195d": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Clamond"
+        },
+        {
+          "firstName": "A.",
+          "lastName": "Durán"
+        }
+      ],
+      "title": "Efficient computation of capillary-gravity generalized solitary waves",
+      "journal": "Wave Motion",
+      "volume": "65",
+      "issue": "",
+      "pages": {
+        "start": "1",
+        "end": "16"
+      },
+      "year": 2016,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01218989/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:52:30.249054"
+  },
+  "896e5e55422927f7c4c9ddefcf2dc87c": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Ionescu--Kruse"
+        }
+      ],
+      "title": "Travelling wave solutions for some two-component shallow water models",
+      "journal": "J. Diff. Equations",
+      "volume": "261",
+      "issue": "2",
+      "pages": {
+        "start": "1099",
+        "end": "1114"
+      },
+      "year": 2016,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01294603/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:52:32.311204"
+  },
+  "b4911bc589454b510545888fd74c8bde": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "O.",
+          "lastName": "Goubet"
+        }
+      ],
+      "title": "Derivation of dissipative Boussinesq equations using the Dirichlet-to-Neumann operator approach",
+      "journal": "Math. Comput. Simul.",
+      "volume": "127",
+      "issue": "",
+      "pages": {
+        "start": "80",
+        "end": "93"
+      },
+      "year": 2016,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "http://hal.archives-ouvertes.fr/hal-00596804/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:52:34.385210"
+  },
+  "ba4d6bc698d8145b302c848a6fff40bb": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "F.",
+          "lastName": "Carbone"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "G.",
+          "lastName": "El"
+        }
+      ],
+      "title": "Macroscopic dynamics of incoherent soliton ensembles: soliton-gas kinetics and direct numerical modeling: Incoherent soliton ensembles",
+      "journal": "EPL",
+      "volume": "113",
+      "issue": "30003",
+      "pages": {
+        "article_number": "30003"
+      },
+      "year": 2016,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01248680/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:52:36.740094"
+  },
+  "83da21a07e4ed72bf1bfd6c23bfdcba4": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "M.",
+          "lastName": "Chhay"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Clamond"
+        }
+      ],
+      "title": "On the multi-symplectic structure of the Serre--Green--Naghdi equations",
+      "journal": "J. Phys. A: Math. Theor.",
+      "volume": "49",
+      "issue": "03LT01",
+      "pages": {
+        "article_number": "03LT01"
+      },
+      "year": 2016,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01221356/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:52:39.418500"
+  },
+  "3ea56e629f6c273c60f466006c88285f": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "G.",
+          "lastName": "Khakimzyanov"
+        },
+        {
+          "firstName": "N.",
+          "lastName": "Shokina"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Mitsotakis"
+        }
+      ],
+      "title": "A new run-up algorithm based on local high-order analytic expansions",
+      "journal": "J. Comp. Appl. Math.",
+      "volume": "298",
+      "issue": "",
+      "pages": {
+        "start": "82",
+        "end": "96"
+      },
+      "year": 2016,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01084811/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:52:41.811424"
+  },
+  "10dfa634e4510d076ddfc83476820c9d": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "A.",
+          "lastName": "Rafiee"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "F.",
+          "lastName": "Dias"
+        }
+      ],
+      "title": "Numerical simulation of wave impact on a rigid wall using a two-phase compressible SPH method",
+      "journal": "Procedia IUTAM",
+      "volume": "18",
+      "issue": "",
+      "pages": {
+        "start": "123",
+        "end": "137"
+      },
+      "year": 2015,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00830054/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:52:44.064093"
+  },
+  "f79bf0300fdffce2ded94068c45d6dbe": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Clamond"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "A.",
+          "lastName": "Durán"
+        }
+      ],
+      "title": "A plethora of generalised solitary gravity-capillary water waves",
+      "journal": "J. Fluid Mech.",
+      "volume": "784",
+      "issue": "",
+      "pages": {
+        "start": "664",
+        "end": "680"
+      },
+      "year": 2015,
+      "doi": "10.1017/jfm.2015.616",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "http://hal.archives-ouvertes.fr/hal-01081798/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:52:46.485694"
+  },
+  "ef24d5c2899649b1d5a75429499606a9": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "H.",
+          "lastName": "Nersisyan"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "E.",
+          "lastName": "Zuazua"
+        }
+      ],
+      "title": "Generation of 2D water waves by moving bottom disturbances",
+      "journal": "IMA J. Appl. Math.",
+      "volume": "80",
+      "issue": "4",
+      "pages": {
+        "start": "1235",
+        "end": "1253"
+      },
+      "year": 2015,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00752364/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:52:48.768413"
+  },
+  "09fb1d7e071f8f38843a054a459b0e74": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Moldabayev"
+        },
+        {
+          "firstName": "H.",
+          "lastName": "Kalisch"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "The Whitham equation as a model for surface water waves",
+      "journal": "Phys. D",
+      "volume": "309",
+      "issue": "",
+      "pages": {
+        "start": "99",
+        "end": "107"
+      },
+      "year": 2015,
+      "doi": "",
+      "url": "http://hal.univ-savoie.fr/hal-01136855/",
+      "arxiv_url": "",
+      "hal_url": "http://hal.univ-savoie.fr/hal-01136855/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:52:51.013374"
+  },
+  "353734b956eecb56a204c0ca74f78d5f": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Clamond"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Mitsotakis"
+        }
+      ],
+      "title": "Adaptive modeling of shallow fully nonlinear gravity waves",
+      "journal": "RIMS Kôkyûroku",
+      "volume": "1947",
+      "issue": "",
+      "pages": {
+        "start": "45",
+        "end": "65"
+      },
+      "year": 2015,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01088440/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:52:53.203298"
+  },
+  "59712542fa35164cbf3c08829edee98d": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Clamond"
+        },
+        {
+          "firstName": "M.",
+          "lastName": "Chhay"
+        }
+      ],
+      "title": "Numerical study of the generalised Klein--Gordon equations",
+      "journal": "Phys. D",
+      "volume": "304--305",
+      "issue": "",
+      "pages": {
+        "start": "23",
+        "end": "33"
+      },
+      "year": 2015,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00851030/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:52:55.275927"
+  },
+  "5a8bf6fea6beb3f7c3af9d562a5ab15c": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "E.",
+          "lastName": "Tobisch"
+        }
+      ],
+      "title": "Direct dynamical energy cascade in the modified KdV equation",
+      "journal": "Phys. D",
+      "volume": "297",
+      "issue": "",
+      "pages": {
+        "start": "76",
+        "end": "87"
+      },
+      "year": 2015,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00990724/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:52:57.387574"
+  },
+  "989491ce7f815cf987b3e77f63e0da47": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "T.",
+          "lastName": "Stefanakis"
+        },
+        {
+          "firstName": "S.",
+          "lastName": "Xu"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "F.",
+          "lastName": "Dias"
+        }
+      ],
+      "title": "Run-up amplification of transient long waves",
+      "journal": "Quart. Appl. Math.",
+      "volume": "LXXIII",
+      "issue": "1",
+      "pages": {
+        "start": "177",
+        "end": "199"
+      },
+      "year": 2015,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00768597/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:52:59.779681"
+  },
+  "29d8c2d4539f5a5a04128b51001d3dd0": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "I.",
+          "lastName": "Gandzha"
+        },
+        {
+          "firstName": "Yu.",
+          "lastName": "Sedletsky"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "High-order nonlinear Schrödinger equation for the envelope of slowly modulated gravity waves on the surface of finite-depth fluid and its quasi-soliton solutions",
+      "journal": "Ukr. J. Phys.",
+      "volume": "59",
+      "issue": "12",
+      "pages": {
+        "start": "1201",
+        "end": "1215"
+      },
+      "year": 2014,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01084747/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:53:01.882107"
+  },
+  "a3d3d081b259ecf0cfa9c0f6301fa3b2": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "E.",
+          "lastName": "Pelinovsky"
+        }
+      ],
+      "title": "Numerical simulation of a solitonic gas in some integrable and non-integrable models",
+      "journal": "Phys. Lett. A",
+      "volume": "378",
+      "issue": "42",
+      "pages": {
+        "start": "3102",
+        "end": "3110"
+      },
+      "year": 2014,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00913960/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:53:03.867905"
+  },
+  "f181a6a53b6af5786593ae4fe3769476": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "J.-G.",
+          "lastName": "Caputo"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Nonlinear waves in networks: a simple approach using the sine--Gordon equation",
+      "journal": "Phys. Rev. E",
+      "volume": "90",
+      "issue": "",
+      "pages": {
+        "article_number": "022912"
+      },
+      "year": 2014,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00951705/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:53:05.825818"
+  },
+  "eb0559ae25e3c21fd3db18d930851687": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Mitsotakis"
+        },
+        {
+          "firstName": "B.",
+          "lastName": "Ilan"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "On the Galerkin / finite-element method for the Serre equations",
+      "journal": "J. Sci. Comp.",
+      "volume": "61",
+      "issue": "1",
+      "pages": {
+        "start": "166",
+        "end": "195"
+      },
+      "year": 2014,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "http://hal.archives-ouvertes.fr/hal-00834064/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:53:09.611421"
+  },
+  "167c728c35a9f9cb4a24562b890a50da": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "E.",
+          "lastName": "Tobisch"
+        }
+      ],
+      "title": "Observation of the Inverse Energy Cascade in the modified Korteweg--de Vries Equation",
+      "journal": "Eur. Phys. Lett.",
+      "volume": "107",
+      "issue": "14001",
+      "pages": {
+        "article_number": "14001"
+      },
+      "year": 2014,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00991944/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:53:11.741100"
+  },
+  "c23e13b9de5226f389a4cb598a1e5f6b": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "Z.I.",
+          "lastName": "Fedotova"
+        },
+        {
+          "firstName": "G.S.",
+          "lastName": "Khakimzyanov"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Energy equation for certain approximate models of long-wave hydrodynamics",
+      "journal": "Russian Journal of Numerical Analysis and Mathematical Modelling",
+      "volume": "29",
+      "issue": "3",
+      "pages": {
+        "start": "167",
+        "end": "178"
+      },
+      "year": 2014,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00998927/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:53:14.154244"
+  },
+  "c1337d4e81fd0204bb09a821c00ce506": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "M.",
+          "lastName": "Hunt"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Visco-potential flows in electrohydrodynamics",
+      "journal": "Phys. Lett. A",
+      "volume": "378",
+      "issue": "",
+      "pages": {
+        "start": "1721",
+        "end": "1726"
+      },
+      "year": 2014,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00908724/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:53:15.947383"
+  },
+  "a1b69dd8f1ec2dc196e146105cae0e8f": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "F.",
+          "lastName": "Dias"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "L.",
+          "lastName": "O'Brien"
+        },
+        {
+          "firstName": "E.",
+          "lastName": "Renzi"
+        },
+        {
+          "firstName": "T.",
+          "lastName": "Stefanakis"
+        }
+      ],
+      "title": "On the modelling of tsunami generation and tsunami inundation",
+      "journal": "Procedia IUTAM",
+      "volume": "10",
+      "issue": "",
+      "pages": {
+        "start": "338",
+        "end": "355"
+      },
+      "year": 2014,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00728725/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:53:18.548154"
+  },
+  "5d1ef58251d6e560bc8237140df54f27": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "C.",
+          "lastName": "Viotti"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "F.",
+          "lastName": "Dias"
+        }
+      ],
+      "title": "The conformal-mapping method for surface gravity waves in the presence of variable bathymetry and mean current",
+      "journal": "Procedia IUTAM",
+      "volume": "11",
+      "issue": "",
+      "pages": {
+        "start": "110",
+        "end": "118"
+      },
+      "year": 2014,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00855780/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:53:20.520039"
+  },
+  "8343a951c9c4ec95222a7f81465e1ad9": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Evolution of random wave fields in the water of finite depth",
+      "journal": "Procedia IUTAM",
+      "volume": "11",
+      "issue": "",
+      "pages": {
+        "start": "34",
+        "end": "43"
+      },
+      "year": 2014,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00864549/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:53:22.532769"
+  },
+  "3bf9a7432df3f7e4e254fa66a733bbdf": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "F.",
+          "lastName": "Fedele"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Camassa--Holm equations and vortexons for axisymmetric pipe flows",
+      "journal": "Fluid Dyn. Res.",
+      "volume": "46",
+      "issue": "",
+      "pages": {
+        "article_number": "015503"
+      },
+      "year": 2014,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "http://hal.archives-ouvertes.fr/hal-00759444/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:53:24.805299"
+  },
+  "98b216288b2ae7e10cd584f411732abd": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Clamond"
+        }
+      ],
+      "title": "Efficient computation of steady solitary gravity waves",
+      "journal": "Wave Motion",
+      "volume": "51",
+      "issue": "",
+      "pages": {
+        "start": "86",
+        "end": "99"
+      },
+      "year": 2014,
+      "doi": "10.1016/j.wavemoti.2013.06.007",
+      "url": "http://hal.archives-ouvertes.fr/hal-00786077/",
+      "arxiv_url": "",
+      "hal_url": "http://hal.archives-ouvertes.fr/hal-00786077/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:53:27.070892"
+  },
+  "3137dc7b76fb419aeee0cd6535113c08": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "F.",
+          "lastName": "Fedele"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Camassa--Holm type equations for axisymmetric Poiseuille pipe flows",
+      "journal": "Procedia IUTAM",
+      "volume": "9",
+      "issue": "",
+      "pages": {
+        "start": "16",
+        "end": "24"
+      },
+      "year": 2013,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00752999/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:53:29.250663"
+  },
+  "abacff239ae20358662747d0d65c8ba2": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "F.",
+          "lastName": "Carbone"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "J.",
+          "lastName": "Dudley"
+        },
+        {
+          "firstName": "F.",
+          "lastName": "Dias"
+        }
+      ],
+      "title": "Extreme wave runup on a vertical cliff",
+      "journal": "Geophys. Res. Lett.",
+      "volume": "40",
+      "issue": "12",
+      "pages": {
+        "start": "3138",
+        "end": "3143"
+      },
+      "year": 2013,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00799118/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:53:31.627331"
+  },
+  "092cb6db465729f191cb1312dcca4c9f": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "A.",
+          "lastName": "Durán"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Mitsotakis"
+        }
+      ],
+      "title": "On the Galilean invariance of some dispersive wave equations",
+      "journal": "Stud. Appl. Math.",
+      "volume": "131",
+      "issue": "4",
+      "pages": {
+        "start": "359",
+        "end": "388"
+      },
+      "year": 2013,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00664143/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:53:33.777819"
+  },
+  "5eab493777205033adfec7ea3c03d86d": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Clamond"
+        },
+        {
+          "firstName": "P.",
+          "lastName": "Milewski"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Mitsotakis"
+        }
+      ],
+      "title": "Finite volume and pseudo-spectral schemes for the fully nonlinear 1D Serre equations",
+      "journal": "European Journal of Applied Mathematics",
+      "volume": "24",
+      "issue": "5",
+      "pages": {
+        "start": "761",
+        "end": "787"
+      },
+      "year": 2013,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00587994/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:53:36.320790"
+  },
+  "b19dd1ef4642788638d3d29709a119e1": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Clamond"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Fast accurate computation of the fully nonlinear solitary surface gravity waves",
+      "journal": "Computers & Fluids",
+      "volume": "84",
+      "issue": "",
+      "pages": {
+        "start": "35",
+        "end": "38"
+      },
+      "year": 2013,
+      "doi": "10.1016/j.compfluid.2013.05.010",
+      "url": "http://hal.archives-ouvertes.fr/hal-00759812/",
+      "arxiv_url": "",
+      "hal_url": "http://hal.archives-ouvertes.fr/hal-00759812/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:53:38.508145"
+  },
+  "28cddd6adee62bdacde865c610f5a01e": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "C.",
+          "lastName": "Viotti"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "J.",
+          "lastName": "Dudley"
+        },
+        {
+          "firstName": "F.",
+          "lastName": "Dias"
+        }
+      ],
+      "title": "Emergence of coherent wave groups in deep-water random sea",
+      "journal": "Phys. Rev. E",
+      "volume": "87",
+      "issue": "6",
+      "pages": {
+        "article_number": "063001"
+      },
+      "year": 2013,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00795397/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:53:40.722082"
+  },
+  "21d5730bbf0161f682ce21525fe853f3": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "H.",
+          "lastName": "Kalisch"
+        }
+      ],
+      "title": "Boussinesq modeling of surface waves due to underwater landslides",
+      "journal": "Nonlin. Processes Geophys.",
+      "volume": "20",
+      "issue": "",
+      "pages": {
+        "start": "267",
+        "end": "285"
+      },
+      "year": 2013,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "http://hal.archives-ouvertes.fr/hal-00654386/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:53:42.677529"
+  },
+  "a70a3d5184054a2af93cd99a51cf8121": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "F.",
+          "lastName": "Fedele"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Vortexons in axisymmetric Poiseuille pipe flows",
+      "journal": "Eur. Phys. Lett.",
+      "volume": "101",
+      "issue": "3",
+      "pages": {
+        "article_number": "34003"
+      },
+      "year": 2013,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00756531/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:53:44.516617"
+  },
+  "4d8eaca7ba5c418340f9f0aab37bfcc4": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "F.",
+          "lastName": "Fedele"
+        },
+        {
+          "firstName": "M.",
+          "lastName": "Chhay"
+        }
+      ],
+      "title": "Geometric numerical schemes for the KdV equation",
+      "journal": "Computational Mathematics and Mathematical Physics",
+      "volume": "53",
+      "issue": "2",
+      "pages": {
+        "start": "221",
+        "end": "236"
+      },
+      "year": 2013,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00694896/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:53:46.836798"
+  },
+  "7b1786ccb380b5ffaf771436c79f6b62": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Mitsotakis"
+        },
+        {
+          "firstName": "X.",
+          "lastName": "Gardeil"
+        },
+        {
+          "firstName": "F.",
+          "lastName": "Dias"
+        }
+      ],
+      "title": "On the use of finite fault solution for tsunami generation problems",
+      "journal": "Theor. Comput. Fluid Dyn.",
+      "volume": "27",
+      "issue": "",
+      "pages": {
+        "start": "177",
+        "end": "199"
+      },
+      "year": 2013,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00509384/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:53:49.309808"
+  },
+  "87bf4f0bbc51d4bab7ef8b7f4140d130": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "Th.",
+          "lastName": "Katsaounis"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Mitsotakis"
+        }
+      ],
+      "title": "Finite volume methods for unidirectional dispersive wave models",
+      "journal": "Int. J. Num. Meth. Fluids",
+      "volume": "71",
+      "issue": "",
+      "pages": {
+        "start": "717",
+        "end": "736"
+      },
+      "year": 2013,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "http://hal.archives-ouvertes.fr/hal-00538043/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:53:51.562094"
+  },
+  "feaff7619522e70b32b8fcb89932346e": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "F.",
+          "lastName": "Fedele"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Special solutions to a compact equation for deep-water gravity waves",
+      "journal": "J. Fluid Mech.",
+      "volume": "712",
+      "issue": "",
+      "pages": {
+        "start": "646",
+        "end": "660"
+      },
+      "year": 2012,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00687325/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:53:53.544099"
+  },
+  "fe2d87be66cc392d93cb6fbc3bc0448c": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Mitsotakis"
+        },
+        {
+          "firstName": "L.",
+          "lastName": "Chubarov"
+        },
+        {
+          "firstName": "Yu.",
+          "lastName": "Shokin"
+        }
+      ],
+      "title": "On the contribution of the horizontal sea-bed displacements into the tsunami generation process",
+      "journal": "Ocean Modelling",
+      "volume": "56",
+      "issue": "",
+      "pages": {
+        "start": "43",
+        "end": "56"
+      },
+      "year": 2012,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00530999/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:53:56.076681"
+  },
+  "bbf13654773a9115b092d7a9ab51470f": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "F.",
+          "lastName": "Fedele"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Solitary wave interaction in a compact equation for deep-water gravity waves",
+      "journal": "JETP Letters",
+      "volume": "95",
+      "issue": "12",
+      "pages": {
+        "start": "703",
+        "end": "706"
+      },
+      "year": 2012,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00687668/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:53:58.103108"
+  },
+  "a2561a77235402604d78236c79eb2c73": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "S.A.",
+          "lastName": "Beisel"
+        },
+        {
+          "firstName": "L.B.",
+          "lastName": "Chubarov"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "G.S.",
+          "lastName": "Khakimzyanov"
+        },
+        {
+          "firstName": "N.Yu.",
+          "lastName": "Shokina"
+        }
+      ],
+      "title": "Simulation of surface waves generated by an underwater landslide in a bounded reservoir",
+      "journal": "Russ. J. Numer. Anal. Math. Modelling",
+      "volume": "27",
+      "issue": "6",
+      "pages": {
+        "start": "539",
+        "end": "558"
+      },
+      "year": 2012,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00788284/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:54:01.221200"
+  },
+  "7bb4014b403cddf533fc717b0f4f7aa2": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Clamond"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Practical use of variational principles for modeling water waves",
+      "journal": "Physica D",
+      "volume": "241",
+      "issue": "1",
+      "pages": {
+        "start": "25",
+        "end": "36"
+      },
+      "year": 2012,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00456891/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:54:03.204682"
+  },
+  "7d7c4e3fa4b7922e9f599fe97b741d1d": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "F.",
+          "lastName": "Fedele"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Hamiltonian form and solitary waves of the spatial Dysthe equations",
+      "journal": "JETP Letters",
+      "volume": "94",
+      "issue": "12",
+      "pages": {
+        "start": "921",
+        "end": "925"
+      },
+      "year": 2011,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00633389/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:54:05.349341"
+  },
+  "80023c3a0603cb4da9731caa274c7947": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "C.",
+          "lastName": "Labart"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Mitsotakis"
+        }
+      ],
+      "title": "Long wave runup on random beaches",
+      "journal": "Phys. Rev. Lett.",
+      "volume": "107",
+      "issue": "",
+      "pages": {
+        "article_number": "184504"
+      },
+      "year": 2011,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00606627/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:54:07.518229"
+  },
+  "9ce474ae482c84dab6db052098091bb9": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "T.",
+          "lastName": "Stefanakis"
+        },
+        {
+          "firstName": "F.",
+          "lastName": "Dias"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Local Run-Up Amplification by Resonant Wave Interactions",
+      "journal": "Phys. Rev. Lett.",
+      "volume": "107",
+      "issue": "",
+      "pages": {
+        "article_number": "124502"
+      },
+      "year": 2011,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00605461/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:54:09.543793"
+  },
+  "39b0961852dc23fc2447b33aa089d39d": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Clamond"
+        }
+      ],
+      "title": "Shallow water equations for large bathymetry variations",
+      "journal": "J. Phys. A: Math. Theor.",
+      "volume": "44",
+      "issue": "",
+      "pages": {
+        "article_number": "332001"
+      },
+      "year": 2011,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00580310/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:54:11.462574"
+  },
+  "5a84d3a58ce9b578a7bfcd6450491953": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "C.",
+          "lastName": "Acary-Robert"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Bresch"
+        }
+      ],
+      "title": "Mathematical modeling of powder-snow avalanche flows",
+      "journal": "Studies in Applied Mathematics",
+      "volume": "127",
+      "issue": "1",
+      "pages": {
+        "start": "38",
+        "end": "66"
+      },
+      "year": 2011,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "http://hal.archives-ouvertes.fr/hal-00354000/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:54:13.611114"
+  },
+  "b1c7972e1804c3448f348d32b228cc64": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "R.",
+          "lastName": "Poncet"
+        },
+        {
+          "firstName": "F.",
+          "lastName": "Dias"
+        }
+      ],
+      "title": "The VOLNA code for the numerical modelling of tsunami waves: generation, propagation and inundation",
+      "journal": "European Journal of Mechanics B/Fluids",
+      "volume": "30",
+      "issue": "6",
+      "pages": {
+        "start": "598",
+        "end": "615"
+      },
+      "year": 2011,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00454591/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:54:15.976842"
+  },
+  "16a7685a5b353bf0dfdb666103200879": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "Th.",
+          "lastName": "Katsaounis"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Mitsotakis"
+        }
+      ],
+      "title": "Finite volume schemes for dispersive wave propagation and runup",
+      "journal": "J. Comp. Phys.",
+      "volume": "230",
+      "issue": "",
+      "pages": {
+        "start": "3035",
+        "end": "3061"
+      },
+      "year": 2011,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00472431/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:54:18.118986"
+  },
+  "d771d2f2f1917da9701bc991d1cc2445": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "Y.",
+          "lastName": "Meyapin"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "M.",
+          "lastName": "Gisclon"
+        }
+      ],
+      "title": "Velocity and energy relaxation in two-phase flows",
+      "journal": "Studies in Applied Mathematics",
+      "volume": "125",
+      "issue": "2",
+      "pages": {
+        "start": "179",
+        "end": "212"
+      },
+      "year": 2010,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00440852/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:54:20.115206"
+  },
+  "65dd0e0e7478cb1c91d2e1bec3f5931c": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Mitsotakis"
+        }
+      ],
+      "title": "On the relevance of the dam break problem in the context of nonlinear shallow water equations",
+      "journal": "Discrete and Continuous Dynamical Systems",
+      "volume": "13",
+      "issue": "4",
+      "pages": {
+        "start": "799",
+        "end": "818"
+      },
+      "year": 2010,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00369795/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:54:22.521197"
+  },
+  "6a065f00efe73f686feb57a9ba5fb766": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "F.",
+          "lastName": "Dias"
+        }
+      ],
+      "title": "Influence of sedimentary layering on tsunami generation",
+      "journal": "Computer Methods in Applied Mechanics and Engineering",
+      "volume": "199",
+      "issue": "",
+      "pages": {
+        "start": "1268",
+        "end": "1275"
+      },
+      "year": 2010,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00288696/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:54:24.965903"
+  },
+  "fd80f2c961a5f5db5bfc2637607b111d": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "F.",
+          "lastName": "Dias"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "J.-M.",
+          "lastName": "Ghidaglia"
+        }
+      ],
+      "title": "A two-fluid model for violent aerated flows",
+      "journal": "Computers and Fluids",
+      "volume": "39",
+      "issue": "2",
+      "pages": {
+        "start": "283",
+        "end": "293"
+      },
+      "year": 2010,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00285037/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:54:27.436166"
+  },
+  "f2e00b1c03df14afcec1c89687bee7dd": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Group and phase velocities in the free-surface visco-potential flow: new kind of boundary layer induced instability",
+      "journal": "Phys. Lett. A",
+      "volume": "373",
+      "issue": "",
+      "pages": {
+        "start": "3212",
+        "end": "3216"
+      },
+      "year": 2009,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00334440/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:54:29.169553"
+  },
+  "9cebd67ea35665d8048c0cba75db0606": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Visco-potential free-surface flows and long wave modelling",
+      "journal": "European Journal of Mechanics B/Fluids",
+      "volume": "28",
+      "issue": "3",
+      "pages": {
+        "start": "430",
+        "end": "443"
+      },
+      "year": 2009,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00270926/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:54:31.532607"
+  },
+  "d12347c007dee143a73ffb782f10bdd0": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "F.",
+          "lastName": "Dias"
+        }
+      ],
+      "title": "Energy of tsunami waves generated by bottom motion",
+      "journal": "Proc. R. Soc. A",
+      "volume": "465",
+      "issue": "",
+      "pages": {
+        "start": "725",
+        "end": "744"
+      },
+      "year": 2009,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "http://hal.archives-ouvertes.fr/hal-00311752/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:54:33.573979"
+  },
+  "ab0d8ff5f1c9937adfa4fe8b3bdb54a2": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "F.",
+          "lastName": "Dias"
+        }
+      ],
+      "title": "Tsunami generation by dynamic displacement of sea bed due to dip-slip faulting",
+      "journal": "Math. Comp. Sim.",
+      "volume": "80",
+      "issue": "4",
+      "pages": {
+        "start": "837",
+        "end": "848"
+      },
+      "year": 2009,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00174439/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:54:35.896971"
+  },
+  "bdddf67704409a6cd75fbb927864ddc1": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "F.",
+          "lastName": "Dias"
+        }
+      ],
+      "title": "Viscous potential free-surface flows in a fluid layer of finite depth",
+      "journal": "C. R. Acad. Sci. Paris, Ser. I",
+      "volume": "345",
+      "issue": "",
+      "pages": {
+        "start": "113",
+        "end": "118"
+      },
+      "year": 2007,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00145315/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:54:37.832855"
+  },
+  "717a6b0fbe39fcef30cca5b35cd7ed5e": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "F.",
+          "lastName": "Dias"
+        }
+      ],
+      "title": "Dissipative Boussinesq equations",
+      "journal": "C. R. Mcanique",
+      "volume": "335",
+      "issue": "",
+      "pages": {
+        "start": "559",
+        "end": "583"
+      },
+      "year": 2007,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "http://hal.archives-ouvertes.fr/hal-00137633/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:54:39.724539"
+  },
+  "dc3e1659c2b03f4a6c3d855d63c0fef0": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "Y.",
+          "lastName": "Kervella"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "F.",
+          "lastName": "Dias"
+        }
+      ],
+      "title": "Comparison between three-dimensional linear and nonlinear tsunami generation models",
+      "journal": "Theor. Comput. Fluid Dyn.",
+      "volume": "21",
+      "issue": "",
+      "pages": {
+        "start": "245",
+        "end": "269"
+      },
+      "year": 2007,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "http://hal.archives-ouvertes.fr/hal-00113909/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T12:54:42.094082"
+  },
+  "ce93821b95aea7eb516f1532ae09562a": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "F.",
+          "lastName": "Dias"
+        },
+        {
+          "firstName": "Y.",
+          "lastName": "Kervella"
+        }
+      ],
+      "title": "Linear theory of wave generation by a moving bottom",
+      "journal": "C. R. Acad. Sci. Paris, Ser. I",
+      "volume": "343",
+      "issue": "",
+      "pages": {
+        "start": "499",
+        "end": "504"
+      },
+      "year": 2006,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-00114954/",
+      "abstract": "",
+      "keywords": []
+    },
+    "timestamp": "2025-07-06T12:54:44.458836"
+  },
+  "0295e3c1a25bf2777b0e32254773097a": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "M.",
+          "lastName": "Zafar"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "A.",
+          "lastName": "Ghalem"
+        },
+        {
+          "firstName": "M.",
+          "lastName": "De Vaugrigneuse"
+        },
+        {
+          "firstName": "J.",
+          "lastName": "Kim"
+        },
+        {
+          "firstName": "P.",
+          "lastName": "Sabatier"
+        },
+        {
+          "firstName": "M.",
+          "lastName": "Banjan"
+        }
+      ],
+      "title": "Modelling earthquake-induced seiche process and subsequent hypolimnetic alterations in a thermally stratified lake",
+      "journal": "J. Geophys. Res. Oceans",
+      "volume": "130",
+      "issue": "1",
+      "pages": {
+        "article_number": "e2024JC021455"
+      },
+      "year": 2025,
+      "doi": null,
+      "url": null,
+      "arxiv_url": null,
+      "hal_url": "https://hal.science/hal-04894152/",
+      "abstract": "",
+      "keywords": [],
+      "open_access": true
+    },
+    "timestamp": "2025-07-06T19:32:45.674415"
+  },
+  "91f13bccca45ef5c5e307c43f60dfc83": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "D.",
+          "lastName": "Batic"
+        },
+        {
+          "firstName": "N.",
+          "lastName": "Chanda Momeni"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "A Spectral Approach for Quasinormal Frequencies of Noncommutative Rotating Black Holes",
+      "journal": "Eur. Phys. J. C",
+      "volume": "84",
+      "issue": "1314",
+      "pages": {
+        "start": "1314",
+        "end": "1314"
+      },
+      "year": 2024,
+      "doi": null,
+      "url": null,
+      "arxiv_url": "https://arxiv.org/abs/2410.12936/",
+      "hal_url": null,
+      "abstract": "",
+      "keywords": []
+    },
+    "timestamp": "2025-07-06T19:32:47.942221"
+  },
+  "14994914602dba70549d3de4f5a8bc10": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "E.",
+          "lastName": "Dinvay"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "H.",
+          "lastName": "Kalisch"
+        }
+      ],
+      "title": "A comparative study of bi-directional Whitham systems",
+      "journal": "Appl. Numer. Math.",
+      "volume": "141",
+      "issue": "",
+      "pages": {
+        "start": "248",
+        "end": "262"
+      },
+      "year": 2019,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "https://hal.archives-ouvertes.fr/hal-01756642/",
+      "abstract": "",
+      "keywords": []
+    },
+    "timestamp": "2025-07-06T20:09:06.113549"
+  },
+  "593bd1f1676706b37a3975ecfa366142": {
+    "result": {
+      "authors": [
+        {
+          "firstName": "E.",
+          "lastName": "Dinvay"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "H.",
+          "lastName": "Kalisch"
+        }
+      ],
+      "title": "A comparative study of bi-directional Whitham systems",
+      "journal": "Appl. Numer. Math.",
+      "volume": "141",
+      "issue": "",
+      "pages": {
+        "start": "248",
+        "end": "262"
+      },
+      "year": 2019,
+      "doi": "",
+      "url": "",
+      "arxiv_url": "",
+      "hal_url": "",
+      "abstract": "",
+      "keywords": []
+    },
+    "timestamp": "2025-07-06T22:17:46.322668"
+  }
+}

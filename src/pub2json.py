@@ -27,7 +27,7 @@ import sys
 import time
 from datetime import datetime
 from pathlib import Path
-from typing import Dict, List, Any
+from typing import Dict, List, Any, Optional
 
 # Add parent directory to path for module imports
 sys.path.append(str(Path(__file__).parent.parent))
@@ -117,21 +117,73 @@ class JournalProcessor:
         self._print_header()
         
         try:
-            # Check input file
-            if not self.input_file.exists():
-                print(f"[ERROR] Input file not found: {self.input_file}")
-                sys.exit(1)
-            
-            # Load and parse LaTeX file
-            entries = self._parse_latex_file()
-            
-            if not entries:
-                print("[WARNING] No entries found in LaTeX file")
-                sys.exit(0)
-            
-            # Enrich entries (if not dry run)
-            if not self.args.dry_run:
-                entries = asyncio.run(self._enrich_entries(entries))
+            # Handle resume mode
+            if self.args.resume_from_stage:
+                # Load from previous stage
+                stage_to_load = self.args.resume_from_stage - 1
+                if stage_to_load == 0:
+                    # Starting from stage 1, need to parse the file
+                    if not self.input_file.exists():
+                        print(f"[ERROR] Input file not found: {self.input_file}")
+                        sys.exit(1)
+                    entries = self._parse_latex_file()
+                    if not entries:
+                        print("[WARNING] No entries found in LaTeX file")
+                        sys.exit(0)
+                else:
+                    # Load intermediate results
+                    entries = self._load_intermediate_results(stage_to_load)
+                    if not entries:
+                        print(f"[ERROR] Cannot resume: No intermediate file found for stage {stage_to_load}")
+                        print(f"[INFO] Available intermediate files in {self.output_file.parent / 'intermediate'}:")
+                        intermediate_dir = self.output_file.parent / "intermediate"
+                        if intermediate_dir.exists():
+                            for file in sorted(intermediate_dir.glob("*.json")):
+                                print(f"       - {file.name}")
+                        sys.exit(1)
+                
+                print(f"\n[INFO] Resuming from stage {self.args.resume_from_stage}")
+                
+                # Skip parsing and jump to enrichment
+                if not self.args.dry_run:
+                    try:
+                        entries = asyncio.run(
+                            asyncio.wait_for(
+                                self._enrich_entries(entries, resume_from=self.args.resume_from_stage),
+                                timeout=1800
+                            )
+                        )
+                    except asyncio.TimeoutError:
+                        print("[ERROR] Enrichment process timed out after 30 minutes")
+                        print("[INFO] Saving partial results...")
+                        self._generate_output(entries)
+                        sys.exit(1)
+            else:
+                # Normal flow
+                # Check input file
+                if not self.input_file.exists():
+                    print(f"[ERROR] Input file not found: {self.input_file}")
+                    sys.exit(1)
+                
+                # Load and parse LaTeX file
+                entries = self._parse_latex_file()
+                
+                if not entries:
+                    print("[WARNING] No entries found in LaTeX file")
+                    sys.exit(0)
+                
+                # Enrich entries (if not dry run)
+                if not self.args.dry_run:
+                    try:
+                        entries = asyncio.run(
+                            asyncio.wait_for(self._enrich_entries(entries), timeout=1800)  # 30 minute timeout
+                        )
+                    except asyncio.TimeoutError:
+                        print("[ERROR] Enrichment process timed out after 30 minutes")
+                        print("[INFO] Saving partial results...")
+                        # Save what we have so far
+                        self._generate_output(entries)
+                        sys.exit(1)
             
             # Sort entries if configured
             entries = self._sort_entries(entries)
@@ -258,8 +310,8 @@ class JournalProcessor:
         
         return entries
     
-    async def _enrich_entries(self, entries: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-        """Enrich entries with metadata."""
+    async def _enrich_entries(self, entries: List[Dict[str, Any]], resume_from: int = 0) -> List[Dict[str, Any]]:
+        """Enrich entries with metadata, optionally resuming from a specific stage."""
         # Clear expired cache entries first
         if self.config.get('preferences.cache_responses', True):
             removed, remaining = self.cache.clear_expired()
@@ -267,7 +319,7 @@ class JournalProcessor:
                 print(f"[CACHE] Cleaned {removed} expired entries, {remaining} entries remain")
         
         # Phase 1: Publisher identification
-        if not self.args.no_publisher_id:
+        if resume_from <= 1 and not self.args.no_publisher_id:
             self.display.section("Publisher Identification", Icons.SPARKLES)
             publisher_stats = {'identified': 0, 'cached': 0, 'llm_queries': 0}
             
@@ -299,9 +351,12 @@ class JournalProcessor:
                 print(f"       Cache hits: {pub_id_stats['cache_hits']}, "
                       f"DOI matches: {pub_id_stats['doi_hits']}, "
                       f"LLM queries: {pub_id_stats['llm_queries']}")
+            
+            # Save after Phase 1
+            self._save_intermediate_results(entries, 1, "publisher_identification")
         
         # Phase 2: Web search for papers
-        if not self.args.no_web_search and self.config.get('search_settings.enable_paper_search', True):
+        if resume_from <= 2 and not self.args.no_web_search and self.config.get('search_settings.enable_paper_search', True):
             self.display.section("Searching for Papers Online", Icons.SEARCH)
             
             search_tasks = []
@@ -337,9 +392,12 @@ class JournalProcessor:
                     f"Search complete: {search_stats['urls_found']} URLs found, "
                     f"{search_stats['urls_validated']} validated"
                 )
+            
+            # Save after Phase 2
+            self._save_intermediate_results(entries, 2, "web_search")
         
         # Phase 3: Extract content from found URLs
-        if not self.args.no_content_extraction and self.config.get('extraction.enable_content_extraction', True):
+        if resume_from <= 3 and not self.args.no_content_extraction and self.config.get('extraction.enable_content_extraction', True):
             self.display.section("Extracting Content from URLs", Icons.SPARKLES)
             
             extracted_count = 0
@@ -394,9 +452,12 @@ class JournalProcessor:
                 self.display.success(
                     f"Extraction complete: {extracted_count} abstracts extracted"
                 )
+            
+            # Save after Phase 3
+            self._save_intermediate_results(entries, 3, "content_extraction")
         
         # Phase 3.5: Preprint fallback for entries without abstracts
-        if not self.args.no_content_extraction and self.config.get('extraction.use_preprint_fallback', True):
+        if resume_from <= 4 and not self.args.no_content_extraction and self.config.get('extraction.use_preprint_fallback', True):
             entries_without_abstract = [e for e in entries if not e.get('abstract') and (e.get('arxiv_url') or e.get('hal_url'))]
             
             if entries_without_abstract:
@@ -455,22 +516,29 @@ class JournalProcessor:
                     self.display.success(
                         f"Preprint extraction complete: {preprint_extracted} additional abstracts extracted"
                     )
+                
+                # Save after Phase 3.5
+                self._save_intermediate_results(entries, 4, "first_preprint_fallback")
         
         # Phase 4: Traditional enrichment (as fallback)
-        print("\n[INFO] Starting traditional metadata enrichment...")
-        if self.verbose >= 2:
-            print(f"[INFO] Will process {len(entries)} entries for enrichment")
-            print("[INFO] API sources enabled: CrossRef, Google Scholar, Publisher APIs")
-        
-        start_time = time.time()
-        entries = await self.enricher.enrich_entries(entries)
-        enrichment_time = time.time() - start_time
-        
-        if self.verbose >= 2:
-            print(f"[INFO] Metadata enrichment completed in {enrichment_time:.2f} seconds")
+        if resume_from <= 5:
+            print("\n[INFO] Starting traditional metadata enrichment...")
+            if self.verbose >= 2:
+                print(f"[INFO] Will process {len(entries)} entries for enrichment")
+                print("[INFO] API sources enabled: CrossRef, Google Scholar, Publisher APIs")
+            
+            start_time = time.time()
+            entries = await self.enricher.enrich_entries(entries)
+            enrichment_time = time.time() - start_time
+            
+            if self.verbose >= 2:
+                print(f"[INFO] Metadata enrichment completed in {enrichment_time:.2f} seconds")
+            
+            # Save after Phase 4
+            self._save_intermediate_results(entries, 5, "traditional_enrichment")
         
         # Phase 5: Preprint fallback for entries without abstracts
-        if self.config.get('extraction.use_preprint_fallback', True):
+        if resume_from <= 6 and self.config.get('extraction.use_preprint_fallback', True):
             preprint_count = 0
             entries_without_abstract = []
             
@@ -533,20 +601,33 @@ class JournalProcessor:
                 
                 if self.verbose >= 2:
                     self.display.success(f"Extracted {preprint_count} abstracts from preprint servers")
+                
+                # Save after Phase 5
+                self._save_intermediate_results(entries, 6, "second_preprint_fallback")
         
         # Phase 6: Generate keywords if enabled
-        if not self.args.no_keywords:
+        if resume_from <= 7 and not self.args.no_keywords:
             print("\n[INFO] Checking for keyword generation...")
             if self.verbose >= 2:
                 entries_needing_keywords = sum(1 for e in entries if not e.get('keywords'))
                 print(f"[INFO] {entries_needing_keywords} entries need keyword generation")
             
             start_time = time.time()
-            await self.keyword_gen.generate_keywords_for_entries(entries)
-            keyword_time = time.time() - start_time
+            try:
+                await asyncio.wait_for(
+                    self.keyword_gen.generate_keywords_for_entries(entries),
+                    timeout=300  # 5 minute timeout
+                )
+                keyword_time = time.time() - start_time
+                
+                if self.verbose >= 2:
+                    print(f"[INFO] Keyword generation completed in {keyword_time:.2f} seconds")
+            except asyncio.TimeoutError:
+                print("[WARNING] Keyword generation timed out after 5 minutes")
+                keyword_time = time.time() - start_time
             
-            if self.verbose >= 2:
-                print(f"[INFO] Keyword generation completed in {keyword_time:.2f} seconds")
+            # Save after Phase 6
+            self._save_intermediate_results(entries, 7, "keyword_generation")
         
         return entries
     
@@ -625,6 +706,120 @@ class JournalProcessor:
             'script_version': '1.0.0',
             'dry_run': self.args.dry_run
         }
+    
+    def _save_intermediate_results(self, entries: List[Dict[str, Any]], stage_num: int, stage_name: str) -> None:
+        """
+        Save intermediate results after each processing stage.
+        
+        Args:
+            entries: Current state of entries
+            stage_num: Stage number (1-7)
+            stage_name: Human-readable stage name
+        """
+        # Check if intermediate saves are enabled
+        if not self.config.get('output.save_intermediate_results', True):
+            return
+        
+        # Create intermediate directory
+        intermediate_dir = self.output_file.parent / "intermediate"
+        intermediate_dir.mkdir(exist_ok=True)
+        
+        # Generate filename
+        base_name = self.output_file.stem  # e.g., "papers" from "papers.json"
+        intermediate_file = intermediate_dir / f"{base_name}_stage_{stage_num}_{stage_name.lower().replace(' ', '_')}.json"
+        
+        # Prepare output data
+        output_data = {
+            "journal_papers": entries,
+            "metadata": {
+                "stage_number": stage_num,
+                "stage_name": stage_name,
+                "stage_timestamp": datetime.now().isoformat(),
+                "total_papers": len(entries),
+                "papers_with_doi": sum(1 for e in entries if e.get('doi')),
+                "papers_with_abstract": sum(1 for e in entries if e.get('abstract')),
+                "papers_with_keywords": sum(1 for e in entries if e.get('keywords')),
+                "papers_with_publisher_url": sum(1 for e in entries if e.get('publisher_url')),
+                "papers_with_arxiv": sum(1 for e in entries if e.get('arxiv_url')),
+                "papers_with_hal": sum(1 for e in entries if e.get('hal_url'))
+            }
+        }
+        
+        # Write to file
+        try:
+            with open(intermediate_file, 'w', encoding='utf-8') as f:
+                json.dump(output_data, f, ensure_ascii=False, indent=2)
+            
+            if self.verbose >= 2:
+                self.display.info(
+                    f"Saved intermediate results",
+                    f"Stage {stage_num}: {intermediate_file.name}",
+                    Icons.CHECK
+                )
+        except Exception as e:
+            if self.verbose >= 1:
+                self.display.warning(f"Failed to save intermediate results: {e}")
+    
+    def _load_intermediate_results(self, stage_num: int) -> Optional[List[Dict[str, Any]]]:
+        """
+        Load intermediate results from a specific stage.
+        
+        Args:
+            stage_num: Stage number to load (1-7)
+            
+        Returns:
+            List of entries if found, None otherwise
+        """
+        # Map stage numbers to file names
+        stage_names = {
+            1: "publisher_identification",
+            2: "web_search",
+            3: "content_extraction",
+            4: "first_preprint_fallback",
+            5: "traditional_enrichment",
+            6: "second_preprint_fallback",
+            7: "keyword_generation"
+        }
+        
+        if stage_num not in stage_names:
+            if self.verbose >= 1:
+                print(f"[ERROR] Invalid stage number: {stage_num}")
+            return None
+        
+        # Look for intermediate file
+        intermediate_dir = self.output_file.parent / "intermediate"
+        base_name = self.output_file.stem
+        pattern = f"{base_name}_stage_{stage_num}_{stage_names[stage_num]}.json"
+        intermediate_file = intermediate_dir / pattern
+        
+        if not intermediate_file.exists():
+            # Try alternative patterns (in case of different naming)
+            for file in intermediate_dir.glob(f"{base_name}_stage_{stage_num}_*.json"):
+                intermediate_file = file
+                break
+            else:
+                if self.verbose >= 1:
+                    print(f"[WARNING] No intermediate file found for stage {stage_num}")
+                    print(f"[INFO] Expected: {intermediate_file}")
+                return None
+        
+        try:
+            with open(intermediate_file, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+                entries = data.get('journal_papers', [])
+                
+                if self.verbose >= 2:
+                    metadata = data.get('metadata', {})
+                    print(f"[INFO] Loaded stage {stage_num} results from: {intermediate_file.name}")
+                    print(f"       Papers: {metadata.get('total_papers', len(entries))}")
+                    print(f"       Timestamp: {metadata.get('stage_timestamp', 'Unknown')}")
+                
+                return entries
+                
+        except Exception as e:
+            if self.verbose >= 1:
+                print(f"[ERROR] Failed to load intermediate results: {e}")
+            return None
     
     def _print_summary(self, entries: List[Dict[str, Any]], start_time: float) -> None:
         """Print processing summary."""
@@ -858,6 +1053,13 @@ Examples:
         '--no-publisher-id',
         action='store_true',
         help='Disable publisher identification'
+    )
+    
+    parser.add_argument(
+        '--resume-from-stage',
+        type=int,
+        choices=range(1, 8),
+        help='Resume processing from a specific stage (1-7). Loads intermediate results from previous run.'
     )
     
     args = parser.parse_args()

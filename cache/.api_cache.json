@@ -1,0 +1,91 @@
+{
+  "batic_2025_a_spectral_approach": {
+    "data": {
+      "doi": "10.1088/1361-6382/adc2c6",
+      "abstract": "",
+      "keywords": [
+        "Quasinormal modes",
+        "Noncommutative geometry",
+        "Wormholes",
+        "Spectral method",
+        "Chebyshev polynomials",
+        "Scalar perturbations",
+        "Electromagnetic perturbations",
+        "Gravitational perturbations",
+        "Schwarzschild wormhole",
+        "Stability analysis"
+      ],
+      "publisher_url": "https://iopscience.iop.org/article/10.1088/1361-6382/adc2c6",
+      "isbn": {
+        "print": null,
+        "electronic": null
+      },
+      "keyword_source": "generated"
+    },
+    "timestamp": "2025-07-06T10:01:12.633471",
+    "expiry": "2025-07-13T10:01:12.633486"
+  },
+  "amazioug_2025_emergence_and_enhancement": {
+    "data": {
+      "doi": "10.1140/epjp/s13360-024-05937-y",
+      "abstract": "We present a scheme for controlling quantum correlations by applying feedback to the cavity mode that exits a cavity while interacting with a mechanical oscillator and magnons. In a hybrid cavity magnomechanical system with a movable mirror, the proposed coherent feedback scheme allows for the enhancement of both bipartite and tripartite quantum correlations. Moreover, we demonstrate that the resulting entanglement remains robust with respect to ambient temperatures in the presence of coherent feedback control.",
+      "keywords": [
+        "Applied and Technical Physics",
+        "Theoretical, Mathematical and Computational Physics",
+        "Complex Systems",
+        "Condensed Matter Physics",
+        "Atomic, Molecular, Optical and Plasma Physics"
+      ],
+      "publisher_url": "https://link.springer.com/article/10.1140/epjp/s13360-024-05937-y/fulltext.html",
+      "isbn": {
+        "print": null,
+        "electronic": null
+      },
+      "keyword_source": "publisher"
+    },
+    "timestamp": "2025-07-06T10:01:24.253386",
+    "expiry": "2025-07-13T10:01:24.253399"
+  },
+  "savvopoulos_2025_advancing_freeze_desalination": {
+    "data": {
+      "doi": "",
+      "abstract": "",
+      "keywords": [
+        "Freeze desalination",
+        "Ultrasound-enhanced modelling",
+        "Desalination technology",
+        "Water purification",
+        "Phase change processes",
+        "Thermal separation techniques",
+        "Commercial applications",
+        "Process optimization"
+      ],
+      "publisher_url": "",
+      "isbn": "",
+      "keyword_source": "generated"
+    },
+    "timestamp": "2025-07-06T10:01:29.259039",
+    "expiry": "2025-07-13T10:01:29.259055"
+  },
+  "zafar_2025_modelling_earthquake-induced_seiche": {
+    "data": {
+      "doi": "",
+      "abstract": "",
+      "keywords": [
+        "earthquake-induced seiche",
+        "lacustrine setting",
+        "sedimentary processes",
+        "homogenite deposits",
+        "numerical modelling",
+        "sedimentary environments",
+        "paleoseismology",
+        "limnology"
+      ],
+      "publisher_url": "",
+      "isbn": "",
+      "keyword_source": "generated"
+    },
+    "timestamp": "2025-07-06T10:01:32.633583",
+    "expiry": "2025-07-13T10:01:32.633596"
+  }
+}

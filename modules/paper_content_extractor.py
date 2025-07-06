@@ -154,7 +154,7 @@ class PaperContentExtractor:
             # Check if this is a failed extraction (blocked/403)
             if cached_result.get('extraction_failed') and cached_result.get('failure_reason') == 'blocked':
                 if self.verbose >= 3:
-                    self.display.info("Cache hit", f"Known blocked URL: {cached_result.get('publisher', 'Unknown')}", Icons.BLOCKED)
+                    self.display.info("Cache hit", f"Known blocked URL: {cached_result.get('publisher', 'Unknown')}", Icons.WARNING)
                 return cached_result
             elif self.verbose >= 3:
                 self.display.info("Cache hit", f"Found cached extraction for URL", Icons.CHECK)
@@ -250,7 +250,7 @@ class PaperContentExtractor:
                     'extraction_failed': True,
                     'failure_reason': 'blocked',
                     'status_code': 403,
-                    'publisher': self.publisher_id.get_publisher_from_url(url) if hasattr(self.publisher_id, 'get_publisher_from_url') else 'Unknown',
+                    'publisher': self._identify_publisher_from_url(url) or 'Unknown',
                     'timestamp': time.time()
                 }
                 self.cache[cache_key] = blocked_result

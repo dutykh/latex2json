@@ -10,7 +10,7 @@ Date: 2025-07-01
 """
 
 from typing import List, Dict, Any, Optional
-from anthropic import Anthropic
+from anthropic import AsyncAnthropic
 
 from .cache_manager import CacheManager
 from .config_manager import ConfigManager
@@ -34,7 +34,7 @@ class KeywordGenerator:
         
         # Initialize Claude client if API key is available
         api_key = config.get_api_key('anthropic')
-        self.client = Anthropic(api_key=api_key) if api_key else None
+        self.client = AsyncAnthropic(api_key=api_key) if api_key else None
         self.enabled = bool(api_key) and config.get('preferences.enable_keyword_generation', True)
         
         if self.verbose >= 2:
@@ -138,7 +138,7 @@ class KeywordGenerator:
         
         # Generate keywords using Claude
         try:
-            keywords = self._call_claude_api(context)
+            keywords = await self._call_claude_api(context)
             return keywords
         except Exception as e:
             if self.verbose >= 2:
@@ -176,7 +176,7 @@ class KeywordGenerator:
         
         return '\n\n'.join(parts)
     
-    def _call_claude_api(self, context: str) -> List[str]:
+    async def _call_claude_api(self, context: str) -> List[str]:
         """Call Claude API to generate keywords."""
         if not self.client:
             return []
@@ -199,7 +199,7 @@ Example format: keyword1, keyword2, keyword3, keyword4, keyword5"""
 
         try:
             # Use Claude 3 Haiku for cost-effectiveness
-            response = self.client.messages.create(
+            response = await self.client.messages.create(
                 model="claude-3-haiku-20240307",
                 max_tokens=150,
                 temperature=0.3,  # Lower temperature for more focused keywords
