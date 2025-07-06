@@ -31,11 +31,11 @@
         "article_number": "106518"
       },
       "year": 2025,
-      "doi": "",
-      "url": "",
+      "doi": "10.1016/j.csite.2025.106518",
+      "url": "https://www.sciencedirect.com/science/article/pii/S2214157X25007786/",
       "arxiv_url": "",
       "hal_url": "",
-      "abstract": "",
+      "abstract": "Freeze desalination is a promising alternative to conventional methods, offering energy-efficient and environmentally friendly solutions for freshwater production. This study presents theoretical modeling of a crystallizer to investigate the dynamics of continuous freeze desalination enhanced by ultrasound vibrations. A mathematical framework combining Navier-Stokes perturbation analysis with crystallization kinetics analyzes the interplay between fluid flow, heat transfer, and crystal growth under varying conditions. The model provides rapid, reliable predictions to support commercial scalability. Results show that increasing vibration velocity amplitudes and extending residence time improve both crystal growth and desalination efficiency. For example, at a vibration velocity amplitude of 12 m/s and a residence time of 135 s, desalination efficiency approaches 50 %, highlighting ultrasound's role in enhancing salt exclusion and crystallization rates. Temperature profiles along the crystallizer indicate that longer residence times allow greater cooling and impurity rejection, with freezing temperatures near the mushy zone approaching the eutectic point. The framework supports the design of scalable systems and fast control strategies to mitigate disturbances, maintain stability, and respond to variable freshwater demands. By linking theoretical modeling with experimental insights, this study advances the development of efficient, commercially viable freeze desalination technologies, offering a sustainable approach to addressing global water scarcity.",
       "keywords": [
         "Freeze desalination",
         "Ultrasound-enhanced modelling",
@@ -94,11 +94,11 @@
         "article_number": "119348"
       },
       "year": 2025,
-      "doi": "",
-      "url": "",
+      "doi": "10.1016/j.epsl.2025.119348",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0012821X25001475/",
       "arxiv_url": "",
       "hal_url": "",
-      "abstract": "",
+      "abstract": "Earthquakes leave distinct signatures on lake systems, including event deposits that serve as valuable paleoseismological archives. Among these deposits, homogenite layers are commonly associated with lake oscillations, i.e., seiches. Here, we investigate the seiche mechanism and the formation of a homogenite related sediment deposit within a lacustrine environment. This study focuses on the 1822 CE earthquake in the Western European Alps, which triggered subaqueous landslides in Lake Bourget (France). This event caused oscillations in the lake's water, which subsequently resulted in the formation of a homogenite layer in the deep basin. The underlying mechanism is resolved by presenting the first comprehensive numerical model via coupling of coseismic displacement, seismic wave propagation, and mass movement with the tsunami model. The numerical simulations show excellent agreement with the available geological and historical observations. The water disturbances caused by subaqueous landslides generated small tsunami waves with a maximum runup height of approximately 2.5 m. By analyzing the tsunami signals using Fourier spectral analysis and fast iterative filtering, we determined that seismic waves are the primary drivers of seiche, which excite the natural modes of Lake Bourget. Our numerical results confirm that the sediments found in the deep basin originated from one main subaqueous landslide and from tsunami erosion of littoral sands (backwash). However, the seismically induced seiche was solely responsible for keeping the fine-grained sediment cloud in suspension for several days and led to the formation of the homogenite layer (or seiche deposit) with typical grain orientation characteristics. The proposed numerical framework could also be effective in identifying whether landslides or delta collapses (linked to homogenite/megaturbidites) in closed lakes were triggered by seismic or nonseismic sources. This distinction is crucial for reconstructing the history of past earthquakes and associated hazards.",
       "keywords": [
         "earthquake-induced seiche",
         "lacustrine setting",
@@ -409,7 +409,7 @@
         }
       ],
       "title": "On complex algebraic singularities of some genuinely nonlinear PDEs",
-      "journal": "Rend. Mat. Appl. (7)",
+      "journal": "Rend. Mat. Appl.",
       "volume": "46",
       "issue": "1-2",
       "pages": {
@@ -418,8 +418,8 @@
       },
       "year": 2025,
       "doi": "",
-      "url": "",
-      "arxiv_url": "",
+      "url": "https://www1.mat.uniroma1.it/ricerca/rendiconti/46_1-2_(2025)_63-150.html",
+      "arxiv_url": "https://arxiv.org/abs/2403.00874",
       "hal_url": "https://hal.science/hal-03372673/",
       "abstract": "In this manuscript, we highlight a new phenomenon of complex algebraic singularity formation for solutions of a large class of genuinely nonlinear partial differential equations (PDEs). We start from a unique Cauchy datum, which is holomorphic ramified around the smooth locus and is sufficiently singular. Then, we expect the existence of a solution which should be holomorphic ramified around the singular locus S defined by the vanishing of the discriminant of an algebraic equation. Notice, moreover, that the monodromy of the Cauchy datum is Abelian, whereas one of the solutions is non-Abelian. Moreover, the singular locus S depends on the Cauchy datum in contrast to the Leray principle (stated for linear problems only). This phenomenon is due to the fact that the PDE is genuinely nonlinear and that the Cauchy datum is sufficiently singular. First, we investigate the case of the inviscid Burgers equation. Later, we state a general conjecture that describes the expected phenomenon. We view this Conjecture as a working programme allowing us to develop interesting new Mathematics. We also state another Conjecture 2, which is a particular case of the general Conjecture but keeps all the flavour and difficulty of the subject. Then, we propose a new algorithm with a map F such that a fixed point of F would give a solution to the problem associated with Conjecture 2. Then, we perform convincing, elaborate numerical tests that suggest that a Banach norm should exist for which the mapping F should be a contraction so that the solution (with the above specific algebraic structure) should be unique. This work is a continuation of Leichtnam (1993).",
       "keywords": [
@@ -455,9 +455,12 @@
       "additional_metadata": {
         "journal": "Rendiconti di Matematica e delle sue Applicazioni",
         "publication_date": "2025",
-        "volume": null,
-        "issue": null,
-        "pages": null
+        "volume": 46,
+        "issue": 1,
+        "pages": {
+          "start": "63",
+          "end": "150"
+        }
       },
       "extraction_method": "hal_fallback",
       "abstract_source": "preprint",
