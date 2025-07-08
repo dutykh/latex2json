@@ -1,1 +1,423 @@
-{}
+{
+  "newcastle upon tyne, united kingdom": {
+    "lat": 54.9738474,
+    "lng": -1.6131572
+  },
+  "terengganu, malaysia": {
+    "lat": 4.8630743,
+    "lng": 102.9949297
+  },
+  "tallinn, estonia": {
+    "lat": 59.4372155,
+    "lng": 24.7453688
+  },
+  "test country, test country": null,
+  "caen, france": {
+    "lat": 49.1813403,
+    "lng": -0.3635615
+  },
+  "kaskelen, kazakhstan": {
+    "lat": 43.1965135,
+    "lng": 76.6309754
+  },
+  "saint-martin-d'hères, france": {
+    "lat": 45.1836683,
+    "lng": 5.75448
+  },
+  "le bourget-du-lac, france": {
+    "lat": 45.6470041,
+    "lng": 5.8595715
+  },
+  "bilbao, spain": {
+    "lat": 43.2630018,
+    "lng": -2.9350039
+  },
+  "abu dhabi, united arab emirates": {
+    "lat": 24.4538352,
+    "lng": 54.3774014
+  },
+  "kangar, malaysia": {
+    "lat": 6.4389312,
+    "lng": 100.1944838
+  },
+  "nice, france": {
+    "lat": 43.7009358,
+    "lng": 7.2683912
+  },
+  "grenoble, france": {
+    "lat": 45.1875602,
+    "lng": 5.7357819
+  },
+  "agadir, morocco": {
+    "lat": 30.4205162,
+    "lng": -9.5838532
+  },
+  "burnaby, canada": {
+    "lat": 49.2433804,
+    "lng": -122.972545
+  },
+  "turkistan, kazakhstan": {
+    "lat": 43.3019457,
+    "lng": 68.2703698
+  },
+  "doha, qatar": {
+    "lat": 25.2856329,
+    "lng": 51.5264162
+  },
+  "chambéry, france": {
+    "lat": 45.5662672,
+    "lng": 5.9203636
+  },
+  "kajang, malaysia": {
+    "lat": 2.9948437,
+    "lng": 101.7896595
+  },
+  "novosibirsk, russia": {
+    "lat": 55.0288307,
+    "lng": 82.9226887
+  },
+  "la rochelle, france": {
+    "lat": 46.159732,
+    "lng": -1.1515951
+  },
+  "new jersey, united states of america": {
+    "lat": 40.0757384,
+    "lng": -74.4041622
+  },
+  "new york, united states of america": {
+    "lat": 40.7127281,
+    "lng": -74.0060152
+  },
+  "lyon, france": {
+    "lat": 45.7578137,
+    "lng": 4.8320114
+  },
+  "rouen, france": {
+    "lat": 49.4404591,
+    "lng": 1.0939658
+  },
+  "rende, italy": {
+    "lat": 39.3319934,
+    "lng": 16.1843828
+  },
+  "santiago, chile": {
+    "lat": -33.4377756,
+    "lng": -70.6504502
+  },
+  "seattle, united states of america": {
+    "lat": 47.6038321,
+    "lng": -122.330062
+  },
+  "toulouse, france": {
+    "lat": 43.6044622,
+    "lng": 1.4442469
+  },
+  "amiens, france": {
+    "lat": 49.8941708,
+    "lng": 2.2956951
+  },
+  "saskatoon, canada": {
+    "lat": 52.131802,
+    "lng": -106.660767
+  },
+  "limassol, cyprus": {
+    "lat": 34.6852901,
+    "lng": 33.0332657
+  },
+  "lorient, france": {
+    "lat": 47.7477336,
+    "lng": -3.3660907
+  },
+  "amherst, united states of america": {
+    "lat": 42.3731948,
+    "lng": -72.5198761
+  },
+  "lewiston, united states of america": {
+    "lat": 44.0990717,
+    "lng": -70.2177099
+  },
+  "coventry, united kingdom": {
+    "lat": 52.4081812,
+    "lng": -1.510477
+  },
+  "dublin, ireland": {
+    "lat": 53.3493795,
+    "lng": -6.2605593
+  },
+  "oslo, norway": {
+    "lat": 59.9133301,
+    "lng": 10.7389701
+  },
+  "tromso, norway": {
+    "lat": 69.6516345,
+    "lng": 18.9558585
+  },
+  "lille, france": {
+    "lat": 50.6365654,
+    "lng": 3.0635282
+  },
+  "ngaoundéré, cameroon": {
+    "lat": 7.3211536,
+    "lng": 13.5878214
+  },
+  "besançon, france": {
+    "lat": 47.2380222,
+    "lng": 6.0243622
+  },
+  "valladolid, spain": {
+    "lat": 41.6521807,
+    "lng": -4.728605
+  },
+  "arau, malaysia": {
+    "lat": 6.4307281,
+    "lng": 100.2718795
+  },
+  "bandar-abbas, iran": {
+    "lat": 27.1793466,
+    "lng": 56.2781423
+  },
+  "atlanta, united states of america": {
+    "lat": 33.7544657,
+    "lng": -84.3898151
+  },
+  "kiev, ukraine": {
+    "lat": 50.4500336,
+    "lng": 30.5241361
+  },
+  "nantes, france": {
+    "lat": 47.2186371,
+    "lng": -1.5541362
+  },
+  "prague, czech republic": {
+    "lat": 50.0874654,
+    "lng": 14.4212535
+  },
+  "saclay, france": {
+    "lat": 48.7305162,
+    "lng": 2.172576
+  },
+  "rome, italy": {
+    "lat": 41.8933203,
+    "lng": 12.4829321
+  },
+  "montpellier, france": {
+    "lat": 43.6112422,
+    "lng": 3.8767337
+  },
+  "boulder, united states of america": {
+    "lat": 40.0149856,
+    "lng": -105.270545
+  },
+  "compiègne, france": {
+    "lat": 49.4179497,
+    "lng": 2.8263171
+  },
+  "merced, united states of america": {
+    "lat": 37.1641544,
+    "lng": -120.7678602
+  },
+  "bucharest, romania": {
+    "lat": 44.4361414,
+    "lng": 26.1027202
+  },
+  "le havre, france": {
+    "lat": 49.4938975,
+    "lng": 0.1079732
+  },
+  "fontenay-aux-roses, france": {
+    "lat": 48.7911052,
+    "lng": 2.2870373
+  },
+  "lahat, malaysia": {
+    "lat": 4.5394823,
+    "lng": 101.0532669
+  },
+  "bergen, norway": {
+    "lat": 60.3943055,
+    "lng": 5.3259192
+  },
+  "chatou, france": {
+    "lat": 48.8897044,
+    "lng": 2.1573695
+  },
+  "heraklion, greece": {
+    "lat": 35.33908,
+    "lng": 25.1332843
+  },
+  "brest, france": {
+    "lat": 48.3905283,
+    "lng": -4.4860088
+  },
+  "tehran, iran": {
+    "lat": 35.6892523,
+    "lng": 51.3896004
+  },
+  "seri iskandar, malaysia": {
+    "lat": 4.3612524,
+    "lng": 100.9508728
+  },
+  "lisbon, portugal": {
+    "lat": 38.7077507,
+    "lng": -9.1365919
+  },
+  "košice, slovak republic": {
+    "lat": 48.7172272,
+    "lng": 21.2496774
+  },
+  "durgapur, india": {
+    "lat": 23.5350475,
+    "lng": 87.3380425
+  },
+  "nizhniy novgorod, russia": {
+    "lat": 56.3264816,
+    "lng": 44.0051395
+  },
+  "québec, canada": {
+    "lat": 52.4760892,
+    "lng": -71.8258668
+  },
+  "paris, france": {
+    "lat": 48.8588897,
+    "lng": 2.320041
+  },
+  "wellington, new zealand": {
+    "lat": -41.2887953,
+    "lng": 174.7772114
+  },
+  "casablanca, morocco": {
+    "lat": 33.5945144,
+    "lng": -7.6200284
+  },
+  "surabaya, indonesia": {
+    "lat": -7.2462836,
+    "lng": 112.7377674
+  },
+  "curitiba, brazil": {
+    "lat": -25.4295963,
+    "lng": -49.2712724
+  },
+  "bath, united kingdom": {
+    "lat": 51.3813864,
+    "lng": -2.3596963
+  },
+  "howrah, india": {
+    "lat": 22.5736296,
+    "lng": 88.3251045
+  },
+  "penang 14300, malaysia": {
+    "lat": 5.2265873,
+    "lng": 100.4504672
+  },
+  "shah alam, malaysia": {
+    "lat": 3.0739429,
+    "lng": 101.5185278
+  },
+  "sidi bel abbes, algeria": {
+    "lat": 34.682268,
+    "lng": -0.4357555
+  },
+  "dalian, china": {
+    "lat": 39.740278,
+    "lng": 122.255833
+  },
+  "melbourne, australia": {
+    "lat": -37.8142454,
+    "lng": 144.9631732
+  },
+  "durian tunggal, malaysia": {
+    "lat": 2.3117752,
+    "lng": 102.2821438
+  },
+  "balasore, india": {
+    "lat": 21.5006421,
+    "lng": 86.919884
+  },
+  "pittsburgh, united states of america": {
+    "lat": 40.4416941,
+    "lng": -79.9900861
+  },
+  "nizhny novgorod, russia": {
+    "lat": 56.2769292,
+    "lng": 43.9212981
+  },
+  "tampere, finland": {
+    "lat": 61.4980214,
+    "lng": 23.7603118
+  },
+  "krakow, poland": {
+    "lat": 50.0469432,
+    "lng": 19.9971534
+  },
+  "lviv, ukraine": {
+    "lat": 49.841952,
+    "lng": 24.0315921
+  },
+  "nottingham, united kingdom": {
+    "lat": 52.9534193,
+    "lng": -1.1496461
+  },
+  "perth, australia": {
+    "lat": -31.9558967,
+    "lng": 115.8605784
+  },
+  "bangi, malaysia": {
+    "lat": 2.9039611,
+    "lng": 101.7860889
+  },
+  "loughborough, united kingdom": {
+    "lat": 52.7723859,
+    "lng": -1.2077985
+  },
+  "angers, france": {
+    "lat": 47.4739884,
+    "lng": -0.5515588
+  },
+  "fairbanks, united states of america": {
+    "lat": 64.837845,
+    "lng": -147.716675
+  },
+  "almaty, kazakhstan": {
+    "lat": 43.2363924,
+    "lng": 76.9457275
+  },
+  "biot, france": {
+    "lat": 43.6270041,
+    "lng": 7.0989546
+  },
+  "kyiv, ukraine": {
+    "lat": 50.4500336,
+    "lng": 30.5241361
+  },
+  "chennai, india": {
+    "lat": 13.0836939,
+    "lng": 80.270186
+  },
+  "freiburg, germany": {
+    "lat": 47.9960901,
+    "lng": 7.8494005
+  },
+  "vaulx-en-velin, france": {
+    "lat": 45.7784255,
+    "lng": 4.9206153
+  },
+  "tempe, united states of america": {
+    "lat": 33.4255117,
+    "lng": -111.940016
+  },
+  "linz, austria": {
+    "lat": 48.3059078,
+    "lng": 14.286198
+  },
+  "tromsø, norway": {
+    "lat": 69.6516345,
+    "lng": 18.9558585
+  },
+  "kuala lumpur, malaysia": {
+    "lat": 3.1526589,
+    "lng": 101.7022205
+  },
+  "erlangen, germany": {
+    "lat": 49.5891571,
+    "lng": 10.9812072
+  }
+}

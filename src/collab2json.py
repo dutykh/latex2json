@@ -14,6 +14,7 @@ import json
 import time
 import argparse
 import asyncio
+import hashlib
 from pathlib import Path
 from typing import Dict, List, Optional, Tuple, Any
 
@@ -144,6 +145,10 @@ class EnhancedCollaboratorExtractor:
         self._save_cache(GEOCODE_CACHE_FILE, self.geocode_cache)
         self._save_cache(LLM_CACHE_FILE, self.llm_cache)
         self._save_cache(SEARCH_CACHE_FILE, self.search_cache)
+    
+    def _get_entry_hash(self, latex_entry: str) -> str:
+        """Generate a deterministic hash for a LaTeX entry."""
+        return hashlib.md5(latex_entry.encode('utf-8')).hexdigest()
     
     def clean_latex_string(self, text: str) -> str:
         """Clean LaTeX commands from text."""
@@ -467,8 +472,8 @@ class EnhancedCollaboratorExtractor:
         if not self.gemini_parser:
             return None
         
-        # Check cache
-        entry_hash = hash(latex_entry)
+        # Check cache - use deterministic hash
+        entry_hash = self._get_entry_hash(latex_entry)
         if entry_hash in self.llm_cache:
             if self.verbose >= 3:
                 print("[LLM] Cache hit for entry")
@@ -1334,7 +1339,8 @@ Return ONLY a JSON object with these fields:
                                   skip_geocoding: bool = False,
                                   skip_search: bool = False,
                                   verify_only: bool = False,
-                                  existing_data: Optional[List[Dict]] = None) -> Tuple[List[Dict], List[Dict]]:
+                                  existing_data: Optional[List[Dict]] = None,
+                                  output_path: Optional[Path] = None) -> Tuple[List[Dict], List[Dict]]:
         """Process all collaborators from LaTeX content."""
         
         # If verify_only mode, work with existing data
@@ -1378,11 +1384,41 @@ Return ONLY a JSON object with these fields:
         # Normal processing mode
         self.display.section("Extracting Collaborators", Icons.PERSON)
         
+        # Load existing results if output file exists (for incremental processing)
+        existing_results_map = {}
+        if output_path and output_path.exists() and not existing_data:
+            try:
+                with open(output_path, 'r', encoding='utf-8') as f:
+                    existing_results = json.load(f)
+                # Build a map of entry hash to existing data
+                for result in existing_results:
+                    if '_entry_hash' in result:
+                        existing_results_map[result['_entry_hash']] = result
+                if self.verbose >= 1:
+                    self.display.info("Loaded existing results", len(existing_results_map), Icons.INFO)
+            except Exception as e:
+                if self.verbose >= 2:
+                    self.display.warning(f"Could not load existing results: {e}")
+        
         # Find all entries
         pattern = re.compile(r"^\s*\\item\[(.*?):\]\s*(.*)$", re.MULTILINE)
         matches = list(pattern.finditer(tex_content))
         
         self.display.info("Total collaborators found", len(matches), Icons.SPARKLES)
+        
+        # Count how many are cached vs new
+        cached_count = 0
+        new_count = 0
+        for match in matches:
+            entry_hash = self._get_entry_hash(match.group(0))
+            if entry_hash in existing_results_map:
+                cached_count += 1
+            else:
+                new_count += 1
+        
+        if existing_results_map:
+            self.display.info("Cached entries", cached_count, Icons.CHECK)
+            self.display.info("New entries to process", new_count, Icons.SPARKLES)
         
         results = []
         failed_geocode = []
@@ -1395,6 +1431,18 @@ Return ONLY a JSON object with these fields:
         if True:  # Always use individual processing
             self.display.subsection("Individual Processing with LLM")
             for idx, match in enumerate(matches, 1):
+                # Check if this entry is already cached
+                entry_hash = self._get_entry_hash(match.group(0))
+                
+                if entry_hash in existing_results_map:
+                    # Use cached result
+                    cached_result = existing_results_map[entry_hash]
+                    if self.verbose >= 2:
+                        name = cached_result.get('fullName', 'Unknown')
+                        print(f"\n[Cache] Using cached result for entry #{idx}/{len(matches)}: {name}")
+                    results.append(cached_result)
+                    continue
+                
                 # Show progress at start of each entry
                 if self.verbose >= 2:
                     print(f"\n[Gemini] Processing entry #{idx}/{len(matches)}...")
@@ -1545,6 +1593,9 @@ Return ONLY a JSON object with these fields:
                 elif self.verbose >= 1:
                     # Low verbosity - show card
                     self.display.collaborator_card(collaborator)
+                
+                # Add entry hash for future caching
+                collaborator['_entry_hash'] = entry_hash
                 
                 results.append(collaborator)
                 
@@ -1907,7 +1958,8 @@ async def main():
             skip_geocoding=True,
             skip_search=True,
             verify_only=True,
-            existing_data=existing_data
+            existing_data=existing_data,
+            output_path=output_json_path
         )
     elif args.fix_found_values:
         # Handle fix-found-values mode
@@ -1931,7 +1983,8 @@ async def main():
         collaborators, failed_geocode = await extractor.process_collaborators(
             tex_content,
             skip_geocoding=args.skip_geocoding,
-            skip_search=args.skip_search
+            skip_search=args.skip_search,
+            output_path=output_json_path
         )
     
     # Write output

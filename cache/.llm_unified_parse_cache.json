@@ -1,8 +1,5 @@
 {
-  "e111b4de4aa2beeaa0a7c02c00c1dbe8": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:e111b4de4aa2beeaa0a7c02c00c1dbe8": {
     "collaboratorEntries": [
       {
         "nameInformation": {
@@ -36,32 +33,44 @@
         }
       }
     ],
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "5aa9c66e0ed4d25b9e2cf8c71dca1c70": {
-    "firstName": "Teh Sabariah",
-    "lastName": "Abd Manan",
-    "nameVariants": [
-      "Teh Sabariah Abd Manan",
-      "T. S. Abd Manan",
-      "Sabariah Abd Manan"
-    ],
-    "affiliation": "Institute of Tropical Biodiversity and Sustainable Development",
-    "university": "Universiti Malaysia Terengganu",
-    "department": null,
-    "institutionType": "university",
-    "researchGroup": "Institute of Tropical Biodiversity and Sustainable Development",
-    "city": "Terengganu",
-    "country": "Malaysia",
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": "Name includes 'Binti' which is a Malay patronymic indicating 'daughter of'",
-    "llm_enhanced": true
+  "parse:5aa9c66e0ed4d25b9e2cf8c71dca1c70": {
+    "nameInformation": {
+      "firstName": "Teh Sabariah",
+      "lastName": "Abd Manan",
+      "nameVariants": [
+        "Teh Sabariah Abd Manan",
+        "T. S. Abd Manan",
+        "Sabariah Abd Manan"
+      ],
+      "fullNameFormatted": "Teh Sabariah Binti Abd Manan"
+    },
+    "affiliationDetails": {
+      "affiliation": "Institute of Tropical Biodiversity and Sustainable Development",
+      "university": "Universiti Malaysia Terengganu",
+      "institutionType": "university",
+      "department": null,
+      "researchGroup": "Institute of Tropical Biodiversity and Sustainable Development"
+    },
+    "locationInformation": {
+      "city": "Terengganu",
+      "country": "Malaysia",
+      "alternateLocations": [],
+      "enhancedLocation": {
+        "formattedString": "Terengganu, Malaysia",
+        "confidence": 0.95,
+        "notes": "Major city and state in Malaysia, location is unambiguous"
+      }
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": "Name includes 'Binti' which is a Malay patronymic indicating 'daughter of'"
+    }
   },
-  "56e1642f4b7a014f3ed07c75ce076457": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:56e1642f4b7a014f3ed07c75ce076457": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Ahmed",
@@ -97,76 +106,70 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "a4118d8f5e7f08cfc6fed29739fd2d8c": {
-    "firstName": null,
-    "lastName": null,
-    "nameVariants": [],
-    "affiliation": "Department of Computer Science, Test University",
-    "university": "Test University",
-    "department": "Department of Computer Science",
-    "institutionType": "university",
-    "researchGroup": null,
-    "city": "Test City",
-    "country": "Test Country",
-    "improvedLocationString": "",
-    "locationConfidence": 0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": "No collaborator name provided in the entry. This entry only contains affiliation and location details.",
-    "llm_enhanced": true
-  },
-  "a1f35ec044f293293aed7075fcc3ff7d": {
-    "firstName": "Nizar",
-    "lastName": "Abcha",
-    "nameVariants": [
-      "Nizar Abcha"
-    ],
-    "affiliation": "Laboratoire Morphodynamique Continentale et Côtière (UMR 6143 M2C), Université de Caen Normandie",
-    "university": "Université de Caen Normandie",
-    "department": null,
-    "institutionType": "university",
-    "researchGroup": "Laboratoire Morphodynamique Continentale et Côtière (UMR 6143 M2C)",
-    "city": "Caen",
-    "country": "France",
-    "improvedLocationString": "Caen, France",
-    "locationConfidence": 0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true,
-    "estimated_research_profile": {
-      "likely_field": "Coastal Geomorphology and Marine Sedimentology",
-      "likely_keywords": [
-        "coastal dynamics",
-        "sediment transport",
-        "morphodynamics",
-        "coastal erosion",
-        "marine geology"
-      ],
-      "institution_type": "Public Research University",
-      "institution_prestige": "medium",
-      "confidence": 0.85,
-      "notes": "Based on the laboratory name (Morphodynamique Continentale et Côtière) and UMR designation (Mixed Research Unit), this appears to be a researcher focused on continental and coastal morphodynamics at a respected French public university. The UMR designation indicates a formal research partnership between the university and French national research organizations, which is common in the French academic system."
+  "parse:a1f35ec044f293293aed7075fcc3ff7d": {
+    "nameInformation": {
+      "firstName": "Nizar",
+      "lastName": "Abcha",
+      "nameVariants": [
+        "Nizar Abcha"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Laboratoire Morphodynamique Continentale et Côtière (UMR 6143 M2C), Université de Caen Normandie",
+      "university": "Université de Caen Normandie",
+      "institutionType": "university",
+      "department": null,
+      "researchGroup": "Laboratoire Morphodynamique Continentale et Côtière (UMR 6143 M2C)"
+    },
+    "locationInformation": {
+      "city": "Caen",
+      "country": "France",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "Caen, France",
+      "ambiguousLocation": false,
+      "locationConfidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
     }
   },
-  "210c42d0d3ad3ff8b0b304fe68e7f6c2": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
-    "affiliation": "Suleyman Demirel University (SDU)",
-    "university": "Suleyman Demirel University",
-    "department": null,
-    "institutionType": "university",
-    "researchGroup": null,
-    "city": "Kaskelen",
-    "country": "Kazakhstan",
-    "improvedLocationString": "Kaskelen, Almaty Region, Kazakhstan",
-    "locationConfidence": 1.0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
+  "parse:a4118d8f5e7f08cfc6fed29739fd2d8c": {
+    "nameInformation": {
+      "firstName": null,
+      "lastName": null,
+      "nameVariants": []
+    },
+    "affiliationDetails": {
+      "affiliation": "Department of Computer Science, Test University",
+      "university": "Test University",
+      "institutionType": "university",
+      "department": "Department of Computer Science",
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Test City",
+      "country": "Test Country",
+      "alternateLocations": []
+    },
+    "enhancedLocationData": {
+      "suggestedLocationString": "Test City, Test Country",
+      "ambiguousLocation": false,
+      "locationConfidence": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": "No collaborator name provided in the entry. This entry only contains affiliation and location details."
+    }
+  },
+  "parse:210c42d0d3ad3ff8b0b304fe68e7f6c2": {
     "collaboratorName": {
       "firstName": "Madina",
       "lastName": "Abdykarim",
@@ -174,12 +177,31 @@
         "Madina Abdykarim"
       ]
     },
-    "llm_enhanced": true
+    "affiliationDetails": {
+      "affiliation": "Suleyman Demirel University (SDU)",
+      "university": "Suleyman Demirel University",
+      "institutionType": "university",
+      "department": null,
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Kaskelen",
+      "country": "Kazakhstan",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "Kaskelen, Almaty Region, Kazakhstan",
+      "ambiguousLocation": false,
+      "confidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    },
+    "nameInformation": {}
   },
-  "df78ce2f8592bea892fa5e1853da9578": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:df78ce2f8592bea892fa5e1853da9578": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Iskander",
@@ -211,12 +233,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "92460116015a7a6eb1203d4b4bbfa40e": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:92460116015a7a6eb1203d4b4bbfa40e": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Céline",
@@ -249,12 +269,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "7870931c7694659ed26091a16223eeb2": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:7870931c7694659ed26091a16223eeb2": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Amen",
@@ -286,45 +304,42 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "ed19ffe6a3f0c1eaf41c5ae7ab3138b4": {
-    "firstName": "Amirrudin",
-    "lastName": "Ahmad",
-    "nameVariants": [
-      "Amirrudin Ahmad",
-      "A. Ahmad"
-    ],
-    "affiliation": "Faculty of Science and Marine Environment, Universiti Malaysia Terengganu",
-    "university": "Universiti Malaysia Terengganu",
-    "department": "Faculty of Science and Marine Environment",
-    "institutionType": "university",
-    "researchGroup": null,
-    "country": "Malaysia",
-    "improvedLocationString": "",
-    "locationConfidence": 0.85,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true,
-    "estimated_research_profile": {
-      "likely_field": "Marine Science/Marine Biology",
-      "likely_keywords": [
-        "marine ecosystems",
-        "coastal ecology",
-        "marine biodiversity",
-        "aquatic sciences"
-      ],
-      "institution_type": "Public Research University",
-      "institution_prestige": "medium",
-      "confidence": 0.8,
-      "notes": "Based on faculty name (Science and Marine Environment) and location in Malaysia near coastal areas, researcher likely focuses on marine science. Universiti Malaysia Terengganu is known regionally for marine studies but not globally top-ranked. Name format suggests faculty member rather than student."
+  "parse:ed19ffe6a3f0c1eaf41c5ae7ab3138b4": {
+    "nameInformation": {
+      "firstName": "Amirrudin",
+      "lastName": "Ahmad",
+      "nameVariants": [
+        "Amirrudin Ahmad",
+        "A. Ahmad"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Faculty of Science and Marine Environment, Universiti Malaysia Terengganu",
+      "university": "Universiti Malaysia Terengganu",
+      "institutionType": "university",
+      "department": "Faculty of Science and Marine Environment",
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": null,
+      "country": "Malaysia",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "suggestedLocationString": "Universiti Malaysia Terengganu, Malaysia",
+      "ambiguousLocation": true,
+      "confidenceScore": 0.85
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
     }
   },
-  "b03cf047fcf6200ebf1abd4b096eb25a": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:b03cf047fcf6200ebf1abd4b096eb25a": {
     "collaboratorEntries": [
       {
         "nameInformation": {
@@ -358,12 +373,10 @@
         }
       }
     ],
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "63baded8fbb9383d7f0df501f931e02f": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:63baded8fbb9383d7f0df501f931e02f": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Anas",
@@ -395,12 +408,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "a80eddb76aab4a50d8484fc3ae07bfd5": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:a80eddb76aab4a50d8484fc3ae07bfd5": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Norshamsuri",
@@ -432,54 +443,83 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "1c97e436b0ce7585fc76a42219e28900": {
-    "firstName": "Maryam",
-    "lastName": "Al Zohbi",
-    "nameVariants": [
-      "Maryam Al Zohbi"
-    ],
-    "affiliation": "Laboratoire J.A. Dieudonné",
-    "university": "Université Côte d'Azur",
-    "department": null,
-    "institutionType": "university",
-    "researchGroup": "Laboratoire J.A. Dieudonné",
-    "city": "Nice",
-    "country": "France",
-    "alternateLocations": "(formerly at) Laboratoire J.A. Dieudonné, Université Côte d'Azur, Nice, France",
-    "improvedLocationString": "",
-    "locationConfidence": 1.0,
-    "isFormerAffiliation": true,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:1c97e436b0ce7585fc76a42219e28900": {
+    "nameInformation": {
+      "firstName": "Maryam",
+      "lastName": "Al Zohbi",
+      "nameVariants": [
+        "Maryam Al Zohbi"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Laboratoire J.A. Dieudonné",
+      "university": "Université Côte d'Azur",
+      "institutionType": "university",
+      "department": null,
+      "researchGroup": "Laboratoire J.A. Dieudonné"
+    },
+    "locationInformation": {
+      "city": "Nice",
+      "country": "France",
+      "alternateLocations": "(formerly at) Laboratoire J.A. Dieudonné, Université Côte d'Azur, Nice, France"
+    },
+    "enhancedLocationData": {
+      "suggestedLocationString": "Nice, France",
+      "ambiguousLocation": false,
+      "confidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": true,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "53faddf584f3ec8dca13b7fc446b730b": {
-    "firstName": "Alberto",
-    "lastName": "Amato",
-    "nameVariants": [
-      "Alberto Amato",
-      "A. Amato"
-    ],
-    "affiliation": "Labotatoire Physiologie Cellulaire et Végétale (LPCV)",
-    "university": null,
-    "department": null,
-    "institutionType": "research_institute",
-    "researchGroup": "LPCV",
-    "city": "Grenoble",
-    "country": "France",
-    "improvedLocationString": "",
-    "locationConfidence": 0.95,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": "Associated with multiple French research institutions (CEA, CNRS, INRA)",
-    "llm_enhanced": true
+  "parse:53faddf584f3ec8dca13b7fc446b730b": {
+    "nameInformation": {
+      "firstName": "Alberto",
+      "lastName": "Amato",
+      "nameVariants": [
+        "Alberto Amato",
+        "A. Amato"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Labotatoire Physiologie Cellulaire et Végétale (LPCV)",
+      "university": null,
+      "institutionType": "research_institute",
+      "department": null,
+      "researchGroup": "LPCV",
+      "institutions": [
+        "CEA",
+        "CNRS",
+        "INRA"
+      ]
+    },
+    "locationInformation": {
+      "city": "Grenoble",
+      "country": "France",
+      "alternateLocations": []
+    },
+    "enhancedLocationData": {
+      "suggestedLocationString": "Grenoble, Auvergne-Rhône-Alpes, France",
+      "isAmbiguous": false,
+      "confidenceScore": 0.95
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": "Associated with multiple French research institutions (CEA, CNRS, INRA)",
+      "institutionalAcronyms": {
+        "CEA": "French Alternative Energies and Atomic Energy Commission",
+        "CNRS": "French National Centre for Scientific Research",
+        "INRA": "French National Institute for Agricultural Research"
+      }
+    }
   },
-  "4dc32b7e51191b418e580564dec156e7": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:4dc32b7e51191b418e580564dec156e7": {
     "collaboratorEntries": [
       {
         "nameInformation": {
@@ -513,32 +553,41 @@
         }
       }
     ],
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "742c32dc0ba092a9c63a0d596da3bbf2": {
-    "firstName": "Muhammad",
-    "lastName": "Asjad",
-    "nameVariants": [
-      "Muhammad Asjad"
-    ],
-    "affiliation": "Department of Physics, Simon Fraser University",
-    "university": "Simon Fraser University",
-    "department": "Department of Physics",
-    "institutionType": "university",
-    "researchGroup": null,
-    "city": "Burnaby",
-    "country": "Canada",
-    "improvedLocationString": "Burnaby, Canada",
-    "locationConfidence": 1.0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:742c32dc0ba092a9c63a0d596da3bbf2": {
+    "nameInformation": {
+      "firstName": "Muhammad",
+      "lastName": "Asjad",
+      "nameVariants": [
+        "Muhammad Asjad"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Department of Physics, Simon Fraser University",
+      "university": "Simon Fraser University",
+      "institutionType": "university",
+      "department": "Department of Physics",
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Burnaby",
+      "country": "Canada",
+      "alternateLocations": []
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "Burnaby, Canada",
+      "ambiguousLocations": [],
+      "confidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "a470024e80fde92e1e46981c46064d61": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:a470024e80fde92e1e46981c46064d61": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Aydar",
@@ -572,31 +621,57 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "54a605e75ff13b996dbf1e7348dc2c9e": {
-    "firstName": "Laurence",
-    "lastName": "Audin",
-    "nameVariants": [
-      "Laurence Audin",
-      "L. Audin"
-    ],
-    "affiliation": "",
-    "university": "Université Grenoble Alpes",
-    "department": null,
-    "institutionType": "research_institute",
-    "researchGroup": "ISTerre",
-    "city": "Grenoble",
-    "country": "France",
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": "Joint affiliation between ISTerre and IRD",
-    "llm_enhanced": true
+  "parse:54a605e75ff13b996dbf1e7348dc2c9e": {
+    "nameInformation": {
+      "firstName": "Laurence",
+      "lastName": "Audin",
+      "nameVariants": [
+        "Laurence Audin",
+        "L. Audin"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliations": [
+        {
+          "name": "ISTerre",
+          "institutionType": "research_institute",
+          "parentInstitution": "UGA"
+        },
+        {
+          "name": "Institut de Recherche pour le Développement",
+          "acronym": "IRD",
+          "institutionType": "research_institute"
+        }
+      ],
+      "university": "Université Grenoble Alpes",
+      "universityAcronym": "UGA",
+      "institutionType": "research_institute",
+      "department": null,
+      "researchGroup": "ISTerre"
+    },
+    "locationInformation": {
+      "city": "Grenoble",
+      "country": "France",
+      "alternateLocations": null,
+      "enhancedLocation": {
+        "formattedString": "Grenoble, Auvergne-Rhône-Alpes, France",
+        "confidence": 0.95,
+        "coordinates": {
+          "latitude": 45.1885,
+          "longitude": 5.7245
+        }
+      }
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": "Joint affiliation between ISTerre and IRD"
+    }
   },
-  "21f4cb4f74bd6ee622ca82a25428cbd3": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:21f4cb4f74bd6ee622ca82a25428cbd3": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Michaël",
@@ -629,33 +704,43 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "4ca25943003793a09898d3b6854665e4": {
-    "firstName": "Zeinabou",
-    "lastName": "Babou",
-    "nameVariants": [
-      "Zeinabou Babou",
-      "Z. A. Babou"
-    ],
-    "affiliation": "Mathematics Department, Khalifa University of Science and Technology",
-    "university": "Khalifa University of Science and Technology",
-    "department": "Mathematics Department",
-    "institutionType": "university",
-    "researchGroup": null,
-    "city": "Abu Dhabi",
-    "country": "United Arab Emirates",
-    "improvedLocationString": "Abu Dhabi, United Arab Emirates",
-    "locationConfidence": 0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:4ca25943003793a09898d3b6854665e4": {
+    "nameInformation": {
+      "firstName": "Zeinabou",
+      "lastName": "Babou",
+      "middleName": "A.",
+      "nameVariants": [
+        "Zeinabou Babou",
+        "Z. A. Babou"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Mathematics Department, Khalifa University of Science and Technology",
+      "university": "Khalifa University of Science and Technology",
+      "institutionType": "university",
+      "department": "Mathematics Department",
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Abu Dhabi",
+      "country": "United Arab Emirates",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "Abu Dhabi, United Arab Emirates",
+      "ambiguousLocation": false,
+      "locationConfidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "1cd9b8a677ea88ed178c812ba3809dad": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:1cd9b8a677ea88ed178c812ba3809dad": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Mathilde",
@@ -687,12 +772,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "13c766f2903bbfe0bdf824c78b2095a3": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:13c766f2903bbfe0bdf824c78b2095a3": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Olivier",
@@ -724,32 +807,41 @@
         "specialNotes": "Associated with CEA, CNRS, INRA"
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "24bfec80757fe51382dbb6585404d3af": {
-    "firstName": "Davide",
-    "lastName": "Batic",
-    "nameVariants": [
-      "Davide Batic"
-    ],
-    "affiliation": "Khalifa University of Science and Technology",
-    "university": "Khalifa University of Science and Technology",
-    "department": "Mathematics Department",
-    "institutionType": "university",
-    "researchGroup": null,
-    "city": "Abu Dhabi",
-    "country": "United Arab Emirates",
-    "improvedLocationString": "",
-    "locationConfidence": 1.0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:24bfec80757fe51382dbb6585404d3af": {
+    "nameInformation": {
+      "firstName": "Davide",
+      "lastName": "Batic",
+      "nameVariants": [
+        "Davide Batic"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Khalifa University of Science and Technology",
+      "university": "Khalifa University of Science and Technology",
+      "institutionType": "university",
+      "department": "Mathematics Department",
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Abu Dhabi",
+      "country": "United Arab Emirates",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "suggestedLocationString": "Abu Dhabi, United Arab Emirates",
+      "ambiguityNotes": null,
+      "confidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "96910a6af64621225b71bdaa4fda18d8": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:96910a6af64621225b71bdaa4fda18d8": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Christian",
@@ -781,12 +873,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "0cb848cb8caafdda7f0592e3604cd37f": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:0cb848cb8caafdda7f0592e3604cd37f": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Salmia",
@@ -818,12 +908,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "666ecbab895bcfa6ac98f9aa7de27088": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:666ecbab895bcfa6ac98f9aa7de27088": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Joudy F.",
@@ -856,12 +944,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "a036796f55449f7b22c49cc4a0cf1731": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:a036796f55449f7b22c49cc4a0cf1731": {
     "collaboratorEntries": [
       {
         "nameInformation": {
@@ -895,32 +981,41 @@
         }
       }
     ],
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "988c623abc45267863c0f187b986e7bd": {
-    "firstName": "Rafik",
-    "lastName": "Belarbi",
-    "nameVariants": [
-      "Rafik Belarbi"
-    ],
-    "affiliation": "Laboratoire des Sciences de l'Ingénieur pour l'Environnement (LaSIE UMR 7356)",
-    "university": "Université de La Rochelle",
-    "department": null,
-    "institutionType": "university",
-    "researchGroup": "Laboratoire des Sciences de l'Ingénieur pour l'Environnement (LaSIE UMR 7356)",
-    "city": "La Rochelle",
-    "country": "France",
-    "improvedLocationString": "",
-    "locationConfidence": 0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:988c623abc45267863c0f187b986e7bd": {
+    "nameInformation": {
+      "firstName": "Rafik",
+      "lastName": "Belarbi",
+      "nameVariants": [
+        "Rafik Belarbi"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Laboratoire des Sciences de l'Ingénieur pour l'Environnement (LaSIE UMR 7356)",
+      "university": "Université de La Rochelle",
+      "institutionType": "university",
+      "department": null,
+      "researchGroup": "Laboratoire des Sciences de l'Ingénieur pour l'Environnement (LaSIE UMR 7356)"
+    },
+    "locationInformation": {
+      "city": "La Rochelle",
+      "country": "France",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "suggestedLocationString": "La Rochelle, France",
+      "ambiguousLocation": false,
+      "locationConfidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "a8519a71d004ca6666b30e0c9b5b5064": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:a8519a71d004ca6666b30e0c9b5b5064": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Julien",
@@ -952,51 +1047,74 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "1313561bcd58ac9591613f11c8a6413f": {
-    "firstName": "Denis",
-    "lastName": "Blackmore",
-    "nameVariants": [
-      "Denis Blackmore"
-    ],
-    "affiliation": "Department of Mathematical Sciences, New Jersey Institute of Technology",
-    "university": "New Jersey Institute of Technology",
-    "department": "Department of Mathematical Sciences",
-    "institutionType": "university",
-    "researchGroup": null,
-    "country": "United States of America",
-    "improvedLocationString": "",
-    "locationConfidence": 0.8,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:1313561bcd58ac9591613f11c8a6413f": {
+    "nameInformation": {
+      "firstName": "Denis",
+      "lastName": "Blackmore",
+      "nameVariants": [
+        "Denis Blackmore"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Department of Mathematical Sciences, New Jersey Institute of Technology",
+      "university": "New Jersey Institute of Technology",
+      "institutionType": "university",
+      "department": "Department of Mathematical Sciences",
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": null,
+      "country": "United States of America",
+      "alternateLocations": []
+    },
+    "enhancedLocationData": {
+      "suggestedLocationString": "New Jersey, United States of America",
+      "ambiguousLocations": [
+        "New Jersey (state, no specific city mentioned)"
+      ],
+      "confidenceScore": 0.8
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "7a19149c98e925a0d4762c7607f8e263": {
-    "firstName": "Stéphanie",
-    "lastName": "Bolik",
-    "nameVariants": [
-      "Stéphanie Bolik"
-    ],
-    "affiliation": "Labotatoire Physiologie Cellulaire et Végétale (LPCV), CEA, CNRS, INRA",
-    "university": null,
-    "department": null,
-    "institutionType": "research_institute",
-    "researchGroup": "Labotatoire Physiologie Cellulaire et Végétale (LPCV)",
-    "city": "Grenoble",
-    "country": "France",
-    "improvedLocationString": "Grenoble, France",
-    "locationConfidence": 1.0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:7a19149c98e925a0d4762c7607f8e263": {
+    "nameInformation": {
+      "firstName": "Stéphanie",
+      "lastName": "Bolik",
+      "nameVariants": [
+        "Stéphanie Bolik"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Labotatoire Physiologie Cellulaire et Végétale (LPCV), CEA, CNRS, INRA",
+      "university": null,
+      "institutionType": "research_institute",
+      "department": null,
+      "researchGroup": "Labotatoire Physiologie Cellulaire et Végétale (LPCV)"
+    },
+    "locationInformation": {
+      "city": "Grenoble",
+      "country": "France",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "Grenoble, France",
+      "ambiguousLocation": false,
+      "confidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "a6ee38c3e4ea03867c6cdaaa82cdac60": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:a6ee38c3e4ea03867c6cdaaa82cdac60": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Maximilien",
@@ -1028,12 +1146,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "49284a3fd3a0b4e78d7d15f647de51c1": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:49284a3fd3a0b4e78d7d15f647de51c1": {
     "collaborators": [
       {
         "nameInformation": {
@@ -1067,32 +1183,41 @@
         }
       }
     ],
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "2717a8ea2dc5d35614b31de79ae0e11e": {
-    "firstName": "Thomas",
-    "lastName": "Bueler-Faudree",
-    "nameVariants": [
-      "Thomas Bueler-Faudree"
-    ],
-    "affiliation": "Columbia University",
-    "university": "Columbia University",
-    "department": null,
-    "institutionType": "university",
-    "researchGroup": null,
-    "city": "New York",
-    "country": "United States of America",
-    "improvedLocationString": "New York, United States of America",
-    "locationConfidence": 1.0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:2717a8ea2dc5d35614b31de79ae0e11e": {
+    "nameInformation": {
+      "firstName": "Thomas",
+      "lastName": "Bueler-Faudree",
+      "nameVariants": [
+        "Thomas Bueler-Faudree"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Columbia University",
+      "university": "Columbia University",
+      "institutionType": "university",
+      "department": null,
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "New York",
+      "country": "United States of America",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "New York, United States of America",
+      "ambiguityNotes": null,
+      "confidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "f2c0742d88266f2aeb0525a728898823": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:f2c0742d88266f2aeb0525a728898823": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Catherine",
@@ -1125,12 +1250,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "872782500fbf0f729727bf1eff7bd848": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:872782500fbf0f729727bf1eff7bd848": {
     "collaboratorEntries": [
       {
         "nameInformation": {
@@ -1164,12 +1287,10 @@
         }
       }
     ],
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "0fce59de1b0ee2c2546a5cd232f5521d": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:0fce59de1b0ee2c2546a5cd232f5521d": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Jean-Guy",
@@ -1202,12 +1323,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "643c26d13b76e304161926a8b7bfa556": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:643c26d13b76e304161926a8b7bfa556": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Francesco",
@@ -1239,34 +1358,43 @@
         "specialNotes": "C/o University of Calabria indicates the institute is located at or associated with the university."
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "2727dff90e034b775639b0335cc5673f": {
-    "firstName": "Carlos Rodrigo",
-    "lastName": "Cárdenas-Bravo",
-    "nameVariants": [
-      "Carlos Rodrigo Cárdenas-Bravo",
-      "C. R. Cárdenas-Bravo",
-      "Carlos Cárdenas-Bravo"
-    ],
-    "affiliation": "Universidad Técnica Federico Santa María",
-    "university": "Universidad Técnica Federico Santa María",
-    "department": null,
-    "institutionType": "university",
-    "researchGroup": null,
-    "city": "Santiago",
-    "country": "Chile",
-    "improvedLocationString": "Santiago, Chile",
-    "locationConfidence": 1.0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:2727dff90e034b775639b0335cc5673f": {
+    "nameInformation": {
+      "firstName": "Carlos Rodrigo",
+      "lastName": "Cárdenas-Bravo",
+      "nameVariants": [
+        "Carlos Rodrigo Cárdenas-Bravo",
+        "C. R. Cárdenas-Bravo",
+        "Carlos Cárdenas-Bravo"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Universidad Técnica Federico Santa María",
+      "university": "Universidad Técnica Federico Santa María",
+      "institutionType": "university",
+      "department": null,
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Santiago",
+      "country": "Chile",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "Santiago, Chile",
+      "ambiguousLocations": [],
+      "confidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "3e2ae178b01ae4dee3a91a7612beb3dc": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:3e2ae178b01ae4dee3a91a7612beb3dc": {
     "collaborator": {
       "nameInformation": {
         "firstName": "John D.",
@@ -1299,12 +1427,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "27432edfc1c25db3e41a08e3bb26b004": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:27432edfc1c25db3e41a08e3bb26b004": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Emmanuel",
@@ -1336,34 +1462,43 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "c025e54628289685a28c79cfc5f99559": {
-    "firstName": "Jean-Paul",
-    "lastName": "Chehab",
-    "nameVariants": [
-      "Jean-Paul Chehab",
-      "J. P. Chehab",
-      "J.-P. Chehab"
-    ],
-    "affiliation": "Laboratoire Amiénois de Mathématique Fondamentale et Appliquée",
-    "university": "Université de Picardie Jules Verne",
-    "department": null,
-    "institutionType": "university",
-    "researchGroup": "Laboratoire Amiénois de Mathématique Fondamentale et Appliquée",
-    "city": "Amiens",
-    "country": "France",
-    "improvedLocationString": "",
-    "locationConfidence": 1.0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:c025e54628289685a28c79cfc5f99559": {
+    "nameInformation": {
+      "firstName": "Jean-Paul",
+      "lastName": "Chehab",
+      "nameVariants": [
+        "Jean-Paul Chehab",
+        "J. P. Chehab",
+        "J.-P. Chehab"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Laboratoire Amiénois de Mathématique Fondamentale et Appliquée",
+      "university": "Université de Picardie Jules Verne",
+      "institutionType": "university",
+      "department": null,
+      "researchGroup": "Laboratoire Amiénois de Mathématique Fondamentale et Appliquée"
+    },
+    "locationInformation": {
+      "city": "Amiens",
+      "country": "France",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "suggestedLocationString": "Amiens, France",
+      "ambiguousLocation": false,
+      "confidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "6561f901862fffc349e2cf0ebc80087c": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:6561f901862fffc349e2cf0ebc80087c": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Alexei F.",
@@ -1397,12 +1532,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "4ceb637d03368f33a5307b74d05825a5": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:4ceb637d03368f33a5307b74d05825a5": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Marx",
@@ -1434,93 +1567,135 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "52388dc1c9a9bbc161bb55548ab7e695": {
-    "firstName": "Paul",
-    "lastName": "Christodoulides",
-    "nameVariants": [
-      "Paul Christodoulides"
-    ],
-    "affiliation": "Department of Electrical Engineering and Information Technology, Faculty of Engineering and Technology, Cyprus University of Technology",
-    "university": "Cyprus University of Technology",
-    "department": "Department of Electrical Engineering and Information Technology",
-    "institutionType": "university",
-    "researchGroup": null,
-    "city": "Limassol",
-    "country": "Cyprus",
-    "improvedLocationString": "",
-    "locationConfidence": 0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:52388dc1c9a9bbc161bb55548ab7e695": {
+    "nameInformation": {
+      "firstName": "Paul",
+      "lastName": "Christodoulides",
+      "nameVariants": [
+        "Paul Christodoulides"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Department of Electrical Engineering and Information Technology, Faculty of Engineering and Technology, Cyprus University of Technology",
+      "university": "Cyprus University of Technology",
+      "institutionType": "university",
+      "department": "Department of Electrical Engineering and Information Technology",
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Limassol",
+      "country": "Cyprus",
+      "alternateLocations": []
+    },
+    "enhancedLocationData": {
+      "suggestedLocationString": "Limassol, Cyprus",
+      "ambiguousLocation": false,
+      "locationConfidence": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "9d8fb9c8f3c0564103b060bc8e4d76ec": {
-    "firstName": "Leonid",
-    "lastName": "Chubarov",
-    "nameVariants": [
-      "Leonid Chubarov"
-    ],
-    "affiliation": "Institute of Computational Technologies, Novosibirsk, Russia",
-    "university": null,
-    "department": null,
-    "institutionType": "research_institute",
-    "researchGroup": null,
-    "city": "Novosibirsk",
-    "country": "Russia",
-    "improvedLocationString": "Novosibirsk, Russia",
-    "locationConfidence": 0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:9d8fb9c8f3c0564103b060bc8e4d76ec": {
+    "nameInformation": {
+      "firstName": "Leonid",
+      "lastName": "Chubarov",
+      "nameVariants": [
+        "Leonid Chubarov"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Institute of Computational Technologies, Novosibirsk, Russia",
+      "university": null,
+      "institutionType": "research_institute",
+      "department": null,
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Novosibirsk",
+      "country": "Russia",
+      "alternateLocations": []
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "Novosibirsk, Russia",
+      "ambiguousLocation": false,
+      "locationConfidence": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "41401f93e0c7da3c1bb92305a29e7b5e": {
-    "firstName": "Didier",
-    "lastName": "Clamond",
-    "nameVariants": [
-      "Didier Clamond"
-    ],
-    "affiliation": "Laboratoire J.A. Dieudonné",
-    "university": "Université Côte d'Azur",
-    "department": null,
-    "institutionType": "university",
-    "researchGroup": "Laboratoire J.A. Dieudonné",
-    "city": "Nice",
-    "country": "France",
-    "improvedLocationString": "",
-    "locationConfidence": 0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:41401f93e0c7da3c1bb92305a29e7b5e": {
+    "nameInformation": {
+      "firstName": "Didier",
+      "lastName": "Clamond",
+      "nameVariants": [
+        "Didier Clamond"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Laboratoire J.A. Dieudonné",
+      "university": "Université Côte d'Azur",
+      "institutionType": "university",
+      "department": null,
+      "researchGroup": "Laboratoire J.A. Dieudonné"
+    },
+    "locationInformation": {
+      "city": "Nice",
+      "country": "France",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "suggestedLocationString": "Nice, France",
+      "ambiguousLocation": false,
+      "locationConfidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "2661c6123fe32bbab73523f978dba883": {
-    "firstName": "Benoît",
-    "lastName": "Colange",
-    "nameVariants": [
-      "Benoît Colange",
-      "B. Colange"
-    ],
-    "affiliation": "CEA Grenoble/INES",
-    "university": null,
-    "department": null,
-    "institutionType": "research_institute",
-    "researchGroup": "Laboratory for Solar Systems (L2S)",
-    "city": "Le Bourget-du-Lac",
-    "country": "France",
-    "improvedLocationString": "",
-    "locationConfidence": 1.0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:2661c6123fe32bbab73523f978dba883": {
+    "nameInformation": {
+      "firstName": "Benoît",
+      "lastName": "Colange",
+      "nameVariants": [
+        "Benoît Colange",
+        "B. Colange"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "CEA Grenoble/INES",
+      "university": null,
+      "institutionType": "research_institute",
+      "department": null,
+      "researchGroup": "Laboratory for Solar Systems (L2S)"
+    },
+    "locationInformation": {
+      "city": "Le Bourget-du-Lac",
+      "country": "France",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "suggestedLocationString": "Le Bourget-du-Lac, France",
+      "ambiguousLocation": false,
+      "confidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "8f84f5a53a47ffa324146d46fc46688f": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:8f84f5a53a47ffa324146d46fc46688f": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Thibaut",
@@ -1552,121 +1727,173 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "8a37dfbc0c25bfc33f6d74ebde3877ef": {
-    "firstName": "Raymond P.",
-    "lastName": "Coppinger",
-    "nameVariants": [
-      "Raymond Coppinger",
-      "R. P. Coppinger",
-      "R. Coppinger"
-    ],
-    "affiliation": "School of Cognitive Science, Hampshire College",
-    "university": "Hampshire College",
-    "department": "School of Cognitive Science",
-    "institutionType": "university",
-    "researchGroup": null,
-    "city": "Amherst",
-    "country": "United States of America",
-    "alternateLocations": [
-      "School of Cognitive Science, Hampshire College, Amherst, USA"
-    ],
-    "improvedLocationString": "",
-    "locationConfidence": 0.9,
-    "isFormerAffiliation": true,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:8a37dfbc0c25bfc33f6d74ebde3877ef": {
+    "nameInformation": {
+      "firstName": "Raymond P.",
+      "lastName": "Coppinger",
+      "nameVariants": [
+        "Raymond Coppinger",
+        "R. P. Coppinger",
+        "R. Coppinger"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "School of Cognitive Science, Hampshire College",
+      "university": "Hampshire College",
+      "institutionType": "university",
+      "department": "School of Cognitive Science",
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Amherst",
+      "country": "United States of America",
+      "alternateLocations": [
+        "School of Cognitive Science, Hampshire College, Amherst, USA"
+      ]
+    },
+    "enhancedLocationData": {
+      "suggestedLocationString": "Amherst, Massachusetts, United States of America",
+      "ambiguousLocation": false,
+      "confidenceScore": 0.9
+    },
+    "additionalContext": {
+      "isFormerAffiliation": true,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "81ad64e38443ec84d989d2a2b60cce91": {
-    "firstName": "Mikaël",
-    "lastName": "Cugnet",
-    "nameVariants": [
-      "Mikaël Cugnet",
-      "M. Cugnet"
-    ],
-    "affiliation": "CEA–INES",
-    "university": null,
-    "department": [
-      "LITEN",
-      "DTS"
-    ],
-    "institutionType": "research_institute",
-    "researchGroup": null,
-    "city": "Le Bourget-du-Lac",
-    "country": "France",
-    "improvedLocationString": "",
-    "locationConfidence": 1.0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:81ad64e38443ec84d989d2a2b60cce91": {
+    "nameInformation": {
+      "firstName": "Mikaël",
+      "lastName": "Cugnet",
+      "nameVariants": [
+        "Mikaël Cugnet",
+        "M. Cugnet"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "CEA–INES",
+      "university": null,
+      "institutionType": "research_institute",
+      "department": [
+        "LITEN",
+        "DTS"
+      ],
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Le Bourget-du-Lac",
+      "country": "France",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "suggestedLocationString": "Le Bourget-du-Lac, France",
+      "ambiguousLocation": false,
+      "confidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "dd7dc05927b43ddf860f122feafd3ff6": {
-    "firstName": "Sam",
-    "lastName": "Delamere",
-    "nameVariants": [
-      "Sam Delamere"
-    ],
-    "affiliation": "Bates College",
-    "university": "Bates College",
-    "department": null,
-    "institutionType": "university",
-    "researchGroup": null,
-    "city": "Lewiston",
-    "country": "United States of America",
-    "improvedLocationString": "Lewiston, Maine, United States of America",
-    "locationConfidence": 0.95,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:dd7dc05927b43ddf860f122feafd3ff6": {
+    "nameInformation": {
+      "firstName": "Sam",
+      "lastName": "Delamere",
+      "nameVariants": [
+        "Sam Delamere"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Bates College",
+      "university": "Bates College",
+      "institutionType": "university",
+      "department": null,
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Lewiston",
+      "country": "United States of America",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "Lewiston, Maine, United States of America",
+      "ambiguousLocation": false,
+      "confidenceScore": 0.95
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "f67e9748d5c4a57a9b75a5a0dfee98c4": {
-    "firstName": "Ahmad",
-    "lastName": "Deeb",
-    "nameVariants": [
-      "Ahmad Deeb"
-    ],
-    "affiliation": "Mathematics Department, Khalifa University of Science and Technology",
-    "university": "Khalifa University of Science and Technology",
-    "department": "Mathematics Department",
-    "institutionType": "university",
-    "researchGroup": null,
-    "city": "Abu Dhabi",
-    "country": "United Arab Emirates",
-    "improvedLocationString": "",
-    "locationConfidence": 0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:f67e9748d5c4a57a9b75a5a0dfee98c4": {
+    "nameInformation": {
+      "firstName": "Ahmad",
+      "lastName": "Deeb",
+      "nameVariants": [
+        "Ahmad Deeb"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Mathematics Department, Khalifa University of Science and Technology",
+      "university": "Khalifa University of Science and Technology",
+      "institutionType": "university",
+      "department": "Mathematics Department",
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Abu Dhabi",
+      "country": "United Arab Emirates",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "suggestedLocationString": "Abu Dhabi, United Arab Emirates",
+      "ambiguousLocation": false,
+      "locationConfidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "93e6132ef2b529b74cd169cc68b66d57": {
-    "firstName": "Petr",
-    "lastName": "Denissenko",
-    "nameVariants": [
-      "Petr Denissenko"
-    ],
-    "affiliation": "University of Warwick",
-    "university": "University of Warwick",
-    "department": null,
-    "institutionType": "university",
-    "researchGroup": null,
-    "city": "Coventry",
-    "country": "United Kingdom",
-    "improvedLocationString": "Coventry, United Kingdom",
-    "locationConfidence": 1.0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:93e6132ef2b529b74cd169cc68b66d57": {
+    "nameInformation": {
+      "firstName": "Petr",
+      "lastName": "Denissenko",
+      "nameVariants": [
+        "Petr Denissenko"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "University of Warwick",
+      "university": "University of Warwick",
+      "institutionType": "university",
+      "department": null,
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Coventry",
+      "country": "United Kingdom",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "Coventry, United Kingdom",
+      "ambiguousLocations": false,
+      "confidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "0bdd2dc053db42d2584eae463273b8fc": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:0bdd2dc053db42d2584eae463273b8fc": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Frédéric",
@@ -1698,32 +1925,41 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "8980ba6dd85234886b077bbccca718eb": {
-    "firstName": "Ira",
-    "lastName": "Didenkulova",
-    "nameVariants": [
-      "Ira Didenkulova"
-    ],
-    "affiliation": "Department of Mathematics, University of Oslo",
-    "university": "University of Oslo",
-    "department": "Department of Mathematics",
-    "institutionType": "university",
-    "researchGroup": null,
-    "city": "Oslo",
-    "country": "Norway",
-    "improvedLocationString": "Oslo, Norway",
-    "locationConfidence": 1.0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:8980ba6dd85234886b077bbccca718eb": {
+    "nameInformation": {
+      "firstName": "Ira",
+      "lastName": "Didenkulova",
+      "nameVariants": [
+        "Ira Didenkulova"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Department of Mathematics, University of Oslo",
+      "university": "University of Oslo",
+      "institutionType": "university",
+      "department": "Department of Mathematics",
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Oslo",
+      "country": "Norway",
+      "alternateLocations": []
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "Oslo, Norway",
+      "ambiguousLocation": false,
+      "confidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "de047721377b506e2919ee824b857929": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:de047721377b506e2919ee824b857929": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Evgueni",
@@ -1755,46 +1991,42 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "b2ac955d78d55a5eb38e3a72e4d3437c": {
-    "firstName": "Bahram",
-    "lastName": "Djafari-Rouhani",
-    "nameVariants": [
-      "Bahram Djafari-Rouhani",
-      "Djafari-Rouhani, Bahram"
-    ],
-    "affiliation": "Institut d'Électronique, de Microélectronique et Nanotechnologie",
-    "university": "Université de Lille",
-    "department": "Institut d'Électronique, de Microélectronique et Nanotechnologie",
-    "institutionType": "university",
-    "researchGroup": null,
-    "city": "Lille",
-    "country": "France",
-    "improvedLocationString": "Lille, France",
-    "locationConfidence": 1.0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true,
-    "estimated_research_profile": {
-      "likely_field": "Electronic Engineering/Nanophotonics",
-      "likely_keywords": [
-        "microelectronics",
-        "nanostructures",
-        "photonic crystals",
-        "semiconductor devices"
-      ],
-      "institution_type": "National Research Institute",
-      "institution_prestige": "high",
-      "confidence": 0.85,
-      "notes": "IEMN is a well-known French research institute focused on electronics and nanotechnology. The researcher's name format and affiliation suggests a senior researcher/professor position. The institute has strong ties to CNRS (French National Centre for Scientific Research) which indicates high research prestige."
+  "parse:b2ac955d78d55a5eb38e3a72e4d3437c": {
+    "nameInformation": {
+      "firstName": "Bahram",
+      "lastName": "Djafari-Rouhani",
+      "nameVariants": [
+        "Bahram Djafari-Rouhani",
+        "Djafari-Rouhani, Bahram"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Institut d'Électronique, de Microélectronique et Nanotechnologie",
+      "university": "Université de Lille",
+      "institutionType": "university",
+      "department": "Institut d'Électronique, de Microélectronique et Nanotechnologie",
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Lille",
+      "country": "France",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "Lille, France",
+      "ambiguousLocation": false,
+      "confidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
     }
   },
-  "32c2b922ab4cec6135cd6e2cb4309b44": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:32c2b922ab4cec6135cd6e2cb4309b44": {
     "collaboratorEntries": [
       {
         "nameInformation": {
@@ -1828,12 +2060,10 @@
         }
       }
     ],
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "9c2303ae2f910ebb6ac0059d5c5ff902": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:9c2303ae2f910ebb6ac0059d5c5ff902": {
     "collaborator": {
       "nameInformation": {
         "firstName": "John M.",
@@ -1866,12 +2096,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "650077151a9ed457470c2a0ebd694b19": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:650077151a9ed457470c2a0ebd694b19": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Angel",
@@ -1903,12 +2131,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "e76d6db4908f7bf909a320ea6bf3d72d": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:e76d6db4908f7bf909a320ea6bf3d72d": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Collins O.",
@@ -1941,66 +2167,72 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "a835eddc874b211b5cd5d7e85d41cad9": {
-    "firstName": "Gennady",
-    "lastName": "El",
-    "nameVariants": [
-      "Gennady El"
-    ],
-    "affiliation": "Department of Mathematics, Physics and Electrical Engineering, Northumbria University",
-    "university": "Northumbria University",
-    "department": "Mathematics, Physics and Electrical Engineering",
-    "institutionType": "university",
-    "researchGroup": null,
-    "city": "Newcastle upon Tyne",
-    "country": "United Kingdom",
-    "improvedLocationString": "",
-    "locationConfidence": 1.0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true,
-    "estimated_research_profile": {
-      "likely_field": "Applied Mathematics/Mathematical Physics",
-      "likely_keywords": [
-        "nonlinear dynamics",
-        "mathematical modeling",
-        "wave phenomena",
-        "electromagnetic theory",
-        "differential equations"
-      ],
-      "institution_type": "Public Research University",
-      "institution_prestige": "medium",
-      "confidence": 0.7,
-      "notes": "Based on department name combining Mathematics, Physics and Electrical Engineering, and Russian/Eastern European name pattern suggesting senior academic position. Northumbria University is a respected UK institution but not typically in global top rankings. The combination of mathematics and physics in the department name suggests applied mathematical focus."
+  "parse:a835eddc874b211b5cd5d7e85d41cad9": {
+    "nameInformation": {
+      "firstName": "Gennady",
+      "lastName": "El",
+      "nameVariants": [
+        "Gennady El"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Department of Mathematics, Physics and Electrical Engineering, Northumbria University",
+      "university": "Northumbria University",
+      "institutionType": "university",
+      "department": "Mathematics, Physics and Electrical Engineering",
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Newcastle upon Tyne",
+      "country": "United Kingdom",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "suggestedLocationString": "Newcastle upon Tyne, United Kingdom",
+      "ambiguityNotes": null,
+      "confidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
     }
   },
-  "eb98b5b829a29fc06f6616f81a042e89": {
-    "firstName": "Khadije",
-    "lastName": "El Kadi",
-    "nameVariants": [
-      "Khadije El Kadi"
-    ],
-    "affiliation": "Center for Membrane and Advanced Water Technology",
-    "university": "Khalifa University of Science and Technology",
-    "department": "Department of Mechanical Engineering",
-    "institutionType": "university",
-    "researchGroup": "Center for Membrane and Advanced Water Technology",
-    "city": "Abu Dhabi",
-    "country": "United Arab Emirates",
-    "improvedLocationString": "",
-    "locationConfidence": 0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:eb98b5b829a29fc06f6616f81a042e89": {
+    "nameInformation": {
+      "firstName": "Khadije",
+      "lastName": "El Kadi",
+      "nameVariants": [
+        "Khadije El Kadi"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Center for Membrane and Advanced Water Technology",
+      "university": "Khalifa University of Science and Technology",
+      "institutionType": "university",
+      "department": "Department of Mechanical Engineering",
+      "researchGroup": "Center for Membrane and Advanced Water Technology"
+    },
+    "locationInformation": {
+      "city": "Abu Dhabi",
+      "country": "United Arab Emirates",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "suggestedLocationString": "Abu Dhabi, United Arab Emirates",
+      "ambiguousLocation": false,
+      "locationConfidence": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "a3b145ed4319a56d19816479ae32b1e3": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:a3b145ed4319a56d19816479ae32b1e3": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Ramón",
@@ -2032,12 +2264,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "8724e699d0398e9cffeb6ecacd136663": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:8724e699d0398e9cffeb6ecacd136663": {
     "collaboratorEntries": [
       {
         "nameInformation": {
@@ -2071,12 +2301,10 @@
         }
       }
     ],
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "67abe1fd14fb87bc7d784183f6682110": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:67abe1fd14fb87bc7d784183f6682110": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Francesco",
@@ -2108,52 +2336,72 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "e0c3bdc99cf919d5cb47409fc006dfa1": {
-    "firstName": "Zinaida",
-    "lastName": "Fedotova",
-    "nameVariants": [
-      "Zinaida Fedotova"
-    ],
-    "affiliation": "Institute of Computational Technologies",
-    "university": null,
-    "department": null,
-    "institutionType": "research_institute",
-    "researchGroup": null,
-    "city": "Novosibirsk",
-    "country": "Russia",
-    "improvedLocationString": "Novosibirsk, Russia",
-    "locationConfidence": 0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:e0c3bdc99cf919d5cb47409fc006dfa1": {
+    "nameInformation": {
+      "firstName": "Zinaida",
+      "lastName": "Fedotova",
+      "nameVariants": [
+        "Zinaida Fedotova"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Institute of Computational Technologies",
+      "university": null,
+      "institutionType": "research_institute",
+      "department": null,
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Novosibirsk",
+      "country": "Russia",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "Novosibirsk, Russia",
+      "ambiguousLocation": false,
+      "locationConfidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "5829ec8be637faf8b7327fed7b1b6e3b": {
-    "firstName": "Aurélie",
-    "lastName": "Foucquier",
-    "nameVariants": [
-      "Aurélie Foucquier"
-    ],
-    "affiliation": "CEA–INES",
-    "university": null,
-    "department": "LITEN, DTS",
-    "institutionType": "research_institute",
-    "researchGroup": null,
-    "city": "Le Bourget-du-Lac",
-    "country": "France",
-    "improvedLocationString": "Le Bourget-du-Lac, France",
-    "locationConfidence": 1.0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:5829ec8be637faf8b7327fed7b1b6e3b": {
+    "nameInformation": {
+      "firstName": "Aurélie",
+      "lastName": "Foucquier",
+      "nameVariants": [
+        "Aurélie Foucquier"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "CEA–INES",
+      "university": null,
+      "institutionType": "research_institute",
+      "department": "LITEN, DTS",
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Le Bourget-du-Lac",
+      "country": "France",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "Le Bourget-du-Lac, France",
+      "ambiguousLocation": false,
+      "confidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "6b139faf145cf74c5984540cbd8a0e42": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:6b139faf145cf74c5984540cbd8a0e42": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Florian",
@@ -2188,12 +2436,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "c4582ec445ff90caf2611968de6c7d2c": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:c4582ec445ff90caf2611968de6c7d2c": {
     "collaboratorEntries": [
       {
         "nameInformation": {
@@ -2227,12 +2473,10 @@
         }
       }
     ],
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "3b46fdb555e437a37f782b03df85e33b": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:3b46fdb555e437a37f782b03df85e33b": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Ivan",
@@ -2264,12 +2508,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "1becc20a2bc4965236ddff79ebbc7211": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:1becc20a2bc4965236ddff79ebbc7211": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Suelen",
@@ -2301,32 +2543,41 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "9bcb191767930ddc32d7c4c27cc84e5c": {
-    "firstName": "Hugo",
-    "lastName": "Geoffroy",
-    "nameVariants": [
-      "Hugo Geoffroy"
-    ],
-    "affiliation": "Polytech Annecy–Chambéry",
-    "university": "Polytech Annecy–Chambéry",
-    "department": null,
-    "institutionType": "university",
-    "researchGroup": "Laboratoire LOCIE UMR 5271",
-    "city": "Chambéry",
-    "country": "France",
-    "improvedLocationString": "",
-    "locationConfidence": 0,
-    "isFormerAffiliation": true,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:9bcb191767930ddc32d7c4c27cc84e5c": {
+    "nameInformation": {
+      "firstName": "Hugo",
+      "lastName": "Geoffroy",
+      "nameVariants": [
+        "Hugo Geoffroy"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Polytech Annecy–Chambéry",
+      "university": "Polytech Annecy–Chambéry",
+      "institutionType": "university",
+      "department": null,
+      "researchGroup": "Laboratoire LOCIE UMR 5271"
+    },
+    "locationInformation": {
+      "city": "Chambéry",
+      "country": "France",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "suggestedLocationString": "Chambéry, France",
+      "ambiguousLocation": false,
+      "locationConfidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": true,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "81502e377a81930f21bad88a8714e81e": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:81502e377a81930f21bad88a8714e81e": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Breno L.",
@@ -2360,53 +2611,73 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "17c29a3e735305cfdb8344bbe0e74d39": {
-    "firstName": "Marguerite",
-    "lastName": "Gisclon",
-    "nameVariants": [
-      "Marguerite Gisclon"
-    ],
-    "affiliation": "Laboratoire de Mathématiques (LAMA)",
-    "university": "Université Savoie Mont Blanc",
-    "department": "Laboratoire de Mathématiques",
-    "institutionType": "university",
-    "researchGroup": "LAMA",
-    "city": "Chambéry",
-    "country": "France",
-    "improvedLocationString": "Chambéry, France",
-    "locationConfidence": 1.0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:17c29a3e735305cfdb8344bbe0e74d39": {
+    "nameInformation": {
+      "firstName": "Marguerite",
+      "lastName": "Gisclon",
+      "nameVariants": [
+        "Marguerite Gisclon"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Laboratoire de Mathématiques (LAMA)",
+      "university": "Université Savoie Mont Blanc",
+      "institutionType": "university",
+      "department": "Laboratoire de Mathématiques",
+      "researchGroup": "LAMA"
+    },
+    "locationInformation": {
+      "city": "Chambéry",
+      "country": "France",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "Chambéry, France",
+      "ambiguousLocation": false,
+      "confidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "732fdd9f02c532096512844d6f2e8dae": {
-    "firstName": "Jean-Michel",
-    "lastName": "Ghidaglia",
-    "nameVariants": [
-      "Jean-Michel Ghidaglia",
-      "J.-M. Ghidaglia"
-    ],
-    "affiliation": "Centre de Mathématiques et de Leurs Applications",
-    "university": "Ecole Normale Supérieure Paris-Saclay",
-    "department": "Centre de Mathématiques et de Leurs Applications",
-    "institutionType": "university",
-    "researchGroup": null,
-    "city": "Saclay",
-    "country": "France",
-    "improvedLocationString": "",
-    "locationConfidence": 1.0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:732fdd9f02c532096512844d6f2e8dae": {
+    "nameInformation": {
+      "firstName": "Jean-Michel",
+      "lastName": "Ghidaglia",
+      "nameVariants": [
+        "Jean-Michel Ghidaglia",
+        "J.-M. Ghidaglia"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Centre de Mathématiques et de Leurs Applications",
+      "university": "Ecole Normale Supérieure Paris-Saclay",
+      "institutionType": "university",
+      "department": "Centre de Mathématiques et de Leurs Applications",
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Saclay",
+      "country": "France",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "suggestedLocationString": "Saclay, France",
+      "ambiguousLocation": false,
+      "confidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "45c9be230e3a785f8bcdd38baddbc5c4": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:45c9be230e3a785f8bcdd38baddbc5c4": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Bernard",
@@ -2438,12 +2709,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "5e0e4e89fc2a7de8afe72e5b7354780c": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:5e0e4e89fc2a7de8afe72e5b7354780c": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Laurent",
@@ -2475,12 +2744,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "1720fcbbe9f35547ee6a4177169d8d6a": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:1720fcbbe9f35547ee6a4177169d8d6a": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Olivier",
@@ -2512,113 +2779,166 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "c86ab14e137de219bf5af2c0659d0084": {
-    "firstName": "Anne-Cécile",
-    "lastName": "Grillet",
-    "nameVariants": [
-      "Anne-Cécile Grillet",
-      "A. Grillet"
-    ],
-    "affiliation": "Laboratoire LOCIE UMR 5271, Polytech Annecy–Chambéry",
-    "university": "Polytech Annecy–Chambéry",
-    "department": null,
-    "institutionType": "university",
-    "researchGroup": "Laboratoire LOCIE UMR 5271",
-    "city": "Le Bourget-du-Lac",
-    "country": "France",
-    "improvedLocationString": "",
-    "locationConfidence": 1.0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:c86ab14e137de219bf5af2c0659d0084": {
+    "nameInformation": {
+      "firstName": "Anne-Cécile",
+      "lastName": "Grillet",
+      "nameVariants": [
+        "Anne-Cécile Grillet",
+        "A. Grillet"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Laboratoire LOCIE UMR 5271, Polytech Annecy–Chambéry",
+      "university": "Polytech Annecy–Chambéry",
+      "institutionType": "university",
+      "department": null,
+      "researchGroup": "Laboratoire LOCIE UMR 5271"
+    },
+    "locationInformation": {
+      "city": "Le Bourget-du-Lac",
+      "country": "France",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "suggestedLocationString": "Le Bourget-du-Lac, France",
+      "ambiguousLocation": false,
+      "confidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "d8ce2e356cb8268ae978324ffe38ec4f": {
-    "firstName": "Vincent",
-    "lastName": "Guinot",
-    "nameVariants": [
-      "Vincent Guinot"
-    ],
-    "affiliation": "HydroSciences Montpellier",
-    "university": "University of Montpellier",
-    "department": null,
-    "institutionType": "university",
-    "researchGroup": "HydroSciences Montpellier",
-    "city": "Montpellier",
-    "country": "France",
-    "improvedLocationString": "",
-    "locationConfidence": 0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:d8ce2e356cb8268ae978324ffe38ec4f": {
+    "nameInformation": {
+      "firstName": "Vincent",
+      "lastName": "Guinot",
+      "nameVariants": [
+        "Vincent Guinot"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "HydroSciences Montpellier",
+      "university": "University of Montpellier",
+      "institutionType": "university",
+      "department": null,
+      "researchGroup": "HydroSciences Montpellier"
+    },
+    "locationInformation": {
+      "city": "Montpellier",
+      "country": "France",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "suggestedLocationString": "Montpellier, France",
+      "ambiguousLocation": false,
+      "locationConfidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "2ca7c1b1b4c7ff8f3ee230edb05783df": {
-    "firstName": "Oleg",
-    "lastName": "Gusev",
-    "nameVariants": [
-      "Oleg Gusev"
-    ],
-    "affiliation": "Institute of Computational Technologies",
-    "university": null,
-    "department": null,
-    "institutionType": "research_institute",
-    "researchGroup": null,
-    "city": "Novosibirsk",
-    "country": "Russia",
-    "improvedLocationString": "Novosibirsk, Russia",
-    "locationConfidence": 1.0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:2ca7c1b1b4c7ff8f3ee230edb05783df": {
+    "nameInformation": {
+      "firstName": "Oleg",
+      "lastName": "Gusev",
+      "nameVariants": [
+        "Oleg Gusev"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Institute of Computational Technologies",
+      "university": null,
+      "institutionType": "research_institute",
+      "department": null,
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Novosibirsk",
+      "country": "Russia",
+      "alternateLocations": []
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "Novosibirsk, Russia",
+      "ambiguousLocation": false,
+      "confidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "6beb3bb059f5218158f7b54d066fe3c1": {
-    "firstName": "Mark",
-    "lastName": "Hoefer",
-    "nameVariants": [
-      "Mark Hoefer"
-    ],
-    "affiliation": "University of Colorado",
-    "university": "University of Colorado",
-    "department": null,
-    "institutionType": "university",
-    "researchGroup": null,
-    "city": "Boulder",
-    "country": "United States of America",
-    "improvedLocationString": "Boulder, Colorado, United States of America",
-    "locationConfidence": 1.0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:6beb3bb059f5218158f7b54d066fe3c1": {
+    "nameInformation": {
+      "firstName": "Mark",
+      "lastName": "Hoefer",
+      "nameVariants": [
+        "Mark Hoefer"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "University of Colorado",
+      "university": "University of Colorado",
+      "institutionType": "university",
+      "department": null,
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Boulder",
+      "country": "United States of America",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "Boulder, Colorado, United States of America",
+      "ambiguousLocation": false,
+      "confidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "8906fa94d77543f76deadd0ea32d3112": {
-    "firstName": "Matthew",
-    "lastName": "Hunt",
-    "nameVariants": [
-      "Matthew Hunt"
-    ],
-    "affiliation": "Warwick Mathematics Institute",
-    "university": "University of Warwick",
-    "department": "Warwick Mathematics Institute",
-    "institutionType": "university",
-    "researchGroup": null,
-    "city": "Coventry",
-    "country": "United Kingdom",
-    "improvedLocationString": "Coventry, United Kingdom",
-    "locationConfidence": 1.0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:8906fa94d77543f76deadd0ea32d3112": {
+    "nameInformation": {
+      "firstName": "Matthew",
+      "lastName": "Hunt",
+      "nameVariants": [
+        "Matthew Hunt"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Warwick Mathematics Institute",
+      "university": "University of Warwick",
+      "institutionType": "university",
+      "department": "Warwick Mathematics Institute",
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Coventry",
+      "country": "United Kingdom",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "Coventry, United Kingdom",
+      "ambiguousLocations": [],
+      "confidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "a487c440f4828ca1acb530a1ae02a594": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:a487c440f4828ca1acb530a1ae02a594": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Adnan",
@@ -2650,12 +2970,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "7200b8ec5c5d5ab8762fe201af9cdd20": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:7200b8ec5c5d5ab8762fe201af9cdd20": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Boaz",
@@ -2687,33 +3005,42 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "f47e20b41430b807de5045e927cba1c6": {
-    "firstName": "Delia",
-    "lastName": "Ionescu–Kruse",
-    "nameVariants": [
-      "Delia Ionescu-Kruse",
-      "Ionescu-Kruse, Delia"
-    ],
-    "affiliation": "Institute of Mathematics of the Romanian Academy (IMAR)",
-    "university": null,
-    "department": null,
-    "institutionType": "research_institute",
-    "researchGroup": null,
-    "city": "Bucharest",
-    "country": "Romania",
-    "improvedLocationString": "Bucharest, Romania",
-    "locationConfidence": 0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:f47e20b41430b807de5045e927cba1c6": {
+    "nameInformation": {
+      "firstName": "Delia",
+      "lastName": "Ionescu–Kruse",
+      "nameVariants": [
+        "Delia Ionescu-Kruse",
+        "Ionescu-Kruse, Delia"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Institute of Mathematics of the Romanian Academy (IMAR)",
+      "university": null,
+      "institutionType": "research_institute",
+      "department": null,
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Bucharest",
+      "country": "Romania",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "Bucharest, Romania",
+      "ambiguousLocation": false,
+      "locationConfidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "2bbf0cab61c120a38d34384ad3bc1a27": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:2bbf0cab61c120a38d34384ad3bc1a27": {
     "collaboratorEntries": [
       {
         "nameInformation": {
@@ -2747,12 +3074,10 @@
         }
       }
     ],
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "60864573bad2485e1b325150e9b911be": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:60864573bad2485e1b325150e9b911be": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Isam",
@@ -2784,12 +3109,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "ed9388970062e00dd3e7474cd1df923a": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:ed9388970062e00dd3e7474cd1df923a": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Armelle",
@@ -2821,12 +3144,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "ee83eacf862189fd4de7206dfbc2488d": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:ee83eacf862189fd4de7206dfbc2488d": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Hervé",
@@ -2858,12 +3179,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "3e1116313aff7afa82f735080551ab9d": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:3e1116313aff7afa82f735080551ab9d": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Juliette",
@@ -2900,12 +3219,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "b52f8aefd90ca2ff64bf2eeb87bef07a": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:b52f8aefd90ca2ff64bf2eeb87bef07a": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Ainagul",
@@ -2937,12 +3254,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "69f059e5b8eda384bccdeb493ebb6a6e": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:69f059e5b8eda384bccdeb493ebb6a6e": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Hisyam",
@@ -2974,12 +3289,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "694494c436f74289d3431e974ae3b747": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:694494c436f74289d3431e974ae3b747": {
     "collaboratorEntries": [
       {
         "nameInformation": {
@@ -3013,31 +3326,47 @@
         }
       }
     ],
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "0a3da215003335f4f4932d143cbc9ce0": {
-    "firstName": "Christophe",
-    "lastName": "Kassiotis",
-    "nameVariants": [
-      "Christophe Kassiotis",
-      "C. Kassiotis"
-    ],
-    "affiliation": "Laboratoire d'hydraulique Saint-Venant",
-    "university": null,
-    "department": null,
-    "institutionType": "research_institute",
-    "researchGroup": "Laboratoire d'hydraulique Saint-Venant",
-    "city": "Chatou",
-    "country": "France",
-    "isFormerAffiliation": true,
-    "academicTitle": null,
-    "specialNotes": "Joint affiliation between ENPC and EDF R&D",
-    "llm_enhanced": true
+  "parse:0a3da215003335f4f4932d143cbc9ce0": {
+    "nameInformation": {
+      "firstName": "Christophe",
+      "lastName": "Kassiotis",
+      "nameVariants": [
+        "Christophe Kassiotis",
+        "C. Kassiotis"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Laboratoire d'hydraulique Saint-Venant",
+      "university": null,
+      "institutionType": "research_institute",
+      "department": null,
+      "researchGroup": "Laboratoire d'hydraulique Saint-Venant",
+      "organizations": [
+        "ENPC",
+        "EDF R&D Chatou"
+      ]
+    },
+    "locationInformation": {
+      "city": "Chatou",
+      "country": "France",
+      "alternateLocations": [],
+      "enhancedLocation": {
+        "formattedString": "Chatou, Île-de-France, France",
+        "confidence": 0.95,
+        "notes": "Chatou is a commune in the western suburbs of Paris"
+      }
+    },
+    "additionalContext": {
+      "isFormerAffiliation": true,
+      "academicTitle": null,
+      "specialNotes": "Joint affiliation between ENPC and EDF R&D",
+      "affiliationStatus": "former"
+    }
   },
-  "afc59b49a9b8c72da4cda89afc1f79d8": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:afc59b49a9b8c72da4cda89afc1f79d8": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Theodoros",
@@ -3069,12 +3398,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "9356e2d15e697e7ee0c0d292623c8b37": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:9356e2d15e697e7ee0c0d292623c8b37": {
     "collaboratorEntries": [
       {
         "nameInformation": {
@@ -3108,12 +3435,10 @@
         }
       }
     ],
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "3c98c897688b972b66a4de64ace51fe7": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:3c98c897688b972b66a4de64ace51fe7": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Nasser",
@@ -3146,12 +3471,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "c29a6dc01e1b0cb6244eca8f512114d6": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:c29a6dc01e1b0cb6244eca8f512114d6": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Gayaz",
@@ -3183,12 +3506,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "3f87d8c5c724d9ba28c2b520741c68d0": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:3f87d8c5c724d9ba28c2b520741c68d0": {
     "collaboratorEntries": [
       {
         "nameInformation": {
@@ -3222,32 +3543,41 @@
         }
       }
     ],
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "a6b8a6b903e3ab7d30790adcdb86936b": {
-    "firstName": "Sara",
-    "lastName": "Kiani",
-    "nameVariants": [
-      "Sara Kiani"
-    ],
-    "affiliation": "University of Karazmi, Tehran, Iran",
-    "university": "University of Karazmi",
-    "department": null,
-    "institutionType": "university",
-    "researchGroup": null,
-    "city": "Tehran",
-    "country": "Iran",
-    "improvedLocationString": "Tehran, Iran",
-    "locationConfidence": 0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:a6b8a6b903e3ab7d30790adcdb86936b": {
+    "nameInformation": {
+      "firstName": "Sara",
+      "lastName": "Kiani",
+      "nameVariants": [
+        "Sara Kiani"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "University of Karazmi, Tehran, Iran",
+      "university": "University of Karazmi",
+      "institutionType": "university",
+      "department": null,
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Tehran",
+      "country": "Iran",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "Tehran, Iran",
+      "ambiguousLocation": false,
+      "locationConfidence": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "9c901666efc4c6246cb243a6e12f5ca4": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:9c901666efc4c6246cb243a6e12f5ca4": {
     "collaboratorEntries": [
       {
         "nameInformation": {
@@ -3279,32 +3609,41 @@
         }
       }
     ],
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "b8a24681d7a8a9cff89b78685ce20c07": {
-    "firstName": "Angel",
-    "lastName": "Kirchev",
-    "nameVariants": [
-      "Angel Kirchev"
-    ],
-    "affiliation": "CEA–INES",
-    "university": null,
-    "department": "LITEN, DTS",
-    "institutionType": "research_institute",
-    "researchGroup": null,
-    "city": "Le Bourget-du-Lac",
-    "country": "France",
-    "improvedLocationString": "Le Bourget-du-Lac, France",
-    "locationConfidence": 0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:b8a24681d7a8a9cff89b78685ce20c07": {
+    "nameInformation": {
+      "firstName": "Angel",
+      "lastName": "Kirchev",
+      "nameVariants": [
+        "Angel Kirchev"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "CEA–INES",
+      "university": null,
+      "institutionType": "research_institute",
+      "department": "LITEN, DTS",
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Le Bourget-du-Lac",
+      "country": "France",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "Le Bourget-du-Lac, France",
+      "ambiguousLocation": false,
+      "locationConfidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "895aaad7310614598ddd165e70d4c65c": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:895aaad7310614598ddd165e70d4c65c": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Kamila",
@@ -3336,53 +3675,73 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "744b8b11bdfabf9c77a0f0d1cdd2a61c": {
-    "firstName": "Piu",
-    "lastName": "Kundu",
-    "nameVariants": [
-      "Piu Kundu"
-    ],
-    "affiliation": "National Institute of Technology, Durgapur",
-    "university": "National Institute of Technology, Durgapur",
-    "department": "Department of Mathematics",
-    "institutionType": "university",
-    "researchGroup": null,
-    "city": "Durgapur",
-    "country": "India",
-    "improvedLocationString": "Durgapur, India",
-    "locationConfidence": 1.0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:744b8b11bdfabf9c77a0f0d1cdd2a61c": {
+    "nameInformation": {
+      "firstName": "Piu",
+      "lastName": "Kundu",
+      "nameVariants": [
+        "Piu Kundu"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "National Institute of Technology, Durgapur",
+      "university": "National Institute of Technology, Durgapur",
+      "institutionType": "university",
+      "department": "Department of Mathematics",
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Durgapur",
+      "country": "India",
+      "alternateLocations": []
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "Durgapur, India",
+      "ambiguousLocation": false,
+      "confidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "50e92546fc14abb4e7ef0d06f9d4271e": {
-    "firstName": "Andrey",
-    "lastName": "Kurkin",
-    "nameVariants": [
-      "Andrey Kurkin",
-      "A. Kurkin"
-    ],
-    "affiliation": "Department of Applied Mathematics, Nizhny Novgorod State Technical University",
-    "university": "Nizhny Novgorod State Technical University",
-    "department": "Department of Applied Mathematics",
-    "institutionType": "university",
-    "researchGroup": null,
-    "city": "Nizhniy Novgorod",
-    "country": "Russia",
-    "improvedLocationString": "Nizhny Novgorod, Russia",
-    "locationConfidence": 1.0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:50e92546fc14abb4e7ef0d06f9d4271e": {
+    "nameInformation": {
+      "firstName": "Andrey",
+      "lastName": "Kurkin",
+      "nameVariants": [
+        "Andrey Kurkin",
+        "A. Kurkin"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Department of Applied Mathematics, Nizhny Novgorod State Technical University",
+      "university": "Nizhny Novgorod State Technical University",
+      "institutionType": "university",
+      "department": "Department of Applied Mathematics",
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Nizhniy Novgorod",
+      "country": "Russia",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "Nizhny Novgorod, Russia",
+      "ambiguousLocation": false,
+      "confidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "c101e0eddbfe82e635f0070ef8ba1868": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:c101e0eddbfe82e635f0070ef8ba1868": {
     "collaboratorEntries": [
       {
         "nameInformation": {
@@ -3416,52 +3775,72 @@
         }
       }
     ],
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "31a5aee65a4535e0098c0c72c01639b0": {
-    "firstName": "Patrick",
-    "lastName": "Lajeunesse",
-    "nameVariants": [
-      "Patrick Lajeunesse"
-    ],
-    "affiliation": "Département de Géographie, Université Laval",
-    "university": "Université Laval",
-    "department": "Département de Géographie",
-    "institutionType": "university",
-    "researchGroup": null,
-    "city": "Québec",
-    "country": "Canada",
-    "improvedLocationString": "Québec, Canada",
-    "locationConfidence": 0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:31a5aee65a4535e0098c0c72c01639b0": {
+    "nameInformation": {
+      "firstName": "Patrick",
+      "lastName": "Lajeunesse",
+      "nameVariants": [
+        "Patrick Lajeunesse"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Département de Géographie, Université Laval",
+      "university": "Université Laval",
+      "institutionType": "university",
+      "department": "Département de Géographie",
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Québec",
+      "country": "Canada",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "Québec, Canada",
+      "ambiguousLocation": false,
+      "locationConfidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "2d5febfe585850cd7f57cd636051ab68": {
-    "firstName": "Christian",
-    "lastName": "Lalanne",
-    "nameVariants": [
-      "Christian Lalanne"
-    ],
-    "affiliation": "Irish Centre for High-End Computing (ICHEC)",
-    "university": null,
-    "department": null,
-    "institutionType": "research_institute",
-    "researchGroup": null,
-    "city": "Dublin",
-    "country": "Ireland",
-    "improvedLocationString": "Dublin, Ireland",
-    "locationConfidence": 0,
-    "isFormerAffiliation": true,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:2d5febfe585850cd7f57cd636051ab68": {
+    "nameInformation": {
+      "firstName": "Christian",
+      "lastName": "Lalanne",
+      "nameVariants": [
+        "Christian Lalanne"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Irish Centre for High-End Computing (ICHEC)",
+      "university": null,
+      "institutionType": "research_institute",
+      "department": null,
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Dublin",
+      "country": "Ireland",
+      "alternateLocations": []
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "Dublin, Ireland",
+      "ambiguousLocation": false,
+      "locationConfidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": true,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "a5b16777e0ada2ebbad76fcb86e84597": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:a5b16777e0ada2ebbad76fcb86e84597": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Nicolas",
@@ -3493,12 +3872,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "fd4fd04888e7ee6ae0372e7fed18df86": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:fd4fd04888e7ee6ae0372e7fed18df86": {
     "collaboratorEntries": [
       {
         "nameInformation": {
@@ -3532,12 +3909,10 @@
         }
       }
     ],
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "3bf1ebebf04016c9bf7171fe96fcd7c0": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:3bf1ebebf04016c9bf7171fe96fcd7c0": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Hervé",
@@ -3569,12 +3944,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "f653d59bb5c72baa339b8ae063e2305c": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:f653d59bb5c72baa339b8ae063e2305c": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Sylvain",
@@ -3606,12 +3979,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "3296ad0f70c9d2b2c6d768879071f9a9": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:3296ad0f70c9d2b2c6d768879071f9a9": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Qian",
@@ -3643,12 +4014,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "4133f6ff97aca2850913238b79306132": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:4133f6ff97aca2850913238b79306132": {
     "collaboratorEntries": [
       {
         "nameInformation": {
@@ -3682,12 +4051,10 @@
         }
       }
     ],
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "f02481690229687fb3516f8ad25e9d26": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:f02481690229687fb3516f8ad25e9d26": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Mohamed",
@@ -3719,12 +4086,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "1aec5d3f4d63064e955489c525d08ea8": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:1aec5d3f4d63064e955489c525d08ea8": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Michael",
@@ -3756,12 +4121,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "a764eb1cd9250f471f6971d7d1ab41c0": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:a764eb1cd9250f471f6971d7d1ab41c0": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Affiani",
@@ -3793,12 +4156,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "2030f11a4083a7791cc17c0d685b1a3b": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:2030f11a4083a7791cc17c0d685b1a3b": {
     "collaborator": {
       "nameInformation": {
         "firstName": "François",
@@ -3830,32 +4191,41 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "4ec126ab3281d8b60a0db700501a55a9": {
-    "firstName": "Mehdi",
-    "lastName": "Masoodi",
-    "nameVariants": [
-      "Mehdi Masoodi"
-    ],
-    "affiliation": "Tsunami and Earthquake Research Centre",
-    "university": "University of Hormozgan",
-    "department": null,
-    "institutionType": "university",
-    "researchGroup": "Tsunami and Earthquake Research Centre",
-    "city": "Bandar-Abbas",
-    "country": "Iran",
-    "improvedLocationString": "",
-    "locationConfidence": 0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:4ec126ab3281d8b60a0db700501a55a9": {
+    "nameInformation": {
+      "firstName": "Mehdi",
+      "lastName": "Masoodi",
+      "nameVariants": [
+        "Mehdi Masoodi"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Tsunami and Earthquake Research Centre",
+      "university": "University of Hormozgan",
+      "institutionType": "university",
+      "department": null,
+      "researchGroup": "Tsunami and Earthquake Research Centre"
+    },
+    "locationInformation": {
+      "city": "Bandar-Abbas",
+      "country": "Iran",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "suggestedLocationString": "Bandar-Abbas, Iran",
+      "ambiguousLocation": false,
+      "locationConfidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "a975ca213e003e7353efb582da10189a": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:a975ca213e003e7353efb582da10189a": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Reine",
@@ -3887,12 +4257,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "01523a6538810c11a675e0bec7f4fba3": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:01523a6538810c11a675e0bec7f4fba3": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Nathan",
@@ -3924,12 +4292,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "eab54878e1f61c4ec5dfdef8365b971a": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:eab54878e1f61c4ec5dfdef8365b971a": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Christophe",
@@ -3961,12 +4327,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "3b77a2bd2f854fd7f485821ec0d6abbc": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:3b77a2bd2f854fd7f485821ec0d6abbc": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Paul",
@@ -3998,12 +4362,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "63f9eb9f791a7d86eb124d994df4b3b0": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:63f9eb9f791a7d86eb124d994df4b3b0": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Dimitrios",
@@ -4035,12 +4397,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "d4ecae1c775ef7b70fc15dfcb3cabd84": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:d4ecae1c775ef7b70fc15dfcb3cabd84": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Dripta",
@@ -4074,52 +4434,74 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "f9bfe38a25f8e709bbe649952221b726": {
-    "firstName": "Daud",
-    "lastName": "Mohamad",
-    "nameVariants": [
-      "Daud Mohamad"
-    ],
-    "affiliation": "Department of Civil Engineering, Universiti Tenaga Nasional, Kajang, Malaysia",
-    "university": "Universiti Tenaga Nasional",
-    "department": "Department of Civil Engineering",
-    "institutionType": "university",
-    "researchGroup": null,
-    "city": "Kajang",
-    "country": "Malaysia",
-    "improvedLocationString": "",
-    "locationConfidence": 0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:f9bfe38a25f8e709bbe649952221b726": {
+    "nameInformation": {
+      "firstName": "Daud",
+      "lastName": "Mohamad",
+      "nameVariants": [
+        "Daud Mohamad"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Department of Civil Engineering, Universiti Tenaga Nasional, Kajang, Malaysia",
+      "university": "Universiti Tenaga Nasional",
+      "institutionType": "university",
+      "department": "Department of Civil Engineering",
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Kajang",
+      "country": "Malaysia",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "suggestedLocationString": "Kajang, Malaysia",
+      "ambiguousLocation": false,
+      "locationConfidence": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "88ae8f5dfea8d6f00052269179ed9800": {
-    "firstName": "Fadzli",
-    "lastName": "Nazri",
-    "nameVariants": [
-      "Fadzli Nazri",
-      "Fadzli M. Nazri"
-    ],
-    "affiliation": "School of Civil Engineering, Universiti Sains Malaysia",
-    "university": "Universiti Sains Malaysia",
-    "department": "School of Civil Engineering",
-    "institutionType": "university",
-    "researchGroup": null,
-    "country": "Malaysia",
-    "improvedLocationString": "",
-    "locationConfidence": 0.95,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:88ae8f5dfea8d6f00052269179ed9800": {
+    "nameInformation": {
+      "firstName": "Fadzli",
+      "lastName": "Nazri",
+      "middleName": "Mohamed",
+      "nameVariants": [
+        "Fadzli Nazri",
+        "Fadzli M. Nazri"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "School of Civil Engineering, Universiti Sains Malaysia",
+      "university": "Universiti Sains Malaysia",
+      "institutionType": "university",
+      "department": "School of Civil Engineering",
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": null,
+      "country": "Malaysia",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "suggestedLocation": "Penang, Malaysia",
+      "ambiguousLocation": false,
+      "confidenceScore": 0.95
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "27693b968bb0e7e270309ff922a2b1da": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:27693b968bb0e7e270309ff922a2b1da": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Nur Liyana",
@@ -4153,12 +4535,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "cbc8a0f318ac23989e3051cc86515eaa": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:cbc8a0f318ac23989e3051cc86515eaa": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Md Fauzan Kamal Mohd",
@@ -4191,12 +4571,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "f73b58f84819503be006bfb649015bbe": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:f73b58f84819503be006bfb649015bbe": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Mohammad",
@@ -4229,45 +4607,41 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "3b0799c214a1fff0bdbb2c2322a1dc27": {
-    "firstName": "Daulet",
-    "lastName": "Moldabayev",
-    "nameVariants": [
-      "Daulet Moldabayev"
-    ],
-    "affiliation": "Department of Mathematics, University of Bergen",
-    "university": "University of Bergen",
-    "department": "Department of Mathematics",
-    "institutionType": "university",
-    "researchGroup": null,
-    "city": "Bergen",
-    "country": "Norway",
-    "improvedLocationString": "Bergen, Norway",
-    "locationConfidence": 0,
-    "isFormerAffiliation": true,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true,
-    "estimated_research_profile": {
-      "likely_field": "Pure Mathematics or Mathematical Analysis",
-      "likely_keywords": [
-        "differential equations",
-        "mathematical analysis",
-        "numerical methods",
-        "mathematical modeling"
-      ],
-      "institution_type": "Public Research University",
-      "institution_prestige": "high",
-      "confidence": 0.8,
-      "notes": "University of Bergen is a well-regarded Norwegian research institution, particularly strong in mathematics and natural sciences. The name suggests possible Central Asian/Kazakh background, likely at faculty or postdoc level. Department of Mathematics at UiB has strong research groups in pure and applied mathematics."
+  "parse:3b0799c214a1fff0bdbb2c2322a1dc27": {
+    "nameInformation": {
+      "firstName": "Daulet",
+      "lastName": "Moldabayev",
+      "nameVariants": [
+        "Daulet Moldabayev"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Department of Mathematics, University of Bergen",
+      "university": "University of Bergen",
+      "institutionType": "university",
+      "department": "Department of Mathematics",
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Bergen",
+      "country": "Norway",
+      "alternateLocations": []
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "Bergen, Norway",
+      "ambiguousLocation": false,
+      "locationConfidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": true,
+      "academicTitle": null,
+      "specialNotes": null
     }
   },
-  "ffebab9381cb0243b7337289163b4f14": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:ffebab9381cb0243b7337289163b4f14": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Baptiste",
@@ -4299,12 +4673,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "f9be9608fb63fcf65389e655278a3efc": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:f9be9608fb63fcf65389e655278a3efc": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Srijani",
@@ -4336,12 +4708,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "0778bc8a9e1e891ae6ad5691d9f851d7": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:0778bc8a9e1e891ae6ad5691d9f851d7": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Cristina",
@@ -4373,12 +4743,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "55e69e3634a68ad0a7c8ce22a80b8563": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:55e69e3634a68ad0a7c8ce22a80b8563": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Sorina",
@@ -4410,12 +4778,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "e621f5c649d6527d90a6c30e3af04f49": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:e621f5c649d6527d90a6c30e3af04f49": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Nadjib",
@@ -4448,35 +4814,43 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "03774151bbf7edd0a6433d9b3bb0be98": {
-    "firstName": "Hayk",
-    "lastName": "Nersisyan",
-    "nameVariants": [
-      "Hayk Nersisyan"
-    ],
-    "affiliation": "BCAM – Basque Center for Applied Mathematics",
-    "university": null,
-    "department": null,
-    "institutionType": "research_institute",
-    "researchGroup": null,
-    "city": "Bilbao",
-    "country": "Spain",
-    "alternateLocations": [
-      "BCAM – Basque Center for Applied Mathematics, Bilbao, Spain"
-    ],
-    "improvedLocationString": "Bilbao, Spain",
-    "locationConfidence": 0,
-    "isFormerAffiliation": true,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:03774151bbf7edd0a6433d9b3bb0be98": {
+    "nameInformation": {
+      "firstName": "Hayk",
+      "lastName": "Nersisyan",
+      "nameVariants": [
+        "Hayk Nersisyan"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "BCAM – Basque Center for Applied Mathematics",
+      "university": null,
+      "institutionType": "research_institute",
+      "department": null,
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Bilbao",
+      "country": "Spain",
+      "alternateLocations": [
+        "BCAM – Basque Center for Applied Mathematics, Bilbao, Spain"
+      ]
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "Bilbao, Spain",
+      "ambiguousLocation": false,
+      "locationConfidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": true,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "d1983ba6f8a040448cd6996c88afac30": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:d1983ba6f8a040448cd6996c88afac30": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Dezhi",
@@ -4508,12 +4882,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "1c5a88a1359aec9275ffb01ccf62bf8e": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:1c5a88a1359aec9275ffb01ccf62bf8e": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Dang Mao",
@@ -4547,32 +4919,41 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "e7d93f0cb4acea5e517686a1a3256c4d": {
-    "firstName": "Mohammadsadegh",
-    "lastName": "Nouri",
-    "nameVariants": [
-      "Mohammadsadegh Nouri"
-    ],
-    "affiliation": "School of Civil Engineering, University of Tehran",
-    "university": "University of Tehran",
-    "department": "School of Civil Engineering",
-    "institutionType": "university",
-    "researchGroup": null,
-    "city": "Tehran",
-    "country": "Iran",
-    "improvedLocationString": "Tehran, Iran",
-    "locationConfidence": 0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:e7d93f0cb4acea5e517686a1a3256c4d": {
+    "nameInformation": {
+      "firstName": "Mohammadsadegh",
+      "lastName": "Nouri",
+      "nameVariants": [
+        "Mohammadsadegh Nouri"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "School of Civil Engineering, University of Tehran",
+      "university": "University of Tehran",
+      "institutionType": "university",
+      "department": "School of Civil Engineering",
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Tehran",
+      "country": "Iran",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "Tehran, Iran",
+      "ambiguousLocation": false,
+      "locationConfidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "a2a7228fa3efa1a882a8ecdb070e09e4": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:a2a7228fa3efa1a882a8ecdb070e09e4": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Laura",
@@ -4604,12 +4985,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "4abb6512780f6202cd570f7dd3dac630": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:4abb6512780f6202cd570f7dd3dac630": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Mickael",
@@ -4641,12 +5020,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "b9d7612094995a2cc4c8148387feca99": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:b9d7612094995a2cc4c8148387feca99": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Setyamartana",
@@ -4680,32 +5057,41 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "6bd12b6494ae5cada23e665ce7a4ee05": {
-    "firstName": "Siddhartha",
-    "lastName": "Pati",
-    "nameVariants": [
-      "Siddhartha Pati"
-    ],
-    "affiliation": "SIAN Institute, Association for Biodiversity Conservation and Research (ABC)",
-    "university": null,
-    "department": null,
-    "institutionType": "research_institute",
-    "researchGroup": null,
-    "city": "Balasore",
-    "country": "India",
-    "improvedLocationString": "Balasore, India",
-    "locationConfidence": 1.0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:6bd12b6494ae5cada23e665ce7a4ee05": {
+    "nameInformation": {
+      "firstName": "Siddhartha",
+      "lastName": "Pati",
+      "nameVariants": [
+        "Siddhartha Pati"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "SIAN Institute, Association for Biodiversity Conservation and Research (ABC)",
+      "university": null,
+      "institutionType": "research_institute",
+      "department": null,
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Balasore",
+      "country": "India",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "Balasore, India",
+      "ambiguousLocation": false,
+      "confidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "d7988765e68906ee14bf8cebd67cf56c": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:d7988765e68906ee14bf8cebd67cf56c": {
     "collaboratorEntries": [
       {
         "nameInformation": {
@@ -4739,12 +5125,10 @@
         }
       }
     ],
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "36e0ad851e296216e75668a8f8d92fa3": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:36e0ad851e296216e75668a8f8d92fa3": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Robert L.",
@@ -4778,12 +5162,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "9d25473630e77880dcedc1fbdcce9b0c": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:9d25473630e77880dcedc1fbdcce9b0c": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Efim",
@@ -4815,44 +5197,41 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "db38e6f213ece23151ad428773e2c7f0": {
-    "firstName": "Jaakko",
-    "lastName": "Peltonen",
-    "nameVariants": [
-      "Jaakko Peltonen"
-    ],
-    "affiliation": "Faculty of Information Technology and Communication Sciences, Tampere University",
-    "university": "Tampere University",
-    "department": "Faculty of Information Technology and Communication Sciences",
-    "institutionType": "university",
-    "researchGroup": null,
-    "city": "Tampere",
-    "country": "Finland",
-    "improvedLocationString": "Tampere, Finland",
-    "locationConfidence": 0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:db38e6f213ece23151ad428773e2c7f0": {
+    "nameInformation": {
+      "firstName": "Jaakko",
+      "lastName": "Peltonen",
+      "nameVariants": [
+        "Jaakko Peltonen"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Faculty of Information Technology and Communication Sciences, Tampere University",
+      "university": "Tampere University",
+      "institutionType": "university",
+      "department": "Faculty of Information Technology and Communication Sciences",
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Tampere",
+      "country": "Finland",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "Tampere, Finland",
+      "ambiguousLocation": false,
+      "locationConfidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "fa448d95a3c6d7f07d2a526d1b55d234": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
-    "affiliation": "Institut d'Électronique, de Microélectronique et Nanotechnologie",
-    "university": "Université de Lille",
-    "department": null,
-    "institutionType": "university",
-    "researchGroup": null,
-    "city": "Lille",
-    "country": "France",
-    "improvedLocationString": "Lille, France",
-    "locationConfidence": 0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
+  "parse:fa448d95a3c6d7f07d2a526d1b55d234": {
     "collaboratorName": {
       "firstName": "Yan",
       "lastName": "Pennec",
@@ -4860,12 +5239,31 @@
         "Yan Pennec"
       ]
     },
-    "llm_enhanced": true
+    "affiliationDetails": {
+      "affiliation": "Institut d'Électronique, de Microélectronique et Nanotechnologie",
+      "university": "Université de Lille",
+      "institutionType": "university",
+      "department": null,
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Lille",
+      "country": "France",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "Lille, France",
+      "ambiguousLocation": false,
+      "locationConfidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    },
+    "nameInformation": {}
   },
-  "ec7a0668b349a57ba87eae4668941f1c": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:ec7a0668b349a57ba87eae4668941f1c": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Sandrine",
@@ -4897,75 +5295,105 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "e125d2e879fbba94ad5e4bc1a1b94ec9": {
-    "firstName": "Raphaël",
-    "lastName": "Poncet",
-    "nameVariants": [
-      "Raphael Poncet"
-    ],
-    "affiliation": "CEA DAM",
-    "university": null,
-    "department": null,
-    "institutionType": "research_institute",
-    "researchGroup": null,
-    "city": "Paris",
-    "country": "France",
-    "alternateLocations": [
-      "Ile-de-France"
-    ],
-    "improvedLocationString": "Paris, France",
-    "locationConfidence": 1.0,
-    "isFormerAffiliation": true,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:e125d2e879fbba94ad5e4bc1a1b94ec9": {
+    "nameInformation": {
+      "firstName": "Raphaël",
+      "lastName": "Poncet",
+      "nameVariants": [
+        "Raphael Poncet"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "CEA DAM",
+      "university": null,
+      "institutionType": "research_institute",
+      "department": null,
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Paris",
+      "country": "France",
+      "alternateLocations": [
+        "Ile-de-France"
+      ]
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "Paris, France",
+      "ambiguousLocation": false,
+      "confidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": true,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "8459b006fd31ae71dd92e51a1389efb0": {
-    "firstName": "Anatolij",
-    "lastName": "Prykarpatsky",
-    "nameVariants": [
-      "Anatolij Prykarpatsky"
-    ],
-    "affiliation": "Department of Physics, Mathematics and Computer Science, Cracow University of Technology",
-    "university": "Cracow University of Technology",
-    "department": "Department of Physics, Mathematics and Computer Science",
-    "institutionType": "university",
-    "researchGroup": null,
-    "city": "Krakow",
-    "country": "Poland",
-    "improvedLocationString": "",
-    "locationConfidence": 1.0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:8459b006fd31ae71dd92e51a1389efb0": {
+    "nameInformation": {
+      "firstName": "Anatolij",
+      "lastName": "Prykarpatsky",
+      "nameVariants": [
+        "Anatolij Prykarpatsky"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Department of Physics, Mathematics and Computer Science, Cracow University of Technology",
+      "university": "Cracow University of Technology",
+      "institutionType": "university",
+      "department": "Department of Physics, Mathematics and Computer Science",
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Krakow",
+      "country": "Poland",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "suggestedLocationString": "Krakow, Poland",
+      "ambiguousLocation": false,
+      "confidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "242ee253e004867cfb059ea63a25aebd": {
-    "firstName": "Yarema",
-    "lastName": "Prykarpatsky",
-    "nameVariants": [
-      "Yarema Prykarpatsky"
-    ],
-    "affiliation": "Department of Applied Mathematics, Cracov Agriculture University",
-    "university": "Cracov Agriculture University",
-    "department": "Department of Applied Mathematics",
-    "institutionType": "university",
-    "researchGroup": null,
-    "city": "Krakow",
-    "country": "Poland",
-    "improvedLocationString": "",
-    "locationConfidence": 1.0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:242ee253e004867cfb059ea63a25aebd": {
+    "nameInformation": {
+      "firstName": "Yarema",
+      "lastName": "Prykarpatsky",
+      "nameVariants": [
+        "Yarema Prykarpatsky"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Department of Applied Mathematics, Cracov Agriculture University",
+      "university": "Cracov Agriculture University",
+      "institutionType": "university",
+      "department": "Department of Applied Mathematics",
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Krakow",
+      "country": "Poland",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "suggestedLocation": "Krakow, Poland",
+      "ambiguousLocation": false,
+      "confidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "2d4904bbd7c487897bff96563dcf51d9": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:2d4904bbd7c487897bff96563dcf51d9": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Mykola",
@@ -4997,54 +5425,74 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "936f3c30f1575980d5cd58d92e244dde": {
-    "firstName": "Yue",
-    "lastName": "Pu",
-    "nameVariants": [
-      "Yue Pu",
-      "Pu, Y.",
-      "Pu"
-    ],
-    "affiliation": "Department of Mathematical Sciences and Center for Nonlinear Analysis, Carnegie Mellon University, Pittsburgh, USA",
-    "university": "Carnegie Mellon University",
-    "department": "Department of Mathematical Sciences",
-    "institutionType": "university",
-    "researchGroup": "Center for Nonlinear Analysis",
-    "city": "Pittsburgh",
-    "country": "United States",
-    "improvedLocationString": "Pittsburgh, Pennsylvania, United States",
-    "locationConfidence": 0.98,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:936f3c30f1575980d5cd58d92e244dde": {
+    "nameInformation": {
+      "firstName": "Yue",
+      "lastName": "Pu",
+      "nameVariants": [
+        "Yue Pu",
+        "Pu, Y.",
+        "Pu"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Department of Mathematical Sciences and Center for Nonlinear Analysis, Carnegie Mellon University, Pittsburgh, USA",
+      "university": "Carnegie Mellon University",
+      "institutionType": "university",
+      "department": "Department of Mathematical Sciences",
+      "researchGroup": "Center for Nonlinear Analysis"
+    },
+    "locationInformation": {
+      "city": "Pittsburgh",
+      "country": "United States",
+      "alternateLocations": []
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "Pittsburgh, Pennsylvania, United States",
+      "ambiguousLocations": [],
+      "confidenceScore": 0.98
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "9e0a26beaa58885f1a65db04c10deadd": {
-    "firstName": "Sobia",
-    "lastName": "Qazi",
-    "nameVariants": [
-      "Sobia Qazi"
-    ],
-    "affiliation": "Department of Foundation Engineering and Physical Science, University of Nottingham",
-    "university": "University of Nottingham",
-    "department": "Department of Foundation Engineering and Physical Science",
-    "institutionType": "university",
-    "researchGroup": null,
-    "city": "Nottingham",
-    "country": "United Kingdom",
-    "improvedLocationString": "Nottingham, United Kingdom",
-    "locationConfidence": 1.0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:9e0a26beaa58885f1a65db04c10deadd": {
+    "nameInformation": {
+      "firstName": "Sobia",
+      "lastName": "Qazi",
+      "nameVariants": [
+        "Sobia Qazi"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Department of Foundation Engineering and Physical Science, University of Nottingham",
+      "university": "University of Nottingham",
+      "institutionType": "university",
+      "department": "Department of Foundation Engineering and Physical Science",
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Nottingham",
+      "country": "United Kingdom",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "Nottingham, United Kingdom",
+      "ambiguousLocations": false,
+      "confidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "c469ec6e033960b3df84ba9869893edc": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:c469ec6e033960b3df84ba9869893edc": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Ashkan",
@@ -5076,12 +5524,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "6975ad9e0e9ccebe8330fa07cf930405": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:6975ad9e0e9ccebe8330fa07cf930405": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Armin",
@@ -5113,12 +5559,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "c3cb9ca4cd9da1ea5760511597f38d4a": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:c3cb9ca4cd9da1ea5760511597f38d4a": {
     "collaborator": {
       "nameInformation": {
         "firstName": "William",
@@ -5150,32 +5594,41 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "e2e2627e5cf7813628a53b47e73123dc": {
-    "firstName": "Amin",
-    "lastName": "Rashidi",
-    "nameVariants": [
-      "Amin Rashidi"
-    ],
-    "affiliation": "Institute of Geophysics, University of Tehran",
-    "university": "University of Tehran",
-    "department": "Institute of Geophysics",
-    "institutionType": "university",
-    "researchGroup": null,
-    "city": "Tehran",
-    "country": "Iran",
-    "improvedLocationString": "Tehran, Iran",
-    "locationConfidence": 0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:e2e2627e5cf7813628a53b47e73123dc": {
+    "nameInformation": {
+      "firstName": "Amin",
+      "lastName": "Rashidi",
+      "nameVariants": [
+        "Amin Rashidi"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Institute of Geophysics, University of Tehran",
+      "university": "University of Tehran",
+      "institutionType": "university",
+      "department": "Institute of Geophysics",
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Tehran",
+      "country": "Iran",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "Tehran, Iran",
+      "ambiguousLocation": false,
+      "locationConfidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "6d31494a0dc4466091e0ae0bf20bb580": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:6d31494a0dc4466091e0ae0bf20bb580": {
     "collaboratorEntries": [
       {
         "nameInformation": {
@@ -5209,12 +5662,10 @@
         }
       }
     ],
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "0bf25c5876fcaf10f5235b35cc201810": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:0bf25c5876fcaf10f5235b35cc201810": {
     "collaborators": [
       {
         "nameInformation": {
@@ -5248,52 +5699,72 @@
         }
       }
     ],
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "2ec06891e49135f500010665e9f90409": {
-    "firstName": "Volodya",
-    "lastName": "Roubtsov",
-    "nameVariants": [
-      "Volodya Roubtsov"
-    ],
-    "affiliation": "Laboratoire Angevin de Recherche en Mathématiques (LAREMA UMR 6093)",
-    "university": "Université d'Angers",
-    "department": null,
-    "institutionType": "university",
-    "researchGroup": "Laboratoire Angevin de Recherche en Mathématiques (LAREMA UMR 6093)",
-    "city": "Angers",
-    "country": "France",
-    "improvedLocationString": "Angers, France",
-    "locationConfidence": 0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:2ec06891e49135f500010665e9f90409": {
+    "nameInformation": {
+      "firstName": "Volodya",
+      "lastName": "Roubtsov",
+      "nameVariants": [
+        "Volodya Roubtsov"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Laboratoire Angevin de Recherche en Mathématiques (LAREMA UMR 6093)",
+      "university": "Université d'Angers",
+      "institutionType": "university",
+      "department": null,
+      "researchGroup": "Laboratoire Angevin de Recherche en Mathématiques (LAREMA UMR 6093)"
+    },
+    "locationInformation": {
+      "city": "Angers",
+      "country": "France",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "Angers, France",
+      "ambiguousLocation": false,
+      "locationConfidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "f6d9a89970b19acab29d26632b00f2b4": {
-    "firstName": "Simone",
-    "lastName": "Rusconi",
-    "nameVariants": [
-      "Simone Rusconi"
-    ],
-    "affiliation": "BCAM – Basque Center for Applied Mathematics",
-    "university": null,
-    "department": null,
-    "institutionType": "research_institute",
-    "researchGroup": null,
-    "city": "Bilbao",
-    "country": "Spain",
-    "improvedLocationString": "Bilbao, Spain",
-    "locationConfidence": 0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:f6d9a89970b19acab29d26632b00f2b4": {
+    "nameInformation": {
+      "firstName": "Simone",
+      "lastName": "Rusconi",
+      "nameVariants": [
+        "Simone Rusconi"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "BCAM – Basque Center for Applied Mathematics",
+      "university": null,
+      "institutionType": "research_institute",
+      "department": null,
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Bilbao",
+      "country": "Spain",
+      "alternateLocations": []
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "Bilbao, Spain",
+      "ambiguousLocation": false,
+      "locationConfidence": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "b83fb32b8ffa37bf53a1e212a8aa0d95": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:b83fb32b8ffa37bf53a1e212a8aa0d95": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Christian",
@@ -5328,12 +5799,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "3ed6e52dfe6c71c16bab2d8d6270205d": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:3ed6e52dfe6c71c16bab2d8d6270205d": {
     "collaboratorEntries": [
       {
         "nameInformation": {
@@ -5367,32 +5836,41 @@
         }
       }
     ],
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "16115eb76096943e4a68605aa0fcd23f": {
-    "firstName": "Bolatbek",
-    "lastName": "Rysbaiuly",
-    "nameVariants": [
-      "Bolatbek Rysbaiuly"
-    ],
-    "affiliation": "International Information Technology University",
-    "university": "International Information Technology University",
-    "department": null,
-    "institutionType": "university",
-    "researchGroup": null,
-    "city": "Almaty",
-    "country": "Kazakhstan",
-    "improvedLocationString": "Almaty, Kazakhstan",
-    "locationConfidence": 1.0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:16115eb76096943e4a68605aa0fcd23f": {
+    "nameInformation": {
+      "firstName": "Bolatbek",
+      "lastName": "Rysbaiuly",
+      "nameVariants": [
+        "Bolatbek Rysbaiuly"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "International Information Technology University",
+      "university": "International Information Technology University",
+      "institutionType": "university",
+      "department": null,
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Almaty",
+      "country": "Kazakhstan",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "Almaty, Kazakhstan",
+      "ambiguousLocation": false,
+      "confidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "48424ee7b1d3b757f9df9b66ebeed3fb": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:48424ee7b1d3b757f9df9b66ebeed3fb": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Pierre",
@@ -5424,51 +5902,78 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "8eb0142d77a5f21c1509fc41460b5b8d": {
-    "firstName": "Georges",
-    "lastName": "Sadaka",
-    "nameVariants": [
-      "Georges Sadaka",
-      "G. Sadaka"
-    ],
-    "affiliation": "Laboratoire de Mathématiques Raphaël Salem (UMR 6085)",
-    "university": "Université de Rouen Normandie",
-    "department": null,
-    "institutionType": "university",
-    "researchGroup": "Laboratoire de Mathématiques Raphaël Salem",
-    "city": "Rouen",
-    "country": "France",
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": "Joint affiliation with CNRS (French National Centre for Scientific Research)",
-    "llm_enhanced": true
+  "parse:8eb0142d77a5f21c1509fc41460b5b8d": {
+    "nameInformation": {
+      "firstName": "Georges",
+      "lastName": "Sadaka",
+      "nameVariants": [
+        "Georges Sadaka",
+        "G. Sadaka"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Laboratoire de Mathématiques Raphaël Salem (UMR 6085)",
+      "university": "Université de Rouen Normandie",
+      "institutionType": "university",
+      "department": null,
+      "researchGroup": "Laboratoire de Mathématiques Raphaël Salem",
+      "researchGroupCode": "UMR 6085",
+      "additionalAffiliations": [
+        "CNRS"
+      ]
+    },
+    "locationInformation": {
+      "city": "Rouen",
+      "country": "France",
+      "alternateLocations": [],
+      "enhancedLocation": {
+        "formattedString": "Rouen, Normandy, France",
+        "confidence": 0.95,
+        "notes": "Major city in Normandy region, unambiguous location"
+      }
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": "Joint affiliation with CNRS (French National Centre for Scientific Research)",
+      "institutionalDetails": "UMR indicates 'Unité Mixte de Recherche' (Joint Research Unit)"
+    }
   },
-  "e3483c0ac9a8e44dba49c1a9776f1dfa": {
-    "firstName": "Pierre",
-    "lastName": "Samozino",
-    "nameVariants": [
-      "Pierre Samozino"
-    ],
-    "affiliation": "Laboratoire Interuniversitaire de Biologie de la Motricité",
-    "university": "Université Savoie Mont Blanc",
-    "department": null,
-    "institutionType": "university",
-    "researchGroup": "LIBM",
-    "city": "Chambéry",
-    "country": "France",
-    "improvedLocationString": "",
-    "locationConfidence": 1.0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:e3483c0ac9a8e44dba49c1a9776f1dfa": {
+    "nameInformation": {
+      "firstName": "Pierre",
+      "lastName": "Samozino",
+      "nameVariants": [
+        "Pierre Samozino"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Laboratoire Interuniversitaire de Biologie de la Motricité",
+      "university": "Université Savoie Mont Blanc",
+      "institutionType": "university",
+      "department": null,
+      "researchGroup": "LIBM"
+    },
+    "locationInformation": {
+      "city": "Chambéry",
+      "country": "France",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "suggestedLocationString": "Chambéry, France",
+      "ambiguousLocation": false,
+      "confidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "ddcf22dae3ff3649671179fa132a49aa": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:ddcf22dae3ff3649671179fa132a49aa": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Seema",
@@ -5502,32 +6007,41 @@
         "specialNotes": "Maiden name 'Mondal' indicated in parentheses."
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "9b753b5a1df81e37a5f0d81fb93b8d25": {
-    "firstName": "Gérard",
-    "lastName": "Sauce",
-    "nameVariants": [
-      "Gérard Sauce"
-    ],
-    "affiliation": "Polytech Nice-Sophia",
-    "university": "Université Côte d'Azur",
-    "department": "Département Bâtiments Intelligents",
-    "institutionType": "university",
-    "researchGroup": null,
-    "city": "Biot",
-    "country": "France",
-    "improvedLocationString": "Biot, France",
-    "locationConfidence": 0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:9b753b5a1df81e37a5f0d81fb93b8d25": {
+    "nameInformation": {
+      "firstName": "Gérard",
+      "lastName": "Sauce",
+      "nameVariants": [
+        "Gérard Sauce"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Polytech Nice-Sophia",
+      "university": "Université Côte d'Azur",
+      "institutionType": "university",
+      "department": "Département Bâtiments Intelligents",
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Biot",
+      "country": "France",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "Biot, France",
+      "ambiguousLocation": false,
+      "locationConfidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "ec1d5f5422c128adce774bca5d2eb9c6": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:ec1d5f5422c128adce774bca5d2eb9c6": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Symeon",
@@ -5559,12 +6073,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "87bf18d75eacac40d69ea6c8fb618648": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:87bf18d75eacac40d69ea6c8fb618648": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Yuriy",
@@ -5597,12 +6109,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "4fcac1f67d5a2306db4932f73d7a8587": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:4fcac1f67d5a2306db4932f73d7a8587": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Dmitry",
@@ -5634,12 +6144,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "e090f2f241a7ab60c87a2c58fa74915b": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:e090f2f241a7ab60c87a2c58fa74915b": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Madhavan",
@@ -5671,33 +6179,42 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "74c584fee7e2e7f18b3de4647c0c1f46": {
-    "firstName": "s. Hadi",
-    "lastName": "Shamsnia",
-    "nameVariants": [
-      "s. Hadi Shamsnia",
-      "Hadi Shamsnia"
-    ],
-    "affiliation": "Department of Geophysics, Tehran University",
-    "university": "Tehran University",
-    "department": "Department of Geophysics",
-    "institutionType": "university",
-    "researchGroup": null,
-    "city": "Tehran",
-    "country": "Iran",
-    "improvedLocationString": "Tehran, Iran",
-    "locationConfidence": 1.0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:74c584fee7e2e7f18b3de4647c0c1f46": {
+    "nameInformation": {
+      "firstName": "s. Hadi",
+      "lastName": "Shamsnia",
+      "nameVariants": [
+        "s. Hadi Shamsnia",
+        "Hadi Shamsnia"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Department of Geophysics, Tehran University",
+      "university": "Tehran University",
+      "institutionType": "university",
+      "department": "Department of Geophysics",
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Tehran",
+      "country": "Iran",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "Tehran, Iran",
+      "ambiguousLocations": [],
+      "confidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "2c5ec1c51fe7eb67b6399128ca46a506": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:2c5ec1c51fe7eb67b6399128ca46a506": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Yuri",
@@ -5729,12 +6246,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "e7a25ac7179d081b04b70bc609d55b3a": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:e7a25ac7179d081b04b70bc609d55b3a": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Nina",
@@ -5766,33 +6281,42 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "6abd6bac2cc0687e949f114cabe973cc": {
-    "firstName": "Zaher Hossein",
-    "lastName": "Shomali",
-    "nameVariants": [
-      "Zaher Hossein Shomali",
-      "Zaher H. Shomali"
-    ],
-    "affiliation": "Institute of Geophysics, University of Tehran",
-    "university": "University of Tehran",
-    "department": "Institute of Geophysics",
-    "institutionType": "university",
-    "researchGroup": null,
-    "city": "Tehran",
-    "country": "Iran",
-    "improvedLocationString": "Tehran, Iran",
-    "locationConfidence": 1.0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:6abd6bac2cc0687e949f114cabe973cc": {
+    "nameInformation": {
+      "firstName": "Zaher Hossein",
+      "lastName": "Shomali",
+      "nameVariants": [
+        "Zaher Hossein Shomali",
+        "Zaher H. Shomali"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Institute of Geophysics, University of Tehran",
+      "university": "University of Tehran",
+      "institutionType": "university",
+      "department": "Institute of Geophysics",
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Tehran",
+      "country": "Iran",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "Tehran, Iran",
+      "ambiguousLocation": false,
+      "confidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "c66f8fbcfe8a990317fba7c5116e53fa": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:c66f8fbcfe8a990317fba7c5116e53fa": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Dmitri",
@@ -5824,12 +6348,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "41b12170fc34199656debfcb0a3d538f": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:41b12170fc34199656debfcb0a3d538f": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Lucile",
@@ -5861,87 +6383,105 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "b6d6edd4ba3737dae629cfeb8e0a7db8": {
-    "firstName": "Lee",
-    "lastName": "Spector",
-    "nameVariants": [
-      "Lee Spector"
-    ],
-    "affiliation": "School of Cognitive Science, Hampshire College",
-    "university": "Hampshire College",
-    "department": "School of Cognitive Science",
-    "institutionType": "university",
-    "researchGroup": null,
-    "city": "Amherst",
-    "country": "United States",
-    "improvedLocationString": "",
-    "locationConfidence": 0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:b6d6edd4ba3737dae629cfeb8e0a7db8": {
+    "nameInformation": {
+      "firstName": "Lee",
+      "lastName": "Spector",
+      "nameVariants": [
+        "Lee Spector"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "School of Cognitive Science, Hampshire College",
+      "university": "Hampshire College",
+      "institutionType": "university",
+      "department": "School of Cognitive Science",
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Amherst",
+      "country": "United States",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "suggestedLocationString": "Amherst, United States",
+      "ambiguousLocation": false,
+      "locationConfidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "a3d124c56f9916dde854088eefdd9c3a": {
-    "firstName": "Themistoklis",
-    "lastName": "Stefanakis",
-    "nameVariants": [
-      "Themistoklis Stefanakis"
-    ],
-    "affiliation": "School of Mathematical Sciences, University College Dublin",
-    "university": "University College Dublin",
-    "department": "School of Mathematical Sciences",
-    "institutionType": "university",
-    "researchGroup": null,
-    "city": "Dublin",
-    "country": "Ireland",
-    "alternateLocations": "(formerly at) School of Mathematical Sciences, University College Dublin, Dublin, Ireland",
-    "improvedLocationString": "",
-    "locationConfidence": 0,
-    "isFormerAffiliation": true,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:a3d124c56f9916dde854088eefdd9c3a": {
+    "nameInformation": {
+      "firstName": "Themistoklis",
+      "lastName": "Stefanakis",
+      "nameVariants": [
+        "Themistoklis Stefanakis"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "School of Mathematical Sciences, University College Dublin",
+      "university": "University College Dublin",
+      "institutionType": "university",
+      "department": "School of Mathematical Sciences",
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Dublin",
+      "country": "Ireland",
+      "alternateLocations": "(formerly at) School of Mathematical Sciences, University College Dublin, Dublin, Ireland"
+    },
+    "enhancedLocationData": {
+      "suggestedLocationString": "Dublin, Ireland",
+      "ambiguousLocation": false,
+      "locationConfidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": true,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "99acbf2819146859da1e8ef4e4557ba4": {
-    "firstName": "Mark Essa",
-    "lastName": "Sukaiti",
-    "nameVariants": [
-      "Mark Sukaiti",
-      "M. E. Sukaiti",
-      "M. Sukaiti"
-    ],
-    "affiliation": "Mathematics Department, Khalifa University of Science and Technology",
-    "university": "Khalifa University of Science and Technology",
-    "department": "Mathematics Department",
-    "institutionType": "university",
-    "researchGroup": null,
-    "city": "Abu Dhabi",
-    "country": "United Arab Emirates",
-    "improvedLocationString": "",
-    "locationConfidence": 1.0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:99acbf2819146859da1e8ef4e4557ba4": {
+    "nameInformation": {
+      "firstName": "Mark Essa",
+      "lastName": "Sukaiti",
+      "nameVariants": [
+        "Mark Sukaiti",
+        "M. E. Sukaiti",
+        "M. Sukaiti"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Mathematics Department, Khalifa University of Science and Technology",
+      "university": "Khalifa University of Science and Technology",
+      "institutionType": "university",
+      "department": "Mathematics Department",
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Abu Dhabi",
+      "country": "United Arab Emirates",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "suggestedLocationString": "Abu Dhabi, United Arab Emirates",
+      "ambiguousLocation": false,
+      "confidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "a525802bd2fd5774bb27fc4cb6198fbc": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
-    "affiliation": "Arizona State University, Tempe, USA",
-    "university": "Arizona State University",
-    "department": null,
-    "institutionType": "university",
-    "researchGroup": null,
-    "city": "Tempe",
-    "country": "United States of America",
-    "improvedLocationString": "Tempe, Arizona, United States of America",
-    "locationConfidence": 0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
+  "parse:a525802bd2fd5774bb27fc4cb6198fbc": {
     "collaboratorName": {
       "firstName": "Alex",
       "lastName": "Suleimani",
@@ -5949,12 +6489,31 @@
         "Alex Suleimani"
       ]
     },
-    "llm_enhanced": true
+    "affiliationDetails": {
+      "affiliation": "Arizona State University, Tempe, USA",
+      "university": "Arizona State University",
+      "institutionType": "university",
+      "department": null,
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Tempe",
+      "country": "United States of America",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "improvedLocationString": "Tempe, Arizona, United States of America",
+      "ambiguousLocation": false,
+      "locationConfidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
+    },
+    "nameInformation": {}
   },
-  "c8dac2a2429bf2a65482211ff1ea558f": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:c8dac2a2429bf2a65482211ff1ea558f": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Berihu",
@@ -5986,12 +6545,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "b150162667dc55a419b1d96368017d06": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:b150162667dc55a419b1d96368017d06": {
     "collaboratorEntries": [
       {
         "nameInformation": {
@@ -6025,12 +6582,10 @@
         }
       }
     ],
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "86332101b2552e9a98b00ef785c51240": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:86332101b2552e9a98b00ef785c51240": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Tomas",
@@ -6062,12 +6617,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "898ec6b3040b6a2b65f02856b3a9a057": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:898ec6b3040b6a2b65f02856b3a9a057": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Ioannis",
@@ -6099,12 +6652,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "4eaf58e2d26ec6269b7a8c9212809fab": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:4eaf58e2d26ec6269b7a8c9212809fab": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Emma-Imen",
@@ -6138,12 +6689,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "e547c37f7b39057362babd6d1eae829d": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:e547c37f7b39057362babd6d1eae829d": {
     "collaboratorEntries": [
       {
         "nameInformation": {
@@ -6177,12 +6726,10 @@
         }
       }
     ],
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "cb08f1ea9c8b1a850d5289e59bf77a33": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:cb08f1ea9c8b1a850d5289e59bf77a33": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Jean-Louis",
@@ -6216,33 +6763,41 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "3a08652df59efa9e668ef269ac947264": {
-    "firstName": "Claudio",
-    "lastName": "Viotti",
-    "nameVariants": [
-      "Claudio Viotti"
-    ],
-    "affiliation": "School of Mathematical Sciences, University College Dublin",
-    "university": "University College Dublin",
-    "department": "School of Mathematical Sciences",
-    "institutionType": "university",
-    "researchGroup": null,
-    "city": "Dublin",
-    "country": "Ireland",
-    "alternateLocations": "(formerly at) School of Mathematical Sciences, University College Dublin, Dublin, Ireland",
-    "improvedLocationString": "",
-    "locationConfidence": 1.0,
-    "isFormerAffiliation": true,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true
+  "parse:3a08652df59efa9e668ef269ac947264": {
+    "nameInformation": {
+      "firstName": "Claudio",
+      "lastName": "Viotti",
+      "nameVariants": [
+        "Claudio Viotti"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "School of Mathematical Sciences, University College Dublin",
+      "university": "University College Dublin",
+      "institutionType": "university",
+      "department": "School of Mathematical Sciences",
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Dublin",
+      "country": "Ireland",
+      "alternateLocations": "(formerly at) School of Mathematical Sciences, University College Dublin, Dublin, Ireland"
+    },
+    "enhancedLocationData": {
+      "suggestedLocationString": "Dublin, Ireland",
+      "ambiguityNotes": null,
+      "confidenceScore": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": true,
+      "academicTitle": null,
+      "specialNotes": null
+    }
   },
-  "0e7df60025db6e1cab75500dcaf4bd48": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:0e7df60025db6e1cab75500dcaf4bd48": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Laurent",
@@ -6274,12 +6829,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "1ab06447476d4842a721a5fa96c962f6": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:1ab06447476d4842a721a5fa96c962f6": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Wan Hanna Melini",
@@ -6314,12 +6867,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "88c77e4bcad2431d8436c4c833ab62a4": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:88c77e4bcad2431d8436c4c833ab62a4": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Nadiah",
@@ -6353,12 +6904,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "95d0123db5520bd6f4221b7e69506031": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:95d0123db5520bd6f4221b7e69506031": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Muhammad Naveed",
@@ -6392,12 +6941,10 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "ca7474eab961e1706139a53cd43b10f5": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:ca7474eab961e1706139a53cd43b10f5": {
     "collaboratorEntries": [
       {
         "nameInformation": {
@@ -6431,12 +6978,10 @@
         }
       }
     ],
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "7ad8a492965fb342541a71e66a24a4a3": {
-    "firstName": "",
-    "lastName": "",
-    "nameVariants": [],
+  "parse:7ad8a492965fb342541a71e66a24a4a3": {
     "collaborator": {
       "nameInformation": {
         "firstName": "Dauren",
@@ -6468,40 +7013,38 @@
         "specialNotes": null
       }
     },
-    "llm_enhanced": true
+    "locationInformation": {},
+    "nameInformation": {}
   },
-  "f36b5cd9c2aa9f2a82f226e7b7b86dcb": {
-    "firstName": "Enrique",
-    "lastName": "Zuazua",
-    "nameVariants": [
-      "Enrique Zuazua"
-    ],
-    "affiliation": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
-    "university": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
-    "department": null,
-    "institutionType": "university",
-    "researchGroup": null,
-    "city": "Erlangen",
-    "country": "Germany",
-    "improvedLocationString": "",
-    "locationConfidence": 0,
-    "isFormerAffiliation": false,
-    "academicTitle": null,
-    "specialNotes": null,
-    "llm_enhanced": true,
-    "estimated_research_profile": {
-      "likely_field": "Applied Mathematics and Control Theory",
-      "likely_keywords": [
-        "partial differential equations",
-        "control systems",
-        "numerical analysis",
-        "optimization",
-        "mathematical modeling"
-      ],
-      "institution_type": "Public Research University",
-      "institution_prestige": "high",
-      "confidence": 0.9,
-      "notes": "Enrique Zuazua is actually a well-known mathematician specializing in partial differential equations and control theory. FAU Erlangen-Nürnberg is one of Germany's leading research universities, particularly strong in mathematics and engineering. The confidence is high because this researcher has a significant international profile and the institution is well-recognized in these fields."
+  "parse:f36b5cd9c2aa9f2a82f226e7b7b86dcb": {
+    "nameInformation": {
+      "firstName": "Enrique",
+      "lastName": "Zuazua",
+      "nameVariants": [
+        "Enrique Zuazua"
+      ]
+    },
+    "affiliationDetails": {
+      "affiliation": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+      "university": "Friedrich-Alexander-Universität Erlangen-Nürnberg",
+      "institutionType": "university",
+      "department": null,
+      "researchGroup": null
+    },
+    "locationInformation": {
+      "city": "Erlangen",
+      "country": "Germany",
+      "alternateLocations": null
+    },
+    "enhancedLocationData": {
+      "suggestedLocationString": "Erlangen, Germany",
+      "ambiguousLocation": false,
+      "locationConfidence": 1.0
+    },
+    "additionalContext": {
+      "isFormerAffiliation": false,
+      "academicTitle": null,
+      "specialNotes": null
     }
   }
 }

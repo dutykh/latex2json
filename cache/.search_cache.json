@@ -3135,5 +3135,3429 @@
       "llm_notes": "Found verified Google Scholar profile with consistent name and affiliation across multiple citations"
     },
     "search_confidence": 0.5
+  },
+  "univ_location:Faculty of Science and Marine Environment:Malaysia": {
+    "city": "Terengganu",
+    "state": null,
+    "address": "15, 2021 ... faculty of science and marine environment, universiti malaysia terengganu, 21030, kuala nerus, terengganu, malaysia",
+    "country": "Malaysia"
+  },
+  "univ_location:Morphodynamique Continentale et Côtière (M2C UMR 6143):France": {
+    "city": "Caen",
+    "state": null,
+    "address": "2c, umr 6143 m2c, 24 rue des tilleuls, f-14000 caen, france; tudor papuc",
+    "country": "France"
+  },
+  "univ_location:School of Civil Engineering:Malaysia": {
+    "city": "Penang 14300",
+    "state": null,
+    "address": "12, 2024 ... school of civil engineering, engineering campus, universiti sains malaysia, penang 14300, malaysia",
+    "country": "Malaysia"
+  },
+  "Obinna Abah|School of Mathematics|United Kingdom": {
+    "name": "Obinna Abah",
+    "affiliation": "School of Mathematics",
+    "homepage": "https://www.ncl.ac.uk/maths-physics/people/profile/obinnaabah.html",
+    "email": "obinna.abah@newcastle.ac.uk",
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "UdW9A9EAAAAJ",
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "UdW9A9EAAAAJ"
+    },
+    "research_interests": [
+      "Quantum thermodynamics",
+      "Quantum control",
+      "Nanoscience",
+      "Nonequilibrium"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.95,
+      "llm_notes": "Found verified Google Scholar profile for Obinna Abah with research interests. Affiliation (Newcastle University) and email domain (newcastle.ac.uk) are confirmed across multiple results, but a full email address or homepage URL was not explicitly provided."
+    },
+    "search_confidence": 0.7999999999999999
+  },
+  "Teh Sabariah Binti Abd Manan|Institute of Tropical Biodiversity and Sustainable Development|Malaysia": {
+    "name": "Teh Sabariah Binti Abd Manan",
+    "affiliation": "Institute of Tropical Biodiversity and Sustainable Development",
+    "homepage": null,
+    "email": "tehsabariah@gmail.com",
+    "title": "Postdoctoral",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "K0kw6xEAAAAJ",
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "K0kw6xEAAAAJ"
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.1,
+      "llm_notes": "No specific profile URLs, contact information, or academic details were found in the provided search results. Mentions of 'Google Scholar' were general references within articles, not links to a specific researcher profile."
+    },
+    "search_confidence": 0.5
+  },
+  "Ahmed Alkarory Abdalazeez|Department of Marine Systems|Estonia": {
+    "name": "Ahmed Alkarory Abdalazeez",
+    "affiliation": "Department of Marine Systems",
+    "homepage": null,
+    "email": null,
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.1,
+      "llm_notes": "While the researcher appears in paper citations, no verified profiles could be definitively matched to Ahmed Alkarory Abdalazeez. All ResearchGate profiles in results belong to different researchers."
+    },
+    "search_confidence": 0.1
+  },
+  "Nizar Abcha|Laboratoire Morphodynamique Continentale et Côtière (UMR 6143 M2C)|France": {
+    "name": "Nizar Abcha",
+    "affiliation": "Laboratoire Morphodynamique Continentale et Côtière (UMR 6143 M2C)",
+    "homepage": "https://sciprofiles.com/profile/2674070?utm_source=mdpi.com&utm_medium=website&utm_campaign=avatar_name",
+    "email": "nizar.abcha@unicaen.fr",
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "CsobrFQAAAAJ",
+      "researchgate": "Nizar-Abcha-2",
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": 308,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "CsobrFQAAAAJ"
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.95,
+      "llm_notes": "Found verified Google Scholar profile and ResearchGate profile with matching name and affiliation at UMR6143 CNRS and University of Caen Normandy"
+    },
+    "search_confidence": 0.7999999999999999
+  },
+  "Madina Abdykarim|Suleyman Demirel University (SDU)|Kazakhstan": {
+    "name": "Madina Abdykarim",
+    "affiliation": "Suleyman Demirel University (SDU)",
+    "homepage": null,
+    "email": "madina.abdykarim@sdu.edu.kz",
+    "title": "Head of Department",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": 22,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.9,
+      "llm_notes": "Found a verified ResearchGate profile with matching name. Citations extracted from ResearchGate snippet."
+    },
+    "search_confidence": 0.4
+  },
+  "Céline Acary-Robert|Laboratoire Jean Kuntzmann (LJK)|France": {
+    "name": "Céline Acary-Robert",
+    "affiliation": "Laboratoire Jean Kuntzmann (LJK)",
+    "homepage": null,
+    "email": null,
+    "title": "Research Scientist",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "exMaZlgAAAAJ",
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "exMaZlgAAAAJ"
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.7,
+      "llm_notes": "Only found Google Scholar profile with high confidence. ResearchGate profile not found - researcher appears only as co-author in others' profiles."
+    },
+    "search_confidence": 0.35
+  },
+  "Amen Agbossou|Laboratoire LOCIE UMR 5271|France": {
+    "name": "Amen Agbossou",
+    "affiliation": "Laboratoire LOCIE UMR 5271",
+    "homepage": null,
+    "email": null,
+    "title": null,
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": "Amen-Agbossou-72959471",
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": 1833,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.8,
+      "llm_notes": "Found verified ResearchGate profile with matching name and affiliation (Université Savoie Mont Blanc). Citation count from ResearchGate profile. Limited information available in search results."
+    },
+    "search_confidence": 0.25
+  },
+  "Amirrudin Ahmad|Faculty of Science and Marine Environment|Malaysia": {
+    "name": "Amirrudin Ahmad",
+    "affiliation": "Faculty of Science and Marine Environment",
+    "homepage": null,
+    "email": "amirrudin@umt.edu.my",
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": "Amirrudin-Ahmad",
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": 1174,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.85,
+      "llm_notes": "Found verified ResearchGate profile and academic title. Google Scholar result was for 'Ali Amirrudin Ahmad' which is a different person."
+    },
+    "search_confidence": 0.5
+  },
+  "Anas AL-Aghbari|Center for Membrane and Advanced Water Technology|United Arab Emirates": {
+    "name": "Anas AL-Aghbari",
+    "affiliation": "Center for Membrane and Advanced Water Technology",
+    "homepage": null,
+    "email": null,
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": "anas-al-aghbari",
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [
+      "e-government adoption"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.85,
+      "llm_notes": "Found verified Google Scholar profile and LinkedIn profile at Khalifa University. ResearchGate profile not found - only mentioned in other researchers' publications."
+    },
+    "search_confidence": 0.30000000000000004
+  },
+  "Norshamsuri Ali|Advanced Communication Engineering Centre of Excellence|Malaysia": {
+    "name": "Norshamsuri Ali",
+    "affiliation": "Advanced Communication Engineering Centre of Excellence",
+    "homepage": null,
+    "email": "norshamsuri@unimap.edu.my",
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "3nBdHj4AAAAJ",
+      "researchgate": "Norshamsuri-Ali",
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "3nBdHj4AAAAJ"
+    },
+    "research_interests": [
+      "Quantum Key Distribution",
+      "Spectroscopy"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.95,
+      "llm_notes": "Found verified Google Scholar and ResearchGate profiles. Email is institutional and verified. Title and research interests extracted from profile snippets."
+    },
+    "search_confidence": 0.7
+  },
+  "Alberto Amato|Labotatoire Physiologie Cellulaire et Végétale (LPCV)|France": {
+    "name": "Alberto Amato",
+    "affiliation": "Labotatoire Physiologie Cellulaire et Végétale (LPCV)",
+    "homepage": null,
+    "email": "alberto.amato@cea.fr",
+    "title": "Researcher",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "gr1x3uUAAAAJ",
+      "researchgate": "Alberto-Amato-2",
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "gr1x3uUAAAAJ"
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.9,
+      "llm_notes": "Verified Google Scholar and ResearchGate profiles match researcher at CEA. Multiple Scholar profiles exist but selected the one with verified email and CEA affiliation. ResearchGate profile matches current affiliation at CEA Grenoble."
+    },
+    "search_confidence": 0.6
+  },
+  "Mohamed Amazioug|Department of Physics|Morocco": {
+    "name": "Mohamed Amazioug",
+    "affiliation": "Department of Physics",
+    "homepage": null,
+    "email": "m.amazioug@uiz.ac.ma",
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "YQX-MYoAAAAJ",
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "YQX-MYoAAAAJ"
+    },
+    "research_interests": [
+      "physics"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.8,
+      "llm_notes": "Found verified Google Scholar profile with matching name and affiliation at Ibnou Zohr University. ResearchGate profile not directly found, only mentions in co-authored papers."
+    },
+    "search_confidence": 0.6
+  },
+  "Muhammad Asjad|Department of Physics|Canada": {
+    "name": "Muhammad Asjad",
+    "affiliation": "Department of Physics",
+    "homepage": "https://www.sfu.ca/physics/people/postdocs-researchers/masjad.html",
+    "email": "imran.asjad@umt.edu.pk",
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "WL526doAAAAJ",
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "WL526doAAAAJ"
+    },
+    "research_interests": [
+      "Optomechanics",
+      "Quantum Optics"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.8,
+      "llm_notes": "Found verified Google Scholar profile with SFU affiliation and email. Multiple Google Scholar profiles exist for different Muhammad Asjads - selected the Physics/SFU one. Other profiles excluded due to uncertainty."
+    },
+    "search_confidence": 0.7999999999999999
+  },
+  "Aydar Assylbekuly|Khoja Akhmet Yassawi International Kazakh-Turkish University|Kazakhstan": {
+    "name": "Aydar Assylbekuly",
+    "affiliation": "Khoja Akhmet Yassawi International Kazakh-Turkish University",
+    "homepage": null,
+    "email": null,
+    "title": null,
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.1,
+      "llm_notes": "No direct profile links or contact information for Aydar Assylbekuly were found in the provided search results. The ResearchGate profile found belongs to a different person (Dimitrios Mitsotakis) and was rejected. Aydar Assylbekuly is mentioned as a co-author in several snippets."
+    },
+    "search_confidence": 0.0
+  },
+  "Zeinabou A. Babou|Mathematics Department|United Arab Emirates": {
+    "name": "Zeinabou A. Babou",
+    "affiliation": "Mathematics Department",
+    "homepage": null,
+    "email": null,
+    "title": null,
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_notes": "No verifiable profile information, contact details, or academic information found for Zeinabou A. Babou in the provided search results. Mentions of 'Zeinabou Assoumi' and 'Zeinabou M .Elmoctar' are for different individuals. ResearchGate link found belongs to 'PhilippeChiron'."
+    },
+    "search_confidence": 0.0
+  },
+  "Joudy F. Beek|Mathematics Department|United Arab Emirates": {
+    "name": "Joudy F. Beek",
+    "affiliation": "Mathematics Department",
+    "homepage": null,
+    "email": null,
+    "title": null,
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {},
+    "search_confidence": 0.0
+  },
+  "Sonya Beisel|Institute of Computational Technologies|Russia": {
+    "name": "Sonya Beisel",
+    "affiliation": "Institute of Computational Technologies",
+    "homepage": null,
+    "email": null,
+    "title": null,
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [
+      "seismicity",
+      "tsunamis",
+      "shallow water equations",
+      "numerical modeling"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.6,
+      "llm_notes": "While researcher appears as author in multiple papers, no definitive personal profiles or contact information found. Research interests extracted from paper topics."
+    },
+    "search_confidence": 0.1
+  },
+  "Julien Berger|Laboratoire des Sciences de l'Ingénieur pour l'Environnement (LaSIE UMR 7356)|France": {
+    "name": "Julien Berger",
+    "affiliation": "Laboratoire des Sciences de l'Ingénieur pour l'Environnement (LaSIE UMR 7356)",
+    "homepage": null,
+    "email": null,
+    "title": "Chair",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.1,
+      "llm_notes": "Multiple Google Scholar profiles for 'Julien Berger' were found, but all were associated with 'Géosciences Environnement Toulouse' (get.omp.eu) and not the specified affiliation 'Laboratoire des Sciences de l'Ingénieur pour l'Environnement (LaSIE UMR 7356)'. Therefore, no profiles or contact information could be confidently attributed to the target researcher."
+    },
+    "search_confidence": 0.1
+  },
+  "Denis Blackmore|Department of Mathematical Sciences|United States of America": {
+    "name": "Denis Blackmore",
+    "affiliation": "Department of Mathematical Sciences",
+    "homepage": "https://math.hawaii.edu/~yury/",
+    "email": "denis.l.blackmore@njit.edu",
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.8,
+      "llm_notes": "Found verified institutional affiliation and email domain from multiple co-author citations. Direct Google Scholar profile not found in results, only mentions as co-author."
+    },
+    "search_confidence": 0.44999999999999996
+  },
+  "Thomas Bueler-Faudree|Columbia University|United States of America": {
+    "name": "Thomas Bueler-Faudree",
+    "affiliation": "Columbia University",
+    "homepage": null,
+    "email": null,
+    "title": null,
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": "thomas-bueler-faudree-333b6993",
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.95,
+      "llm_notes": "LinkedIn profile clearly identified and verified by name and affiliation. Other profiles (ResearchGate) rejected as they belong to different individuals. No other specific contact or academic information found."
+    },
+    "search_confidence": 0.1
+  },
+  "Thomas Busser|Département de Physique|France": {
+    "name": "Thomas Busser",
+    "affiliation": "Département de Physique",
+    "homepage": null,
+    "email": "thomas.busser@univ-smb.fr",
+    "title": "Director",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.7,
+      "llm_notes": "Only found verified institutional email address. ResearchGate profile not directly confirmed as search results only show mentions in publications."
+    },
+    "search_confidence": 0.25
+  },
+  "Jean-Guy Caputo|Laboratoire de Mathématiques de l'INSA de Rouen|France": {
+    "name": "Jean-Guy Caputo",
+    "affiliation": "Laboratoire de Mathématiques de l'INSA de Rouen",
+    "homepage": "https://www.ljll.fr/~sarels/",
+    "email": "jean-guy.caputo@insa-rouen.fr",
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "VSjCcPQAAAAJ",
+      "researchgate": "Jean-Guy-Caputo",
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": 2089,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "VSjCcPQAAAAJ"
+    },
+    "research_interests": [
+      "nonlinear waves"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.95,
+      "llm_notes": "Found verified Google Scholar and ResearchGate profiles matching name and affiliation at INSA Rouen. Email domain verified from Google Scholar profile."
+    },
+    "search_confidence": 0.8999999999999999
+  },
+  "Francesco Carbone|National Research Council -- Institute of Atmospheric Pollution Research|Italy": {
+    "name": "Francesco Carbone",
+    "affiliation": "National Research Council -- Institute of Atmospheric Pollution Research",
+    "homepage": null,
+    "email": "francesco.carbone615@gmail.com",
+    "title": "Professor",
+    "profiles": {
+      "orcid": "0000-0002-3559-5273",
+      "google_scholar": "xZE-rdkAAAAJ",
+      "researchgate": "Francesco-Carbone-9",
+      "linkedin": "francescocarbone",
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": "904543"
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "xZE-rdkAAAAJ"
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {},
+    "search_confidence": 0.7000000000000001
+  },
+  "Carlos Rodrigo Cárdenas-Bravo|Universidad Técnica Federico Santa María|Chile": {
+    "name": "Carlos Rodrigo Cárdenas-Bravo",
+    "affiliation": "Universidad Técnica Federico Santa María",
+    "homepage": null,
+    "email": null,
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": "Carlos-Cardenas-Bravo-2",
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {},
+    "search_confidence": 0.2
+  },
+  "Leonid Chubarov|Institute of Computational Technologies|Russia": {
+    "name": "Leonid Chubarov",
+    "affiliation": "Institute of Computational Technologies",
+    "homepage": null,
+    "email": "chubarov@nsc.ru",
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "cvOVca4AAAAJ",
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "cvOVca4AAAAJ"
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.6,
+      "llm_notes": "Found verified institutional email from snippets. No direct profile links found - researcher appears as co-author in various papers but no dedicated profiles confirmed."
+    },
+    "search_confidence": 0.5
+  },
+  "Didier Clamond|Laboratoire J.A. Dieudonné|France": {
+    "name": "Didier Clamond",
+    "affiliation": "Laboratoire J.A. Dieudonné",
+    "homepage": "https://www.math.cmu.edu/~bobpego/",
+    "email": "didier.clamond@univ-cotedazur.fr",
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "eqPVe9cAAAAJ",
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "eqPVe9cAAAAJ"
+    },
+    "research_interests": [
+      "include"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.8,
+      "llm_notes": "Only found verified Google Scholar profile. ResearchGate profile not claimed by researcher based on search results. Email address not clearly visible in snippets."
+    },
+    "search_confidence": 0.7999999999999999
+  },
+  "Thibaut Colinart|Institut de Recherche Dupuy de Lôme|France": {
+    "name": "Thibaut Colinart",
+    "affiliation": "Institut de Recherche Dupuy de Lôme",
+    "homepage": null,
+    "email": "thibaut.colinart@univ-ubs.fr",
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "rH0bQxkAAAAJ",
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "rH0bQxkAAAAJ"
+    },
+    "research_interests": [
+      "Biobased building materials",
+      "heat and moisture modeling"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.9,
+      "llm_notes": "Found verified Google Scholar profile and institutional email from univ-ubs.fr domain"
+    },
+    "search_confidence": 0.6
+  },
+  "Mikaël Cugnet|CEA-INES|France": {
+    "name": "Mikaël Cugnet",
+    "affiliation": "CEA-INES",
+    "homepage": null,
+    "email": "mikael.cugnet@cea.fr",
+    "title": "battery expert",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [
+      "batteries",
+      "energy storage"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.6,
+      "llm_notes": "While researcher appears in multiple publications and is mentioned as a battery expert at CEA, no definitive profile URLs could be verified. ResearchGate mentions exist but no clear profile URL matching the name was found."
+    },
+    "search_confidence": 0.35
+  },
+  "Sam Delamere|Bates College|United States of America": {
+    "name": "Sam Delamere",
+    "affiliation": "Bates College",
+    "homepage": "https://www.geni.com/people/Te-Kohi-Delamere/6000000009085006602",
+    "email": "sdescha2@bates.edu",
+    "title": "Dean",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.3,
+      "llm_notes": "Found mentions of Sam Delamere in research papers and at Bates College, but no verified professional profiles or contact information that could be definitively attributed to this specific person"
+    },
+    "search_confidence": 0.44999999999999996
+  },
+  "Ahmad Deeb|Mathematics Department|United Arab Emirates": {
+    "name": "Ahmad Deeb",
+    "affiliation": "Mathematics Department",
+    "homepage": null,
+    "email": "ahmaddeeb25@gmail.com",
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": "Ahmad-Deeb",
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": 2178,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [
+      "Analytical Chemistry",
+      "Applied Mathematics"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.8,
+      "llm_notes": "Found multiple ResearchGate profiles - selected the mathematics-focused one based on publications context. Email domain verified from Google Scholar profile."
+    },
+    "search_confidence": 0.6
+  },
+  "Frédéric Dias|School of Mathematical Sciences|Ireland": {
+    "name": "Frédéric Dias",
+    "affiliation": "School of Mathematical Sciences",
+    "homepage": "https://maths.ucd.ie/~dias/",
+    "email": "frederic.dias@ucd.ie",
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "7eh047gAAAAJ",
+      "researchgate": null,
+      "linkedin": "fr",
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": "122134"
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "7eh047gAAAAJ"
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {},
+    "search_confidence": 0.9
+  },
+  "Ira Didenkulova|Department of Mathematics|Norway": {
+    "name": "Ira Didenkulova",
+    "affiliation": "Department of Mathematics",
+    "homepage": "https://www.mn.uio.no/math/english/people/aca/irinadi/",
+    "email": "syamsidik@tdmrc.org",
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.5,
+      "llm_notes": "No direct profile URLs or specific contact/academic information found in the provided snippets. Mentions of 'Google Scholar' were general or for other authors, not directly linked to Ira Didenkulova's profile ID. Affiliation with University of Oslo is mentioned."
+    },
+    "search_confidence": 0.44999999999999996
+  },
+  "Bahram Djafari-Rouhani|Institut d'\\'Electronique|France": {
+    "name": "Bahram Djafari-Rouhani",
+    "affiliation": "Institut d'\\'Electronique",
+    "homepage": "https://sciprofiles.com/profile/370681",
+    "email": "bahram.djafari-rouhani@univ-lille.fr",
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "zo7pnNIAAAAJ",
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "zo7pnNIAAAAJ"
+    },
+    "research_interests": [
+      "condensed matter physics",
+      "phononics",
+      "photonics",
+      "plasmonics"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.95,
+      "llm_notes": "Found verified institutional email and Google Scholar profile with matching name and affiliation at Université de Lille"
+    },
+    "search_confidence": 0.7999999999999999
+  },
+  "Philippe Djorwé|Department of Physics|Cameroon": {
+    "name": "Philippe Djorwé",
+    "affiliation": "Department of Physics",
+    "homepage": null,
+    "email": "djorwep@yahoo.fr",
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "Oonj6kkyz5sC",
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "Oonj6kkyz5sC"
+    },
+    "research_interests": [
+      "Quantum optomechanics",
+      "Nonlinear dynamics",
+      "Quantum optics",
+      "Non-Hermitian systems"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.9,
+      "llm_notes": "Found verified Google Scholar profile and institutional email from ICN2. ResearchGate mentions found but no direct profile URL confirmed."
+    },
+    "search_confidence": 0.6
+  },
+  "Collins O. Edet|Institute of Engineering Mathematics|Malaysia": {
+    "name": "Collins O. Edet",
+    "affiliation": "Institute of Engineering Mathematics",
+    "homepage": null,
+    "email": null,
+    "title": null,
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "JnoGSr0AAAAJ",
+      "researchgate": "Collins-O-Edet",
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "JnoGSr0AAAAJ"
+    },
+    "research_interests": [
+      "physics",
+      "meteorology",
+      "solar energy",
+      "climate science"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.8,
+      "llm_notes": "Found consistent ResearchGate profile mentions and research topics from multiple papers, but limited verified profile information"
+    },
+    "search_confidence": 0.44999999999999996
+  },
+  "Khadije El Kadi|Center for Membrane and Advanced Water Technology|United Arab Emirates": {
+    "name": "Khadije El Kadi",
+    "affiliation": "Center for Membrane and Advanced Water Technology",
+    "homepage": null,
+    "email": "khadije@ku.ac.ae",
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "1TQegtsAAAAJ",
+      "researchgate": "Khadije_El_Kadi",
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "1TQegtsAAAAJ"
+    },
+    "research_interests": [
+      "Thermofluids",
+      "Molecular dynamics",
+      "CFD",
+      "Freeze Desalination",
+      "Membrane"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.9,
+      "llm_notes": "Found verified Google Scholar profile and institutional email from Khalifa University. ResearchGate profile confirmed through multiple paper authorships."
+    },
+    "search_confidence": 0.7
+  },
+  "Ramón Escobedo|Centre de Recherche sur la Cognition Animale (CRCA UMR 5169)|France": {
+    "name": "Ramón Escobedo",
+    "affiliation": "Centre de Recherche sur la Cognition Animale (CRCA UMR 5169)",
+    "homepage": null,
+    "email": "irene.espinola@grupobimbo.com",
+    "title": "Department of Mathematics, Carlos III de Madrid University, Leganés, Madrid, Spain",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "SGmreQYAAAAJ",
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "SGmreQYAAAAJ"
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.9,
+      "llm_notes": "Found verified Google Scholar profile and institutional email domain. Multiple search results confirm the affiliation."
+    },
+    "search_confidence": 0.5
+  },
+  "Parvaneh Faridi|Tsunami and Earthquake Research Centre|Iran": {
+    "name": "Parvaneh Faridi",
+    "affiliation": "Tsunami and Earthquake Research Centre",
+    "homepage": "https://www.lboro.ac.uk/departments/abce/staff/seyed-mehran-ahmadi/",
+    "email": null,
+    "title": "Director",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [
+      "natural hazards",
+      "tsunami research"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.3,
+      "llm_notes": "Found researcher name in multiple publications but no definitive profiles or contact information. Research interests inferred from publication contexts."
+    },
+    "search_confidence": 0.4
+  },
+  "Zinaida Fedotova|Institute of Computational Technologies|Russia": {
+    "name": "Zinaida Fedotova",
+    "affiliation": "Institute of Computational Technologies",
+    "homepage": null,
+    "email": null,
+    "title": "Director",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_notes": "No verified profiles or specific information found for Zinaida Fedotova in the provided search results. All ResearchGate profile links found belonged to other researchers."
+    },
+    "search_confidence": 0.1
+  },
+  "Florian Gallois|CEA-INES|France": {
+    "name": "Florian Gallois",
+    "affiliation": "CEA-INES",
+    "homepage": null,
+    "email": null,
+    "title": "PhD thesis at Haulotte",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.8,
+      "llm_notes": "Found LinkedIn profile matching name and academic affiliation. Other profiles not verified or unclear."
+    },
+    "search_confidence": 0.1
+  },
+  "Ivan Gandzha|Department of Theoretical Physics|Ukraine": {
+    "name": "Ivan Gandzha",
+    "affiliation": "Department of Theoretical Physics",
+    "homepage": null,
+    "email": null,
+    "title": "Research Fellow",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [
+      "theoretical physics",
+      "wave propagation",
+      "nonlinear physics"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.8,
+      "llm_notes": "Title and affiliation verified from multiple sources (Springer book and conference materials). No verified personal profiles or contact information found."
+    },
+    "search_confidence": 0.2
+  },
+  "Suelen Gasparin|CEREMA BPE|France": {
+    "name": "Suelen Gasparin",
+    "affiliation": "CEREMA BPE",
+    "homepage": "https://www.tandfonline.com/doi/abs/10.1080/01457632.2023.2241176",
+    "email": "suelen.gasparin@cerema.fr",
+    "title": "Researcher",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "xEwE9cYAAAAJ",
+      "researchgate": "Suelen-Gasparin-2",
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": 303,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "xEwE9cYAAAAJ"
+    },
+    "research_interests": [
+      "Building Energy Efficiency",
+      "Heat and Mass Transfer",
+      "Modeling and Simulation"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.95,
+      "llm_notes": "Found verified Google Scholar and ResearchGate profiles matching name and CEREMA affiliation"
+    },
+    "search_confidence": 0.8999999999999999
+  },
+  "Hugo Geoffroy|Laboratoire LOCIE UMR 5271|France": {
+    "name": "Hugo Geoffroy",
+    "affiliation": "Laboratoire LOCIE UMR 5271",
+    "homepage": null,
+    "email": "hugo.geoffroy@plateforme-tipee.com",
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": "Hugo-Geoffroy",
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.7,
+      "llm_notes": "Found a verified ResearchGate profile. No other profiles or contact information found."
+    },
+    "search_confidence": 0.35
+  },
+  "Breno L. Giacchini|Institute of Theoretical Physics|Czech Republic": {
+    "name": "Breno L. Giacchini",
+    "affiliation": "Institute of Theoretical Physics",
+    "homepage": null,
+    "email": "giacchini@mff.cuni.cz",
+    "title": null,
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "VS_1zRoAAAAJ",
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "VS_1zRoAAAAJ"
+    },
+    "research_interests": [
+      "quantum gravity",
+      "theoretical physics"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.9,
+      "llm_notes": "Found verified Google Scholar profile and institutional email. ResearchGate papers found but no clear personal profile URL."
+    },
+    "search_confidence": 0.5
+  },
+  "Jean-Michel Ghidaglia|Centre de Mathématiques et de Leurs Applications|France": {
+    "name": "Jean-Michel Ghidaglia",
+    "affiliation": "Centre de Mathématiques et de Leurs Applications",
+    "homepage": null,
+    "email": null,
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "uWhIm5cAAAAJ",
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "uWhIm5cAAAAJ"
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.9,
+      "llm_notes": "Found verified Google Scholar profile and title from multiple consistent mentions across search results. Current affiliations: UM6P, Benguerir, Morocco and ENS Paris-Saclay"
+    },
+    "search_confidence": 0.35
+  },
+  "Bernard Gleyse|Laboratoire de Mathématiques de l'INSA de Rouen|France": {
+    "name": "Bernard Gleyse",
+    "affiliation": "Laboratoire de Mathématiques de l'INSA de Rouen",
+    "homepage": null,
+    "email": null,
+    "title": "Enseignant en Mathématiques Appliquées et Application des Maths",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [
+      "mathématiques appliquées"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.7,
+      "llm_notes": "Found institutional affiliation and title from INSA Rouen pages, but no verified profiles or contact information"
+    },
+    "search_confidence": 0.2
+  },
+  "Vincent Guinot|HydroSciences Montpellier|France": {
+    "name": "Vincent Guinot",
+    "affiliation": "HydroSciences Montpellier",
+    "homepage": null,
+    "email": "vincent.guinot@inria.fr",
+    "title": "Chair",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "v8hq2n0AAAAJ",
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "v8hq2n0AAAAJ"
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.3,
+      "llm_notes": "Found mentions of Vincent Guinot in research papers and ResearchGate references, but no definitive profile links or contact information. ResearchGate snippet explicitly states 'This person is not on ResearchGate, or hasn't claimed this research yet.'"
+    },
+    "search_confidence": 0.5
+  },
+  "Oleg Gusev|Institute of Computational Technologies|Russia": {
+    "name": "Oleg Gusev",
+    "affiliation": "Institute of Computational Technologies",
+    "homepage": null,
+    "email": "oleg.gusev@riken.jp",
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.1,
+      "llm_notes": "The researcher's specified affiliation is 'Institute of Computational Technologies'. All search results for 'Oleg Gusev' consistently show an affiliation with 'Juntendo University'. Due to this significant affiliation mismatch, it is highly probable that the found profiles belong to a different person with the same name. Following the rule to prefer missing data over incorrect data and to set profiles to null if any doubt exists, no information has been extracted."
+    },
+    "search_confidence": 0.25
+  },
+  "Matthew Hunt|Warwick Mathematics Institute|United Kingdom": {
+    "name": "Matthew Hunt",
+    "affiliation": "Warwick Mathematics Institute",
+    "homepage": "https://www.nbexcellence.org/faculty/huntm/",
+    "email": "matthew.hunt@mcgill.ca",
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "f7RQx6MAAAAJ",
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "f7RQx6MAAAAJ"
+    },
+    "research_interests": [
+      "ethnicity",
+      "involve intersections of race",
+      "Magnetohydrodynamics",
+      "free surface flows",
+      "Lithium Batteries",
+      "Sintering"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.8,
+      "llm_notes": "Selected Google Scholar profile matching technology/mathematics focus and UK affiliation (Qdot Technology). Rejected other Matthew Hunt profiles from McGill University and other institutions as they appear to be different people."
+    },
+    "search_confidence": 0.7999999999999999
+  },
+  "Delia Ionescu-Kruse|Institute of Mathematics of the Romanian Academy (IMAR)|Romania": {
+    "name": "Delia Ionescu-Kruse",
+    "affiliation": "Institute of Mathematics of the Romanian Academy (IMAR)",
+    "homepage": "https://imar.ro/organization/people/CVs/Ionescu-Kruse_Delia_CV.pdf",
+    "email": "delia.ionescu@imar.ro",
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "ZdQtdu4AAAAJ",
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": 804,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "ZdQtdu4AAAAJ"
+    },
+    "research_interests": [
+      "Mathematics",
+      "Mathematical Physics",
+      "Fluid Dynamics",
+      "Waves",
+      "Flow"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.95,
+      "llm_notes": "Found verified Google Scholar and ResearchGate profiles with matching name and affiliation at IMAR"
+    },
+    "search_confidence": 0.7999999999999999
+  },
+  "Ainagul Jumabekova|Laboratoire LOCIE UMR 5271|France": {
+    "name": "Ainagul Jumabekova",
+    "affiliation": "Laboratoire LOCIE UMR 5271",
+    "homepage": null,
+    "email": "ainagul.jumabekova@univ-lr.fr",
+    "title": null,
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": "ainagul-jumabekova-7abba522b",
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {},
+    "search_confidence": 0.25
+  },
+  "Hisyam Jusoh|Geo TriTech|Malaysia": {
+    "name": "Hisyam Jusoh",
+    "affiliation": "Geo TriTech",
+    "homepage": "https://engsci.curtin.edu.my/departments/civil-construction-engineering/staff/dr-muhammad-noor-hazwan-bin-jusoh/",
+    "email": null,
+    "title": "Lecturer",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": 307,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [
+      "Environmental",
+      "Groundwater",
+      "Geotechnical",
+      "Resistivity",
+      "Seismic"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.95,
+      "llm_notes": "Found verified Google Scholar and ResearchGate profiles with matching name and institutional affiliation at UCSI University"
+    },
+    "search_confidence": 0.55
+  },
+  "Christophe Kassiotis|Laboratoire d'hydraulique Saint-Venant|France": {
+    "name": "Christophe Kassiotis",
+    "affiliation": "Laboratoire d'hydraulique Saint-Venant",
+    "homepage": null,
+    "email": "christophe.kassiotis@developpement-durable.gouv.fr",
+    "title": "Director",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "64pgILEAAAAJ",
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "64pgILEAAAAJ"
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.8,
+      "llm_notes": "Only Google Scholar profile found and verified. ResearchGate profiles found belonged to co-authors, not Christophe Kassiotis."
+    },
+    "search_confidence": 0.5
+  },
+  "Youen Kervella|Open Ocean|France": {
+    "name": "Youen Kervella",
+    "affiliation": "Open Ocean",
+    "homepage": null,
+    "email": "youen.kervella@ifremer.fr",
+    "title": null,
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.1,
+      "llm_notes": "No direct profiles for Youen Kervella were found in the provided search results. All ResearchGate links were either to figures/papers or to profiles of other individuals (e.g., Stéphane Kervella, Nicolas Michelet, Neil Luxcey, Nicolas Germain), which were explicitly rejected as per instructions. No Google Scholar, ORCID, LinkedIn, or GitHub profiles were found. No contact information, title, or research interests were directly extractable for Youen Kervella."
+    },
+    "search_confidence": 0.15
+  },
+  "Nasser Keshavarz Farajkhah|Research Institute of Petroleum Industry|Iran": {
+    "name": "Nasser Keshavarz Farajkhah",
+    "affiliation": "Research Institute of Petroleum Industry",
+    "homepage": null,
+    "email": "keshavarzn@ripi.ir",
+    "title": "Director",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {},
+    "search_confidence": 0.25
+  },
+  "Gayaz Khakimzyanov|Institute of Computational Technologies|Russia": {
+    "name": "Gayaz Khakimzyanov",
+    "affiliation": "Institute of Computational Technologies",
+    "homepage": null,
+    "email": "gayaz.khakimzyanov@gmail.com",
+    "title": null,
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.85,
+      "llm_notes": "Found a verified email address. No direct profile URLs found for Google Scholar, ORCID, ResearchGate, LinkedIn, GitHub, or Loop based on the provided search results and strict extraction rules."
+    },
+    "search_confidence": 0.15
+  },
+  "Jihwan Kim|Portuguese Institute for Sea and Atmosphere (IPMA)|Portugal": {
+    "name": "Jihwan Kim",
+    "affiliation": "Portuguese Institute for Sea and Atmosphere (IPMA)",
+    "homepage": "https://www.kaufmanmusiccenter.org/lms/faculty/sean-hartley/",
+    "email": "jihwan.kim@kimchang.com",
+    "title": "Research Scientist",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "ecZgEssAAAAJ",
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "ecZgEssAAAAJ"
+    },
+    "research_interests": [
+      "Geophysical fluid dynamics"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.95,
+      "llm_notes": "Multiple Google Scholar profiles found for 'Jihwan Kim', but only included the one matching IPMA affiliation. Other profiles belong to different researchers at NCSU, SNU, ADD, POSTECH, Samsung, and Hanyang University."
+    },
+    "search_confidence": 0.7999999999999999
+  },
+  "Piu Kundu|Department of Mathematics|India": {
+    "name": "Piu Kundu",
+    "affiliation": "Department of Mathematics",
+    "homepage": null,
+    "email": "shreekundu@gmail.com",
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [
+      "Geophysics",
+      "Mathematical Modeling"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.8,
+      "llm_notes": "Found verified Google Scholar profile. ResearchGate presence detected but no clear profile URL found. Limited verified information available."
+    },
+    "search_confidence": 0.35
+  },
+  "Christian Lalanne|Irish Centre for High-End Computing (ICHEC)|Ireland": {
+    "name": "Christian Lalanne",
+    "affiliation": "Irish Centre for High-End Computing (ICHEC)",
+    "homepage": null,
+    "email": "christian.lalanne@free.fr",
+    "title": null,
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": "Christian-Lalanne",
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [
+      "mechanical shock",
+      "vibration analysis",
+      "fatigue damage",
+      "mechanical systems"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.9,
+      "llm_notes": "Found verified ResearchGate profile and institutional email. Affiliation at ICHEC confirmed in multiple results."
+    },
+    "search_confidence": 0.35
+  },
+  "Qian Li|School of Mathematics|New Zealand": {
+    "name": "Qian Li",
+    "affiliation": "School of Mathematics",
+    "homepage": "https://staffportal.curtin.edu.au/staff/profile/view/qian-li-24c96504/",
+    "email": "qli@curtin.edu.au",
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [
+      "footer menu",
+      "footer social"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.1,
+      "llm_notes": "No profiles found that definitively match 'Qian Li' with the affiliation 'School of Mathematics'. All listed Google Scholar profiles belong to different 'Qian Li' researchers at other institutions or departments."
+    },
+    "search_confidence": 0.5499999999999999
+  },
+  "Valery Liapidevskii|Lavrentyev Institute of Hydrodynamics|Russia": {
+    "name": "Valery Liapidevskii",
+    "affiliation": "Lavrentyev Institute of Hydrodynamics",
+    "homepage": null,
+    "email": null,
+    "title": null,
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [
+      "hydrodynamics",
+      "internal waves",
+      "fluid mechanics"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.7,
+      "llm_notes": "Found researcher mentioned in multiple papers but no definitive profiles or contact information. Research interests inferred from paper topics."
+    },
+    "search_confidence": 0.1
+  },
+  "Mohamed Loukili|Laboratoire d'Ingénierie et Matériaux|Morocco": {
+    "name": "Mohamed Loukili",
+    "affiliation": "Laboratoire d'Ingénierie et Matériaux",
+    "homepage": null,
+    "email": null,
+    "title": "Reader",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "85QswqkAAAAJ",
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "85QswqkAAAAJ"
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.3,
+      "llm_notes": "Found multiple mentions of Mohamed Loukili in academic papers but no verified profiles. LinkedIn profiles found appear to be different people (one at Aramco, one in marketing). No institutional email or homepage found. ResearchGate mentions are only as paper co-author."
+    },
+    "search_confidence": 0.35
+  },
+  "Michael Lysaght|Irish Centre for High-End Computing (ICHEC)|Ireland": {
+    "name": "Michael Lysaght",
+    "affiliation": "Irish Centre for High-End Computing (ICHEC)",
+    "homepage": "https://www.highperformr.ai/people/michaellysaght",
+    "email": null,
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "VEcSn7IAAAAJ",
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "VEcSn7IAAAAJ"
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.5,
+      "llm_notes": "No direct profiles or contact information found for Michael Lysaght affiliated with ICHEC. Several results mention a Michael Lysaght from Brown University, which was explicitly excluded based on the provided affiliation."
+    },
+    "search_confidence": 0.55
+  },
+  "Affiani Machmudah|Faculty of Advance Technology and Multidiscipline|Indonesia": {
+    "name": "Affiani Machmudah",
+    "affiliation": "Faculty of Advance Technology and Multidiscipline",
+    "homepage": "https://www.nottingham.ac.uk/engineering/people/sobia.qazi",
+    "email": "mahmudis@ucsiuniversity.edu.my",
+    "title": "Researcher at Badan Riset dan Inovasi Nasional (BRIN)",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "fbV_iscAAAAJ",
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "fbV_iscAAAAJ"
+    },
+    "research_interests": [
+      "motion planning",
+      "optimization",
+      "manufacturing",
+      "control"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.9,
+      "llm_notes": "Found verified Google Scholar profile and institutional email. ResearchGate presence confirmed through multiple research figures but profile URL not directly visible."
+    },
+    "search_confidence": 0.7999999999999999
+  },
+  "Nathan Mendes|Pontifical Catholic University of Paraná|Brazil": {
+    "name": "Nathan Mendes",
+    "affiliation": "Pontifical Catholic University of Paraná",
+    "homepage": null,
+    "email": "nathan.mendes@pucpr.br",
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "ntilIz0AAAAJ",
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "ntilIz0AAAAJ"
+    },
+    "research_interests": [
+      "Building Energy Efficiency"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.95,
+      "llm_notes": "Found verified Google Scholar profile and institutional email domain. Multiple search results confirm affiliation with Pontifical Catholic University of Parana."
+    },
+    "search_confidence": 0.6
+  },
+  "Christophe Ménézo|Laboratoire LOCIE UMR 5271|France": {
+    "name": "Christophe Ménézo",
+    "affiliation": "Laboratoire LOCIE UMR 5271",
+    "homepage": null,
+    "email": "christophe.menezo@univ-smb.fr",
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "mcKGXVkAAAAJ",
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "mcKGXVkAAAAJ"
+    },
+    "research_interests": [
+      "Solar energy"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.95,
+      "llm_notes": "Found verified Google Scholar profile with institutional affiliation (University Savoie Mont Blanc - LOCIE UMR CNRS 5271)"
+    },
+    "search_confidence": 0.6
+  },
+  "Dripta Mj (Sarkar)|Department of Mathematics|India": {
+    "name": "Dripta Mj (Sarkar)",
+    "affiliation": "Department of Mathematics",
+    "homepage": null,
+    "email": null,
+    "title": null,
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [
+      "wave energy converters",
+      "fluid mechanics",
+      "ocean engineering"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.6,
+      "llm_notes": "Found multiple papers by author but no definitive profiles. Research interests extracted from paper topics. Cannot verify if ResearchGate profile 'Dripta-De-Joarder' is same person as appears to be different name."
+    },
+    "search_confidence": 0.1
+  },
+  "Daud Mohamad|Department of Civil Engineering|Malaysia": {
+    "name": "Daud Mohamad",
+    "affiliation": "Department of Civil Engineering",
+    "homepage": "https://www.nottingham.edu.my/Science-Engineering/Departments/Eee/People/marwan.nafea",
+    "email": "daud201@uitm.edu.my",
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": 31,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [
+      "Nuclear Science and Technology"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.8,
+      "llm_notes": "Found multiple ResearchGate profiles - selected the one matching current affiliation (King Abdulaziz University). Citations count from verified ResearchGate profile."
+    },
+    "search_confidence": 0.7
+  },
+  "Nur Liyana Mohd Kamal|Department of Civil Engineering|Malaysia": {
+    "name": "Nur Liyana Mohd Kamal",
+    "affiliation": "Department of Civil Engineering",
+    "homepage": null,
+    "email": "yana_kamal@uniten.edu.my",
+    "title": "Lecturer",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "mJLBTa8AAAAJ",
+      "researchgate": "Nur-Liyana-Mohd-Kamal-2060195441",
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": 782,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "mJLBTa8AAAAJ"
+    },
+    "research_interests": [
+      "concrete",
+      "civil engineering"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.95,
+      "llm_notes": "Found verified Google Scholar profile and ResearchGate profile with matching name and affiliation at Universiti Tenaga Nasional"
+    },
+    "search_confidence": 0.7
+  },
+  "Md Fauzan Kamal Mohd Yapandi|Faculty of Applied Science|Malaysia": {
+    "name": "Md Fauzan Kamal Mohd Yapandi",
+    "affiliation": "Faculty of Applied Science",
+    "homepage": null,
+    "email": null,
+    "title": "Chair",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": "md-fauzan-kamal-mohd-yapandi-554344212",
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.8,
+      "llm_notes": "Found verified LinkedIn profile matching name and affiliation at TNBResearch. Other profiles could not be definitively verified as belonging to this researcher."
+    },
+    "search_confidence": 0.2
+  },
+  "Mohammad Mokhtari|International Institute of Earthquake Engineering and Seismology|Iran": {
+    "name": "Mohammad Mokhtari",
+    "affiliation": "International Institute of Earthquake Engineering and Seismology",
+    "homepage": null,
+    "email": "mokhtari@genzentrum.lmu.de",
+    "title": "Chair",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "oxHG6DwAAAAJ",
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "oxHG6DwAAAAJ"
+    },
+    "research_interests": [
+      "Earthquake Prediction"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.95,
+      "llm_notes": "Found verified Google Scholar profile matching name and affiliation (IIEES). Other Google Scholar profiles with same/similar names were excluded as they had different affiliations or incomplete information."
+    },
+    "search_confidence": 0.6
+  },
+  "Daulet Moldabayev|Department of Mathematics|Norway": {
+    "name": "Daulet Moldabayev",
+    "affiliation": "Department of Mathematics",
+    "homepage": null,
+    "email": "daulet.moldabayev@math.uib.no",
+    "title": "Postdoctoral",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {},
+    "search_confidence": 0.25
+  },
+  "Baptiste Morel|Laboratoire Interuniversitaire de Biologie de la Motricité (LIBM)|France": {
+    "name": "Baptiste Morel",
+    "affiliation": "Laboratoire Interuniversitaire de Biologie de la Motricité (LIBM)",
+    "homepage": null,
+    "email": "baptiste.morel@gmail.com",
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "ckU7PU8AAAAJ",
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "ckU7PU8AAAAJ"
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.9,
+      "llm_notes": "Found verified Google Scholar profile and institutional email from Université Savoie Mont Blanc. Affiliation matches with LIBM."
+    },
+    "search_confidence": 0.5
+  },
+  "Sorina Mustatea|CEA Grenoble/INES|France": {
+    "name": "Sorina Mustatea",
+    "affiliation": "CEA Grenoble/INES",
+    "homepage": "https://homepages.tuni.fi/jaakko.peltonen/",
+    "email": null,
+    "title": "PhD candidate",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": "sorina-mustatea",
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.9,
+      "llm_notes": "Found a verified LinkedIn profile for Sorina Mustatea. No other profiles or contact information were found that clearly belong to the researcher."
+    },
+    "search_confidence": 0.4
+  },
+  "Chioukh Nadjib|Department of Hydraulics|Algeria": {
+    "name": "Chioukh Nadjib",
+    "affiliation": "Department of Hydraulics",
+    "homepage": null,
+    "email": "chioukh.nadji@hotmail.com",
+    "title": null,
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.7,
+      "llm_notes": "Found a verified email address directly attributed to the researcher. No academic profiles or other information found in the provided search results."
+    },
+    "search_confidence": 0.15
+  },
+  "Dang Mao Nguyen|Laboratoire LOCIE UMR 5271|France": {
+    "name": "Dang Mao Nguyen",
+    "affiliation": "Laboratoire LOCIE UMR 5271",
+    "homepage": null,
+    "email": "dang-mao.nguyen@centralesupelec.fr",
+    "title": "Professor",
+    "profiles": {
+      "orcid": "0000-0003-0419-4810",
+      "google_scholar": "nSzsKs4AAAAJ",
+      "researchgate": "Dang-Mao-Nguyen",
+      "linkedin": "dang-mao-nguyen-a44299b1",
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": "941062"
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "nSzsKs4AAAAJ"
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {},
+    "search_confidence": 0.7000000000000001
+  },
+  "Laura O'Brien|Monash University|Australia": {
+    "name": "Laura O'Brien",
+    "affiliation": "Monash University",
+    "homepage": "https://www.accessnow.org/profile/laura/",
+    "email": "laura.obrien@abbott.com",
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.1,
+      "llm_notes": "Multiple individuals named Laura O'Brien found with different affiliations (Bayer, Abbott, Northumbria University, MSH, emergency medical responder). No information could be definitively linked to Laura O'Brien at Monash University. All profiles and contact information found belong to other individuals with the same name."
+    },
+    "search_confidence": 0.44999999999999996
+  },
+  "Mickael Pailha|Laboratoire LOCIE UMR 5271|France": {
+    "name": "Mickael Pailha",
+    "affiliation": "Laboratoire LOCIE UMR 5271",
+    "homepage": null,
+    "email": "mickael.pailha@etu.univ-provence.fr",
+    "title": null,
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.3,
+      "llm_notes": "While researcher name appears in multiple papers and collaborations, no definitive personal profiles or contact information could be verified from the search results. The researcher is mentioned as a co-author but no direct profiles are shown."
+    },
+    "search_confidence": 0.15
+  },
+  "Elijah Peach|School of Mathematics|New Zealand": {
+    "name": "Elijah Peach",
+    "affiliation": "School of Mathematics",
+    "homepage": null,
+    "email": null,
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "yY-df4UAAAAJ",
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "yY-df4UAAAAJ"
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.3,
+      "llm_notes": "Found mentions of Elijah Peach but no verified academic profiles or contact information. Appears in school newsletters and as co-author, but no definitive professional profiles found."
+    },
+    "search_confidence": 0.35
+  },
+  "Raphaël Poncet|CEA DAM|France": {
+    "name": "Raphaël Poncet",
+    "affiliation": "CEA DAM",
+    "homepage": "https://www.cscamm.umd.edu/people/formerCSCAMM.htm",
+    "email": "raphael.poncet@gmail.com",
+    "title": "Professor",
+    "profiles": {
+      "orcid": "0000-0003-0854-4670",
+      "google_scholar": "OhcC--cAAAAJ",
+      "researchgate": null,
+      "linkedin": "rapha",
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "OhcC--cAAAAJ"
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {},
+    "search_confidence": 0.9
+  },
+  "Anatolij Prykarpatsky|Department of Physics|Poland": {
+    "name": "Anatolij Prykarpatsky",
+    "affiliation": "Department of Physics",
+    "homepage": null,
+    "email": "marcelapopescu@email.com",
+    "title": null,
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "9UHrfq4AAAAJ",
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "9UHrfq4AAAAJ"
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.9,
+      "llm_notes": "Found verified Google Scholar profile based on exact name match. Other profiles and mentions appear to be co-author references."
+    },
+    "search_confidence": 0.4
+  },
+  "Yarema Prykarpatsky|Department of Applied Mathematics|Poland": {
+    "name": "Yarema Prykarpatsky",
+    "affiliation": "Department of Applied Mathematics",
+    "homepage": null,
+    "email": null,
+    "title": null,
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {},
+    "search_confidence": 0.0
+  },
+  "Yue Pu|Department of Mathematical Sciences and Center for Nonlinear Analysis|United States of America": {
+    "name": "Yue Pu",
+    "affiliation": "Department of Mathematical Sciences and Center for Nonlinear Analysis",
+    "homepage": "https://www.math.cmu.edu/~bobpego/",
+    "email": "yue.pu@graduateinstitute.ch",
+    "title": "PhD Student",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": 6,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [
+      "include"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.8,
+      "llm_notes": "Multiple Yue Pu profiles found. Selected verified profiles based on name matches. Some profiles excluded due to uncertainty about identity."
+    },
+    "search_confidence": 0.7
+  },
+  "Sobia Qazi|Department of Foundation Engineering and Physical Science|United Kingdom": {
+    "name": "Sobia Qazi",
+    "affiliation": "Department of Foundation Engineering and Physical Science",
+    "homepage": "https://www.nottingham.ac.uk/engineering/people/sobia.qazi",
+    "email": "sobia.qazi@nottingham.ac.uk",
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": "Sobia-Qazi",
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": 417,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.85,
+      "llm_notes": "Found verified ResearchGate profile and institutional page at University of Nottingham. LinkedIn profile appears to be different person (Cargo Agent). No verified email or other profiles found."
+    },
+    "search_confidence": 0.7
+  },
+  "Amin Rashidi|Institute of Geophysics|Iran": {
+    "name": "Amin Rashidi",
+    "affiliation": "Institute of Geophysics",
+    "homepage": "https://www.southampton.ac.uk/people/659hps/mr-amin-rashidi-mehrabadi",
+    "email": "a.rashidi@ieee.org",
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "IfKvxPgAAAAJ",
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "IfKvxPgAAAAJ"
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.95,
+      "llm_notes": "Google Scholar profile for Amin Rashidi at Institute of Geophysics, University of Tehran was identified and verified. Other profiles for 'Amin Rashidi' were rejected due to different affiliations (imec Netherlands, EPFL) or being co-author profiles."
+    },
+    "search_confidence": 0.7
+  },
+  "Artem Rodin|Department of Applied Mathematics|Russia": {
+    "name": "Artem Rodin",
+    "affiliation": "Department of Applied Mathematics",
+    "homepage": null,
+    "email": null,
+    "title": null,
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": "Artem-Rodin",
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [
+      "fluid mechanics",
+      "wave dynamics",
+      "ship wakes"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.8,
+      "llm_notes": "Found consistent ResearchGate profile with multiple publications on ship wakes and wave dynamics. Research interests extracted from publication topics."
+    },
+    "search_confidence": 0.2
+  },
+  "Volodya Roubtsov|Laboratoire Angevin de Recherche en Mathématiques (LAREMA UMR 6093)|France": {
+    "name": "Volodya Roubtsov",
+    "affiliation": "Laboratoire Angevin de Recherche en Mathématiques (LAREMA UMR 6093)",
+    "homepage": "https://www.math.sciences.univ-nantes.fr/~anne/",
+    "email": "volodya@tonton.univ-angers.fr",
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": "Volodya-Roubtsov",
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": 1814,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.85,
+      "llm_notes": "ResearchGate profile found and verified by name and affiliation. Title and citation count extracted from ResearchGate snippet. No Google Scholar, ORCID, LinkedIn, GitHub, or email found in the provided results."
+    },
+    "search_confidence": 0.7
+  },
+  "Simone Rusconi|BCAM - Basque Center for Applied Mathematics|Spain": {
+    "name": "Simone Rusconi",
+    "affiliation": "BCAM - Basque Center for Applied Mathematics",
+    "homepage": null,
+    "email": "simone.rusconi@cunef.edu",
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "qSXyOSgAAAAJ",
+      "researchgate": "Simone-Rusconi",
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "qSXyOSgAAAAJ"
+    },
+    "research_interests": [
+      "Mathematical Models",
+      "Simulation Algorithms",
+      "Physicochemical Processes"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.95,
+      "llm_notes": "Found verified Google Scholar and ResearchGate profiles matching name and affiliation at CUNEF Universidad"
+    },
+    "search_confidence": 0.7
+  },
+  "Alexei Rybkin|University of Alaska|United States of America": {
+    "name": "Alexei Rybkin",
+    "affiliation": "University of Alaska",
+    "homepage": null,
+    "email": "arybkin@alaska.edu",
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": "Alexei-Rybkin",
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": 799,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [
+      "mathematical physics",
+      "soliton theory"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.8,
+      "llm_notes": "Found verified ResearchGate profile with matching name and affiliation at University of Alaska Fairbanks. Citation count from ResearchGate profile. Other profiles could not be verified with certainty."
+    },
+    "search_confidence": 0.6
+  },
+  "Bolatbek Rysbaiuly|International Information Technology University|Kazakhstan": {
+    "name": "Bolatbek Rysbaiuly",
+    "affiliation": "International Information Technology University",
+    "homepage": "https://kz.h-index.com/en/international-information-technology-university",
+    "email": "b.rysbaiuly@mail.ru",
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": "Bolatbek-Rysbaiuly-2205914967",
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": 7,
+      "citations": 60,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.8,
+      "llm_notes": "Found verified ResearchGate profile with matching name and citations data. H-index from institutional listing. Limited verified information available."
+    },
+    "search_confidence": 0.7
+  },
+  "Seema (Mondal) Sarkar|Department of Mathematics|India": {
+    "name": "Seema (Mondal) Sarkar",
+    "affiliation": "Department of Mathematics",
+    "homepage": null,
+    "email": null,
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "PCF4Mf4AAAAJ",
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "PCF4Mf4AAAAJ"
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.1,
+      "llm_notes": "Found mentions of 'Seema (Mondal) Sarkar' but no verified profiles or contact information. Multiple other people with similar names (Seema Mishra, Seema Uikey, etc.) appear in results, making verification difficult."
+    },
+    "search_confidence": 0.35
+  },
+  "Gérard Sauce|Département Bâtiments Intelligents|France": {
+    "name": "Gérard Sauce",
+    "affiliation": "Département Bâtiments Intelligents",
+    "homepage": null,
+    "email": "gerard.sauce@unice.fr",
+    "title": "Lecturer",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {},
+    "search_confidence": 0.25
+  },
+  "Yuriy Sedletsky|Department of Theoretical Physics|Ukraine": {
+    "name": "Yuriy Sedletsky",
+    "affiliation": "Department of Theoretical Physics",
+    "homepage": null,
+    "email": null,
+    "title": null,
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {},
+    "search_confidence": 0.0
+  },
+  "Dmitry Senichev|Nizhny Novgorod State Technical University|Russia": {
+    "name": "Dmitry Senichev",
+    "affiliation": "Nizhny Novgorod State Technical University",
+    "homepage": null,
+    "email": null,
+    "title": null,
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_notes": "No verified profiles or information found specifically for Dmitry Senichev. Several results mention 'Alexander Senichev' or 'Valery Senichev', which were explicitly rejected as they do not match the target researcher's name."
+    },
+    "search_confidence": 0.0
+  },
+  "Madhavan Shanmugavel|Department of Mechatronics|India": {
+    "name": "Madhavan Shanmugavel",
+    "affiliation": "Department of Mechatronics",
+    "homepage": "https://www.srmist.edu.in/faculty/dr-madhavan-shanmugavel/",
+    "email": "madhavan.shanmugavel@monash.edu",
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "xrp3PooAAAAJ",
+      "researchgate": "Madhavan-Shanmugavel",
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "xrp3PooAAAAJ"
+    },
+    "research_interests": [
+      "path planning",
+      "trajectory planning"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.95,
+      "llm_notes": "Found verified Google Scholar and ResearchGate profiles with matching name and institutional affiliation at SRM Institute of Science and Technology"
+    },
+    "search_confidence": 0.8999999999999999
+  },
+  "s. Hadi Shamsnia|Department of Geophysics|Iran": {
+    "name": "s. Hadi Shamsnia",
+    "affiliation": "Department of Geophysics",
+    "homepage": null,
+    "email": "hadishamsnia@ut.ac.ir",
+    "title": "Professor",
+    "profiles": {
+      "orcid": "0000-0003-2563-8062",
+      "google_scholar": "afED6xEAAAAJ",
+      "researchgate": "S-Hadi-Shamsnia-2",
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "afED6xEAAAAJ"
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {},
+    "search_confidence": 0.7000000000000001
+  },
+  "Yuri Shokin|Institute of Computational Technologies|Russia": {
+    "name": "Yuri Shokin",
+    "affiliation": "Institute of Computational Technologies",
+    "homepage": "https://www.hlrs.de/people/michael-resch-cv",
+    "email": null,
+    "title": "Director",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": "Yurii-Shokin-2",
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {},
+    "search_confidence": 0.4
+  },
+  "Dmitri Sokolovski|Department of Physical Chemistry|Spain": {
+    "name": "Dmitri Sokolovski",
+    "affiliation": "Department of Physical Chemistry",
+    "homepage": "https://ep.jhu.edu/faculty/lanier-watkins/",
+    "email": "dmitri.sokolovski@ehu.eus",
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "MRCGgcgAAAAJ",
+      "researchgate": null,
+      "linkedin": "dmitri-sokolovski",
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "MRCGgcgAAAAJ"
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {},
+    "search_confidence": 0.7999999999999999
+  },
+  "Lucile Soudani|Laboratoire génie civil et bâtiment (LGCB)|France": {
+    "name": "Lucile Soudani",
+    "affiliation": "Laboratoire génie civil et bâtiment (LGCB)",
+    "homepage": null,
+    "email": null,
+    "title": "Research Engineer",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": "Lucile-Soudani",
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": 358,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.85,
+      "llm_notes": "Found verified ResearchGate profile and title from institutional affiliation. Citation count from ResearchGate profile."
+    },
+    "search_confidence": 0.35
+  },
+  "Themistoklis Stefanakis|School of Mathematical Sciences|Ireland": {
+    "name": "Themistoklis Stefanakis",
+    "affiliation": "School of Mathematical Sciences",
+    "homepage": null,
+    "email": "stefanakis@cmla.ens-cachan.fr",
+    "title": "Director",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.9,
+      "llm_notes": "Found verified Google Scholar profile and institutional email. No other profiles could be definitively verified as belonging to this researcher."
+    },
+    "search_confidence": 0.25
+  },
+  "Mark Essa Sukaiti|Mathematics Department|United Arab Emirates": {
+    "name": "Mark Essa Sukaiti",
+    "affiliation": "Mathematics Department",
+    "homepage": null,
+    "email": null,
+    "title": null,
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "JXhmZ5sAAAAJ",
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "JXhmZ5sAAAAJ"
+    },
+    "research_interests": [
+      "chemical networks",
+      "M-polynomial",
+      "graph theory"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.6,
+      "llm_notes": "Found mentions of researcher in publications but no definitive profiles. Research interests extracted from paper contexts."
+    },
+    "search_confidence": 0.35
+  },
+  "Alex Suleimani|Arizona State University|United States of America": {
+    "name": "Alex Suleimani",
+    "affiliation": "Arizona State University",
+    "homepage": null,
+    "email": null,
+    "title": null,
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": null,
+      "github": "ElsevierSoftwareX",
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {},
+    "search_confidence": 0.1
+  },
+  "Elena Tobisch (Kartashova)|Institut für Analysis|Austria": {
+    "name": "Elena Tobisch (Kartashova)",
+    "affiliation": "Institut für Analysis",
+    "homepage": null,
+    "email": null,
+    "title": "Professor of Mathematical Physics",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "e4YSaicAAAAJ",
+      "researchgate": "Elena-Tobisch",
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "e4YSaicAAAAJ"
+    },
+    "research_interests": [
+      "mathematical physics",
+      "nonlinear resonances",
+      "wave turbulence"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.8,
+      "llm_notes": "Found verified ResearchGate profile and title from JKU affiliation. Author appears under both names Tobisch and Kartashova."
+    },
+    "search_confidence": 0.55
+  },
+  "Mylène Vonderscher|Laboratoire Interuniversitaire de Biologie de la Motricité (LIBM)|France": {
+    "name": "Mylène Vonderscher",
+    "affiliation": "Laboratoire Interuniversitaire de Biologie de la Motricité (LIBM)",
+    "homepage": null,
+    "email": "mylene.vonderscher@etu.univ-smb.fr",
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": 7,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.95,
+      "llm_notes": "Verified ResearchGate profile and institutional email found. Title and citation count extracted from ResearchGate snippet. Other ResearchGate profiles belong to co-authors and were rejected."
+    },
+    "search_confidence": 0.4
+  },
+  "Jean-Louis Verger-Gaugry|Laboratoire de Mathématiques (LAMA)|France": {
+    "name": "Jean-Louis Verger-Gaugry",
+    "affiliation": "Laboratoire de Mathématiques (LAMA)",
+    "homepage": null,
+    "email": "jean-louis.verger-gaugry@univ-smb.fr",
+    "title": null,
+    "profiles": {
+      "orcid": null,
+      "google_scholar": null,
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {},
+    "search_confidence": 0.15
+  },
+  "Nadiah Wan Rasdi|Faculty of Fisheries and Food Science|Malaysia": {
+    "name": "Nadiah Wan Rasdi",
+    "affiliation": "Faculty of Fisheries and Food Science",
+    "homepage": null,
+    "email": "nadiah.rasdi@umt.edu.my",
+    "title": "Professor",
+    "profiles": {
+      "orcid": null,
+      "google_scholar": "pGQF4mwAAAAJ",
+      "researchgate": null,
+      "linkedin": null,
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "pGQF4mwAAAAJ"
+    },
+    "research_interests": [
+      "plankton culture",
+      "diversity",
+      "live food culture",
+      "plankton"
+    ],
+    "recent_publications": [],
+    "additional_info": {
+      "llm_extraction_confidence": 0.9,
+      "llm_notes": "Found verified Google Scholar profile and institutional email. ResearchGate profile not clearly confirmed as belonging to the researcher."
+    },
+    "search_confidence": 0.6
+  },
+  "Muhammad Naveed Zafar|Laboratoire Environnements|France": {
+    "name": "Muhammad Naveed Zafar",
+    "affiliation": "Laboratoire Environnements",
+    "homepage": "https://uog.edu.pk/faculty/cuv57cea53bd195a/muhammad-nadeem-zafar",
+    "email": "muhammad-naveed.zafar@univ-smb.fr",
+    "title": "Director",
+    "profiles": {
+      "orcid": "0000-0002-9620-1514",
+      "google_scholar": "wqDio3sAAAAJ",
+      "researchgate": "Muhammad-Naveed-Zafar-3",
+      "linkedin": "muhammadnaveedzafar",
+      "github": null,
+      "twitter": null,
+      "scopus": null,
+      "loop": null
+    },
+    "academic_metrics": {
+      "h_index": null,
+      "citations": null,
+      "i10_index": null,
+      "publications_count": null,
+      "source": "google_scholar",
+      "scholar_id": "wqDio3sAAAAJ"
+    },
+    "research_interests": [],
+    "recent_publications": [],
+    "additional_info": {},
+    "search_confidence": 0.9
   }
 }
