@@ -530,7 +530,7 @@ The `config.json` file supports extensive customization:
 
 ## Author
 
-- **Dr. Denys Dutykh** - *Initial work* - [Khalifa University of Science and Technology, Abu Dhabi, UAE]
+- **Dr. Denys Dutykh** (Khalifa University of Science and Technology, Abu Dhabi, UAE)
 
 ## License
 
