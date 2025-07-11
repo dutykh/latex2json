@@ -5,7 +5,3 @@ config.json
 __pycache__/
 *.py[cod]
 *$py.class
-
-# Documentation files
-PRD.md
-CLAUDE.md
