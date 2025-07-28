@@ -3,6 +3,95 @@
     {
       "authors": [
         {
+          "firstName": "D.",
+          "lastName": "Batic"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        },
+        {
+          "firstName": "Z.A.",
+          "lastName": "Babou"
+        }
+      ],
+      "title": "Quasinormal modes of noncommutative geometry-inspired dirty black holes",
+      "journal": "Proc. R. Soc. A",
+      "volume": "481",
+      "issue": "2318",
+      "pages": {
+        "start": "",
+        "end": "",
+        "article_number": "20250021"
+      },
+      "year": 2025,
+      "doi": "10.1098/rspa.2025.0021",
+      "url": null,
+      "arxiv_url": "https://arxiv.org/abs/2507.19107/",
+      "hal_url": "",
+      "abstract": "We investigate the quasi-normal modes (QNMs) of non-commutative geometry-inspired dirty black holes, focusing on both non-extremal and extremal configurations. These gravitational objects, characterized by smeared energy distributions within a modified de Sitter-like equation of state, modify the classical Schwarzschild metric and regularize central singularities. We employ a spectral method based on Chebyshev polynomials to solve the eigenvalue problem for scalar, electromagnetic and gravitational perturbations. Our results reveal new overdamped modes indicative of rapid decay without oscillation, particularly prominent in near-extremal and extremal regimes. In addition, we establish that the QNMs converge to classical Schwarzschild values for large mass parameters, validating our method's robustness. Our findings highlight the impact of dirtiness and non-commutative effects on black hole QNM spectra, offering potential observational signatures for distinguishing these objects in gravitational-wave detections.",
+      "keywords": [
+        "quasi-normal modes",
+        "non-commutative geometry",
+        "dirty black holes",
+        "spectral method",
+        "Chebyshev polynomials",
+        "scalar perturbations",
+        "electromagnetic perturbations",
+        "gravitational perturbations",
+        "overdamped modes",
+        "Schwarzschild metric",
+        "gravitational-wave detections",
+        "black hole physics"
+      ],
+      "open_access": true,
+      "publisher_identified": "The Royal Society",
+      "publisher_platform": "Royal Society Publishing",
+      "publisher_confidence": 0.9,
+      "publisher_url": "https://royalsocietypublishing.org/doi/10.1098/rspa.2025.0021/",
+      "search_confidence": 0.95,
+      "alternative_urls": [
+        {
+          "url": "https://arxiv.org/abs/2507.19107",
+          "type": "preprint",
+          "confidence": 0.9
+        },
+        {
+          "url": "https://www.researchgate.net/publication/393947311_Quasi-normal_modes_of_non-commutative_geometry-inspired_dirty_black_holes",
+          "type": "repository",
+          "confidence": 0.95
+        },
+        {
+          "url": "https://royalsocietypublishing.org/doi/10.1098/rspa.2025.0021",
+          "type": "publisher",
+          "confidence": 0.95
+        }
+      ],
+      "extraction_method": "arxiv_api",
+      "abstract_source": "preprint",
+      "keyword_source": "generated",
+      "doi_source": "preprint",
+      "isbn": "",
+      "additional_metadata": {
+        "arxiv_id": "2507.19107",
+        "submission_date": "2025-07-25",
+        "subjects": [
+          "General Relativity and Quantum Cosmology (gr-qc)",
+          "High Energy Physics - Theory (hep-th)"
+        ],
+        "journal_full_name": "Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences",
+        "online_issn": "1471-2946",
+        "manuscript_received": "2025-01-10",
+        "manuscript_accepted": "2025-06-16",
+        "published_online": "2025-07-23",
+        "license": "Creative Commons Attribution License (CC BY 4.0)",
+        "license_url": "http://creativecommons.org/licenses/by/4.0/",
+        "copyright": "© 2025 The Authors"
+      }
+    },
+    {
+      "authors": [
+        {
           "firstName": "S.",
           "lastName": "Savvopoulos"
         },
