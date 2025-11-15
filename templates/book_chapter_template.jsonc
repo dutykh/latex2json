@@ -1,0 +1,79 @@
+// Author: Dr. Denys Dutykh (Mathematics Department, Khalifa University of Science and Technology, Abu Dhabi, UAE)
+{
+  // Ordered list of contributors; initials are allowed (e.g., "D." or "D.D.")
+  "authors": [
+    {
+      "firstName": "A.",
+      "lastName": "Author"
+    },
+    {
+      "firstName": "B.",
+      "lastName": "Coauthor"
+    }
+  ],
+
+  // Exact chapter title
+  "title": "Full Chapter Title in Title Case",
+
+  // Editors credited for the host volume (same structure as authors)
+  "editors": [
+    {
+      "firstName": "E.",
+      "lastName": "Editor"
+    }
+  ],
+
+  // Title of the parent book/volume
+  "book_title": "Book or Volume Title",
+
+  // Official series name (use null if not applicable)
+  "series": "Springer Water",
+
+  // Volume number or label within the series (null if not available)
+  "volume": 1,
+
+  // Inclusive page numbers for the chapter
+  "pages": {
+    "start": 1,
+    "end": 20
+  },
+
+  // Publisher info as shown on the title page
+  "publisher": {
+    "name": "Publisher Name",
+    "location": "City, Country"
+  },
+
+  // Four-digit publication year
+  "year": 2024,
+
+  // Optional link to an open/preprint version; use null if none
+  "url": "https://open-repository.example/chapter",
+
+  // DOI string in canonical format (null if no DOI exists)
+  "doi": "10.1234/example-doi",
+
+  // Numeric or labeled chapter number; null if not provided
+  "chapter_number": null,
+
+  // Paste the official abstract as a single string
+  "abstract": "Short abstract or summary of the chapter's content.",
+
+  // Array of topical keywords
+  "keywords": [
+    "Keyword one",
+    "Keyword two"
+  ],
+
+  // Official publisher landing page for the chapter
+  "publisher_url": "https://publisher.example/chapter-page",
+
+  // Preferred ISBN object. Set individual values to null if unknown.
+  "isbn": {
+    "print": "978-1-23456-789-0",
+    "electronic": "978-1-23456-790-6"
+  },
+
+  // Where the keywords came from: publisher, generated, manual, etc.
+  "keyword_source": "publisher"
+}

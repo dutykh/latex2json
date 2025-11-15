@@ -1,0 +1,94 @@
+// Author: Dr. Denys Dutykh (Mathematics Department, Khalifa University of Science and Technology, Abu Dhabi, UAE)
+{
+  // Ordered list of authors as they appear in the publication
+  "authors": [
+    {
+      "firstName": "A.",
+      "lastName": "Author"
+    },
+    {
+      "firstName": "B.",
+      "lastName": "Coauthor"
+    }
+  ],
+
+  // Official article title
+  "title": "Comprehensive Title of the Journal Article",
+
+  // Journal name or abbreviation consistent with existing records
+  "journal": "J. Example Studies",
+
+  // Volume and issue are strings to support labels like "12A"
+  "volume": "42",
+  "issue": "3",
+
+  // Page range and/or article number; set missing values to null
+  "pages": {
+    "start": 101,
+    "end": 125,
+    "article_number": null
+  },
+
+  // Publication year
+  "year": 2024,
+
+  // DOI normalized to lowercase; null if not assigned
+  "doi": "10.1234/example-doi",
+
+  // Canonical URL (publisher or open-access landing page)
+  "url": "https://publisher.example.com/articles/10.1234/example-doi",
+
+  // Preprint links; set to null if unavailable
+  "arxiv_url": null,
+  "hal_url": null,
+
+  // Full abstract text as a single string
+  "abstract": "Concise abstract summarizing the paper's objectives, methods, and findings.",
+
+  // Keywords plus their provenance
+  "keywords": [
+    "Keyword one",
+    "Keyword two"
+  ],
+  "keyword_source": "publisher",
+
+  // Source labels for metadata/provenance tracking
+  "abstract_source": "publisher",
+  "doi_source": "publisher",
+  "extraction_method": "manual",
+
+  // Access details and publisher identification
+  "open_access": true,
+  "publisher_identified": "Example Publisher",
+  "publisher_platform": "Example Platform",
+  "publisher_url": "https://platform.example.com/article/10.1234/example-doi",
+
+  // Confidence scores range from 0.0 to 1.0
+  "publisher_confidence": 0.95,
+  "search_confidence": 0.9,
+
+  // Optional ISBN (use null or "" if irrelevant)
+  "isbn": null,
+
+  // Additional mirrors of the article (preprint, repository, dataset, etc.)
+  "alternative_urls": [
+    {
+      "url": "https://arxiv.org/abs/1234.56789",
+      "type": "preprint",
+      "confidence": 0.85
+    }
+  ],
+
+  // Flexible bucket for ISSNs, submission dates, licenses, arXiv subjects, etc.
+  "additional_metadata": {
+    "journal_full_name": "Journal of Example Studies",
+    "issn_print": "1234-5678",
+    "issn_online": "8765-4321",
+    "subjects": [
+      "Subject area A",
+      "Subject area B"
+    ],
+    "submission_date": "2024-02-05",
+    "acceptance_date": "2024-05-12"
+  }
+}

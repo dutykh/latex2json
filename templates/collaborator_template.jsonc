@@ -1,0 +1,112 @@
+// Author: Dr. Denys Dutykh (Mathematics Department, Khalifa University of Science and Technology, Abu Dhabi, UAE)
+{
+  // Next available sequential identifier
+  "id": 999,
+
+  // Primary name fields
+  "firstName": "Jane",
+  "lastName": "Researcher",
+  "fullName": "Jane Researcher",
+  "nameVariants": [
+    "J. Researcher",
+    "Jane A. Researcher"
+  ],
+
+  // Core affiliation / institution info
+  "affiliation": "Department of Applied Mathematics",
+  "university": "Example University",
+  "department": "Department of Applied Mathematics",
+  "researchGroup": "Coastal Dynamics Lab",
+  "institutionType": "university",
+  "academicTitle": "Associate Professor",
+  "specialNotes": null,
+
+  // Location details
+  "city": "Abu Dhabi",
+  "state": "Abu Dhabi",
+  "country": "United Arab Emirates",
+  "locationString": "Abu Dhabi, United Arab Emirates",
+  "alternateLocations": null,
+  "coordinates": {
+    "lat": 24.4539,
+    "lng": 54.3773
+  },
+
+  // Contact info
+  "email": "jane.researcher@example.edu",
+  "homepage": "https://example.edu/~jresearcher",
+
+  // Research interests
+  "researchInterests": [
+    "Nonlinear waves",
+    "Computational fluid dynamics",
+    "Tsunami modelling"
+  ],
+
+  // Online profiles (null when unavailable)
+  "profiles": {
+    "orcid": "0000-0002-1234-5678",
+    "google_scholar": "AbCdEfGhIjkJ",
+    "researchgate": null,
+    "linkedin": null,
+    "github": "jresearcher",
+    "twitter": "@jane_researcher",
+    "scopus": "12345678900",
+    "loop": null
+  },
+
+  // Bibliometric snapshot
+  "academicMetrics": {
+    "h_index": 18,
+    "citations": 1420,
+    "i10_index": 25,
+    "publications_count": 60,
+    "source": "google_scholar",
+    "scholar_id": "AbCdEfGhIjkJ"
+  },
+
+  // Confidence and enhancement flags
+  "searchConfidence": 0.9,
+  "llm_enhanced": true,
+  "_entry_hash": null,
+
+  // Detailed entries (one per affiliation/location)
+  "collaboratorEntries": [
+    {
+      "nameInformation": {
+        "firstName": "Jane",
+        "lastName": "Researcher",
+        "middleName": "A.",
+        "nameVariants": [
+          "Jane Researcher",
+          "J. A. Researcher"
+        ]
+      },
+      "affiliationDetails": {
+        "affiliation": "Department of Applied Mathematics, Example University",
+        "university": "Example University",
+        "institutionType": "university",
+        "department": "Department of Applied Mathematics",
+        "researchGroup": "Coastal Dynamics Lab"
+      },
+      "locationInformation": {
+        "city": "Abu Dhabi",
+        "state": "Abu Dhabi",
+        "country": "United Arab Emirates",
+        "alternateLocations": null
+      },
+      "enhancedLocationData": {
+        "improvedLocationString": "Abu Dhabi, United Arab Emirates",
+        "suggestedLocationString": null,
+        "ambiguousLocation": false,
+        "ambiguityNotes": null,
+        "locationConfidenceScore": 0.98
+      },
+      "additionalContext": {
+        "isFormerAffiliation": false,
+        "academicTitle": "Associate Professor",
+        "specialNotes": null
+      }
+    }
+  ]
+}
