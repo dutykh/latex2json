@@ -3,6 +3,86 @@
     {
       "authors": [
         {
+          "firstName": "R.",
+          "lastName": "Matar"
+        },
+        {
+          "firstName": "N.",
+          "lastName": "Abcha"
+        },
+        {
+          "firstName": "N.",
+          "lastName": "Lecoq"
+        },
+        {
+          "firstName": "E.-I.",
+          "lastName": "Turki"
+        },
+        {
+          "firstName": "I.",
+          "lastName": "Abroug"
+        },
+        {
+          "firstName": "D.",
+          "lastName": "Dutykh"
+        }
+      ],
+      "title": "Exploring Extreme Wave Propagation in Coastal Zones: A Combined Physical and Numerical Modeling Study",
+      "editors": [
+        {
+          "firstName": "A.-C.",
+          "lastName": "Bennis"
+        },
+        {
+          "firstName": "J.-C.",
+          "lastName": "Dauvin"
+        },
+        {
+          "firstName": "E.",
+          "lastName": "Feunteun"
+        },
+        {
+          "firstName": "T.",
+          "lastName": "Komatsu"
+        },
+        {
+          "firstName": "O.",
+          "lastName": "Matsuda"
+        }
+      ],
+      "book_title": "Constraints and Adaptations to Global Change at the Land-Sea Interface: For a Shared Ecological and Energy Transition",
+      "series": "Proceedings of the 19th French-Japanese Oceanography Symposium",
+      "volume": null,
+      "pages": {
+        "start": 3,
+        "end": 18
+      },
+      "publisher": {
+        "name": "Springer",
+        "location": "Cham"
+      },
+      "year": 2025,
+      "url": "https://www.researchgate.net/publication/396424274_Exploring_Extreme_Wave_Propagation_in_Coastal_Zones_A_Combined_Physical_and_Numerical_Modeling_Study",
+      "doi": "10.1007/978-3-031-90050-1_1",
+      "chapter_number": null,
+      "abstract": "In this study, the propagation of extreme waves is examined via controlled wave flume experiments and numerical simulations based on a hybrid Boussinesq-type shallow water model. Laboratory experiments conducted in a wave flume having an artificial slope at its end permitted a thorough understanding of wave behavior along the 10 m study area. Fifty-one gauges were used for this purpose and the dispersive focusing technique is employed to generate the focusing wave packets. Numerical simulations were performed using an enhanced Boussinesq model for varying depth. The comparison between experimental and numerical results is facilitated by employing power spectral density (PSD) analysis and wavelet transforms. The former allows for the examination of the spatial evolution of spectral energy, while the latter provides insights into changes in frequency contributions over time. The mPeregrine model effectively predicted the spectral energy on flat and sloping bottoms prior to wave breaking. However, discrepancies became more pronounced near wave breaking due to the significant impact of nonlinearity on the mPeregrine simulation. Furthermore, the wavelet transform results showed that narrowing the spectra improved the alignment between predictions and measurements. This comprehensive approach improves understanding of extreme wave behavior near coasts, aiding in coastal management, infrastructure planning, and disaster preparedness efforts.",
+      "keywords": [
+        "Extreme waves",
+        "Wave flume",
+        "Focused wave groups",
+        "mPeregrine",
+        "Nonlinear dispersive waves"
+      ],
+      "publisher_url": "https://link.springer.com/chapter/10.1007/978-3-031-90050-1_1",
+      "isbn": {
+        "print": "978-3-031-90049-5",
+        "electronic": "978-3-031-90050-1"
+      },
+      "keyword_source": "publisher"
+    },
+    {
+      "authors": [
+        {
           "firstName": "M.",
           "lastName": "Zafar"
         },
