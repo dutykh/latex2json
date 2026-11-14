@@ -1,537 +1,166 @@
-# LaTeX to JSON Converter Suite
+<!-- Author: Dr. Denys Dutykh (Mathematics Department, Khalifa University of Science and Technology, Abu Dhabi, UAE) -->
 
-A comprehensive Python toolkit for parsing LaTeX files containing academic data (collaborators, bibliography entries) and converting them to enriched JSON format with optional geocoding and AI-powered metadata enhancement.
+# latex2json: publication lists and collaborators from LaTeX to JSON
 
-## Features
+Three Python scripts turn the LaTeX lists of an academic CV into JSON files that a website can read, and complete each entry with what can be found on the web. The script `src/pub2json.py` reads a list of journal papers and `src/chpts2json.py` a list of book chapters, both written as `etaremune` environments, and they add the DOI, the abstract, the publisher's page and keywords, and for the papers the preprints on arXiv and HAL. The script `src/collab2json.py` reads a list of collaborators and adds their affiliation, the city with its coordinates for a map, and their public profiles (ORCID, Google Scholar, ResearchGate, LinkedIn, homepage, e-mail address). The scripts were written to build the pages of publications and collaborators of the author's academic website, https://www.denys-dutykh.com/, and the repository holds the data of those pages.
 
-### Core Capabilities
-- **Collaborator Parser** (`src/collab2json.py`):
-  - LLM-based intelligent parsing using Google Gemini with automatic Claude fallback
-  - Web search for researcher profiles (ResearchGate, Google Scholar, ORCID, LinkedIn)
-  - Enhanced university location search with LLM extraction for precise geocoding
-  - Strict profile validation with ORCID API verification
-  - Email and profile ownership validation to ensure correct attribution
-  - Profile re-verification mode to clean existing data
-  - Geocodes locations using OpenStreetMap Nominatim API
-  - Multi-level caching system for all operations
+The repository is at
 
-- **Book Chapter Parser** (`src/chpts2json.py`):
-  - Parses LaTeX bibliography entries from `etaremune` environments
-  - Asynchronous metadata enrichment from multiple sources
-  - AI-powered keyword generation using Claude API
-  - Advanced caching with TTL (time-to-live) management
-  - Multiple fallback mechanisms for robust data extraction
+https://github.com/dutykh/latex2json
 
-- **Journal Paper Parser** (`src/pub2json.py`):
-  - Parses LaTeX journal entries from `etaremune` environments with year sections
-  - LLM-powered parsing with automatic fallback (Gemini → Claude)
-  - Publisher identification using LLM for targeted searches
-  - Optimized web search with single-query strategy
-  - Content extraction from publisher URLs and preprint servers
-  - Double-layer abstract extraction (publisher → preprint fallback)
-  - AI-powered keyword generation (only when abstract is available)
-  - Comprehensive article number extraction (numeric, alphanumeric, PLOS format)
-  - Blocked publisher detection and caching
-  - Detailed verbose output for debugging and monitoring
+## The data in this repository
 
-### Advanced Features
-- **LLM Integration**: 
-  - Dual LLM support with automatic fallback (Gemini → Claude)
-  - Intelligent parsing for complex LaTeX entries
-  - AI-powered keyword generation
-  - LLM-based location extraction from search results
-  - Publisher identification from journal names
-  - Content extraction from web pages
-- **Profile Verification**:
-  - ORCID API integration for name verification
-  - ResearchGate profile validation
-  - Email ownership verification
-  - Homepage validation
-- **Multi-source Enrichment**: CrossRef, Google Scholar, and publisher-specific APIs
-- **Modular Architecture**: Organized modules for caching, configuration, parsing, and enrichment
-- **Comprehensive Error Handling**: Graceful failure with detailed logging
-- **Performance Optimized**: Asynchronous processing and intelligent caching
-- **Verbose Monitoring**: Detailed processing information at multiple verbosity levels
+The files of `input_data/`, `output_data/` and `cache/` are real data, not samples. The files `input_data/list_of_papers.tex` and `input_data/list_of_chpts.tex` are the author's lists of 178 journal papers and 11 book chapters, and `output_data/papers.json` and `output_data/bkchpts.json` the JSON made from them, with the results of the seven stages of the paper pipeline in `output_data/intermediate/`. The file `input_data/collab_excerpts.tex` lists the author's 204 collaborators with their affiliations, and `output_data/collaborators.json` holds what the collaborator script found about each of them on the web: affiliation, city and coordinates, homepage, profiles and, for most of them, an e-mail address. The folder `cache/` keeps the answers of the web searches and of the language models during those runs. These files are kept in the repository on purpose: they are the working data of the website, and they show in full what each script produces.
 
-## Prerequisites
+## Quick start
 
-- Python 3.8+ (3.6+ for basic functionality)
-- Required Python packages (see requirements.txt)
-
-### Installation
-
-Install all dependencies:
 ```bash
-pip install -r requirements.txt
+git clone https://github.com/dutykh/latex2json.git
+cd latex2json
+python3 -m venv .venv && . .venv/bin/activate
+python3 -m pip install -r requirements.txt 'bibtexparser<2'
+python3 src/pub2json.py --dry-run -v 1 -o papers-dry.json
+python3 src/chpts2json.py --dry-run -v 1 -o chapters-dry.json
 ```
 
-For basic collaborator parsing only:
-```bash
-pip install requests
-```
+The two dry runs parse the LaTeX lists without any web request and without any key, and write `papers-dry.json` (178 papers) and `chapters-dry.json` (11 chapters). The bound on `bibtexparser` is needed because `scholarly` 1.7.11, its current release, imports a module that version 2 of `bibtexparser` no longer has; without it, the paper and chapter scripts stop at their first line.
 
-For full functionality including book chapter parsing:
-```bash
-pip install requests beautifulsoup4 aiohttp pylatexenc scholarly crossref-commons anthropic
-```
+The enrichment needs API keys, written into a file `config.json` made from the example (git ignores it):
 
-### Configuration
-
-For advanced features (API enrichment, keyword generation, LLM fallback), copy and configure:
 ```bash
 cp config.json.example config.json
-# Edit config.json with your API keys and preferences
 ```
 
-Key configuration options:
-- **API Keys**: Google (for Gemini & Custom Search), Anthropic (for Claude fallback)
-- **LLM Settings**: Primary model (Gemini) and fallback model (Claude)
-- **Search Settings**: Google Custom Search Engine ID for web search
-- **Cache Settings**: TTL for different cache types
+The scripts are run from the root of the repository, since their default paths are relative to it. With these defaults a run writes over the tracked files of `output_data/`: the paper and chapter scripts ask before overwriting an existing output file, unless `--force` is given, and the collaborator script updates its output file in place, reusing the entries whose LaTeX source has not changed.
 
-## Usage
+## The three scripts
 
-**Note**: All main scripts have been moved to the `src/` directory.
+**Journal papers.** The script `src/pub2json.py` parses each entry of `input_data/list_of_papers.tex` with Claude, or with regular expressions when no model answers, then completes it in seven stages: the publisher of the journal is identified, the paper is searched on the web, the abstract and the data of the publisher's page are extracted, the preprints on arXiv and HAL are tried, the metadata services (CrossRef, Google Scholar, Semantic Scholar, Unpaywall) are queried, the preprints are tried again for what is still missing, and keywords are generated, only for a paper whose abstract was found. Each stage saves its results in `output_data/intermediate/`, so that a run can resume where it stopped. Publishers that refuse automated access are recognised and remembered.
 
-### Collaborator Parser (src/collab2json.py)
+**Book chapters.** The script `src/chpts2json.py` parses `input_data/list_of_chpts.tex` in the same way, completes each chapter from the metadata services, asynchronously, and generates keywords with Claude.
 
-1. Place your input `.tex` file inside the `input_data/` directory.
-2. Run the script:
+**Collaborators.** The script `src/collab2json.py` reads a list of collaborators in `input_data/` (each entry an `\item` with the name and the affiliations) and parses it with Gemini, Claude taking over when Gemini refuses or fails. It searches the web for each researcher (Google Custom Search, Google Scholar), keeps a profile only when it passes strict checks (the ORCID identifier confirmed by the ORCID API, the name found in the ResearchGate identifier, an e-mail address that contains a part of the name), finds the city of the university with the help of the language model, and geocodes it with OpenStreetMap Nominatim. The option `--verify` applies the checks again to an existing output file and removes the profiles that fail them.
 
-```bash
-python3 src/collab2json.py <your_input_file.tex>
+### Options of the paper and chapter scripts
+
+| Option | Meaning |
+| --- | --- |
+| `-i FILE`, `--input FILE` | LaTeX list to read (default `input_data/list_of_papers.tex`, or `input_data/list_of_chpts.tex`) |
+| `-o FILE`, `--output FILE` | JSON file to write (default `output_data/papers.json`, or `output_data/bkchpts.json`) |
+| `-c FILE`, `--config FILE` | configuration file; without it the paper script reads `config.json` at the root, else `src/config.json`, and the chapter script reads `src/config.json`, when they exist |
+| `-v N`, `--verbose N` | verbosity from 0 to 3 (default 2) |
+| `--dry-run` | parse only, without any web request |
+| `--no-keywords` | no keyword generation |
+| `--force` | overwrite the output file without asking |
+| `--no-web-search` | papers only: no web search |
+| `--no-content-extraction` | papers only: no extraction from the pages found |
+| `--no-publisher-id` | papers only: no identification of the publisher |
+| `--resume-from-stage N` | papers only: resume at stage N (1 to 7) from the intermediate results of the previous run |
+
+### Options of the collaborator script
+
+```text
+python3 src/collab2json.py INPUT.tex [options]
 ```
 
-Example:
-```bash
-python3 src/collab2json.py collab_excerpts.tex
-```
-
-Optional arguments:
-- `--skip-geocoding`: Disable geocoding for faster processing
-- `--skip-search`: Disable web search for researcher profiles
-- `-v, --verbose`: Verbosity level (0-3)
-- `--verify`: Re-verify existing profiles using strict validation rules
-- `--output`: Specify output JSON filename
-- `--no-cache`: Disable cache usage
-- `--clear-cache`: Clear all cache files before running
-- `--clear-search-cache`: Clear only search cache
-
-Examples:
-```bash
-# Basic extraction with high verbosity
-python3 src/collab2json.py collab_excerpts.tex -v 3
-
-# Skip geocoding for faster processing
-python3 src/collab2json.py collab_excerpts.tex --skip-geocoding
-
-# Verify existing data (removes invalid profiles)
-python3 src/collab2json.py collab_excerpts.tex --output collaborators.json --verify
-
-# Clear cache and run fresh
-python3 src/collab2json.py collab_excerpts.tex --clear-cache
-
-# Custom output file
-python3 src/collab2json.py collab_excerpts.tex --output my_collaborators.json
-```
-
-### Book Chapter Parser (src/chpts2json.py)
-
-Parse LaTeX bibliography entries with metadata enrichment:
-
-```bash
-python3 src/chpts2json.py [options]
-```
-
-Options:
-- `-i, --input`: Input LaTeX file (default: `input_data/list_of_chpts.tex`)
-- `-o, --output`: Output JSON file (default: `output_data/bkchpts.json`)
-- `-c, --config`: Configuration file (default: `config.json`)
-- `-v, --verbose`: Verbosity level 0-3 (default: 1)
-- `--dry-run`: Parse only, no API calls
-- `--no-keywords`: Disable keyword generation
-- `--force`: Overwrite existing output file
-
-Examples:
-```bash
-# Basic usage with defaults
-python3 chpts2json.py
-
-# Custom input/output with high verbosity
-python3 chpts2json.py -i input_data/my_chapters.tex -o output_data/my_output.json -v 2
-
-# Dry run to test parsing without API calls
-python3 src/chpts2json.py --dry-run -v 3
-
-# Process without keyword generation
-python3 src/chpts2json.py --no-keywords
-```
-
-### Journal Paper Parser (src/pub2json.py)
-
-Parse LaTeX journal paper entries with advanced metadata enrichment:
-
-```bash
-python3 src/pub2json.py [options]
-```
-
-Options:
-- `-i, --input`: Input LaTeX file (default: `input_data/list_of_papers.tex`)
-- `-o, --output`: Output JSON file (default: `output_data/papers.json`)
-- `-c, --config`: Configuration file (default: `config.json`)
-- `-v, --verbose`: Verbosity level 0-3 (default: 2)
-- `--dry-run`: Parse only, no API calls
-- `--no-keywords`: Disable keyword generation
-- `--force`: Overwrite existing output file
-- `--no-web-search`: Disable web search for papers
-- `--no-content-extraction`: Disable content extraction from URLs
-- `--no-publisher-id`: Disable publisher identification
-
-Examples:
-```bash
-# Basic usage with defaults
-python3 src/pub2json.py
-
-# Maximum verbosity to see detailed processing steps
-python3 src/pub2json.py -v 3
-
-# Dry run with verbose output to test parsing
-python3 src/pub2json.py --dry-run -v 3 --force
-
-# Process without keyword generation
-python3 src/pub2json.py --no-keywords
-
-# Custom configuration file
-python3 src/pub2json.py -c my_config.json
-```
-
-#### Verbosity Levels:
-- **0**: Silent mode - minimal output
-- **1**: Basic progress - shows entry count and summary
-- **2**: Detailed progress - shows each entry being processed
-- **3**: Debug mode - shows full processing details including:
-  - LaTeX content preview
-  - Parsing steps (LLM or regex)
-  - Extracted metadata fields
-  - Cache hits/misses
-  - API search queries
-  - Enrichment results
-
-### Using Makefile
-
-A Makefile is provided for convenient command execution:
-
-```bash
-# Install dependencies
-make install
-
-# Run collaborator extraction
-make run FILE=collab_excerpts.tex
-make run-full          # Run with full dataset
-
-# Run chapter/paper extraction
-make run-chapters      # Process book chapters
-make run-papers        # Process journal papers
-
-# Testing and development
-make test              # Run test with sample data
-make test-api          # Test Google API configuration
-make lint              # Run code linting
-make format            # Format code
-
-# Clean cache files
-make clean             # Clean all cache files
-make clean-cache       # Clean all cache files (alias)
-make clean-search-cache # Clean only search cache file
-make clean-all         # Clean everything including Python cache
-```
-
-## Project Structure
-
-```
-latex2json/
-├── src/                  # Main scripts (moved to src/ directory)
-│   ├── collab2json.py      # Enhanced collaborator parser
-│   ├── chpts2json.py       # Book chapter parser
-│   └── pub2json.py         # Journal paper parser
-├── modules/              # Core functionality modules
-│   ├── cache_manager.py     # Cache management with TTL
-│   ├── config_manager.py    # Configuration handling
-│   ├── display_utils.py     # Terminal display formatting
-│   ├── gemini_client.py     # Gemini LLM client with fallback
-│   ├── journal_parser.py    # Journal-specific LaTeX parser
-│   ├── keyword_generator.py # AI-powered keyword generation
-│   ├── latex_parser.py      # LaTeX parsing utilities
-│   ├── llm_enricher.py      # LLM-based metadata extraction
-│   ├── llm_parser.py        # Alternative LLM parser
-│   ├── llm_provider.py      # Unified LLM provider interface
-│   ├── llm_search_engines.py # Academic search engines
-│   ├── metadata_enricher.py # Metadata fetching from APIs
-│   ├── paper_content_extractor.py # Extract content from URLs
-│   ├── paper_web_search.py # Paper-specific web search
-│   ├── publisher_identifier.py # Identify publishers from journals
-│   ├── simple_search.py     # Simple web search implementation
-│   └── web_search.py        # Advanced web search with LLM
-├── input_data/           # Input LaTeX files
-│   ├── collab_excerpts.tex  # Sample collaborator data
-│   ├── list_of_chpts.tex    # Sample book chapters
-│   ├── list_of_papers.tex   # Sample journal papers
-│   └── test_two.tex         # Additional test data
-├── output_data/          # Generated JSON files
-├── config.json.example   # Configuration template
-├── requirements.txt      # Python dependencies
-├── CLAUDE.md            # AI assistant instructions
-├── PRD.md               # Product requirements document
-├── LICENSE              # GNU GPLv3 license
-└── README.md            # This file
-```
-
-### Cache Files (auto-generated, git-ignored)
-
-#### Root Directory Caches
-- `.geocode_cache.json`: Geocoding results cache
-- `.search_cache.json`: Web search results and ORCID verification cache
-- `.api_cache.json`: API response cache (CrossRef, publishers)
-- `.keyword_cache.json`: Generated keywords cache
-
-#### Cache Directory (`cache/`)
-- `.llm_unified_parse_cache.json`: Unified parser cache (Gemini/Claude)
-- `.llm_unified_location_cache.json`: LLM location extraction cache
-- `.llm_unified_profile_cache.json`: LLM profile analysis cache
-- `.llm_websearch_cache.json`: LLM web search extraction cache
-- `.llm_enricher_cache.json`: LLM enrichment response cache
-- `.llm_parse_cache.json`: LLM parsing results cache
-- `.paper_search_cache.json`: Paper web search results
-- `.content_extraction_cache.json`: Content extraction from URLs
-- `.publisher_cache.json`: Publisher identification cache
-
-## Development
-
-### Code Quality
-
-The project uses modern Python development tools:
-
-```bash
-# Run linting and auto-fix
-ruff check . --fix
-ruff format .
-
-# Security vulnerability scan
-safety check -r requirements.txt
-
-# Combined quality check (recommended before commits)
-ruff check . && safety check --bare
-```
-
-### Testing
-
-```bash
-# Test collaborator parsing
-python3 src/collab2json.py collab_excerpts.tex --skip-geocoding
-
-# Test book chapter parsing (dry run)
-python3 src/chpts2json.py --dry-run -v 2
-```
-
-## API Integrations
-
-The project integrates with multiple APIs for enriched metadata:
-
-- **OpenStreetMap Nominatim**: Geocoding for collaborator locations
-- **Google Gemini API**: Primary LLM for intelligent parsing and extraction
-- **Claude API**: Fallback LLM for parsing and keyword generation
-- **Google Custom Search API**: Web search for researcher profiles
-- **ORCID API**: Verification of ORCID identifiers
-- **CrossRef API**: DOI resolution and metadata
-- **Google Scholar**: Academic publication search
-- **Publisher APIs**: Direct metadata from Springer, Elsevier, etc.
-- **ArXiv API**: Preprint metadata and abstracts
-- **HAL API**: French research archive metadata
-
-## Recent Improvements (2025-07-06)
-
-### Journal Paper Parser Enhancements (`pub2json.py`)
-
-#### LLM-Powered Features
-- **Publisher Identification**: Uses LLM to identify which publisher publishes each journal
-- **Smart Web Search**: Single-query strategy reduces API calls by 67%
-- **Content Extraction**: LLM-based extraction from publisher web pages
-- **Preprint URL Extraction**: LLM identifies ArXiv and HAL URLs from LaTeX entries
-
-#### Article Number Extraction
-- **Comprehensive Support**: Now extracts all article number formats:
-  - Short numeric (e.g., "132")
-  - Long numeric (e.g., "106518")
-  - Alphanumeric (e.g., "e0305534" for PLOS journals)
-- **Fixed Parsing Issues**: Resolved undefined variable errors in fallback parser
-- **Enhanced Display**: Shows article IDs clearly in verbose output
-
-#### Search Optimization
-- **Blocked Publisher Handling**: Automatically detects and caches blocked publishers (e.g., Elsevier)
-- **Domain-Based Ranking**: Prioritizes results by domain authority
-- **Reduced LLM Validation**: Trusts known domains to minimize API calls
-- **Extraction Failure Caching**: Remembers failed attempts to avoid repetition
-
-#### Quality Control
-- **Abstract-Keyword Rule**: Keywords only generated when abstract is available
-- **Double-Layer Extraction**: Publisher first, then preprint fallback
-- **Per-Paper Summary**: Detailed output showing what was extracted vs. found online
-
-#### Cache Management
-- **Multiple Cache Types**:
-  - `.llm_parse_cache.json`: LLM parsing results
-  - `.paper_search_cache.json`: Web search results  
-  - `.content_extraction_cache.json`: Content extraction results
-  - `.publisher_cache.json`: Publisher identification cache
-- **Cache Clearing**: Remove specific caches to reprocess:
-  ```bash
-  # Clear parsing cache to re-extract article numbers
-  rm cache/.llm_parse_cache.json
-  
-  # Clear all paper-related caches
-  rm -f cache/.paper_search_cache.json cache/.content_extraction_cache.json
-  ```
-
-## Recent Improvements (2025-07-05)
-
-### LLM Robustness Enhancements
-- **JSON Repair Logic**: Automatically fixes common JSON formatting issues from LLM responses:
-  - Handles single quotes, trailing commas, unquoted keys
-  - Removes JavaScript-style comments
-  - Extracts valid JSON from mixed text responses
-- **Improved Error Handling**: Shows raw LLM responses for debugging when parsing fails
-- **Retry Mechanism**: Falls back to simpler prompts when complex extraction fails
-- **Timeout Protection**: All LLM calls now have 30-second timeouts to prevent hanging
-- **Regex Fallback**: When both LLMs fail, falls back to regex-based extraction
-
-### Location Enhancement Fixes
-- **Smart University Detection**: Distinguishes between departments and universities:
-  - Recognizes patterns like "Universiti", "Universidad", "Rechenzentrum"
-  - Moves department names to appropriate fields
-  - Extracts real university names from full affiliation strings
-- **Enhanced Validation**: Prevents bad location data from being cached:
-  - Detects nonsensical city names (e.g., "Due To", "N/A")
-  - Validates city name length and format
-  - Protects existing good data from being overwritten
-- **Cache Quality Control**: 
-  - Removes corrupted entries automatically
-  - Validates addresses before caching
-  - New `make clean-search-cache` command for targeted cache clearing
-
-### Profile Verification System
-- **Strict Validation Rules**: Implemented comprehensive profile verification:
-  - Email addresses must contain parts of researcher's name
-  - ResearchGate profiles validated by name matching in profile ID
-  - ORCID verification via API to confirm ownership
-  - LinkedIn profile validation
-  - Homepage validation (removes profile site URLs without valid profiles)
-
-- **Verification Mode**: New `--verify` flag to re-verify existing data:
-  - Removes incorrectly attributed profiles
-  - Validates ORCID IDs against ORCID API
-  - Ensures email addresses belong to the researcher
-  - Tracks what was removed for transparency
-
-### LLM Integration Improvements
-- **Automatic Fallback**: Gemini → Claude fallback when safety filters trigger
-- **Unified Parser**: Single interface for multiple LLM providers
-- **Enhanced Caching**: Separate caches for different LLM operations
-- **Clear JSON Instructions**: LLM prompts now include explicit JSON formatting rules
-- **Better Department/University Distinction**: Improved prompts with examples
-
-### Data Quality Improvements
-- **Quality Over Quantity**: Prefers missing data over incorrect data
-- **Profile Ownership**: Validates that profiles belong to the correct researcher
-- **City Extraction**: Fixed issues with Malaysian universities and regions
-- **University Recognition**: Now recognizes international patterns:
-  - Malaysian: "Universiti"
-  - German: "Hochschule", "Rechenzentrum"
-  - Spanish: "Universidad"
-  - French: "Université", "École"
-
-## Previous Improvements (2025-07-02)
-
-- **Enhanced Verbose Output**: Added comprehensive verbose logging to `pub2json.py` showing:
-  - Each LaTeX item being processed with preview
-  - Parsing method used (LLM vs regex)
-  - Extracted metadata fields in real-time
-  - Cache hit/miss information
-  - API search progress and results
-  - Detailed error messages and fallback attempts
-  
-- **Improved Journal Parser**: The `journal_parser.py` module now provides:
-  - Step-by-step parsing progress
-  - LaTeX content preview for each entry
-  - Statistics on parsed entries (DOIs, URLs, preprints)
-  - Clear indication of successful vs failed parsing
-
-- **Cache Management**: Clear cache files using:
-  ```bash
-  rm -f .api_cache.json .keyword_cache.json
-  ```
-
-- **Publisher Access Handling**: Updated to handle publisher access restrictions:
-  - Uses browser-like headers to reduce blocking
-  - Gracefully handles HTTP 403 errors from publishers
-  - Falls back to alternative sources (CrossRef, Google Scholar, ArXiv)
-  - Clear messaging about access restrictions
-
-## Known Limitations
-
-- **Publisher Website Access**: Many academic publishers (e.g., Taylor & Francis, Elsevier, Springer) block automated access to their websites, resulting in HTTP 403 errors. The script handles this gracefully by:
-  - Using metadata from CrossRef API (DOI-based)
-  - Searching Google Scholar as a fallback
-  - Extracting preprint URLs from LaTeX comments (ArXiv, HAL)
-  - Using LLM-based enrichment when available
-  
-  To maximize metadata extraction success:
-  - Ensure DOIs are included in your LaTeX entries when possible
-  - Include preprint URLs in comments
-  - Consider using publisher API keys if available
-
-## Configuration Options
-
-The `config.json` file supports extensive customization:
-
-```json
-{
-  "api_keys": {
-    "google": "your-google-api-key",
-    "google_cx": "your-custom-search-engine-id",
-    "anthropic": "your-claude-api-key",
-    "crossref": "your-email@example.com"
-  },
-  "llm_config": {
-    "primary_model": "gemini-2.5-flash",
-    "fallback_model": "claude-3-5-sonnet-20241022",
-    "auto_fallback": true
-  },
-  "search_settings": {
-    "quality_mode": true,
-    "use_llm_extraction": true,
-    "verify_profiles": true
-  },
-  "paper_search_settings": {
-    "use_smart_single_search": true,
-    "blocked_publishers": ["Elsevier", "ScienceDirect"],
-    "domain_priority": {
-      "publisher": 1.0,
-      "preprint": 0.9,
-      "repository": 0.8
-    }
-  },
-  "caching": {
-    "api_cache_expiry_days": 30,
-    "keyword_cache_expiry_days": 90,
-    "llm_cache_expiry_days": 90
-  }
-}
-```
+| Option | Meaning |
+| --- | --- |
+| `INPUT.tex` | the list to read, a file name inside `input_data/` |
+| `--output NAME` | the file to write inside `output_data/` (default: the name of the input with `.json`) |
+| `--config FILE` | configuration file (default `config.json` of the current folder) |
+| `-v N`, `--verbose N` | verbosity from 0 to 3 (default 2) |
+| `--skip-geocoding` | no geocoding |
+| `--skip-search` | no web search for the researchers |
+| `--verify` | check the profiles of the existing output again, with the strict rules, and remove those that fail |
+| `--fix-found-values` | search again the entries where Google Scholar is only marked as found, and record the actual identifiers |
+| `--no-cache` | neither read nor write the caches |
+| `--clear-cache` | delete seven of the caches (geocoding, searches, metadata, keywords and three of the language models) before running |
+| `--clear-search-cache` | delete the search cache only |
+| `--no-color` | output without colours |
+
+The file of the website is produced with `python3 src/collab2json.py collab_excerpts.tex --output collaborators.json`. At verbosity 0 the scripts are silent; 1 shows the count of entries and a summary; 2 shows each entry as it is processed; 3 adds the LaTeX source of each entry, the parsing steps, the fields extracted, the hits and misses of the caches, the search queries and the results of the enrichment.
+
+## Make targets
+
+| Target | Command it runs |
+| --- | --- |
+| `make install` | `pip install -r requirements.txt` |
+| `make run FILE=list.tex` | the collaborator script on `input_data/list.tex` |
+| `make run-full` | the collaborator script on `collab_excerpts.tex`, writing `output_data/collaborators.json` |
+| `make run-nocache` | the same after deleting the folder `cache/` |
+| `make run-papers`, `make run-papers-full` | the paper script with its defaults, at verbosity 2 |
+| `make run-papers-dry` | the paper script with `--dry-run` |
+| `make run-papers-nocache` | the paper script after deleting the caches of publishers, searches and language models |
+| `make run-chapters` | the chapter script with its defaults |
+| `make clean`, `make clean-cache` | delete the folder `cache/` (the outputs stay) |
+| `make clean-search-cache`, `make clean-publisher-cache`, `make clean-llm-cache` | delete some of the caches only |
+| `make clean-all` | also delete the Python bytecode caches |
+| `make cache-info` | size and number of entries of each cache |
+| `make config` | copy `config.json.example` to `config.json` when it does not exist |
+| `make lint`, `make format`, `make check` | `ruff check .`, `ruff format .`, `safety check --bare` |
+
+The targets `make test`, `make test-papers` and `make test-api` call files that the repository does not hold (`input_data/test_real.tex`, `input_data/papers-test.tex` and `test_google_api.py`), and so does `make watch`, which runs `make test` after each change of a module.
+
+## Configuration
+
+The file `config.json.example` shows every section of the configuration: `api_keys` (the Google key for Gemini and Custom Search, `google_cx` the identifier of the custom search engine, the Anthropic key for Claude, `crossref_email`, and the keys of the Elsevier, Springer and Wiley services), `llm_config` (the primary and fallback providers and models), `preferences`, `search_settings`, `extraction`, `scraping` and `output`. The web search of the paper script also reads an optional section `paper_search_settings`, with the keys `max_results_per_query`, `use_llm_validation`, `use_smart_single_search`, `blocked_publishers`, `domain_priority` and `trusted_domains`.
+
+## Caches
+
+Every cache lives in the folder `cache/`, and git tracks it, so that a new run reuses the answers of the runs that produced the data of the website. The command `make clean-cache` deletes them all.
+
+| File | Content |
+| --- | --- |
+| `.api_cache.json` | answers of the metadata services |
+| `.keyword_cache.json` | generated keywords |
+| `.geocode_cache.json` | geocoding results |
+| `.search_cache.json` | web searches about the collaborators and ORCID checks |
+| `.llm_cache.json` | language model answers of the collaborator script |
+| `.llm_unified_parse_cache.json` | parsing of the collaborator entries by Gemini or Claude |
+| `.llm_unified_location_cache.json` | locations extracted by the language model |
+| `.llm_unified_profile_cache.json` | profiles analysed by the language model |
+| `.llm_websearch_cache.json` | extraction from web search results |
+| `.llm_enricher_cache.json` | enrichment of papers and chapters by Claude |
+| `.llm_parse_cache.json` | parsing of papers and chapters by Claude |
+| `.paper_search_cache.json` | web searches about the papers |
+| `.content_extraction_cache.json` | content extracted from the pages of publishers and preprint servers |
+| `.publisher_cache.json` | publisher of each journal |
+
+## Repository map
+
+| Path | Content |
+| --- | --- |
+| `src/` | the three scripts |
+| `modules/` | the shared modules: parsers of LaTeX entries (`latex_parser.py`, `journal_parser.py`, `llm_parser.py`), language models (`llm_provider.py`, `gemini_client.py`, `llm_enricher.py`, `keyword_generator.py`), searches (`web_search.py`, `simple_search.py`, `scholar_helper.py`, `paper_web_search.py`, `llm_search_engines.py`), metadata (`metadata_enricher.py`, `publisher_identifier.py`, `paper_content_extractor.py`), and the cache, configuration and display helpers |
+| `input_data/` | the LaTeX lists of papers, chapters and collaborators |
+| `output_data/` | the JSON files of the website, and `intermediate/` with the seven stages of the paper pipeline |
+| `cache/` | the caches described above |
+| `templates/` | commented JSON templates for adding a paper, a chapter or a collaborator by hand; `templates/addons/` holds two entries prepared with them |
+| `docs/` | three guides for adding a paper, a chapter or a collaborator by hand to the JSON files |
+| `config.json.example` | the configuration to copy and fill |
+| `requirements.txt`, `Makefile` | the dependencies and the targets above |
+| `WARP.md` | notes on the project for the agent of the Warp terminal |
+
+## Known limitations
+
+Many publishers (Elsevier, Springer, Taylor and Francis among them) refuse automated access to their pages with the HTTP status 403. The scripts then fall back on the metadata of CrossRef found through the DOI, on Google Scholar, on the preprint addresses written in the comments of the LaTeX entries (arXiv, HAL), and on the language models when a key is given. The best results come from entries that carry their DOI and, in a comment, the address of their preprint.
+
+## History
+
+On 2 July 2025 the paper script gained its detailed output at every level of verbosity, with a preview of each entry, the parsing method, the fields extracted and the state of the caches, and the publishers' refusals were handled with browser-like headers and fallbacks on CrossRef, Google Scholar and arXiv. On 5 July 2025 came the repair of malformed JSON returned by the language models, a timeout of 30 seconds on every call to a model, the fallback from Gemini to Claude, the distinction between departments and universities in affiliations (Universiti, Universidad, Hochschule, Université and others), the rejection of nonsensical city names before they enter a cache, and the strict checks of profiles with the option `--verify`. On 6 July 2025 the paper script gained the identification of publishers, a single web search per paper, the extraction of content from the publishers' pages, then from the preprints, the extraction of every form of article number (short and long numbers, and identifiers such as `e0305534`), the memory of publishers that refuse access, and the rule that keywords are generated only from an abstract.
+
+## Requirements
+
+Python 3.8 or newer, with the packages of `requirements.txt` (and `bibtexparser` below version 2, as in the Quick start); `ruff` and `safety` are used by `make lint`, `make format` and `make check` only. The enrichment needs network access and the API keys of the configuration.
+
+## How to cite
+
+The file [`CITATION.cff`](CITATION.cff) describes the scripts for citation, and GitHub turns it into a reference, in APA or BibTeX, through the "Cite this repository" button of the repository page.
+
+## Licence
+
+The code is free software under the GNU General Public License, version 3; the text is in [LICENSE](LICENSE).
 
 ## Author
 
-- **Dr. Denys Dutykh** (Khalifa University of Science and Technology, Abu Dhabi, UAE)
-
-## License
-
-This project is licensed under the GNU General Public License v3.0. See the [LICENSE](LICENSE) file for more details.
+Dr. Denys Dutykh, Mathematics Department, Khalifa University of Science and Technology, Abu Dhabi, United Arab Emirates (https://www.denys-dutykh.com/).

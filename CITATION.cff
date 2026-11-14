@@ -1,0 +1,31 @@
+# Dr. Denys Dutykh (Mathematics Department, Khalifa University of Science and Technology, Abu Dhabi, UAE)
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "latex2json: publication lists and collaborators from LaTeX to JSON"
+type: software
+authors:
+  - family-names: Dutykh
+    given-names: Denys
+    affiliation: "Khalifa University of Science and Technology"
+    orcid: "https://orcid.org/0000-0001-5247-2788"
+repository-code: "https://github.com/dutykh/latex2json"
+license: GPL-3.0-only
+version: 1.0.0
+date-released: "2026-11-15"
+keywords:
+  - latex
+  - latex-parser
+  - json
+  - python
+  - academic-website
+  - crossref
+  - geocoding
+  - llm
+  - google-gemini
+abstract: >-
+  Three Python scripts that turn the LaTeX lists of an academic CV into JSON files for a website:
+  journal papers and book chapters, completed with their DOI, abstract, publisher page, preprints
+  and keywords from CrossRef, Google Scholar, Semantic Scholar, Unpaywall, arXiv, HAL and the
+  publishers' pages, and collaborators, completed with their affiliation, a geocoded city and
+  public profiles checked by strict rules. Language models (Claude and Gemini) parse the entries
+  and extract what the web pages hold, and every answer is cached.

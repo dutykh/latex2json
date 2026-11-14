@@ -120,7 +120,7 @@ python3 -m json.tool output_data/papers.json > /dev/null
 jq . output_data/papers.json > /dev/null
 ```
 
-Fix any reported line before committing—downstream scripts expect strict JSON.
+Fix any reported line before committing: downstream scripts expect strict JSON.
 
 ## Optional: Regenerate via Parser
 
