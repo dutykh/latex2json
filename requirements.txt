@@ -6,6 +6,8 @@ aiohttp>=3.9.0
 
 # Academic metadata APIs
 scholarly>=1.7.11
+# scholarly 1.7.11 imports bibtexparser.bibdatabase, which version 2 removed
+bibtexparser<2
 crossref-commons>=0.0.7
 
 # Claude API

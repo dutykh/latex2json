@@ -18,12 +18,12 @@ The files of `input_data/`, `output_data/` and `cache/` are real data, not sampl
 git clone https://github.com/dutykh/latex2json.git
 cd latex2json
 python3 -m venv .venv && . .venv/bin/activate
-python3 -m pip install -r requirements.txt 'bibtexparser<2'
+python3 -m pip install -r requirements.txt
 python3 src/pub2json.py --dry-run -v 1 -o papers-dry.json
 python3 src/chpts2json.py --dry-run -v 1 -o chapters-dry.json
 ```
 
-The two dry runs parse the LaTeX lists without any web request and without any key, and write `papers-dry.json` (178 papers) and `chapters-dry.json` (11 chapters). The bound on `bibtexparser` is needed because `scholarly` 1.7.11, its current release, imports a module that version 2 of `bibtexparser` no longer has; without it, the paper and chapter scripts stop at their first line.
+The two dry runs parse the LaTeX lists without any web request and without any key, and write `papers-dry.json` (178 papers) and `chapters-dry.json` (11 chapters). The file `requirements.txt` keeps `bibtexparser` below version 2, because `scholarly` 1.7.11, its current release, imports a module that version 2 of `bibtexparser` no longer has; without this bound, the paper and chapter scripts stop at their first line.
 
 The enrichment needs API keys, written into a file `config.json` made from the example (git ignores it):
 
@@ -151,7 +151,7 @@ On 2 July 2025 the paper script gained its detailed output at every level of ver
 
 ## Requirements
 
-Python 3.8 or newer, with the packages of `requirements.txt` (and `bibtexparser` below version 2, as in the Quick start); `ruff` and `safety` are used by `make lint`, `make format` and `make check` only. The enrichment needs network access and the API keys of the configuration.
+Python 3.8 or newer, with the packages of `requirements.txt` (among them `bibtexparser` below version 2, for `scholarly`); `ruff` and `safety` are used by `make lint`, `make format` and `make check` only. The enrichment needs network access and the API keys of the configuration.
 
 ## How to cite
 
